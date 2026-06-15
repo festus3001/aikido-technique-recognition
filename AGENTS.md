@@ -103,9 +103,10 @@ and docx (readable copy) in docs/. The repo is now the source of truth (local Cl
 - `docs/atr_12_federation_map` -- US federation & dojo map (USAF, Ki Society, AAA/AAI, Shin Kaze, Midwest)
 - `docs/atr_13_datamap_crawl` -- data-map schema + crawl plan + Claude Code prompt
 - `docs/atr_14_movement_language` -- symbolic aikido movement language (AML): spec (kineme/motif/phrase)
+- `docs/atr_15_roadmap_graph` -- roadmap as a dependency graph (nodes + edges); companion to atr_02
 - `CLAUDE.md` / `AGENTS.md` -- this file (same content, two names for tool compatibility)
 
-Next free index: 15.
+Next free index: 16.
 
 ---
 
