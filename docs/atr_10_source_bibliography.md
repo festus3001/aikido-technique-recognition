@@ -9,6 +9,33 @@ extraction of taxonomy and fact, not reproduction.
 
 ---
 
+## Planned ingestion queue (current)
+
+The concrete set to ingest, machine-readable in `data/taxonomy/sources.json` (each carries a
+`performer` person:slug that resolves into the lineage data map, a `lineage` tag, and `status`).
+It spans four lineages on purpose, so the taxonomy and the AML motif lexicon capture cross-style
+variation rather than one school.
+
+| Source | Lineage | Year | Status |
+|--------|---------|------|--------|
+| Saito, *Traditional Aikido* (5 vols) | Iwama | 1973-1976 | **ingested** |
+| Shioda + Shioda, *Total Aikido: The Master Course* | Yoshinkan | 1996 | planned |
+| Shioda, *Dynamic Aikido* | Yoshinkan | 1977 | planned |
+| Kisshomaru Ueshiba, *Aikido* | Aikikai | 1985 | planned |
+| Yamada, *Aikido Complete* | Aikikai (USAF) | 1981 | planned |
+| Tohei, *This Is Aikido* | Ki Society | 1968 | planned |
+| Moriteru Ueshiba, *Progressive Aikido: The Essential Elements* | Aikikai | 2005 | planned |
+| Kisshomaru + Moriteru Ueshiba, *Best Aikido: The Fundamentals* | Aikikai | 2002 | planned |
+| Moriteru Ueshiba, *The Aikido Master Course: Best Aikido 2* | Aikikai | 2003 | planned |
+
+All eight planned authors already resolve as `person:` nodes in `data/map`, so each ingested
+observation links to its performer and lineage (the C3 observation-provenance model, atr_15).
+Per-volume year and ISBN for newly acquired books are confirmed at acquisition, the way the
+Saito volumes were read from their colophons. Rights clear before ingestion. The fuller
+candidate pool below is the reference to draw from as this queue extends.
+
+---
+
 ## English-language lineage
 
 **Morihiro Saito (Iwama)** -- the most complete technical corpus
@@ -103,4 +130,4 @@ here because they anchor the taxonomy across all schools.
 
 ---
 
-_ATR · source bibliography · rev 2026-06-08 · draft_
+_ATR · source bibliography · rev 2026-06-15 · draft_

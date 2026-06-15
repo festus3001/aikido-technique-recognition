@@ -30,7 +30,9 @@ ids carry the track (A foundations ... G product).
 - **B Knowledge graph** -- who teaches whom, where, in which lineage. The substrate for
   teacher-scoped and lineage-scoped search. Built.
 - **C Taxonomy + sources** -- what the techniques are, from printed matter; the observation model
-  (who performed, when, from which recording). Corpus ingested; teacher ratification is next.
+  (who performed, when, from which recording). Saito (Iwama) ingested; teacher ratification is
+  next, and a planned queue of 8 more books across Yoshinkan / Aikikai / Ki Society / USAF is in
+  atr_10 and `data/taxonomy/sources.json`.
 - **D Movement language (AML)** -- the symbolic layer between kinematics and the named technique.
   Spec and atomic alphabet done; motifs come from the books.
 - **E Perception** -- turning video into a 3D skeleton and motion structure. Mostly unbuilt; the
@@ -55,7 +57,7 @@ ids carry the track (A foundations ... G product).
 | C2 | Saito corpus ingested | done | C1 | C3, C4, D3, E3 |
 | C3 | Observation provenance | done | C2 | G4, G6 (time/teacher) |
 | C4 | Teacher ratification of taxonomy | **next** | C2, A3 | D3, F1, F2, F4 |
-| C5 | More sources + lineages | future | C1 | C2 (breadth) |
+| C5 | Planned books (8, multi-lineage) | **next** | C1 | C2 (breadth) |
 | D1 | AML spec | done | A1 | D2 |
 | D2 | Kineme alphabet | done | D1 | D3, D4, D6 |
 | D3 | Motif lexicon from books | **next** | D2, C2, C4 | D5 |

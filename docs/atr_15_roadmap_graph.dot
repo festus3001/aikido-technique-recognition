@@ -25,7 +25,7 @@ digraph roadmap {
     C2 [label="C2 Saito corpus\ningested", fillcolor="#cfe8cf", color="#2e7d32"];
     C3 [label="C3 Observation\nprovenance", fillcolor="#cfe8cf", color="#2e7d32"];
     C4 [label="C4 Teacher\nratification", fillcolor="#cfe0f5", color="#1565c0"];
-    C5 [label="C5 More\nsources"];
+    C5 [label="C5 Planned books\n(8: Yoshinkan,\nAikikai, Ki, USAF)", fillcolor="#cfe0f5", color="#1565c0"];
   }
   subgraph cluster_D {
     label="D  Movement language (AML)"; labeljust="l"; fontsize=11; fontcolor="#666"; style="rounded"; color="#b0b0b0"; penwidth=1.3;
