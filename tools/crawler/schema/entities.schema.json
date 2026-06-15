@@ -1,0 +1,188 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "atr:datamap/entities.schema.json",
+  "title": "ATR lineage and federation data map -- entity contract",
+  "description": "Schema for the six entity types written to data/map/. Authoritative companion to docs/atr_13_datamap_crawl.md section 1. Every record carries source + retrieved provenance; ids are stable slugs so re-crawls merge rather than duplicate. The collection files validate as arrays of the matching $def: data/map/persons.json -> #/$defs/person, organizations.json -> organization, dojos.json -> dojo, rank_events.json -> rank_event, tenures.json -> tenure, edges.json -> teaches_relationship. Enable format assertion in the validator so date and uri are enforced, not just annotated.",
+
+  "$defs": {
+    "source": {
+      "type": "array",
+      "items": { "type": "string", "format": "uri" },
+      "minItems": 1,
+      "description": "One or more source URLs. Required on every record -- never assert a fact without one."
+    },
+    "retrieved": {
+      "type": "string",
+      "format": "date",
+      "description": "ISO date (YYYY-MM-DD) the source was fetched."
+    },
+    "status": {
+      "type": "string",
+      "enum": ["provisional", "ratified", "contested"],
+      "default": "provisional",
+      "description": "Record lifecycle. Defaults to provisional; ratified only after teacher confirmation; contested flags a conflict for review."
+    },
+    "year": {
+      "type": ["string", "null"],
+      "pattern": "^[0-9]{4}$",
+      "description": "Four-digit year as a string, or null when unknown."
+    },
+    "dan": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 10,
+      "description": "Aikikai dan grade."
+    },
+
+    "personId": { "type": "string", "pattern": "^person:[a-z0-9-]+$" },
+    "orgId":    { "type": "string", "pattern": "^org:[a-z0-9-]+$" },
+    "dojoId":   { "type": "string", "pattern": "^dojo:[a-z0-9-]+$" },
+    "personRef": { "type": ["string", "null"], "pattern": "^person:[a-z0-9-]+$" },
+    "orgRef":    { "type": ["string", "null"], "pattern": "^org:[a-z0-9-]+$" },
+    "dojoRef":   { "type": ["string", "null"], "pattern": "^dojo:[a-z0-9-]+$" },
+
+    "person": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "A practitioner. Created as encountered while parsing promotion lists; minimum viable record is id + name_romaji + provenance.",
+      "properties": {
+        "id": { "$ref": "#/$defs/personId" },
+        "name_romaji": { "type": "string", "minLength": 1 },
+        "name_native": { "type": ["string", "null"] },
+        "aliases": { "type": "array", "items": { "type": "string" }, "default": [] },
+        "born": { "$ref": "#/$defs/year" },
+        "died": { "$ref": "#/$defs/year" },
+        "current_rank": {
+          "type": ["object", "null"],
+          "additionalProperties": false,
+          "description": "Highest known rank -- a cache derivable from rank_events.",
+          "properties": {
+            "dan": { "$ref": "#/$defs/dan" },
+            "title": { "type": ["string", "null"] }
+          },
+          "required": ["dan"]
+        },
+        "deceased": { "type": "boolean", "default": false },
+        "notes": { "type": ["string", "null"] },
+        "source": { "$ref": "#/$defs/source" },
+        "retrieved": { "$ref": "#/$defs/retrieved" },
+        "status": { "$ref": "#/$defs/status" }
+      },
+      "required": ["id", "name_romaji", "source", "retrieved"]
+    },
+
+    "organization": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "A federation, association, alliance, or hombu.",
+      "properties": {
+        "id": { "$ref": "#/$defs/orgId" },
+        "name": { "type": "string", "minLength": 1 },
+        "abbrev": { "type": ["string", "null"] },
+        "type": { "type": "string", "enum": ["federation", "association", "alliance", "hombu"] },
+        "lineage": { "type": "string", "enum": ["aikikai", "ki-society", "toyoda", "yoshinkan", "other"] },
+        "parent_org": { "$ref": "#/$defs/orgRef" },
+        "hq": { "type": ["string", "null"] },
+        "founded": { "$ref": "#/$defs/year" },
+        "governance": { "type": ["string", "null"] },
+        "website": { "type": ["string", "null"] },
+        "source": { "$ref": "#/$defs/source" },
+        "retrieved": { "$ref": "#/$defs/retrieved" },
+        "status": { "$ref": "#/$defs/status" }
+      },
+      "required": ["id", "name", "type", "source", "retrieved"]
+    },
+
+    "dojo": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "A training place. Affiliations (org) can be more than one over time.",
+      "properties": {
+        "id": { "$ref": "#/$defs/dojoId" },
+        "name": { "type": "string", "minLength": 1 },
+        "org": { "type": "array", "items": { "$ref": "#/$defs/orgId" }, "default": [] },
+        "location": {
+          "type": ["object", "null"],
+          "additionalProperties": false,
+          "properties": {
+            "city": { "type": ["string", "null"] },
+            "region": { "type": ["string", "null"] },
+            "country": { "type": ["string", "null"] }
+          }
+        },
+        "chief_instructor": { "$ref": "#/$defs/personRef" },
+        "instructors": { "type": "array", "items": { "$ref": "#/$defs/personId" }, "default": [] },
+        "founded": { "$ref": "#/$defs/year" },
+        "anchor": { "type": "boolean", "default": false, "description": "An anchor dojo: a major place where a founder or senior shihan taught, used to reconstruct tenure and co-presence in the decades before promotion lists." },
+        "website": { "type": ["string", "null"] },
+        "source": { "$ref": "#/$defs/source" },
+        "retrieved": { "$ref": "#/$defs/retrieved" },
+        "status": { "$ref": "#/$defs/status" }
+      },
+      "required": ["id", "name", "source", "retrieved"]
+    },
+
+    "tenure": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "A person's time-bounded affiliation with a dojo. Overlapping tenures at the same dojo are the co-presence signal used to reconstruct teacher relationships in the decades before promotion lists. Years are coarse (annual); null where unknown.",
+      "properties": {
+        "id": { "type": "string", "pattern": "^tenure:.+$" },
+        "person": { "$ref": "#/$defs/personId" },
+        "dojo": { "$ref": "#/$defs/dojoId" },
+        "role": {
+          "type": "string",
+          "enum": ["founder", "chief-instructor", "instructor", "uchi-deshi", "deshi", "student", "visiting", "unspecified"],
+          "default": "unspecified",
+          "description": "Teacher-side roles (founder, chief-instructor, instructor) vs student-side (uchi-deshi, deshi, student) drive directional edge inference from co-presence."
+        },
+        "start": { "$ref": "#/$defs/year" },
+        "end": { "$ref": "#/$defs/year" },
+        "confidence": { "type": "string", "enum": ["stated", "inferred", "contested"] },
+        "notes": { "type": ["string", "null"] },
+        "source": { "$ref": "#/$defs/source" },
+        "retrieved": { "$ref": "#/$defs/retrieved" },
+        "status": { "$ref": "#/$defs/status" }
+      },
+      "required": ["id", "person", "dojo", "role", "confidence", "source", "retrieved"]
+    },
+
+    "rank_event": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "The backbone -- one record per promotion, from annual promotion lists. Dojo affiliation is point-in-time as of date; do not overwrite history.",
+      "properties": {
+        "id": { "type": "string", "pattern": "^rank:.+$" },
+        "person": { "$ref": "#/$defs/personId" },
+        "dan": { "$ref": "#/$defs/dan" },
+        "title": { "type": ["string", "null"], "description": "e.g. shihan, when conferred" },
+        "date": { "type": "string", "format": "date", "description": "Kagamibiraki date or list year as YYYY-01-01." },
+        "conferred_by": { "$ref": "#/$defs/orgRef" },
+        "via_org": { "$ref": "#/$defs/orgRef" },
+        "dojo": { "$ref": "#/$defs/dojoRef" },
+        "source": { "$ref": "#/$defs/source" },
+        "retrieved": { "$ref": "#/$defs/retrieved" }
+      },
+      "required": ["id", "person", "dan", "date", "source", "retrieved"]
+    },
+
+    "teaches_relationship": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "A lineage edge, student <- teacher. The contested part -- never assert without a source and a confidence.",
+      "properties": {
+        "id": { "type": "string", "pattern": "^edge:.+$" },
+        "student": { "$ref": "#/$defs/personId" },
+        "teacher": { "$ref": "#/$defs/personId" },
+        "kind": { "type": "string", "enum": ["uchi-deshi", "direct-student", "seminar", "co-present", "unspecified"], "default": "unspecified" },
+        "period": { "type": ["string", "null"], "description": "e.g. 1958-1969, where known" },
+        "confidence": { "type": "string", "enum": ["stated", "inferred", "contested"] },
+        "notes": { "type": ["string", "null"], "description": "e.g. provenance of an inferred edge: co-present at dojo X, 1960-1965" },
+        "source": { "$ref": "#/$defs/source" },
+        "retrieved": { "$ref": "#/$defs/retrieved" },
+        "status": { "$ref": "#/$defs/status" }
+      },
+      "required": ["id", "student", "teacher", "confidence", "source", "retrieved"]
+    }
+  }
+}

@@ -1,0 +1,22 @@
+# OS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+
+# fetch / build caches
+.cache/
+**/.cache/
+
+# regenerable build artifacts (rebuild with atr-crawler-db)
+*.sqlite
+
+# conda environments are never stored in-tree
+envs/
+
+# resources/ (scanned books, extracted keyframe images) are local-first / DVC-tracked
+# and copyrighted reproductions -- excluded via resources/.gitignore, never committed.
+# data/ JSON outputs are committed as the structured deliverable; the .sqlite is not.

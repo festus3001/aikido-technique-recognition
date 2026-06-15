@@ -1,0 +1,23 @@
+# Book-ingestion env. Miniforge/conda-forge. Renders scanned-PDF pages, OCRs them
+# (bilingual JP+EN), segments instructional photos, and emits taxonomy + keyframes.
+#
+# System prerequisites (Homebrew on macOS): `tesseract` and `poppler` binaries.
+# Japanese OCR data (jpn, jpn_vert) must be in the tesseract tessdata dir:
+#   curl -fsSL -o "$(brew --prefix)/share/tessdata/jpn.traineddata" \
+#     https://github.com/tesseract-ocr/tessdata_best/raw/main/jpn.traineddata
+#   (and likewise jpn_vert.traineddata)
+#
+# Create:  conda env create -f tools/ingest/environment.yml
+# Install: conda run -n atr-ingest pip install -e tools/ingest
+name: atr-ingest
+channels: [conda-forge]
+dependencies:
+  - python=3.12
+  - pip
+  - numpy
+  - pillow
+  - jsonschema>=4.18
+  - pytest>=7
+  - pip:
+    - pytesseract>=0.3.10
+    - opencv-python-headless>=4.8

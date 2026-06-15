@@ -1,0 +1,354 @@
+{
+  "validation_failures": {},
+  "contested": [],
+  "merge_candidates": {
+    "high": [
+      {
+        "canonical": "person:alan-james-gay",
+        "members": [
+          "person:alan-gay",
+          "person:alan-james-gay"
+        ],
+        "names": {
+          "person:alan-gay": "Alan Gay",
+          "person:alan-james-gay": "Alan James Gay"
+        }
+      },
+      {
+        "canonical": "person:angela-w-murphy",
+        "members": [
+          "person:angela-murphy",
+          "person:angela-w-murphy"
+        ],
+        "names": {
+          "person:angela-murphy": "Angela Murphy",
+          "person:angela-w-murphy": "Angela W. Murphy"
+        }
+      },
+      {
+        "canonical": "person:anthea-p-pascaris",
+        "members": [
+          "person:anthea-p-pascaris",
+          "person:anthea-pascaris"
+        ],
+        "names": {
+          "person:anthea-p-pascaris": "Anthea P. Pascaris",
+          "person:anthea-pascaris": "Anthea Pascaris"
+        }
+      },
+      {
+        "canonical": "person:arturo-a-peal",
+        "members": [
+          "person:arturo-a-peal",
+          "person:arturo-peal"
+        ],
+        "names": {
+          "person:arturo-a-peal": "Arturo A. Peal",
+          "person:arturo-peal": "Arturo Peal"
+        }
+      },
+      {
+        "canonical": "person:calvin-e-blanchard",
+        "members": [
+          "person:calvin-blanchard",
+          "person:calvin-e-blanchard"
+        ],
+        "names": {
+          "person:calvin-blanchard": "Calvin Blanchard",
+          "person:calvin-e-blanchard": "Calvin E. Blanchard"
+        }
+      },
+      {
+        "canonical": "person:chester-s-griffin",
+        "members": [
+          "person:chester-griffin",
+          "person:chester-s-griffin"
+        ],
+        "names": {
+          "person:chester-griffin": "Chester Griffin",
+          "person:chester-s-griffin": "Chester S. Griffin"
+        }
+      },
+      {
+        "canonical": "person:colleen-m-hogan",
+        "members": [
+          "person:colleen-hogan",
+          "person:colleen-m-hogan"
+        ],
+        "names": {
+          "person:colleen-hogan": "Colleen Hogan",
+          "person:colleen-m-hogan": "Colleen M Hogan"
+        }
+      },
+      {
+        "canonical": "person:damon-g-apodaca",
+        "members": [
+          "person:damon-apodaca",
+          "person:damon-g-apodaca"
+        ],
+        "names": {
+          "person:damon-apodaca": "Damon Apodaca",
+          "person:damon-g-apodaca": "Damon G. Apodaca"
+        }
+      },
+      {
+        "canonical": "person:david-a-norton",
+        "members": [
+          "person:david-a-norton",
+          "person:david-norton"
+        ],
+        "names": {
+          "person:david-a-norton": "David A. Norton",
+          "person:david-norton": "David Norton"
+        }
+      },
+      {
+        "canonical": "person:david-j-ross",
+        "members": [
+          "person:david-j-ross",
+          "person:david-ross"
+        ],
+        "names": {
+          "person:david-j-ross": "David J. Ross",
+          "person:david-ross": "David Ross"
+        }
+      },
+      {
+        "canonical": "person:eliot-w-rifkin",
+        "members": [
+          "person:eliot-rifkin",
+          "person:eliot-w-rifkin"
+        ],
+        "names": {
+          "person:eliot-rifkin": "Eliot Rifkin",
+          "person:eliot-w-rifkin": "Eliot W. Rifkin"
+        }
+      },
+      {
+        "canonical": "person:garn-g-sherman",
+        "members": [
+          "person:garn-g-sherman",
+          "person:garn-sherman"
+        ],
+        "names": {
+          "person:garn-g-sherman": "Garn G. Sherman",
+          "person:garn-sherman": "Garn Sherman"
+        }
+      },
+      {
+        "canonical": "person:gustavo-j-ramos",
+        "members": [
+          "person:gustavo-j-ramos",
+          "person:gustavo-ramos"
+        ],
+        "names": {
+          "person:gustavo-j-ramos": "Gustavo J. Ramos",
+          "person:gustavo-ramos": "Gustavo Ramos"
+        }
+      },
+      {
+        "canonical": "person:james-w-constable",
+        "members": [
+          "person:james-constable",
+          "person:james-w-constable"
+        ],
+        "names": {
+          "person:james-constable": "James Constable",
+          "person:james-w-constable": "James W. Constable"
+        }
+      },
+      {
+        "canonical": "person:jerry-b-zimmerman",
+        "members": [
+          "person:jerry-b-zimmerman",
+          "person:jerry-zimmerman"
+        ],
+        "names": {
+          "person:jerry-b-zimmerman": "Jerry B. Zimmerman",
+          "person:jerry-zimmerman": "Jerry Zimmerman"
+        }
+      },
+      {
+        "canonical": "person:jonathan-a-weiner",
+        "members": [
+          "person:jonathan-a-weiner",
+          "person:jonathan-weiner"
+        ],
+        "names": {
+          "person:jonathan-a-weiner": "Jonathan A. Weiner",
+          "person:jonathan-weiner": "Jonathan Weiner"
+        }
+      },
+      {
+        "canonical": "person:josnei-macedo-dias",
+        "members": [
+          "person:josnei-dias",
+          "person:josnei-macedo-dias"
+        ],
+        "names": {
+          "person:josnei-dias": "Josnei Dias",
+          "person:josnei-macedo-dias": "Josnei Macedo Dias"
+        }
+      },
+      {
+        "canonical": "person:julia-m-freedgood",
+        "members": [
+          "person:julia-freedgood",
+          "person:julia-m-freedgood"
+        ],
+        "names": {
+          "person:julia-freedgood": "Julia Freedgood",
+          "person:julia-m-freedgood": "Julia M. Freedgood"
+        }
+      },
+      {
+        "canonical": "person:kevin-p-grace",
+        "members": [
+          "person:kevin-grace",
+          "person:kevin-p-grace"
+        ],
+        "names": {
+          "person:kevin-grace": "Kevin Grace",
+          "person:kevin-p-grace": "Kevin P. Grace"
+        }
+      },
+      {
+        "canonical": "person:lenore-i-killam",
+        "members": [
+          "person:lenore-i-killam",
+          "person:lenore-killam"
+        ],
+        "names": {
+          "person:lenore-i-killam": "Lenore I. Killam",
+          "person:lenore-killam": "Lenore Killam"
+        }
+      },
+      {
+        "canonical": "person:michael-j-mcnally",
+        "members": [
+          "person:michael-j-mcnally",
+          "person:michael-mcnally"
+        ],
+        "names": {
+          "person:michael-j-mcnally": "Michael J. McNally",
+          "person:michael-mcnally": "Michael McNally"
+        }
+      },
+      {
+        "canonical": "person:michael-s-pak",
+        "members": [
+          "person:michael-pak",
+          "person:michael-s-pak"
+        ],
+        "names": {
+          "person:michael-pak": "Michael Pak",
+          "person:michael-s-pak": "Michael S. Pak"
+        }
+      },
+      {
+        "canonical": "person:patrick-h-hardesty",
+        "members": [
+          "person:patrick-h-hardesty",
+          "person:patrick-hardesty"
+        ],
+        "names": {
+          "person:patrick-h-hardesty": "Patrick H. Hardesty",
+          "person:patrick-hardesty": "Patrick Hardesty"
+        }
+      },
+      {
+        "canonical": "person:paul-l-glavine",
+        "members": [
+          "person:paul-glavine",
+          "person:paul-l-glavine"
+        ],
+        "names": {
+          "person:paul-glavine": "Paul Glavine",
+          "person:paul-l-glavine": "Paul L. Glavine"
+        }
+      },
+      {
+        "canonical": "person:paulo-ivan-volochyn",
+        "members": [
+          "person:paulo-ivan-volochyn",
+          "person:paulo-volochyn"
+        ],
+        "names": {
+          "person:paulo-ivan-volochyn": "Paulo Ivan Volochyn",
+          "person:paulo-volochyn": "Paulo Volochyn"
+        }
+      },
+      {
+        "canonical": "person:robert-m-mason",
+        "members": [
+          "person:robert-m-mason",
+          "person:robert-mason"
+        ],
+        "names": {
+          "person:robert-m-mason": "Robert M. Mason",
+          "person:robert-mason": "Robert Mason"
+        }
+      },
+      {
+        "canonical": "person:roderick-j-johnson",
+        "members": [
+          "person:roderick-j-johnson",
+          "person:roderick-johnson"
+        ],
+        "names": {
+          "person:roderick-j-johnson": "Roderick J. Johnson",
+          "person:roderick-johnson": "Roderick Johnson"
+        }
+      },
+      {
+        "canonical": "person:sean-m-conley",
+        "members": [
+          "person:sean-conley",
+          "person:sean-m-conley"
+        ],
+        "names": {
+          "person:sean-conley": "Sean Conley",
+          "person:sean-m-conley": "Sean M. Conley"
+        }
+      },
+      {
+        "canonical": "person:vu-xuan-ha",
+        "members": [
+          "person:vu-ha",
+          "person:vu-xuan-ha"
+        ],
+        "names": {
+          "person:vu-ha": "Vu Ha",
+          "person:vu-xuan-ha": "Vu Xuan Ha"
+        }
+      }
+    ],
+    "medium": [
+      {
+        "members": [
+          "person:andrew-demko",
+          "person:andrew-l-demko",
+          "person:andrew-p-demko"
+        ],
+        "names": {
+          "person:andrew-demko": "Andrew Demko",
+          "person:andrew-l-demko": "Andrew L. Demko",
+          "person:andrew-p-demko": "Andrew P. Demko"
+        },
+        "reason": "conflicting name variants; needs human/teacher confirmation"
+      },
+      {
+        "members": [
+          "person:k-inoue",
+          "person:kyoichi-inoue"
+        ],
+        "names": {
+          "person:k-inoue": "K. Inoue",
+          "person:kyoichi-inoue": "Kyoichi Inoue"
+        },
+        "reason": "conflicting name variants; needs human/teacher confirmation"
+      }
+    ]
+  },
+  "note": "Provisional review queue. merge_candidates.high are auto-mergeable with --apply-merges; medium pairs need human/teacher confirmation."
+}

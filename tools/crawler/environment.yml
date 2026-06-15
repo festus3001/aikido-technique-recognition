@@ -1,0 +1,13 @@
+# Tools env for the ATR crawler (and future tools/ utilities). Miniforge/conda-forge.
+# Lightweight and separate from the builder env (`atr`, which carries PyTorch).
+# Create:  conda env create -f tools/crawler/environment.yml
+# Install: conda run -n atr-tools pip install -e tools/crawler
+name: atr-tools
+channels: [conda-forge]
+dependencies:
+  - python=3.12
+  - pip
+  - jsonschema>=4.18
+  - requests>=2.31
+  - beautifulsoup4>=4.12
+  - pytest>=7

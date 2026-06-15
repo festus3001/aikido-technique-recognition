@@ -1,0 +1,26 @@
+# Builder / analyst env. Miniforge (conda-forge). torch via pip (MPS on mac / CUDA|CPU on linux).
+# Native arm64 Python mandatory on Apple Silicon. See docs/atr_04_toolchain_stack.md.
+name: atr
+channels: [conda-forge]
+dependencies:
+  - python=3.12
+  - pip
+  - numpy
+  - scipy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - jupyterlab
+  - pyarrow
+  - zarr
+  - tqdm
+  - pyyaml
+  - ffmpeg
+  - dvc
+  - pip:
+    - torch
+    - torchvision
+    - mediapipe
+    - opencv-python
+    - einops
+    - wandb

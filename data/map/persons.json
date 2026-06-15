@@ -1,0 +1,5464 @@
+[
+  {
+    "id": "person:a-scott-dejesse",
+    "name_romaji": "A. Scott DeJesse",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:aaron-boehmer",
+    "name_romaji": "Aaron Boehmer",
+    "source": [
+      "https://aaa-aikido.com/dojo/aikido-training-academy/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:abdulrazzaq-alissa",
+    "name_romaji": "Abdulrazzaq Alissa",
+    "source": [
+      "https://aaa-aikido.com/dojo/shudokan-dojo/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:acxel-saravia",
+    "name_romaji": "Acxel Saravia",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:akira-tohei",
+    "name_romaji": "Akira Tohei",
+    "name_native": "藤平 明",
+    "aliases": [],
+    "born": "1929",
+    "died": "1999",
+    "deceased": true,
+    "notes": "USAF; Midwest Aikido Center, Chicago. Not to be confused with Koichi Tohei (Ki Society).",
+    "source": [
+      "https://www.midwestaikidocenter.org/",
+      "https://aikidojournal.com/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:alan-fishbone",
+    "name_romaji": "Alan Fishbone",
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:alan-gay",
+    "name_romaji": "Alan Gay",
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:alan-james-gay",
+    "name_romaji": "Alan James Gay",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:alberto-alonso-conchina",
+    "name_romaji": "Alberto Alonso Conchina",
+    "source": [
+      "https://aaa-aikido.com/dojo/endokan-dojo-satellite/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:alberto-rodriguez-carvajal",
+    "name_romaji": "Alberto Rodríguez Carvajal",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:alejandro-marduck-aguilar",
+    "name_romaji": "Alejandro Marduck Aguilar",
+    "source": [
+      "https://aaa-aikido.com/dojo/aikisur-villa-del-prado/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:alejandro-rojas-mora",
+    "name_romaji": "Alejandro Rojas Mora",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:alex-korn",
+    "name_romaji": "Alex Korn",
+    "source": [
+      "https://ki-society.com/?dojo=ki-aikido-of-anderson-valley"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:alexander-angustain",
+    "name_romaji": "Alexander Angustain",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:alexis-botiel-fernandez",
+    "name_romaji": "Alexis Botiel Fernandez",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:ali-farhat-monasterios",
+    "name_romaji": "Ali Farhat Monasterios",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:alicia-c-hardesty-cordero",
+    "name_romaji": "Alicia C. Hardesty-Cordero",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:alicia-cordero-hardesty",
+    "name_romaji": "Alicia Cordero-Hardesty",
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:alix-adriana-llanes-arenas",
+    "name_romaji": "Alix Adriana Llanes Arenas",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:allen-kline",
+    "name_romaji": "Allen Kline",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:ando",
+    "name_romaji": "Ando",
+    "source": [
+      "https://en.wikipedia.org/wiki/Gozo_Shioda"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:andrea-moss",
+    "name_romaji": "Andrea Moss",
+    "source": [
+      "https://aaa-aikido.com/dojo/aikido-gros-hesepe/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:andrew-benioff",
+    "name_romaji": "Andrew Benioff",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:andrew-demko",
+    "name_romaji": "Andrew Demko",
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:andrew-l-demko",
+    "name_romaji": "Andrew L. Demko",
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:andrew-lee",
+    "name_romaji": "Andrew Lee",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:andrew-obeidy",
+    "name_romaji": "Andrew Obeidy",
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:andrew-p-demko",
+    "name_romaji": "Andrew P. Demko",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:andrew-small",
+    "name_romaji": "Andrew Small",
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:aneida-gonzalez",
+    "name_romaji": "Aneida González",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:angel-augusto-gonzalez-linares",
+    "name_romaji": "Angel Augusto González Linares",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:angela-murphy",
+    "name_romaji": "Angela Murphy",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:angela-w-murphy",
+    "name_romaji": "Angela W. Murphy",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:annette-schediwy-mackrel",
+    "name_romaji": "Annette Schediwy Mackrel",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:anthea-p-pascaris",
+    "name_romaji": "Anthea P. Pascaris",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:anthea-pascaris",
+    "name_romaji": "Anthea Pascaris",
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:anthony-chong",
+    "name_romaji": "Anthony Chong",
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:anthony-fiore",
+    "name_romaji": "Anthony Fiore",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:art-wise",
+    "name_romaji": "Art Wise",
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:arturo-a-peal",
+    "name_romaji": "Arturo A. Peal",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:arturo-fisher",
+    "name_romaji": "Arturo Fisher",
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:arturo-peal",
+    "name_romaji": "Arturo Peal",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:ashley-coles",
+    "name_romaji": "Ashley Coles",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:bansen-tanaka",
+    "name_romaji": "Bansen Tanaka",
+    "source": [
+      "https://en.wikipedia.org/wiki/Bansen_Tanaka"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:barry-richardson",
+    "name_romaji": "Barry Richardson",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:baruc-hunck",
+    "name_romaji": "Baruc Hunck",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:beniamin-vardanyan",
+    "name_romaji": "Beniamin Vardanyan",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:bernard-calma",
+    "name_romaji": "Bernard Calma",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:bernard-j-mulligan",
+    "name_romaji": "Bernard J. Mulligan",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:bill-peterson",
+    "name_romaji": "Bill Peterson",
+    "source": [
+      "https://ki-society.com/?dojo=corvallis-ki-aikido-dojo"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:blue-spruell",
+    "name_romaji": "Blue Spruell",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:bob-hart-brenda-tam",
+    "name_romaji": "Bob Hart & Brenda Tam",
+    "source": [
+      "https://ki-society.com/?dojo=takushinkan-sw-dojo"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:bob-reister",
+    "name_romaji": "Bob Reister",
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:brad-welker",
+    "name_romaji": "Brad Welker",
+    "source": [
+      "https://ki-society.com/?dojo=bend-ki-aikido-dojo"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:brandon-nimz",
+    "name_romaji": "Brandon Nimz",
+    "source": [
+      "https://aaa-aikido.com/dojo/aikido-of-northwest-kansas/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:brenda-tam-louis-sloss",
+    "name_romaji": "Brenda Tam & Louis Sloss",
+    "source": [
+      "https://ki-society.com/?dojo=oregon-ki-society"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:brian-curtis",
+    "name_romaji": "Brian Curtis",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:brian-dupont",
+    "name_romaji": "Brian Dupont",
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:brian-ericksen",
+    "name_romaji": "Brian Ericksen",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:brian-mizerak",
+    "name_romaji": "Brian Mizerak",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:brian-sykes",
+    "name_romaji": "Brian Sykes",
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:bruce-bookman",
+    "name_romaji": "Bruce Bookman",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:bryan-coffie",
+    "name_romaji": "Bryan Coffie",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:calvin-blanchard",
+    "name_romaji": "Calvin Blanchard",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:calvin-e-blanchard",
+    "name_romaji": "Calvin E. Blanchard",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:calvin-tabata",
+    "name_romaji": "Calvin Tabata",
+    "source": [
+      "https://ki-society.com/?dojo=northwest-ki-federation"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:carlos-alberto-jara",
+    "name_romaji": "Carlos Alberto Jara",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:carmine-franzese",
+    "name_romaji": "Carmine Franzese",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:carola-robles",
+    "name_romaji": "Carola Robles",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:caroline-murtha",
+    "name_romaji": "Caroline Murtha",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:cathy-darnell",
+    "name_romaji": "Cathy Darnell",
+    "source": [
+      "https://aaa-aikido.com/dojo/zanshinkan-aikido-dubai/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:charlene-m-reiss",
+    "name_romaji": "Charlene M. Reiss",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:charles-boyer",
+    "name_romaji": "Charles Boyer",
+    "source": [
+      "https://ki-society.com/?dojo=lokahi-ki-aikido-dojo"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:charles-dubois",
+    "name_romaji": "Charles Dubois",
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:charles-e-cunningham",
+    "name_romaji": "Charles E. Cunningham",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:charles-t-mcginnis",
+    "name_romaji": "Charles T. McGinnis",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:charn-pennewaert",
+    "name_romaji": "Charn Pennewaert",
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:chassang",
+    "name_romaji": "Chassang",
+    "source": [
+      "https://en.wikipedia.org/wiki/Nobuyoshi_Tamura"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:chester-griffin",
+    "name_romaji": "Chester Griffin",
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:chester-s-griffin",
+    "name_romaji": "Chester S. Griffin",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:chida",
+    "name_romaji": "Chida",
+    "source": [
+      "https://en.wikipedia.org/wiki/Gozo_Shioda"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:chris-j-mills",
+    "name_romaji": "Chris J. Mills",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:chris-mooney-aikido",
+    "name_romaji": "Chris Mooney (aikido)",
+    "source": [
+      "https://en.wikipedia.org/wiki/Kazuo_Chiba",
+      "https://en.wikipedia.org/wiki/Chris_Mooney_(aikido)"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:chris-verhaeren",
+    "name_romaji": "Chris Verhaeren",
+    "source": [
+      "https://aaa-aikido.com/dojo/ki-jin-dojo/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:christina-dumlao",
+    "name_romaji": "Christina Dumlao",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "notes": "Shihan title conferred 2022 (USAF Kagamibiraki)."
+  },
+  {
+    "id": "person:christine-wong",
+    "name_romaji": "Christine Wong",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:christopher-crandall",
+    "name_romaji": "Christopher Crandall",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:christopher-kerin",
+    "name_romaji": "Christopher Kerin",
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:christopher-l-clark",
+    "name_romaji": "Christopher L. Clark",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:christopher-walla",
+    "name_romaji": "Christopher Walla",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:chuck-renner",
+    "name_romaji": "Chuck  Renner",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:claire-keller",
+    "name_romaji": "Claire Keller",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:clarence-chinn",
+    "name_romaji": "Clarence Chinn",
+    "source": [
+      "https://ki-society.com/?dojo=southern-california-ki-society"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:claude-berthiaume",
+    "name_romaji": "Claude Berthiaume",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:clemon-richardson",
+    "name_romaji": "Clemon Richardson",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:cliff-marcus",
+    "name_romaji": "Cliff Marcus",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:colleen-bothwell",
+    "name_romaji": "Colleen Bothwell",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:colleen-hogan",
+    "name_romaji": "Colleen Hogan",
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:colleen-m-hogan",
+    "name_romaji": "Colleen M Hogan",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:collins-smith",
+    "name_romaji": "Collins Smith",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:cong-nguyen",
+    "name_romaji": "Cong Nguyen",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:constance-temper",
+    "name_romaji": "Constance Temper",
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:craig-johnson",
+    "name_romaji": "Craig Johnson",
+    "source": [
+      "https://services.usaikifed.com/dojos",
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:crystal-n-aldrich",
+    "name_romaji": "Crystal N. Aldrich",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:curtis-lamar-sanders-jr",
+    "name_romaji": "Curtis Lamar Sanders Jr.",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:cyril-landise",
+    "name_romaji": "Cyril Landise",
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:dale-nordenberg",
+    "name_romaji": "Dale Nordenberg",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:dale-roznowski",
+    "name_romaji": "Dale Roznowski",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:damir-a-jamsek",
+    "name_romaji": "Damir A. Jamsek",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:damon-apodaca",
+    "name_romaji": "Damon Apodaca",
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:damon-g-apodaca",
+    "name_romaji": "Damon G. Apodaca",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:dana-caluwaerts",
+    "name_romaji": "Dana Caluwaerts",
+    "source": [
+      "https://aaa-aikido.com/dojo/ki-jin-haasdonk/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:daniel-eduardo-medina",
+    "name_romaji": "Daniel Eduardo Medina",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:daniel-hayes",
+    "name_romaji": "Daniel Hayes",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:daniel-laurendeau",
+    "name_romaji": "Daniel Laurendeau",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:daniel-palmer",
+    "name_romaji": "Daniel Palmer",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:danilo-mezzadri",
+    "name_romaji": "Danilo Mezzadri",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:darrell-grant",
+    "name_romaji": "Darrell Grant",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:darrell-tangman",
+    "name_romaji": "Darrell Tangman",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:daryl-muranaka",
+    "name_romaji": "Daryl Muranaka",
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:david-a-norton",
+    "name_romaji": "David A. Norton",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:david-almcrantz",
+    "name_romaji": "David Almcrantz",
+    "source": [
+      "https://ki-society.com/?dojo=santa-barbara-ki-aikido-dojo"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:david-cody",
+    "name_romaji": "David Cody",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:david-farrell-shihan",
+    "name_romaji": "David Farrell Shihan",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:david-halprin-shihan",
+    "name_romaji": "David Halprin Shihan",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:david-j-ross",
+    "name_romaji": "David J. Ross",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:david-kaneshiro",
+    "name_romaji": "David Kaneshiro",
+    "source": [
+      "https://ki-society.com/?dojo=hilo-ki-aikido-dojo"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:david-katz",
+    "name_romaji": "David Katz",
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:david-law",
+    "name_romaji": "David Law",
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:david-mata",
+    "name_romaji": "David Mata",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:david-norton",
+    "name_romaji": "David Norton",
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:david-reinfeld",
+    "name_romaji": "David Reinfeld",
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:david-ross",
+    "name_romaji": "David Ross",
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:david-shaner-ekf-chief-instructor",
+    "name_romaji": "David Shaner, EKF Chief Instructor",
+    "source": [
+      "https://ki-society.com/?dojo=eastern-ki-federationsouth-carolina"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:david-smilow",
+    "name_romaji": "David Smilow",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:dean-mayer",
+    "name_romaji": "Dean Mayer",
+    "source": [
+      "https://ki-society.com/?dojo=hanapepe-ki-aikido-dojo"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:dee-seabolt",
+    "name_romaji": "Dee Seabolt",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:dennis-main",
+    "name_romaji": "Dennis Main",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "notes": "Shihan title conferred 2022 (USAF Kagamibiraki)."
+  },
+  {
+    "id": "person:derek-leblanc",
+    "name_romaji": "DEREK LEBLANC",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:dermot-mcdonald",
+    "name_romaji": "Dermot McDonald",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:derrell-thomas",
+    "name_romaji": "Derrell Thomas",
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:diane-p-dubois",
+    "name_romaji": "Diane P. Dubois",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:diego-alberto-lozza",
+    "name_romaji": "Diego Alberto Lozza",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:don-eisele",
+    "name_romaji": "Don Eisele",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:donald-slater",
+    "name_romaji": "Donald Slater",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:donald-zdeb",
+    "name_romaji": "Donald Zdeb",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:donna-grant",
+    "name_romaji": "Donna Grant",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:douglas-firestone",
+    "name_romaji": "Douglas Firestone",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:driss-benmoussa",
+    "name_romaji": "Driss Benmoussa",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:edmund-di-marco",
+    "name_romaji": "Edmund Di Marco",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:edward-kardell",
+    "name_romaji": "Edward Kardell",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:edward-leung",
+    "name_romaji": "Edward Leung",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:edward-lin",
+    "name_romaji": "Edward Lin",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:edward-peteroy",
+    "name_romaji": "Edward Peteroy",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:eiji-kurashige",
+    "name_romaji": "Eiji Kurashige",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:eliot-rifkin",
+    "name_romaji": "Eliot Rifkin",
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:eliot-w-rifkin",
+    "name_romaji": "Eliot W. Rifkin",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:enrique-silvera",
+    "name_romaji": "Enrique Silvera",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:eran-vardi",
+    "name_romaji": "Eran Vardi",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "notes": "Shihan title conferred 2022 (USAF Kagamibiraki)."
+  },
+  {
+    "id": "person:eric-m-pierce",
+    "name_romaji": "ERIC M. PIERCE",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:eric-nonaka",
+    "name_romaji": "Eric Nonaka",
+    "source": [
+      "https://ki-society.com/?dojo=hawaii-ki-federation"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:eric-vollrath",
+    "name_romaji": "ERIC VOLLRATH",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:ernest-lemon-jr",
+    "name_romaji": "Ernest Lemon, Jr.",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:eugene-morales",
+    "name_romaji": "Eugene Morales",
+    "source": [
+      "https://aaa-aikido.com/dojo/pro-sessions-aikido-11th-st/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:eugene-o-connor",
+    "name_romaji": "Eugene O'Connor",
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:evan-sobel",
+    "name_romaji": "Evan Sobel",
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:everest-guix-fermin",
+    "name_romaji": "Everest Guix Fermín",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:evie-pond",
+    "name_romaji": "Evie Pond",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:ezzard-neri",
+    "name_romaji": "Ezzard Neri",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:fabio-chirinos",
+    "name_romaji": "Fabio Chirinos",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:fiona-blyth",
+    "name_romaji": "Fiona Blyth",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:francesco-grieco",
+    "name_romaji": "Francesco Grieco",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:francisco-matamala",
+    "name_romaji": "Francisco Matamala",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:frank-spera",
+    "name_romaji": "Frank Spera",
+    "source": [
+      "https://aaa-aikido.com/dojo/choetsu-aikido/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:fred-foote",
+    "name_romaji": "Fred Foote",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:fulvio-mateo",
+    "name_romaji": "Fulvio Mateo",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:gabriele-bixel",
+    "name_romaji": "Gabriele Bixel",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:gail-skinner",
+    "name_romaji": "Gail Skinner",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:garn-g-sherman",
+    "name_romaji": "Garn G. Sherman",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:garn-sherman",
+    "name_romaji": "Garn Sherman",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:gary-roberts",
+    "name_romaji": "Gary Roberts",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:gentil-pennewaert",
+    "name_romaji": "Gentil Pennewaert",
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:george-hemmings",
+    "name_romaji": "George Hemmings",
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:george-w-kennedy",
+    "name_romaji": "George W. Kennedy",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:georgette-frate-mikus",
+    "name_romaji": "Georgette Frate-Mikus",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:geraldine-tremblay",
+    "name_romaji": "Geraldine Tremblay",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:giles-longpre",
+    "name_romaji": "Giles Longpre",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:gina-zarrilli",
+    "name_romaji": "Gina Zarrilli",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:giorgio-mariana",
+    "name_romaji": "Giorgio Mariana",
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:giovani-villafane",
+    "name_romaji": "Giovani Villafane",
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:gleb-shumyatsky",
+    "name_romaji": "Gleb Shumyatsky",
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:glen-matsuda",
+    "name_romaji": "Glen Matsuda",
+    "source": [
+      "https://aaa-aikido.com/dojo/moti-horenstein-mma-rockland-aikido/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:glenn-brooks",
+    "name_romaji": "Glenn Brooks",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:glenn-murray",
+    "name_romaji": "Glenn Murray",
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:gordon-sakamoto",
+    "name_romaji": "Gordon Sakamoto",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:gorman-miller",
+    "name_romaji": "Gorman Miller",
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:gozo-shioda",
+    "name_romaji": "Gozo Shioda",
+    "source": [
+      "https://en.wikipedia.org/wiki/Gozo_Shioda",
+      "https://en.wikipedia.org/wiki/Kyoichi_Inoue",
+      "https://en.wikipedia.org/wiki/Jacques_Payet",
+      "https://en.wikipedia.org/wiki/Robert_Mustard"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "current_rank": {
+      "dan": 9,
+      "title": null
+    }
+  },
+  {
+    "id": "person:grady-d-lane",
+    "name_romaji": "Grady D. Lane",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:graham-fraser",
+    "name_romaji": "Graham Fraser",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:gustavo-j-ramos",
+    "name_romaji": "Gustavo J. Ramos",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:gustavo-ramos",
+    "name_romaji": "Gustavo Ramos",
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:gustavo-rearte",
+    "name_romaji": "Gustavo Rearte",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:hal-lehrman-jr",
+    "name_romaji": "Hal Lehrman Jr.",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:harvey-konigsberg",
+    "name_romaji": "Harvey Konigsberg",
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:heath-atchley",
+    "name_romaji": "Heath Atchley",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:henry-bellorin",
+    "name_romaji": "Henry Bellorin",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:hiroshi-ikeda",
+    "name_romaji": "Hiroshi Ikeda",
+    "source": [
+      "https://en.wikipedia.org/wiki/Mitsugi_Saotome"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:hiroshi-tada",
+    "name_romaji": "Hiroshi Tada",
+    "source": [
+      "https://en.wikipedia.org/wiki/Hiroshi_Tada"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "current_rank": {
+      "dan": 9,
+      "title": null
+    }
+  },
+  {
+    "id": "person:indra-gandy",
+    "name_romaji": "Indra Gandy",
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:irvin-vann",
+    "name_romaji": "Irvin Vann",
+    "source": [
+      "https://aaa-aikido.com/dojo/national-institute-of-health-aikido-club/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:ishiyama",
+    "name_romaji": "Ishiyama",
+    "source": [
+      "https://en.wikipedia.org/wiki/Bansen_Tanaka"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:ivar-w-christopher",
+    "name_romaji": "Ivar W. Christopher",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:jack-hayes",
+    "name_romaji": "Jack Hayes",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:jacques-payet",
+    "name_romaji": "Jacques Payet",
+    "source": [
+      "https://en.wikipedia.org/wiki/Gozo_Shioda",
+      "https://en.wikipedia.org/wiki/Jacques_Payet"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "name_native": "養神館 合気道"
+  },
+  {
+    "id": "person:james-a-baker",
+    "name_romaji": "James A. Baker",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:james-albertson",
+    "name_romaji": "James Albertson",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:james-constable",
+    "name_romaji": "James Constable",
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:james-graves",
+    "name_romaji": "James Graves",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:james-jacenich",
+    "name_romaji": "James Jacenich",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:james-nakayama",
+    "name_romaji": "James Nakayama",
+    "source": [
+      "https://aaa-aikido.com/dojo/chushinkan-dojo/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:james-shaffer",
+    "name_romaji": "James Shaffer",
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:james-soviero",
+    "name_romaji": "James Soviero",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:james-w-constable",
+    "name_romaji": "James W. Constable",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:janet-lowe",
+    "name_romaji": "Janet Lowe",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:janice-taitel",
+    "name_romaji": "Janice Taitel",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:jason-dearmond",
+    "name_romaji": "Jason DeArmond",
+    "source": [
+      "https://aaa-aikido.com/dojo/aikido-of-northwest-kansas-wichita-aikido-club/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:jason-martell",
+    "name_romaji": "Jason Martell",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:jason-parsons",
+    "name_romaji": "Jason Parsons",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:jason-perna",
+    "name_romaji": "Jason Perna",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:javier-dominguez",
+    "name_romaji": "Javier Dominguez",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:javier-raa",
+    "name_romaji": "Javier Raa",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:javier-vazquez-bravo",
+    "name_romaji": "JAVIER VAZQUEZ-BRAVO",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:jay-tall",
+    "name_romaji": "Jay Tall",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:jayne-thompson",
+    "name_romaji": "Jayne Thompson",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:jean-laplante",
+    "name_romaji": "Jean Laplante",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:jean-michel-hovan",
+    "name_romaji": "Jean Michel Hovan",
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:jef-snellings",
+    "name_romaji": "Jef Snellings",
+    "source": [
+      "https://aaa-aikido.com/dojo/aikikai-bonheiden/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:jeffrey-a-gonz",
+    "name_romaji": "Jeffrey A. Gonz",
+    "source": [
+      "https://aaa-aikido.com/dojo/senshi-dojo/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:jeffrey-hilland",
+    "name_romaji": "Jeffrey Hilland",
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:jene-rene-david",
+    "name_romaji": "Jene-Rene David",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:jeremy-neff",
+    "name_romaji": "Jeremy Neff",
+    "source": [
+      "https://aaa-aikido.com/dojo/intermountain-aikido/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:jerry-b-zimmerman",
+    "name_romaji": "Jerry B. Zimmerman",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:jerry-dewees",
+    "name_romaji": "Jerry Dewees",
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:jerry-zimmerman",
+    "name_romaji": "Jerry Zimmerman",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "notes": "Shihan title conferred 2022 (USAF Kagamibiraki)."
+  },
+  {
+    "id": "person:jesus-a-gonzalez-jimenez",
+    "name_romaji": "Jesús A. González Jiménez",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:jigoro-kano",
+    "name_romaji": "Jigoro Kano",
+    "source": [
+      "https://en.wikipedia.org/wiki/Kenji_Tomiki"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:joan-alcantara",
+    "name_romaji": "Joan Alcantara",
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:joan-nakatsugawa",
+    "name_romaji": "Joan Nakatsugawa",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:joanne-recca",
+    "name_romaji": "Joanne Recca",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:joel-leffert",
+    "name_romaji": "Joel Leffert",
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:john-chiarolanzio",
+    "name_romaji": "John Chiarolanzio",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:john-donnelly",
+    "name_romaji": "John Donnelly",
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:john-duke",
+    "name_romaji": "John Duke",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:john-edge",
+    "name_romaji": "John Edge",
+    "source": [
+      "https://aaa-aikido.com/dojo/two-circles-aikido-dojo/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:john-gilmore",
+    "name_romaji": "John Gilmore",
+    "source": [
+      "https://ki-society.com/?dojo=orange-county-ki-society"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:john-hadfield",
+    "name_romaji": "John Hadfield",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:john-huang",
+    "name_romaji": "John Huang",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:john-lepore",
+    "name_romaji": "John Lepore",
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:john-ottavino",
+    "name_romaji": "John Ottavino",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:john-porter",
+    "name_romaji": "John Porter",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:jon-maxson",
+    "name_romaji": "Jon Maxson",
+    "source": [
+      "https://ki-society.com/?dojo=ne-portland-ki-aikido-dojo"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:jon-whatley",
+    "name_romaji": "Jon Whatley",
+    "source": [
+      "https://aaa-aikido.com/dojo/joshinkan-dojo-the-aikido-academy-of-nc/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:jonathan-a-weiner",
+    "name_romaji": "Jonathan A. Weiner",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:jonathan-r-eley",
+    "name_romaji": "Jonathan R. Eley",
+    "source": [
+      "https://ki-society.com/?dojo=chicago-ki-aikido"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:jonathan-reid",
+    "name_romaji": "Jonathan Reid",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:jonathan-weiner",
+    "name_romaji": "Jonathan Weiner",
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:jonel-romero",
+    "name_romaji": "Jonel Romero",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:jorge-campos",
+    "name_romaji": "Jorge Campos",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:jorge-russo",
+    "name_romaji": "Jorge Russo",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:jorge-silva",
+    "name_romaji": "Jorge Silva",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:jose-arturo-bonachea",
+    "name_romaji": "Jose Arturo Bonachea",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:josef-birdsong-shihan",
+    "name_romaji": "Josef Birdsong Shihan",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:josemar-dias",
+    "name_romaji": "Josemar Dias",
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:joseph-f-nemeth",
+    "name_romaji": "Joseph F. Nemeth",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:josh-weiser",
+    "name_romaji": "Josh Weiser",
+    "source": [
+      "https://aaa-aikido.com/dojo/north-shore-aikido-torashinkan-dojo/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:joshua-layton",
+    "name_romaji": "Joshua Layton",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:josnei-dias",
+    "name_romaji": "Josnei Dias",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:josnei-macedo-dias",
+    "name_romaji": "Josnei Macedo Dias",
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:juan-carlos-cruz",
+    "name_romaji": "Juan-Carlos Cruz",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:juan-carlos-delgado",
+    "name_romaji": "Juan Carlos Delgado",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:juan-carlos-flores",
+    "name_romaji": "Juan Carlos Flores",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:juan-pablo-guachamin-andrade",
+    "name_romaji": "Juan Pablo Guachamin Andrade",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:juan-sampayo-sarraga",
+    "name_romaji": "Juan Sampayo-Sarraga",
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:julia-freedgood",
+    "name_romaji": "Julia Freedgood",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "notes": "Shihan title conferred 2022 (USAF Kagamibiraki)."
+  },
+  {
+    "id": "person:julia-m-freedgood",
+    "name_romaji": "Julia M. Freedgood",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:junya-nakatsugawa",
+    "name_romaji": "Junya Nakatsugawa",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:k-hawk-durham",
+    "name_romaji": "K. Hawk Durham",
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:k-inoue",
+    "name_romaji": "K. Inoue",
+    "source": [
+      "https://en.wikipedia.org/wiki/Gozo_Shioda"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:kagan-ar-k",
+    "name_romaji": "Kağan Arık",
+    "source": [
+      "https://ki-society.com/?dojo=the-university-of-chicago-shin-shin-toitsu-aikido-club"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:kali-hewitt-blackie",
+    "name_romaji": "Kali Hewitt-Blackie",
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:kano-jigoro",
+    "name_romaji": "Kano Jigoro",
+    "source": [
+      "https://en.wikipedia.org/wiki/Yoshio_Sugino"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:karen-de-paola",
+    "name_romaji": "Karen De Paola",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "notes": "Shihan title conferred 2022 (USAF Kagamibiraki)."
+  },
+  {
+    "id": "person:karen-peterson",
+    "name_romaji": "Karen Peterson",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:kawahara",
+    "name_romaji": "Kawahara",
+    "source": [
+      "https://en.wikipedia.org/wiki/Bansen_Tanaka"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:kazuo-chiba",
+    "name_romaji": "Kazuo Chiba",
+    "name_native": "千葉 和雄",
+    "aliases": [
+      "T. K. Chiba"
+    ],
+    "born": "1940",
+    "died": "2015",
+    "deceased": true,
+    "notes": "USAF Western Region, San Diego; later Birankai.",
+    "source": [
+      "https://birankai.org/",
+      "https://aikidojournal.com/",
+      "https://en.wikipedia.org/wiki/Kazuo_Chiba",
+      "https://en.wikipedia.org/wiki/Chris_Mooney_(aikido)"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:keisuke-ogawa",
+    "name_romaji": "Keisuke Ogawa",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:keith-lit",
+    "name_romaji": "Keith Lit",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:keith-m-pray",
+    "name_romaji": "KEITH M. PRAY",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:ken-macbeth",
+    "name_romaji": "Ken MacBeth",
+    "source": [
+      "https://aaa-aikido.com/dojo/kenshinkan-dojo-aikido-of-north-county/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:ken-yamazaki",
+    "name_romaji": "Ken Yamazaki",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:kenji-tomiki",
+    "name_romaji": "Kenji Tomiki",
+    "source": [
+      "https://en.wikipedia.org/wiki/Kenji_Tomiki"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "current_rank": {
+      "dan": 8,
+      "title": null
+    }
+  },
+  {
+    "id": "person:kenneth-m-cadogan",
+    "name_romaji": "Kenneth M. Cadogan",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:kevin-grace",
+    "name_romaji": "Kevin Grace",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:kevin-kanesaka",
+    "name_romaji": "Kevin Kanesaka",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:kevin-p-grace",
+    "name_romaji": "Kevin P. Grace",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:kim-johnston",
+    "name_romaji": "Kim Johnston",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:kim-sorvig",
+    "name_romaji": "Kim Sorvig",
+    "source": [
+      "https://ki-society.com/?dojo=santa-fe-ki-societynew-mexico"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:kirk-fowler",
+    "name_romaji": "Kirk Fowler",
+    "source": [
+      "https://ki-society.com/?dojo=arizona-ki-society"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:kisaburo-osawa",
+    "name_romaji": "Kisaburo Osawa",
+    "source": [
+      "https://en.wikipedia.org/wiki/Kisaburo_Osawa"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:kisshomaru-ueshiba",
+    "name_romaji": "Kisshomaru Ueshiba",
+    "source": [
+      "https://en.wikipedia.org/wiki/Kisshomaru_Ueshiba",
+      "https://en.wikipedia.org/wiki/Moriteru_Ueshiba",
+      "https://en.wikipedia.org/wiki/Kazuo_Chiba",
+      "https://en.wikipedia.org/wiki/Seiichi_Sugano"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:knut-t-o-bauer",
+    "name_romaji": "Knut T.O. Bauer",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:koei-kuwahara",
+    "name_romaji": "Koei Kuwahara",
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:koichi-kashiwaya",
+    "name_romaji": "Koichi Kashiwaya",
+    "source": [
+      "https://ki-society.com/?dojo=midland-ki-federation-usa-canada"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:koichi-kashiwaya-abel-vilacorta",
+    "name_romaji": "Koichi Kashiwaya / Abel Vilacorta",
+    "source": [
+      "https://ki-society.com/?dojo=boulder-ki-aikido"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:koichi-kashiwaya-colin-li-pi-shan",
+    "name_romaji": "Koichi Kashiwaya / Colin Li Pi Shan",
+    "source": [
+      "https://ki-society.com/?dojo=houston-ki-aikido-dojo"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:koichi-kashiwaya-derek-nabel",
+    "name_romaji": "Koichi Kashiwaya / Derek Nabel",
+    "source": [
+      "https://ki-society.com/?dojo=rocy-mountain-ki-society-westminster-ki-aikido-dojo"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:koichi-kashiwaya-george-andrew-lebar",
+    "name_romaji": "Koichi Kashiwaya / George Andrew LeBar",
+    "source": [
+      "https://ki-society.com/?dojo=lawrence-ki-aikido-dojo"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:koichi-kashiwaya-h-vic-montgomery",
+    "name_romaji": "Koichi Kashiwaya / H. Vic Montgomery",
+    "source": [
+      "https://ki-society.com/?dojo=kansas-city-ki-aikido-society"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:koichi-kashiwaya-h-vic-montgomery-mel-smith",
+    "name_romaji": "Koichi Kashiwaya / H. Vic Montgomery / Mel Smith",
+    "source": [
+      "https://ki-society.com/?dojo=obiji-dojo"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:koichi-kashiwaya-h-vic-montgomery-william-perkins",
+    "name_romaji": "Koichi Kashiwaya / H. Vic Montgomery / William Perkins",
+    "source": [
+      "https://ki-society.com/?dojo=north-lawrence-ki-aikido-lawrence-parks-recreation"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:koichi-kashiwaya-jason-rosnenblum",
+    "name_romaji": "Koichi Kashiwaya / Jason Rosnenblum",
+    "source": [
+      "https://ki-society.com/?dojo=austin-ki-movement"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:koichi-kashiwaya-joe-decapua",
+    "name_romaji": "Koichi Kashiwaya / Joe DeCapua",
+    "source": [
+      "https://ki-society.com/?dojo=south-mountain-aikido-frederick-ki-society-mkf"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:koichi-kashiwaya-michael-farris",
+    "name_romaji": "Koichi Kashiwaya / Michael Farris",
+    "source": [
+      "https://ki-society.com/?dojo=austin-ki-aikido"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:koichi-kashiwaya-mort-melman",
+    "name_romaji": "Koichi Kashiwaya / Mort Melman",
+    "source": [
+      "https://ki-society.com/?dojo=franklin-ki-aikido"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:koichi-kashiwaya-richard-blanke",
+    "name_romaji": "Koichi Kashiwaya /Richard Blanke",
+    "source": [
+      "https://ki-society.com/?dojo=st-louis-ki-aikido"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:koichi-kashiwaya-russell-daubar",
+    "name_romaji": "Koichi Kashiwaya / Russell Daubar",
+    "source": [
+      "https://ki-society.com/?dojo=howard-county-ki-society"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:koichi-kashiwaya-susan-chandler",
+    "name_romaji": "Koichi Kashiwaya / Susan Chandler",
+    "source": [
+      "https://ki-society.com/?dojo=denver-ki-aikido-dojo"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:koichi-kashiwaya-tomoyuki-nishino",
+    "name_romaji": "Koichi Kashiwaya /Tomoyuki Nishino",
+    "source": [
+      "https://ki-society.com/?dojo=fenton-ki-aikido"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:koichi-kashiwaya-william-r-fairweather",
+    "name_romaji": "Koichi Kashiwaya / William R. Fairweather",
+    "source": [
+      "https://ki-society.com/?dojo=maryland-ki-society-montgomery-county"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:koichi-tohei",
+    "name_romaji": "Koichi Tohei",
+    "name_native": "藤平 光一",
+    "aliases": [],
+    "born": "1920",
+    "died": "2011",
+    "deceased": true,
+    "notes": "Aikikai chief instructor postwar; left in 1974 to lead the Ki Society. Not Akira Tohei.",
+    "source": [
+      "https://ki-society.com/",
+      "https://aikidojournal.com/",
+      "https://en.wikipedia.org/wiki/Koichi_Tohei"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:krzysztof-zawadzki",
+    "name_romaji": "Krzysztof Zawadzki",
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:kunisaburo-iizuka",
+    "name_romaji": "Kunisaburo Iizuka",
+    "source": [
+      "https://en.wikipedia.org/wiki/Yoshio_Sugino"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:kushida",
+    "name_romaji": "Kushida",
+    "source": [
+      "https://en.wikipedia.org/wiki/Gozo_Shioda"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:kyoichi-inoue",
+    "name_romaji": "Kyoichi Inoue",
+    "source": [
+      "https://en.wikipedia.org/wiki/Gozo_Shioda",
+      "https://en.wikipedia.org/wiki/Kyoichi_Inoue"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:kyuzo-mifune",
+    "name_romaji": "Kyuzo Mifune",
+    "source": [
+      "https://en.wikipedia.org/wiki/Shoji_Nishio"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:labeeb-zaatara",
+    "name_romaji": "Labeeb Zaatara",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:laplante-jean",
+    "name_romaji": "Laplante Jean",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:larry-e-bieri",
+    "name_romaji": "Larry E. Bieri",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:larry-graham",
+    "name_romaji": "Larry Graham",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:larry-r-levitt",
+    "name_romaji": "Larry R. Levitt",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:laura-gabbe",
+    "name_romaji": "Laura Gabbe",
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:laura-jacobs-pavlick",
+    "name_romaji": "Laura Jacobs Pavlick",
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:lauren-mallas",
+    "name_romaji": "Lauren Mallas",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:leandro-obligado",
+    "name_romaji": "Leandro Obligado",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:lenore-i-killam",
+    "name_romaji": "Lenore I. Killam",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:lenore-killam",
+    "name_romaji": "Lenore Killam",
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:leonel-sanchez-sotolongo",
+    "name_romaji": "Leonel Sánchez Sotolongo",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:liese-klein",
+    "name_romaji": "Liese Klein",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:lillian-paiva",
+    "name_romaji": "Lillian Paiva",
+    "source": [
+      "https://ki-society.com/?dojo=honokaa-ki-aikido-dojo"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:linda-jones",
+    "name_romaji": "Linda Jones",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:linda-robins",
+    "name_romaji": "Linda Robins",
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:linda-sasaki",
+    "name_romaji": "Linda Sasaki",
+    "source": [
+      "https://ki-society.com/?dojo=central-ymca-ki-aikido-dojo"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:louis-caron",
+    "name_romaji": "Louis Caron",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:lowell-miller",
+    "name_romaji": "Lowell Miller",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:luciano-silva-de-almeida",
+    "name_romaji": "Luciano Silva de Almeida",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:m-david-cormalleth",
+    "name_romaji": "M. David Cormalleth",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:maite-azcoitia",
+    "name_romaji": "Maite Azcoitia",
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:maite-fuertemoreno",
+    "name_romaji": "Maite Fuertemoreno",
+    "source": [
+      "https://aaa-aikido.com/dojo/suidokan-dojo/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:makiyama",
+    "name_romaji": "Makiyama",
+    "source": [
+      "https://en.wikipedia.org/wiki/Gozo_Shioda"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:manuel-cormenzana-casuriaga",
+    "name_romaji": "Manuel Cormenzana Casuriaga",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:marc-hugentobler",
+    "name_romaji": "Marc Hugentobler",
+    "source": [
+      "https://aaa-aikido.com/dojo/uvu-aikido-club/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:marcel-gonzalez",
+    "name_romaji": "Marcel Gonzalez",
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:marcos-miranda",
+    "name_romaji": "Marcos Miranda",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:margaret-s-bower",
+    "name_romaji": "Margaret S. Bower",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:maria-cristina-dumlao",
+    "name_romaji": "Maria Cristina Dumlao",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:maria-janczuk",
+    "name_romaji": "Maria Janczuk",
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:marie-torrecampo",
+    "name_romaji": "Marie Torrecampo",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:marilyn-st-john",
+    "name_romaji": "Marilyn St John",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:mariusz-kantek",
+    "name_romaji": "Mariusz Kantek",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:mark-szczepanski",
+    "name_romaji": "Mark Szczepanski",
+    "source": [
+      "https://aaa-aikido.com/dojo/brave-spirit-aikido/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:mark-voorhees",
+    "name_romaji": "Mark Voorhees",
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:martin",
+    "name_romaji": "Martin",
+    "source": [
+      "https://en.wikipedia.org/wiki/Nobuyoshi_Tamura"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:martin-katz",
+    "name_romaji": "Martin Katz",
+    "source": [
+      "https://aaa-aikido.com/dojo/ryushinkan-dojo/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:martin-wise",
+    "name_romaji": "Martin Wise",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:mary-dee-seabolt",
+    "name_romaji": "Mary Dee Seabolt",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:mary-fuller",
+    "name_romaji": "Mary Fuller",
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:masako-nakatsugawa",
+    "name_romaji": "Masako Nakatsugawa",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:masashi-umemoto",
+    "name_romaji": "Masashi Umemoto",
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:masatomi-ikeda",
+    "name_romaji": "Masatomi Ikeda",
+    "source": [
+      "https://en.wikipedia.org/wiki/Hiroshi_Tada",
+      "https://en.wikipedia.org/wiki/Masatomi_Ikeda"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:matjaz-dobravec",
+    "name_romaji": "Matjaz Dobravec",
+    "source": [
+      "https://aaa-aikido.com/dojo/celje/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:matthew-bagedonow",
+    "name_romaji": "Matthew Bagedonow",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:matthias-lynch",
+    "name_romaji": "Matthias Lynch",
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:maurits-filet",
+    "name_romaji": "Maurits Filet",
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:max-c-sherman",
+    "name_romaji": "Max C Sherman",
+    "source": [
+      "https://aaa-aikido.com/dojo/island-aikido/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:maykell-torres",
+    "name_romaji": "Maykell Torres",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:meipo-martin",
+    "name_romaji": "Meipo Martin",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:melissa-pittman-fischer",
+    "name_romaji": "Melissa Pittman Fischer",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:michael-a-lambert",
+    "name_romaji": "MICHAEL A. LAMBERT",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:michael-abrams",
+    "name_romaji": "Michael Abrams",
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:michael-aloia",
+    "name_romaji": "Michael Aloia",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:michael-clair",
+    "name_romaji": "Michael Clair",
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:michael-grover",
+    "name_romaji": "Michael Grover",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:michael-j-mcnally",
+    "name_romaji": "Michael J. McNally",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:michael-livingston",
+    "name_romaji": "Michael Livingston",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:michael-lum",
+    "name_romaji": "Michael Lum",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:michael-martin",
+    "name_romaji": "Michael Martin",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:michael-mcnally",
+    "name_romaji": "Michael McNally",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "notes": "Shihan title conferred 2022 (USAF Kagamibiraki)."
+  },
+  {
+    "id": "person:michael-napoli",
+    "name_romaji": "Michael Napoli",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:michael-pak",
+    "name_romaji": "Michael Pak",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:michael-s-pak",
+    "name_romaji": "Michael S. Pak",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:michael-sheahon",
+    "name_romaji": "Michael Sheahon",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:michael-silverman",
+    "name_romaji": "Michael Silverman",
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:michel-casanova-casanova",
+    "name_romaji": "Michel Casanova Casanova",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:michel-j-hovan",
+    "name_romaji": "Michel J. Hovan",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:mick-cipra",
+    "name_romaji": "Mick Cipra",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:miguel-antonio-morales-bermudez-field",
+    "name_romaji": "Miguel Antonio Morales-Bermudez Field",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:mikal-giancola",
+    "name_romaji": "MIKAL GIANCOLA",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:mikhail-korozei",
+    "name_romaji": "Mikhail Korozei",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:minoru-mochizuki",
+    "name_romaji": "Minoru Mochizuki",
+    "source": [
+      "https://en.wikipedia.org/wiki/Minoru_Mochizuki"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:mission",
+    "name_romaji": "Mission",
+    "source": [
+      "https://aaa-aikido.com/dojo/beach-cities-aikido/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:mitsugi-saotome",
+    "name_romaji": "Mitsugi Saotome",
+    "name_native": "五月女 貢",
+    "aliases": [],
+    "born": "1937",
+    "died": null,
+    "deceased": false,
+    "notes": "Founder of Aikido Schools of Ueshiba (ASU); direct uchi-deshi until the founder's death in 1969.",
+    "source": [
+      "https://asu.org/",
+      "https://aikidojournal.com/",
+      "https://en.wikipedia.org/wiki/Mitsugi_Saotome"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:mitsunari-kanai",
+    "name_romaji": "Mitsunari Kanai",
+    "name_native": "金井 満也",
+    "aliases": [],
+    "born": "1939",
+    "died": "2004",
+    "deceased": true,
+    "notes": "Chief instructor, New England Aikikai, Cambridge MA.",
+    "source": [
+      "https://neaikikai.com/",
+      "https://aikidojournal.com/",
+      "https://en.wikipedia.org/wiki/Mitsunari_Kanai"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "current_rank": {
+      "dan": 8,
+      "title": null
+    }
+  },
+  {
+    "id": "person:mohammad-alhamar",
+    "name_romaji": "Mohammad Alhamar",
+    "source": [
+      "https://aaa-aikido.com/dojo/aikido-kuwait/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:mohammed-alajmi-sensei",
+    "name_romaji": "Mohammed Alajmi Sensei",
+    "source": [
+      "https://aaa-aikido.com/dojo/chudokan-dojo/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:morihei-ueshiba",
+    "name_romaji": "Morihei Ueshiba",
+    "name_native": "植芝 盛平",
+    "aliases": [
+      "O-Sensei",
+      "Osensei"
+    ],
+    "born": "1883",
+    "died": "1969",
+    "deceased": true,
+    "notes": "Founder of aikido.",
+    "source": [
+      "https://www.aikikai.or.jp/eng/",
+      "https://aikidojournal.com/",
+      "https://en.wikipedia.org/wiki/Morihei_Ueshiba",
+      "https://en.wikipedia.org/wiki/Kisshomaru_Ueshiba",
+      "https://en.wikipedia.org/wiki/Moriteru_Ueshiba",
+      "https://en.wikipedia.org/wiki/Gozo_Shioda",
+      "https://en.wikipedia.org/wiki/Morihiro_Saito",
+      "https://en.wikipedia.org/wiki/Kazuo_Chiba",
+      "https://en.wikipedia.org/wiki/Yoshimitsu_Yamada",
+      "https://en.wikipedia.org/wiki/Mitsunari_Kanai",
+      "https://en.wikipedia.org/wiki/Seiichi_Sugano",
+      "https://en.wikipedia.org/wiki/Kenji_Tomiki",
+      "https://en.wikipedia.org/wiki/Shoji_Nishio",
+      "https://en.wikipedia.org/wiki/Yoshio_Sugino",
+      "https://en.wikipedia.org/wiki/Tadashi_Abe"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:morihiro-saito",
+    "name_romaji": "Morihiro Saito",
+    "source": [
+      "https://en.wikipedia.org/wiki/Morihiro_Saito"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "current_rank": {
+      "dan": 9,
+      "title": null
+    }
+  },
+  {
+    "id": "person:moriteru-ueshiba",
+    "name_romaji": "Moriteru Ueshiba",
+    "source": [
+      "https://en.wikipedia.org/wiki/Moriteru_Ueshiba"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:motier-haskins",
+    "name_romaji": "Motier Haskins",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:mykola-yemelianov",
+    "name_romaji": "Mykola Yemelianov",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:naomi-wentworth",
+    "name_romaji": "Naomi WENTWORTH",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:neil-quigley",
+    "name_romaji": "Neil Quigley",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:nelson-andujar",
+    "name_romaji": "Nelson Andujar",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:nemraz-juggoo",
+    "name_romaji": "Nemraz Juggoo",
+    "source": [
+      "https://aaa-aikido.com/dojo/aikido-ryu-mauritius/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:nicholas-howes",
+    "name_romaji": "Nicholas Howes",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:nicholas-ross",
+    "name_romaji": "Nicholas Ross",
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:nobuyoshi-tamura",
+    "name_romaji": "Nobuyoshi Tamura",
+    "source": [
+      "https://en.wikipedia.org/wiki/Nobuyoshi_Tamura"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "current_rank": {
+      "dan": 8,
+      "title": null
+    }
+  },
+  {
+    "id": "person:noel-murphy",
+    "name_romaji": "Noel Murphy",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:noriko-oba",
+    "name_romaji": "Noriko Oba",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:norman-brodeur",
+    "name_romaji": "Norman Brodeur",
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:orlando-soto",
+    "name_romaji": "Orlando Soto",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:oscar-ortega-izquierdo",
+    "name_romaji": "Oscar Ortega Izquierdo",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:pablo-vitelio",
+    "name_romaji": "Pablo Vitelio",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:pascal-kim",
+    "name_romaji": "Pascal Kim",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:patricia-demko",
+    "name_romaji": "Patricia Demko",
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:patrick-h-hardesty",
+    "name_romaji": "Patrick H. Hardesty",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:patrick-hardesty",
+    "name_romaji": "Patrick Hardesty",
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:paul-forhan",
+    "name_romaji": "Paul Forhan",
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:paul-glavine",
+    "name_romaji": "Paul Glavine",
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:paul-l-glavine",
+    "name_romaji": "Paul L. Glavine",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:paul-manogue",
+    "name_romaji": "Paul Manogue",
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:paul-rebollido",
+    "name_romaji": "Paul Rebollido",
+    "source": [
+      "https://ki-society.com/?dojo=hillsboro-ki-aikido-dojo"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:paul-ward",
+    "name_romaji": "Paul Ward",
+    "source": [
+      "https://ki-society.com/?dojo=west-linn-dojo"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:paul-zimet",
+    "name_romaji": "Paul Zimet",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:paulo-ivan-volochyn",
+    "name_romaji": "Paulo Ivan Volochyn",
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:paulo-volochyn",
+    "name_romaji": "Paulo Volochyn",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:payet",
+    "name_romaji": "Payet",
+    "source": [
+      "https://en.wikipedia.org/wiki/Gozo_Shioda"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:penny-strake-bernath",
+    "name_romaji": "Penny Strake Bernath",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:perry-ivy",
+    "name_romaji": "Perry Ivy",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:peter-bernath",
+    "name_romaji": "Peter Bernath",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:phil-smith-chris-omuro-jeff-carlson",
+    "name_romaji": "Phil Smith, Chris Omuro, Jeff Carlson",
+    "source": [
+      "https://ki-society.com/?dojo=seishinkan-dojo"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:philip-berrios",
+    "name_romaji": "PHILIP BERRIOS",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:philip-halpern",
+    "name_romaji": "Philip Halpern",
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:philippe-niemetz",
+    "name_romaji": "Philippe Niemetz",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:pierre-chassang",
+    "name_romaji": "Pierre Chassang",
+    "source": [
+      "https://en.wikipedia.org/wiki/Nobuyoshi_Tamura",
+      "https://en.wikipedia.org/wiki/Pierre_Chassang"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:pietro-maida",
+    "name_romaji": "Pietro Maida",
+    "source": [
+      "https://ki-society.com/?dojo=northern-california-ki-society-california"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:rafael-pacheco",
+    "name_romaji": "Rafael Pacheco",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:rafael-urrutia-pairol",
+    "name_romaji": "Rafael Urrutia Pairol",
+    "source": [
+      "https://aaa-aikido.com/dojo/fudoshin-aiki/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:ralph-legnini",
+    "name_romaji": "Ralph Legnini",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:ramon-ruilopez",
+    "name_romaji": "Ramon Ruilopez",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:randall-smith",
+    "name_romaji": "Randall Smith",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:randy-beck",
+    "name_romaji": "Randy Beck",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:raul-espinosa-y-jorge-aguilar",
+    "name_romaji": "Raul Espinosa y Jorge Aguilar",
+    "source": [
+      "https://aaa-aikido.com/dojo/hatsudokan-dojo/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:ray-feliciano",
+    "name_romaji": "Ray Feliciano",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:raymond-caldwell",
+    "name_romaji": "Raymond Caldwell",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:raymond-s-farinato",
+    "name_romaji": "Raymond S. Farinato",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:rejean-gauthier",
+    "name_romaji": "Rejean Gauthier",
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:rene-relacion",
+    "name_romaji": "Rene Relacion",
+    "source": [
+      "https://ki-society.com/?dojo=kapaa-ki-aikido-dojo"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:reuven-lirov",
+    "name_romaji": "Reuven Lirov",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:reynold-hoyte",
+    "name_romaji": "Reynold Hoyte",
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:richard-backer",
+    "name_romaji": "Richard Backer",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:richard-colacino",
+    "name_romaji": "Richard Colacino",
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:richard-colby",
+    "name_romaji": "Richard Colby",
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:richard-gibbs",
+    "name_romaji": "Richard Gibbs",
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:richard-l-mintz",
+    "name_romaji": "Richard L. Mintz",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:richard-mcneillie",
+    "name_romaji": "Richard McNeillie",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:richard-morrison",
+    "name_romaji": "Richard Morrison",
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:richard-wagener",
+    "name_romaji": "Richard Wagener",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:rick-butler",
+    "name_romaji": "Rick Butler",
+    "source": [
+      "https://aaa-aikido.com/dojo/pathway-to-harmony/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:rick-lewis",
+    "name_romaji": "Rick Lewis",
+    "source": [
+      "https://ki-society.com/?dojo=lahaina-ki-aikido"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:rick-testa",
+    "name_romaji": "Rick Testa",
+    "source": [
+      "https://aaa-aikido.com/dojo/shoshinkan-dojo/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:rob-crowell",
+    "name_romaji": "Rob  Crowell",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:robert-a-whelan",
+    "name_romaji": "Robert A. Whelan",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:robert-ford",
+    "name_romaji": "Robert Ford",
+    "source": [
+      "https://aaa-aikido.com/dojo/konshinkan-dojo/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:robert-humphreys",
+    "name_romaji": "Robert Humphreys",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:robert-hyatt",
+    "name_romaji": "Robert Hyatt",
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:robert-l-clark",
+    "name_romaji": "Robert L. Clark",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:robert-loftin",
+    "name_romaji": "ROBERT LOFTIN",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:robert-m-mason",
+    "name_romaji": "Robert M. Mason",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:robert-mason",
+    "name_romaji": "Robert Mason",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "notes": "Shihan title conferred 2022 (USAF Kagamibiraki)."
+  },
+  {
+    "id": "person:robert-mustard",
+    "name_romaji": "Robert Mustard",
+    "source": [
+      "https://en.wikipedia.org/wiki/Gozo_Shioda",
+      "https://en.wikipedia.org/wiki/Robert_Mustard"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "current_rank": {
+      "dan": 8,
+      "title": null
+    }
+  },
+  {
+    "id": "person:robert-saad",
+    "name_romaji": "Robert Saad",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:robert-toabe",
+    "name_romaji": "Robert Toabe",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "notes": "Shihan title conferred 2022 (USAF Kagamibiraki)."
+  },
+  {
+    "id": "person:robert-vichins",
+    "name_romaji": "Robert Vichins",
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:robert-w-ward",
+    "name_romaji": "Robert W. Ward",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:robert-zimmermann-shihan",
+    "name_romaji": "Robert Zimmermann Shihan",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:rock-lazo",
+    "name_romaji": "ROCK LAZO",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:roderick-j-johnson",
+    "name_romaji": "Roderick J. Johnson",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:roderick-johnson",
+    "name_romaji": "Roderick Johnson",
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:roel-suetens",
+    "name_romaji": "Roel Suetens",
+    "source": [
+      "https://aaa-aikido.com/dojo/aikido-acacia-antwerp/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:ronald-c-sims",
+    "name_romaji": "Ronald C. Sims",
+    "source": [
+      "https://aaa-aikido.com/dojo/jyushinkan-dojo-aikido-of-northern-utah/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:ronald-cadillo-chavez",
+    "name_romaji": "Ronald Cadillo-Chavez",
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:rubel-batista",
+    "name_romaji": "Rubel Batista",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:sac-tran",
+    "name_romaji": "Sac Tran",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:salvatore-j-lacorte",
+    "name_romaji": "Salvatore J. Lacorte",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:salvatore-la-corte",
+    "name_romaji": "Salvatore La Corte",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "notes": "Shihan title conferred 2022 (USAF Kagamibiraki)."
+  },
+  {
+    "id": "person:samuel-santiago",
+    "name_romaji": "SAMUEL SANTIAGO",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:scott-korbylo",
+    "name_romaji": "Scott Korbylo",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:sean-conley",
+    "name_romaji": "Sean Conley",
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:sean-m-conley",
+    "name_romaji": "Sean M. Conley",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:seiichi-sugano",
+    "name_romaji": "Seiichi Sugano",
+    "name_native": "菅野 誠一",
+    "aliases": [],
+    "born": "1939",
+    "died": "2010",
+    "deceased": true,
+    "notes": "Postwar uchi-deshi; pioneered aikido in Australia, later Belgium and New York (USAF).",
+    "source": [
+      "https://aikidojournal.com/",
+      "https://en.wikipedia.org/wiki/Seiichi_Sugano"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "current_rank": {
+      "dan": 8,
+      "title": null
+    }
+  },
+  {
+    "id": "person:sensei-bader-al-saifan",
+    "name_romaji": "Sensei Bader Al Saifan",
+    "source": [
+      "https://aaa-aikido.com/dojo/kendokan-dojo/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:sergio-cuevas",
+    "name_romaji": "Sergio Cuevas",
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:shahram-moradi",
+    "name_romaji": "Shahram Moradi",
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:shai-golan",
+    "name_romaji": "Shai Golan",
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:sharon-kanai",
+    "name_romaji": "Sharon Kanai",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:shoji-nishio",
+    "name_romaji": "Shoji Nishio",
+    "source": [
+      "https://en.wikipedia.org/wiki/Shoji_Nishio"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "name_native": "西尾 昭二",
+    "current_rank": {
+      "dan": 8,
+      "title": null
+    }
+  },
+  {
+    "id": "person:sidney-shiba",
+    "name_romaji": "Sidney Shiba",
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:silvia-eschenlaur",
+    "name_romaji": "Silvia Eschenlaur",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:stan-haehl",
+    "name_romaji": "Stan Haehl",
+    "source": [
+      "https://ki-society.com/?dojo=athens-ohio-ki-aikido"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:stephan-jerberger",
+    "name_romaji": "Stephan Jerberger",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:stephane-janczuk",
+    "name_romaji": "Stephane Janczuk",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:stephanie-cook",
+    "name_romaji": "Stephanie Cook",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:stephen-kopka",
+    "name_romaji": "Stephen Kopka",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:steve-nelson",
+    "name_romaji": "STEVE NELSON",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:steve-sandage",
+    "name_romaji": "Steve Sandage",
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:steven-kaufmann",
+    "name_romaji": "Steven Kaufmann",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:steven-pimsler",
+    "name_romaji": "Steven Pimsler",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:suga",
+    "name_romaji": "Suga",
+    "source": [
+      "https://en.wikipedia.org/wiki/Nobuyoshi_Tamura"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:susan-dutton",
+    "name_romaji": "Susan Dutton",
+    "source": [
+      "https://aaa-aikido.com/dojo/aiseishinkan-dojo/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:susanne-beisert",
+    "name_romaji": "Susanne Beisert",
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:suzanne-rancourt",
+    "name_romaji": "SUZANNE RANCOURT",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:sylvie-firestone",
+    "name_romaji": "Sylvie Firestone",
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:tadashi-abe",
+    "name_romaji": "Tadashi Abe",
+    "source": [
+      "https://en.wikipedia.org/wiki/Yoshimitsu_Yamada",
+      "https://en.wikipedia.org/wiki/Tadashi_Abe"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "name_native": "阿部 正"
+  },
+  {
+    "id": "person:takashi-kushida",
+    "name_romaji": "Takashi Kushida",
+    "source": [
+      "https://en.wikipedia.org/wiki/Gozo_Shioda",
+      "https://en.wikipedia.org/wiki/Takashi_Kushida"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:takeda-sokaku",
+    "name_romaji": "Takeda Sōkaku",
+    "source": [
+      "https://en.wikipedia.org/wiki/Morihei_Ueshiba"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:tatsuo-toyoda",
+    "name_romaji": "Tatsuo Toyoda",
+    "source": [
+      "https://aaa-aikido.com/dojo/aai-headquarters/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:terada",
+    "name_romaji": "Terada",
+    "source": [
+      "https://en.wikipedia.org/wiki/Gozo_Shioda"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:terada-kiyoyuki",
+    "name_romaji": "Terada Kiyoyuki",
+    "source": [
+      "https://en.wikipedia.org/wiki/Gozo_Shioda",
+      "https://en.wikipedia.org/wiki/Terada_Kiyoyuki"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:terry-copperman",
+    "name_romaji": "Terry Copperman",
+    "source": [
+      "https://ki-society.com/?dojo=personal-kiatsu-school"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:than-vinh-pham",
+    "name_romaji": "Than Vinh Pham",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:thomas-burden",
+    "name_romaji": "Thomas Burden",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:thomas-h-makiyama",
+    "name_romaji": "Thomas H. Makiyama",
+    "source": [
+      "https://en.wikipedia.org/wiki/Gozo_Shioda",
+      "https://en.wikipedia.org/wiki/Thomas_H._Makiyama"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "current_rank": {
+      "dan": 8,
+      "title": null
+    }
+  },
+  {
+    "id": "person:thomas-milucci",
+    "name_romaji": "Thomas Milucci",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:tim-spies",
+    "name_romaji": "Tim Spies",
+    "source": [
+      "https://aaa-aikido.com/dojo/ryoshinkan-dojo/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:timothy-j-antrim",
+    "name_romaji": "Timothy J. Antrim",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:tina-shepard",
+    "name_romaji": "Tina Shepard",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:tinka-sloss",
+    "name_romaji": "Tinka Sloss",
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:tomita",
+    "name_romaji": "Tomita",
+    "source": [
+      "https://en.wikipedia.org/wiki/Bansen_Tanaka"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:tommy-lee-white",
+    "name_romaji": "Tommy Lee White",
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:toshiro-suga",
+    "name_romaji": "Toshiro Suga",
+    "source": [
+      "https://en.wikipedia.org/wiki/Nobuyoshi_Tamura",
+      "https://en.wikipedia.org/wiki/Toshiro_Suga"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:tracy-reasoner",
+    "name_romaji": "Tracy Reasoner",
+    "source": [
+      "https://ki-society.com/?dojo=shunshinkan-dojowailuku-hawaii"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:tsuneo-ando",
+    "name_romaji": "Tsuneo Ando",
+    "source": [
+      "https://en.wikipedia.org/wiki/Gozo_Shioda",
+      "https://en.wikipedia.org/wiki/Tsuneo_Ando"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:tsutomu-chida",
+    "name_romaji": "Tsutomu Chida",
+    "source": [
+      "https://en.wikipedia.org/wiki/Gozo_Shioda",
+      "https://en.wikipedia.org/wiki/Tsutomu_Chida",
+      "https://en.wikipedia.org/wiki/Robert_Mustard"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:ty-barker",
+    "name_romaji": "Ty Barker",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:vanessa-stringheti",
+    "name_romaji": "Vanessa Stringheti",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:victor-ancer",
+    "name_romaji": "Victor Ancer",
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:victor-hung",
+    "name_romaji": "Victor Hung",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:vidhya-rojanavongse",
+    "name_romaji": "Vidhya Rojanavongse",
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:vincent-hauser",
+    "name_romaji": "Vincent Hauser",
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:virginia-becart",
+    "name_romaji": "Virginia Becart",
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:vu-ha",
+    "name_romaji": "Vu Ha",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "notes": "Shihan title conferred 2022 (USAF Kagamibiraki)."
+  },
+  {
+    "id": "person:vu-xuan-ha",
+    "name_romaji": "Vu Xuan Ha",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:vural",
+    "name_romaji": "Vural",
+    "source": [
+      "https://en.wikipedia.org/wiki/Nobuyoshi_Tamura"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:walter-braxton-iii",
+    "name_romaji": "Walter Braxton III",
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:walter-marker",
+    "name_romaji": "Walter Marker",
+    "source": [
+      "https://aaa-aikido.com/dojo/seishinkan-dojo/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:wayne-brown",
+    "name_romaji": "Wayne Brown",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:wayne-massey",
+    "name_romaji": "Wayne Massey",
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:wayne-tsuma",
+    "name_romaji": "Wayne Tsuma",
+    "source": [
+      "https://ki-society.com/?dojo=las-vegas-ki-aikido-dojo"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:wendell-gault",
+    "name_romaji": "Wendell Gault",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:william-gleason",
+    "name_romaji": "William Gleason",
+    "source": [
+      "https://en.wikipedia.org/wiki/Mitsugi_Saotome"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:william-mcluskie",
+    "name_romaji": "William McLuskie",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:william-r-ross",
+    "name_romaji": "William R. Ross",
+    "source": [
+      "https://aaa-aikido.com/dojo/aikido-of-shreveport/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:william-tilles",
+    "name_romaji": "William Tilles",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:william-x-staub",
+    "name_romaji": "William X. Staub",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:wyatt-smith",
+    "name_romaji": "Wyatt Smith",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:yasuhiro-konishi",
+    "name_romaji": "Yasuhiro Konishi",
+    "source": [
+      "https://en.wikipedia.org/wiki/Shoji_Nishio"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:yasuhisa-shioda",
+    "name_romaji": "Yasuhisa Shioda",
+    "source": [
+      "https://en.wikipedia.org/wiki/Gozo_Shioda",
+      "https://en.wikipedia.org/wiki/Yasuhisa_Shioda"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:yordan-yordanov",
+    "name_romaji": "Yordan Yordanov",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:yoshimitsu-yamada",
+    "name_romaji": "Yoshimitsu Yamada",
+    "name_native": "山田 嘉光",
+    "aliases": [],
+    "born": "1938",
+    "died": "2023",
+    "deceased": true,
+    "notes": "Chief instructor, New York Aikikai; long-time USAF technical head.",
+    "source": [
+      "https://www.nyaikikai.com/",
+      "https://aikidojournal.com/",
+      "https://en.wikipedia.org/wiki/Yoshimitsu_Yamada"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "current_rank": {
+      "dan": 8,
+      "title": null
+    }
+  },
+  {
+    "id": "person:yoshio-sugino",
+    "name_romaji": "Yoshio Sugino",
+    "source": [
+      "https://en.wikipedia.org/wiki/Yoshio_Sugino"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:young-nguyen",
+    "name_romaji": "Young nguyen",
+    "source": [
+      "https://ki-society.com/?dojo=torrance-ki-aikido-dojo-calfornia"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:yousef-alsuwayed",
+    "name_romaji": "Yousef Alsuwayed",
+    "source": [
+      "https://aaa-aikido.com/dojo/tsushinkan-dojo/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:youssef-sadkane",
+    "name_romaji": "Youssef Sadkane",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:yukihisa-aokusa",
+    "name_romaji": "Yukihisa Aokusa",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "person:yukiko-katagiri",
+    "name_romaji": "Yukiko KATAGIRI",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  }
+]

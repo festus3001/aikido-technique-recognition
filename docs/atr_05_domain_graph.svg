@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1000" font-family="Georgia, 'Times New Roman', serif">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="44%" r="75%">
+      <stop offset="0%" stop-color="#fbfaf7"/>
+      <stop offset="100%" stop-color="#eee9df"/>
+    </radialGradient>
+    <style>
+      .tier-ring { fill:none; stroke:#c9bfa8; stroke-width:1; stroke-dasharray:3 5; opacity:.6; }
+      .ring-label { fill:#9a8f76; font-size:13px; font-style:italic; letter-spacing:.08em; }
+      .edge { stroke:#b7ac92; stroke-width:1.2; fill:none; opacity:.55; }
+      .edge-strong { stroke:#8a7f63; stroke-width:1.6; fill:none; opacity:.7; }
+      .edge-label { fill:#7d735a; font-size:10.5px; font-style:italic; }
+      .node-title { font-weight:bold; fill:#2b2620; }
+      .anchor-title { font-weight:bold; fill:#fff; font-size:15px; }
+      .anchor-sub { fill:#f3ede0; font-size:10px; }
+      .node-sub { fill:#6b6353; font-size:9.5px; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="1000" fill="url(#bg)"/>
+
+  <!-- Title -->
+  <text x="60" y="62" font-size="30" font-weight="bold" fill="#2b2620">Aikido Technique Recognition</text>
+  <text x="61" y="90" font-size="15" font-style="italic" fill="#7d735a">A domain graph — where the research sits and what feeds it</text>
+  <line x1="60" y1="104" x2="560" y2="104" stroke="#c0341d" stroke-width="2"/>
+
+  <!-- concentric tier rings (center ~ 600,560) -->
+  <circle class="tier-ring" cx="600" cy="560" r="180"/>
+  <circle class="tier-ring" cx="600" cy="560" r="320"/>
+  <circle class="tier-ring" cx="600" cy="560" r="430"/>
+  <text class="ring-label" x="600" y="362" text-anchor="middle" transform="rotate(0)"></text><text class="ring-label" x="430" y="445">on the path</text>
+  <text class="ring-label" x="600" y="252" text-anchor="middle">complementary — borrow from</text>
+  <text class="ring-label" x="600" y="142" text-anchor="middle">peripheral — adjacent fields</text>
+
+  <!-- ================= EDGES (drawn first, under nodes) ================= -->
+  <!-- anchors to center cluster: edges between the three anchors -->
+  <path class="edge-strong" d="M540,520 Q600,500 660,520"/>
+  <path class="edge-strong" d="M548,612 Q600,650 652,612"/>
+  <path class="edge-strong" d="M566,540 Q545,576 562,608"/>
+
+  <!-- on-path edges from center -->
+  <path class="edge" d="M600,490 L600,392"/>            <!-- bio motion up -->
+  <path class="edge" d="M672,512 L820,452"/>            <!-- pose estimation -->
+  <path class="edge" d="M672,608 L818,668"/>            <!-- interpersonal coord -->
+  <path class="edge" d="M528,608 L382,668"/>            <!-- action segmentation -->
+  <path class="edge" d="M528,512 L382,452"/>            <!-- bio motion bridge alt -->
+
+  <!-- complementary edges -->
+  <path class="edge" d="M600,392 L600,300"/>
+  <path class="edge" d="M820,452 L928,360"/>
+  <path class="edge" d="M818,668 L935,720"/>
+  <path class="edge" d="M382,668 L268,720"/>
+  <path class="edge" d="M382,452 L268,360"/>
+
+  <!-- peripheral edges -->
+  <path class="edge" d="M935,720 L1030,800"/>
+  <path class="edge" d="M268,720 L172,800"/>
+  <path class="edge" d="M268,360 L168,250"/>
+
+  <!-- edge labels -->
+  <text class="edge-label" x="408" y="500">intent lives in motion</text>
+  <text class="edge-label" x="700" y="478" transform="rotate(-22 700 478)">measurement layer</text>
+  <text class="edge-label" x="724" y="690" transform="rotate(22 724 690)">two-body coupling</text>
+  <text class="edge-label" x="300" y="648" transform="rotate(-22 300 648)">where technique begins/ends</text>
+
+  <!-- ================= ANCHOR NODES (center triad) ================= -->
+  <!-- Aikido / budo -->
+  <g>
+    <circle cx="600" cy="478" r="74" fill="#c0341d"/>
+    <text class="anchor-title" x="600" y="468" text-anchor="middle">Aikido &amp; Budo</text>
+    <text class="anchor-sub" x="600" y="486" text-anchor="middle">taxonomy · kuzushi</text>
+    <text class="anchor-sub" x="600" y="500" text-anchor="middle">musubi · pedagogy</text>
+  </g>
+  <!-- Movement science -->
+  <g>
+    <circle cx="524" cy="612" r="74" fill="#3d6b4f"/>
+    <text class="anchor-title" x="524" y="602" text-anchor="middle">Movement</text>
+    <text class="anchor-title" x="524" y="620" text-anchor="middle">Science</text>
+    <text class="anchor-sub" x="524" y="638" text-anchor="middle">motor control · synergies</text>
+  </g>
+  <!-- AI/ML for motion -->
+  <g>
+    <circle cx="676" cy="612" r="74" fill="#2f4a73"/>
+    <text class="anchor-title" x="676" y="602" text-anchor="middle">AI / ML</text>
+    <text class="anchor-title" x="676" y="620" text-anchor="middle">for Motion</text>
+    <text class="anchor-sub" x="676" y="638" text-anchor="middle">pose · skeleton · repr.</text>
+  </g>
+
+  <!-- ================= ON-PATH NODES ================= -->
+  <g>
+    <rect x="512" y="338" width="176" height="50" rx="8" fill="#fff" stroke="#c0341d" stroke-width="1.5"/>
+    <text class="node-title" x="600" y="360" text-anchor="middle" font-size="12.5">Biological Motion</text>
+    <text class="node-sub" x="600" y="376" text-anchor="middle">Johansson · point-light</text>
+  </g>
+  <g>
+    <rect x="812" y="428" width="170" height="50" rx="8" fill="#fff" stroke="#2f4a73" stroke-width="1.5"/>
+    <text class="node-title" x="897" y="450" text-anchor="middle" font-size="12.5">Pose Estimation / CV</text>
+    <text class="node-sub" x="897" y="466" text-anchor="middle">3D lifting · occlusion</text>
+  </g>
+  <g>
+    <rect x="812" y="644" width="170" height="50" rx="8" fill="#fff" stroke="#3d6b4f" stroke-width="1.5"/>
+    <text class="node-title" x="897" y="666" text-anchor="middle" font-size="12.5">Joint-Action Coord.</text>
+    <text class="node-sub" x="897" y="682" text-anchor="middle">entrainment · coupling</text>
+  </g>
+  <g>
+    <rect x="218" y="644" width="170" height="50" rx="8" fill="#fff" stroke="#2f4a73" stroke-width="1.5"/>
+    <text class="node-title" x="303" y="666" text-anchor="middle" font-size="12.5">Action Segmentation</text>
+    <text class="node-sub" x="303" y="682" text-anchor="middle">temporal boundaries</text>
+  </g>
+
+  <!-- ================= COMPLEMENTARY NODES ================= -->
+  <g>
+    <rect x="510" y="252" width="180" height="48" rx="8" fill="#f7f2e8" stroke="#a8946b" stroke-width="1"/>
+    <text class="node-title" x="600" y="272" text-anchor="middle" font-size="12">Action Quality Assess.</text>
+    <text class="node-sub" x="600" y="288" text-anchor="middle">scoring "how well"</text>
+  </g>
+  <g>
+    <rect x="846" y="336" width="166" height="48" rx="8" fill="#f7f2e8" stroke="#a8946b" stroke-width="1"/>
+    <text class="node-title" x="929" y="356" text-anchor="middle" font-size="12">Dance Computing</text>
+    <text class="node-sub" x="929" y="372" text-anchor="middle">Laban · AIST++ · style</text>
+  </g>
+  <g>
+    <rect x="852" y="696" width="166" height="48" rx="8" fill="#f7f2e8" stroke="#a8946b" stroke-width="1"/>
+    <text class="node-title" x="935" y="716" text-anchor="middle" font-size="12">Sports Performance</text>
+    <text class="node-sub" x="935" y="732" text-anchor="middle">technique analysis</text>
+  </g>
+  <g>
+    <rect x="186" y="696" width="166" height="48" rx="8" fill="#f7f2e8" stroke="#a8946b" stroke-width="1"/>
+    <text class="node-title" x="269" y="716" text-anchor="middle" font-size="12">Compositional ML</text>
+    <text class="node-sub" x="269" y="732" text-anchor="middle">parsing · zero-shot</text>
+  </g>
+  <g>
+    <rect x="186" y="336" width="166" height="48" rx="8" fill="#f7f2e8" stroke="#a8946b" stroke-width="1"/>
+    <text class="node-title" x="269" y="356" text-anchor="middle" font-size="12">Embodied Cognition</text>
+    <text class="node-sub" x="269" y="372" text-anchor="middle">tacit skill · phenomenology</text>
+  </g>
+
+  <!-- ================= PERIPHERAL NODES ================= -->
+  <g opacity="0.92">
+    <rect x="942" y="780" width="180" height="46" rx="8" fill="#efe9dc" stroke="#bdb295" stroke-width="1" stroke-dasharray="4 3"/>
+    <text class="node-title" x="1032" y="799" text-anchor="middle" font-size="11.5" fill="#544c3c">Affective Computing</text>
+    <text class="node-sub" x="1032" y="815" text-anchor="middle">emotion / intent in motion</text>
+  </g>
+  <g opacity="0.92">
+    <rect x="82" y="780" width="180" height="46" rx="8" fill="#efe9dc" stroke="#bdb295" stroke-width="1" stroke-dasharray="4 3"/>
+    <text class="node-title" x="172" y="799" text-anchor="middle" font-size="11.5" fill="#544c3c">Heritage Preservation</text>
+    <text class="node-sub" x="172" y="815" text-anchor="middle">archive · intangible heritage</text>
+  </g>
+  <g opacity="0.92">
+    <rect x="78" y="226" width="180" height="46" rx="8" fill="#efe9dc" stroke="#bdb295" stroke-width="1" stroke-dasharray="4 3"/>
+    <text class="node-title" x="168" y="245" text-anchor="middle" font-size="11.5" fill="#544c3c">Robotics / Imitation</text>
+    <text class="node-sub" x="168" y="261" text-anchor="middle">primitives · learning from demo</text>
+  </g>
+
+  <!-- legend -->
+  <g transform="translate(60,892)">
+    <circle cx="8" cy="0" r="8" fill="#c0341d"/><text x="24" y="4" font-size="12" fill="#4a4234">Aikido / budo</text>
+    <circle cx="150" cy="0" r="8" fill="#3d6b4f"/><text x="166" y="4" font-size="12" fill="#4a4234">Movement science</text>
+    <circle cx="320" cy="0" r="8" fill="#2f4a73"/><text x="336" y="4" font-size="12" fill="#4a4234">AI / ML</text>
+    <rect x="452" y="-7" width="16" height="14" rx="3" fill="#f7f2e8" stroke="#a8946b"/><text x="476" y="4" font-size="12" fill="#4a4234">complementary</text>
+    <rect x="612" y="-7" width="16" height="14" rx="3" fill="#efe9dc" stroke="#bdb295" stroke-dasharray="4 3"/><text x="636" y="4" font-size="12" fill="#4a4234">peripheral</text>
+  </g>
+  <text x="1140" y="980" text-anchor="end" font-size="11" fill="#9a8f76" font-style="italic">ATR · domain graph · rev 2026-06-08 · draft</text>
+</svg>

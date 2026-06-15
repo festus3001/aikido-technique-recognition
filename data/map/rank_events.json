@@ -1,0 +1,2844 @@
+[
+  {
+    "id": "rank:alan-fishbone+2026-01-01+5",
+    "person": "person:alan-fishbone",
+    "dan": 5,
+    "title": null,
+    "date": "2026-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:new-york-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:alan-gay+2026-01-01+6",
+    "person": "person:alan-gay",
+    "dan": 6,
+    "title": null,
+    "date": "2026-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:savannah-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:alicia-cordero-hardesty+2023-01-01+7",
+    "person": "person:alicia-cordero-hardesty",
+    "dan": 7,
+    "title": null,
+    "date": "2023-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:kentuckiana-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:andrew-demko+2026-01-01+8",
+    "person": "person:andrew-demko",
+    "dan": 8,
+    "title": null,
+    "date": "2026-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:new-castle-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:andrew-l-demko+2024-01-01+6",
+    "person": "person:andrew-l-demko",
+    "dan": 6,
+    "title": null,
+    "date": "2024-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:new-castle-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:andrew-lee+2022-01-01+5",
+    "person": "person:andrew-lee",
+    "dan": 5,
+    "title": null,
+    "date": "2022-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:new-york-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:andrew-obeidy+2026-01-01+5",
+    "person": "person:andrew-obeidy",
+    "dan": 5,
+    "title": null,
+    "date": "2026-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:florida-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:andrew-small+2023-01-01+5",
+    "person": "person:andrew-small",
+    "dan": 5,
+    "title": null,
+    "date": "2023-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:aikido-schools-of-new-jersey",
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:angela-murphy+2022-01-01+5",
+    "person": "person:angela-murphy",
+    "dan": 5,
+    "title": null,
+    "date": "2022-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:alamo-area-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:anthea-pascaris+2026-01-01+6",
+    "person": "person:anthea-pascaris",
+    "dan": 6,
+    "title": null,
+    "date": "2026-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:notting-hill-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:anthony-chong+2024-01-01+6",
+    "person": "person:anthony-chong",
+    "dan": 6,
+    "title": null,
+    "date": "2024-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:aikido-aruba",
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:anthony-fiore+2022-01-01+6",
+    "person": "person:anthony-fiore",
+    "dan": 6,
+    "title": null,
+    "date": "2022-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:aikido-of-chester-county",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:art-wise+2023-01-01+7",
+    "person": "person:art-wise",
+    "dan": 7,
+    "title": null,
+    "date": "2023-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:evanston-aikido-center",
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:arturo-fisher+2026-01-01+6",
+    "person": "person:arturo-fisher",
+    "dan": 6,
+    "title": null,
+    "date": "2026-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:new-york-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:arturo-peal+2022-01-01+6",
+    "person": "person:arturo-peal",
+    "dan": 6,
+    "title": null,
+    "date": "2022-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:aikido-of-new-orleans",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:barry-richardson+2025-01-01+5",
+    "person": "person:barry-richardson",
+    "dan": 5,
+    "title": null,
+    "date": "2025-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:sand-drift-aikido",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:beniamin-vardanyan+2025-01-01+6",
+    "person": "person:beniamin-vardanyan",
+    "dan": 6,
+    "title": null,
+    "date": "2025-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:center-island-aikido",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:bernard-calma+2025-01-01+5",
+    "person": "person:bernard-calma",
+    "dan": 5,
+    "title": null,
+    "date": "2025-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:glen-ellyn-aikido-club",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:bob-reister+2026-01-01+5",
+    "person": "person:bob-reister",
+    "dan": 5,
+    "title": null,
+    "date": "2026-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:florida-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:brian-curtis+2025-01-01+5",
+    "person": "person:brian-curtis",
+    "dan": 5,
+    "title": null,
+    "date": "2025-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:aikido-of-park-slope",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:brian-dupont+2024-01-01+6",
+    "person": "person:brian-dupont",
+    "dan": 6,
+    "title": null,
+    "date": "2024-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:new-york-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:brian-ericksen+2025-01-01+6",
+    "person": "person:brian-ericksen",
+    "dan": 6,
+    "title": null,
+    "date": "2025-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:heaven-and-earth-aikido",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:brian-mizerak+2025-01-01+7",
+    "person": "person:brian-mizerak",
+    "dan": 7,
+    "title": null,
+    "date": "2025-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:kingston-aikido",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:brian-sykes+2026-01-01+5",
+    "person": "person:brian-sykes",
+    "dan": 5,
+    "title": null,
+    "date": "2026-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:north-coast-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:bruce-bookman+2025-01-01+7",
+    "person": "person:bruce-bookman",
+    "dan": 7,
+    "title": null,
+    "date": "2025-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:tenzan-aikido",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:calvin-blanchard+2022-01-01+6",
+    "person": "person:calvin-blanchard",
+    "dan": 6,
+    "title": null,
+    "date": "2022-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:twin-cities-aikido-center",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:carmine-franzese+2025-01-01+6",
+    "person": "person:carmine-franzese",
+    "dan": 6,
+    "title": null,
+    "date": "2025-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:aikido-of-park-slope",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:charles-dubois+2023-01-01+5",
+    "person": "person:charles-dubois",
+    "dan": 5,
+    "title": null,
+    "date": "2023-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:aikido-de-la-montagne",
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:charn-pennewaert+2026-01-01+5",
+    "person": "person:charn-pennewaert",
+    "dan": 5,
+    "title": null,
+    "date": "2026-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:newport-beach-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:chester-griffin+2023-01-01+7",
+    "person": "person:chester-griffin",
+    "dan": 7,
+    "title": null,
+    "date": "2023-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:long-beach-island-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:christopher-kerin+2026-01-01+5",
+    "person": "person:christopher-kerin",
+    "dan": 5,
+    "title": null,
+    "date": "2026-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:aikido-of-fairfield-county",
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:claude-berthiaume+2025-01-01+8",
+    "person": "person:claude-berthiaume",
+    "dan": 8,
+    "title": null,
+    "date": "2025-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:aikido-de-la-montagne",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:clemon-richardson+2025-01-01+5",
+    "person": "person:clemon-richardson",
+    "dan": 5,
+    "title": null,
+    "date": "2025-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:aikido-of-park-slope",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:colleen-bothwell+2022-01-01+5",
+    "person": "person:colleen-bothwell",
+    "dan": 5,
+    "title": null,
+    "date": "2022-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:new-york-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:colleen-hogan+2024-01-01+6",
+    "person": "person:colleen-hogan",
+    "dan": 6,
+    "title": null,
+    "date": "2024-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:east-end-aikido-nl",
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:constance-temper+2023-01-01+5",
+    "person": "person:constance-temper",
+    "dan": 5,
+    "title": null,
+    "date": "2023-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:aikido-schools-of-new-jersey",
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:cyril-landise+2024-01-01+6",
+    "person": "person:cyril-landise",
+    "dan": 6,
+    "title": null,
+    "date": "2024-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:midwest-aikido-center",
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:damon-apodaca+2023-01-01+7",
+    "person": "person:damon-apodaca",
+    "dan": 7,
+    "title": null,
+    "date": "2023-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:santa-fe-budokan",
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:daniel-laurendeau+2022-01-01+7",
+    "person": "person:daniel-laurendeau",
+    "dan": 7,
+    "title": null,
+    "date": "2022-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:mcgill-aikido",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:daniel-palmer+2025-01-01+7",
+    "person": "person:daniel-palmer",
+    "dan": 7,
+    "title": null,
+    "date": "2025-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:asheville-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:darrell-grant+2025-01-01+6",
+    "person": "person:darrell-grant",
+    "dan": 6,
+    "title": null,
+    "date": "2025-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:southern-maryland-aikido-center",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:daryl-muranaka+2023-01-01+5",
+    "person": "person:daryl-muranaka",
+    "dan": 5,
+    "title": null,
+    "date": "2023-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:harvard-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:david-cody+2025-01-01+5",
+    "person": "person:david-cody",
+    "dan": 5,
+    "title": null,
+    "date": "2025-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:aikido-of-new-orleans",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:david-katz+2023-01-01+5",
+    "person": "person:david-katz",
+    "dan": 5,
+    "title": null,
+    "date": "2023-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:aikido-of-westchester",
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:david-law+2024-01-01+5",
+    "person": "person:david-law",
+    "dan": 5,
+    "title": null,
+    "date": "2024-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:woodstock-aikido",
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:david-norton+2023-01-01+6",
+    "person": "person:david-norton",
+    "dan": 6,
+    "title": null,
+    "date": "2023-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:pax-river-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:david-reinfeld+2024-01-01+6",
+    "person": "person:david-reinfeld",
+    "dan": 6,
+    "title": null,
+    "date": "2024-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:new-york-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:david-ross+2024-01-01+6",
+    "person": "person:david-ross",
+    "dan": 6,
+    "title": null,
+    "date": "2024-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:aiki-muenster",
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:david-smilow+2025-01-01+7",
+    "person": "person:david-smilow",
+    "dan": 7,
+    "title": null,
+    "date": "2025-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:woodstock-aikido",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:dermot-mcdonald+2022-01-01+7",
+    "person": "person:dermot-mcdonald",
+    "dan": 7,
+    "title": null,
+    "date": "2022-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:aikido-institute-of-newfoundland",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:derrell-thomas+2024-01-01+5",
+    "person": "person:derrell-thomas",
+    "dan": 5,
+    "title": null,
+    "date": "2024-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:aikido-schools-of-new-jersey",
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:donald-zdeb+2022-01-01+5",
+    "person": "person:donald-zdeb",
+    "dan": 5,
+    "title": null,
+    "date": "2022-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:litchfield-hills-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:donna-grant+2025-01-01+5",
+    "person": "person:donna-grant",
+    "dan": 5,
+    "title": null,
+    "date": "2025-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:southern-maryland-aikido-center",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:driss-benmoussa+2025-01-01+6",
+    "person": "person:driss-benmoussa",
+    "dan": 6,
+    "title": null,
+    "date": "2025-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:casablanca-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:edmund-di-marco+2022-01-01+7",
+    "person": "person:edmund-di-marco",
+    "dan": 7,
+    "title": null,
+    "date": "2022-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:lake-county-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:edward-kardell+2022-01-01+5",
+    "person": "person:edward-kardell",
+    "dan": 5,
+    "title": null,
+    "date": "2022-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:aikido-of-the-canyonlands",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:edward-leung+2022-01-01+5",
+    "person": "person:edward-leung",
+    "dan": 5,
+    "title": null,
+    "date": "2022-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:new-york-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:eliot-rifkin+2023-01-01+7",
+    "person": "person:eliot-rifkin",
+    "dan": 7,
+    "title": null,
+    "date": "2023-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:miami-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:ernest-lemon-jr+2022-01-01+5",
+    "person": "person:ernest-lemon-jr",
+    "dan": 5,
+    "title": null,
+    "date": "2022-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:new-york-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:eugene-o-connor+2024-01-01+6",
+    "person": "person:eugene-o-connor",
+    "dan": 6,
+    "title": null,
+    "date": "2024-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:bermuda-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:evan-sobel+2023-01-01+5",
+    "person": "person:evan-sobel",
+    "dan": 5,
+    "title": null,
+    "date": "2023-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:aikido-of-park-slope",
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:francesco-grieco+2022-01-01+5",
+    "person": "person:francesco-grieco",
+    "dan": 5,
+    "title": null,
+    "date": "2022-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:aikido-of-santa-barbara",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:fred-foote+2022-01-01+6",
+    "person": "person:fred-foote",
+    "dan": 6,
+    "title": null,
+    "date": "2022-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:san-francisco-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:gabriele-bixel+2025-01-01+5",
+    "person": "person:gabriele-bixel",
+    "dan": 5,
+    "title": null,
+    "date": "2025-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:aiki-muenster",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:garn-sherman+2022-01-01+5",
+    "person": "person:garn-sherman",
+    "dan": 5,
+    "title": null,
+    "date": "2022-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:west-georgia-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:gary-roberts+2022-01-01+6",
+    "person": "person:gary-roberts",
+    "dan": 6,
+    "title": null,
+    "date": "2022-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:ottawa-aikido-centre",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:gentil-pennewaert+2023-01-01+7",
+    "person": "person:gentil-pennewaert",
+    "dan": 7,
+    "title": null,
+    "date": "2023-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:newport-beach-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:george-hemmings+2023-01-01+6",
+    "person": "person:george-hemmings",
+    "dan": 6,
+    "title": null,
+    "date": "2023-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:st-ives-aiki-dojo",
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:georgette-frate-mikus+2022-01-01+6",
+    "person": "person:georgette-frate-mikus",
+    "dan": 6,
+    "title": null,
+    "date": "2022-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:north-coast-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:giles-longpre+2022-01-01+7",
+    "person": "person:giles-longpre",
+    "dan": 7,
+    "title": null,
+    "date": "2022-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:mcgill-aikido",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:gina-zarrilli+2022-01-01+7",
+    "person": "person:gina-zarrilli",
+    "dan": 7,
+    "title": null,
+    "date": "2022-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:new-york-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:giorgio-mariana+2023-01-01+5",
+    "person": "person:giorgio-mariana",
+    "dan": 5,
+    "title": null,
+    "date": "2023-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:aikido-of-scottsdale",
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:giovani-villafane+2024-01-01+6",
+    "person": "person:giovani-villafane",
+    "dan": 6,
+    "title": null,
+    "date": "2024-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:chiheisen-dojo",
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:gleb-shumyatsky+2024-01-01+5",
+    "person": "person:gleb-shumyatsky",
+    "dan": 5,
+    "title": null,
+    "date": "2024-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:new-york-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:glenn-brooks+2022-01-01+7",
+    "person": "person:glenn-brooks",
+    "dan": 7,
+    "title": null,
+    "date": "2022-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:aikido-of-scottsdale",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:glenn-murray+2026-01-01+5",
+    "person": "person:glenn-murray",
+    "dan": 5,
+    "title": null,
+    "date": "2026-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:aikido-center-of-atlanta",
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:gorman-miller+2026-01-01+5",
+    "person": "person:gorman-miller",
+    "dan": 5,
+    "title": null,
+    "date": "2026-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:sand-drift-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:gustavo-ramos+2023-01-01+7",
+    "person": "person:gustavo-ramos",
+    "dan": 7,
+    "title": null,
+    "date": "2023-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:miami-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:harvey-konigsberg+2024-01-01+8",
+    "person": "person:harvey-konigsberg",
+    "dan": 8,
+    "title": null,
+    "date": "2024-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:woodstock-aikido",
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:indra-gandy+2023-01-01+5",
+    "person": "person:indra-gandy",
+    "dan": 5,
+    "title": null,
+    "date": "2023-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:new-york-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:james-constable+2023-01-01+6",
+    "person": "person:james-constable",
+    "dan": 6,
+    "title": null,
+    "date": "2023-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:lunenburg-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:james-shaffer+2023-01-01+5",
+    "person": "person:james-shaffer",
+    "dan": 5,
+    "title": null,
+    "date": "2023-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:long-beach-island-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:janet-lowe+2025-01-01+6",
+    "person": "person:janet-lowe",
+    "dan": 6,
+    "title": null,
+    "date": "2025-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:florida-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:javier-dominguez+2022-01-01+5",
+    "person": "person:javier-dominguez",
+    "dan": 5,
+    "title": null,
+    "date": "2022-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:new-york-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:jean-laplante+2025-01-01+6",
+    "person": "person:jean-laplante",
+    "dan": 6,
+    "title": null,
+    "date": "2025-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:aikikai-de-l-universite-laval",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:jean-michel-hovan+2024-01-01+6",
+    "person": "person:jean-michel-hovan",
+    "dan": 6,
+    "title": null,
+    "date": "2024-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:granite-state-aikido-club",
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:jeffrey-hilland+2023-01-01+5",
+    "person": "person:jeffrey-hilland",
+    "dan": 5,
+    "title": null,
+    "date": "2023-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:austin-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:jene-rene-david+2022-01-01+6",
+    "person": "person:jene-rene-david",
+    "dan": 6,
+    "title": null,
+    "date": "2022-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:aikido-de-la-montagne",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:jerry-dewees+2026-01-01+5",
+    "person": "person:jerry-dewees",
+    "dan": 5,
+    "title": null,
+    "date": "2026-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:twin-cities-aikido-center",
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:joan-alcantara+2024-01-01+5",
+    "person": "person:joan-alcantara",
+    "dan": 5,
+    "title": null,
+    "date": "2024-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:newport-beach-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:joan-nakatsugawa+2022-01-01+5",
+    "person": "person:joan-nakatsugawa",
+    "dan": 5,
+    "title": null,
+    "date": "2022-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:new-york-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:joanne-recca+2025-01-01+5",
+    "person": "person:joanne-recca",
+    "dan": 5,
+    "title": null,
+    "date": "2025-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:aikido-of-nassau-county",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:joel-leffert+2026-01-01+6",
+    "person": "person:joel-leffert",
+    "dan": 6,
+    "title": null,
+    "date": "2026-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:woodstock-aikido",
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:john-chiarolanzio+2025-01-01+6",
+    "person": "person:john-chiarolanzio",
+    "dan": 6,
+    "title": null,
+    "date": "2025-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:woodstock-aikido",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:john-donnelly+2023-01-01+5",
+    "person": "person:john-donnelly",
+    "dan": 5,
+    "title": null,
+    "date": "2023-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:boston-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:john-huang+2025-01-01+5",
+    "person": "person:john-huang",
+    "dan": 5,
+    "title": null,
+    "date": "2025-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:aikido-of-ramapo-valley",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:john-lepore+2024-01-01+5",
+    "person": "person:john-lepore",
+    "dan": 5,
+    "title": null,
+    "date": "2024-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:aikido-of-chester-county",
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:john-ottavino+2022-01-01+6",
+    "person": "person:john-ottavino",
+    "dan": 6,
+    "title": null,
+    "date": "2022-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:new-york-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:john-porter+2025-01-01+6",
+    "person": "person:john-porter",
+    "dan": 6,
+    "title": null,
+    "date": "2025-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:aikikai-of-philadelphia",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:jonathan-weiner+2026-01-01+6",
+    "person": "person:jonathan-weiner",
+    "dan": 6,
+    "title": null,
+    "date": "2026-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:aikido-of-charlotte",
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:jose-arturo-bonachea+2022-01-01+5",
+    "person": "person:jose-arturo-bonachea",
+    "dan": 5,
+    "title": null,
+    "date": "2022-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:miami-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:josemar-dias+2024-01-01+5",
+    "person": "person:josemar-dias",
+    "dan": 5,
+    "title": null,
+    "date": "2024-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:instituto-makaro-de-aikido",
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:joshua-layton+2025-01-01+6",
+    "person": "person:joshua-layton",
+    "dan": 6,
+    "title": null,
+    "date": "2025-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:monteregie-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:josnei-macedo-dias+2026-01-01+5",
+    "person": "person:josnei-macedo-dias",
+    "dan": 5,
+    "title": null,
+    "date": "2026-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:instituto-makoto-de-aikido",
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:juan-carlos-cruz+2022-01-01+5",
+    "person": "person:juan-carlos-cruz",
+    "dan": 5,
+    "title": null,
+    "date": "2022-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:mcgill-aikido",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:juan-sampayo-sarraga+2026-01-01+6",
+    "person": "person:juan-sampayo-sarraga",
+    "dan": 6,
+    "title": null,
+    "date": "2026-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:san-juan-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:junya-nakatsugawa+2022-01-01+6",
+    "person": "person:junya-nakatsugawa",
+    "dan": 6,
+    "title": null,
+    "date": "2022-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:new-york-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:k-hawk-durham+2023-01-01+5",
+    "person": "person:k-hawk-durham",
+    "dan": 5,
+    "title": null,
+    "date": "2023-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:evanston-aikido-center",
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:kali-hewitt-blackie+2026-01-01+6",
+    "person": "person:kali-hewitt-blackie",
+    "dan": 6,
+    "title": null,
+    "date": "2026-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:woodstock-aikido",
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:keisuke-ogawa+2022-01-01+5",
+    "person": "person:keisuke-ogawa",
+    "dan": 5,
+    "title": null,
+    "date": "2022-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:new-york-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:keith-lit+2025-01-01+5",
+    "person": "person:keith-lit",
+    "dan": 5,
+    "title": null,
+    "date": "2025-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:florida-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:kevin-grace+2022-01-01+5",
+    "person": "person:kevin-grace",
+    "dan": 5,
+    "title": null,
+    "date": "2022-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:albant-aikido",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:kevin-kanesaka+2022-01-01+5",
+    "person": "person:kevin-kanesaka",
+    "dan": 5,
+    "title": null,
+    "date": "2022-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:new-york-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:kim-johnston+2025-01-01+5",
+    "person": "person:kim-johnston",
+    "dan": 5,
+    "title": null,
+    "date": "2025-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:ny-eastside-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:koei-kuwahara+2024-01-01+5",
+    "person": "person:koei-kuwahara",
+    "dan": 5,
+    "title": null,
+    "date": "2024-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:new-england-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:krzysztof-zawadzki+2026-01-01+5",
+    "person": "person:krzysztof-zawadzki",
+    "dan": 5,
+    "title": null,
+    "date": "2026-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:aikido-of-fairfield-county",
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:laura-gabbe+2026-01-01+6",
+    "person": "person:laura-gabbe",
+    "dan": 6,
+    "title": null,
+    "date": "2026-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:aikido-of-park-slope",
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:laura-jacobs-pavlick+2023-01-01+7",
+    "person": "person:laura-jacobs-pavlick",
+    "dan": 7,
+    "title": null,
+    "date": "2023-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:litchfield-hills-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:lauren-mallas+2022-01-01+6",
+    "person": "person:lauren-mallas",
+    "dan": 6,
+    "title": null,
+    "date": "2022-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:san-francisco-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:lenore-killam+2023-01-01+6",
+    "person": "person:lenore-killam",
+    "dan": 6,
+    "title": null,
+    "date": "2023-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:sangamon-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:linda-jones+2022-01-01+5",
+    "person": "person:linda-jones",
+    "dan": 5,
+    "title": null,
+    "date": "2022-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:new-york-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:linda-robins+2024-01-01+5",
+    "person": "person:linda-robins",
+    "dan": 5,
+    "title": null,
+    "date": "2024-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:new-york-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:louis-caron+2022-01-01+5",
+    "person": "person:louis-caron",
+    "dan": 5,
+    "title": null,
+    "date": "2022-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:aikido-of-santa-barbara",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:lowell-miller+2025-01-01+7",
+    "person": "person:lowell-miller",
+    "dan": 7,
+    "title": null,
+    "date": "2025-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:woodstock-aikido",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:m-david-cormalleth+2022-01-01+5",
+    "person": "person:m-david-cormalleth",
+    "dan": 5,
+    "title": null,
+    "date": "2022-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:midwest-aikido-center",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:maite-azcoitia+2026-01-01+6",
+    "person": "person:maite-azcoitia",
+    "dan": 6,
+    "title": null,
+    "date": "2026-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:gold-coast-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:marcel-gonzalez+2026-01-01+5",
+    "person": "person:marcel-gonzalez",
+    "dan": 5,
+    "title": null,
+    "date": "2026-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:aikido-of-miami",
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:marcos-miranda+2022-01-01+6",
+    "person": "person:marcos-miranda",
+    "dan": 6,
+    "title": null,
+    "date": "2022-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:palm-beach-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:maria-janczuk+2023-01-01+6",
+    "person": "person:maria-janczuk",
+    "dan": 6,
+    "title": null,
+    "date": "2023-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:aikido-la-forge",
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:marilyn-st-john+2022-01-01+6",
+    "person": "person:marilyn-st-john",
+    "dan": 6,
+    "title": null,
+    "date": "2022-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:woodstock-aikido",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:mark-voorhees+2024-01-01+6",
+    "person": "person:mark-voorhees",
+    "dan": 6,
+    "title": null,
+    "date": "2024-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:new-york-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:mary-dee-seabolt+2025-01-01+6",
+    "person": "person:mary-dee-seabolt",
+    "dan": 6,
+    "title": null,
+    "date": "2025-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:aikido-center-of-jacksonville",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:mary-fuller+2023-01-01+5",
+    "person": "person:mary-fuller",
+    "dan": 5,
+    "title": null,
+    "date": "2023-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:boston-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:masashi-umemoto+2026-01-01+5",
+    "person": "person:masashi-umemoto",
+    "dan": 5,
+    "title": null,
+    "date": "2026-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:aikido-of-charlotte",
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:matthias-lynch+2023-01-01+6",
+    "person": "person:matthias-lynch",
+    "dan": 6,
+    "title": null,
+    "date": "2023-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:glen-ellyn-aikido-club",
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:maurits-filet+2026-01-01+6",
+    "person": "person:maurits-filet",
+    "dan": 6,
+    "title": null,
+    "date": "2026-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:florida-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:meipo-martin+2025-01-01+6",
+    "person": "person:meipo-martin",
+    "dan": 6,
+    "title": null,
+    "date": "2025-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:capital-hill-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:michael-abrams+2024-01-01+8",
+    "person": "person:michael-abrams",
+    "dan": 8,
+    "title": null,
+    "date": "2024-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:new-york-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:michael-clair+2024-01-01+6",
+    "person": "person:michael-clair",
+    "dan": 6,
+    "title": null,
+    "date": "2024-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:fudoshin-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:michael-grover+2025-01-01+6",
+    "person": "person:michael-grover",
+    "dan": 6,
+    "title": null,
+    "date": "2025-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:aikido-of-seminole-county",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:michael-livingston+2025-01-01+5",
+    "person": "person:michael-livingston",
+    "dan": 5,
+    "title": null,
+    "date": "2025-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:center-island-aikido",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:michael-pak+2025-01-01+5",
+    "person": "person:michael-pak",
+    "dan": 5,
+    "title": null,
+    "date": "2025-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:kaist-aikido",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:michael-silverman+2026-01-01+5",
+    "person": "person:michael-silverman",
+    "dan": 5,
+    "title": null,
+    "date": "2026-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:asheville-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:mick-cipra+2025-01-01+5",
+    "person": "person:mick-cipra",
+    "dan": 5,
+    "title": null,
+    "date": "2025-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:twin-cities-aikido-center",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:neil-quigley+2022-01-01+5",
+    "person": "person:neil-quigley",
+    "dan": 5,
+    "title": null,
+    "date": "2022-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:aikido-institute-of-newfoundland",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:nicholas-ross+2026-01-01+5",
+    "person": "person:nicholas-ross",
+    "dan": 5,
+    "title": null,
+    "date": "2026-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:woodstock-aikido",
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:noel-murphy+2025-01-01+6",
+    "person": "person:noel-murphy",
+    "dan": 6,
+    "title": null,
+    "date": "2025-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:alamo-area-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:noriko-oba+2022-01-01+6",
+    "person": "person:noriko-oba",
+    "dan": 6,
+    "title": null,
+    "date": "2022-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:new-york-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:norman-brodeur+2026-01-01+5",
+    "person": "person:norman-brodeur",
+    "dan": 5,
+    "title": null,
+    "date": "2026-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:aikikai-de-l-universite-laval",
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:oscar-ortega-izquierdo+2025-01-01+5",
+    "person": "person:oscar-ortega-izquierdo",
+    "dan": 5,
+    "title": null,
+    "date": "2025-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:aikido-of-miami",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:pascal-kim+2022-01-01+5",
+    "person": "person:pascal-kim",
+    "dan": 5,
+    "title": null,
+    "date": "2022-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:new-york-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:patricia-demko+2024-01-01+6",
+    "person": "person:patricia-demko",
+    "dan": 6,
+    "title": null,
+    "date": "2024-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:new-castle-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:patrick-hardesty+2023-01-01+7",
+    "person": "person:patrick-hardesty",
+    "dan": 7,
+    "title": null,
+    "date": "2023-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:kentuckiana-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:paul-forhan+2023-01-01+6",
+    "person": "person:paul-forhan",
+    "dan": 6,
+    "title": null,
+    "date": "2023-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:aikido-of-el-paso",
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:paul-glavine+2024-01-01+6",
+    "person": "person:paul-glavine",
+    "dan": 6,
+    "title": null,
+    "date": "2024-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:aikido-institute-of-newfoundland",
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:paul-manogue+2023-01-01+6",
+    "person": "person:paul-manogue",
+    "dan": 6,
+    "title": null,
+    "date": "2023-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:aikido-of-raritan-valley",
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:paul-zimet+2022-01-01+7",
+    "person": "person:paul-zimet",
+    "dan": 7,
+    "title": null,
+    "date": "2022-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:new-york-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:paulo-ivan-volochyn+2024-01-01+6",
+    "person": "person:paulo-ivan-volochyn",
+    "dan": 6,
+    "title": null,
+    "date": "2024-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:aikikai-shinka-dojo",
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:peter-bernath+2025-01-01+8",
+    "person": "person:peter-bernath",
+    "dan": 8,
+    "title": null,
+    "date": "2025-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:florida-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:philip-halpern+2024-01-01+6",
+    "person": "person:philip-halpern",
+    "dan": 6,
+    "title": null,
+    "date": "2024-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:new-york-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:philippe-niemetz+2022-01-01+5",
+    "person": "person:philippe-niemetz",
+    "dan": 5,
+    "title": null,
+    "date": "2022-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:new-york-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:ramon-ruilopez+2022-01-01+5",
+    "person": "person:ramon-ruilopez",
+    "dan": 5,
+    "title": null,
+    "date": "2022-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:aikido-center-of-jacksonville",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:randall-smith+2022-01-01+5",
+    "person": "person:randall-smith",
+    "dan": 5,
+    "title": null,
+    "date": "2022-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:florida-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:randy-beck+2025-01-01+6",
+    "person": "person:randy-beck",
+    "dan": 6,
+    "title": null,
+    "date": "2025-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:sand-drift-aikido",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:rejean-gauthier+2026-01-01+5",
+    "person": "person:rejean-gauthier",
+    "dan": 5,
+    "title": null,
+    "date": "2026-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:aikikai-de-l-universite-laval",
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:reynold-hoyte+2026-01-01+5",
+    "person": "person:reynold-hoyte",
+    "dan": 5,
+    "title": null,
+    "date": "2026-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:new-york-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:richard-backer+2022-01-01+5",
+    "person": "person:richard-backer",
+    "dan": 5,
+    "title": null,
+    "date": "2022-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:new-york-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:richard-colacino+2024-01-01+5",
+    "person": "person:richard-colacino",
+    "dan": 5,
+    "title": null,
+    "date": "2024-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:aikido-of-park-slope",
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:richard-colby+2024-01-01+6",
+    "person": "person:richard-colby",
+    "dan": 6,
+    "title": null,
+    "date": "2024-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:plano-aikido-center",
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:richard-gibbs+2023-01-01+5",
+    "person": "person:richard-gibbs",
+    "dan": 5,
+    "title": null,
+    "date": "2023-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:houston-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:richard-morrison+2024-01-01+6",
+    "person": "person:richard-morrison",
+    "dan": 6,
+    "title": null,
+    "date": "2024-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:center-island-aikido",
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:robert-hyatt+2024-01-01+6",
+    "person": "person:robert-hyatt",
+    "dan": 6,
+    "title": null,
+    "date": "2024-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:maru-aikikai-south",
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:robert-vichins+2026-01-01+6",
+    "person": "person:robert-vichins",
+    "dan": 6,
+    "title": null,
+    "date": "2026-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:aikido-of-park-slope",
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:roderick-johnson+2023-01-01+5",
+    "person": "person:roderick-johnson",
+    "dan": 5,
+    "title": null,
+    "date": "2023-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:aikikai-if-philadelphia",
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:ronald-cadillo-chavez+2026-01-01+6",
+    "person": "person:ronald-cadillo-chavez",
+    "dan": 6,
+    "title": null,
+    "date": "2026-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:san-juan-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:sac-tran+2025-01-01+5",
+    "person": "person:sac-tran",
+    "dan": 5,
+    "title": null,
+    "date": "2025-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:greater-hartford-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:scott-korbylo+2022-01-01+5",
+    "person": "person:scott-korbylo",
+    "dan": 5,
+    "title": null,
+    "date": "2022-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:aikido-of-raritan-valley",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:sean-conley+2024-01-01+6",
+    "person": "person:sean-conley",
+    "dan": 6,
+    "title": null,
+    "date": "2024-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:martha-s-vineyard-aikido-club",
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:sergio-cuevas+2026-01-01+5",
+    "person": "person:sergio-cuevas",
+    "dan": 5,
+    "title": null,
+    "date": "2026-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:palm-beach-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:shahram-moradi+2024-01-01+5",
+    "person": "person:shahram-moradi",
+    "dan": 5,
+    "title": null,
+    "date": "2024-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:fudoshin-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:shai-golan+2024-01-01+5",
+    "person": "person:shai-golan",
+    "dan": 5,
+    "title": null,
+    "date": "2024-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:new-york-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:sidney-shiba+2023-01-01+6",
+    "person": "person:sidney-shiba",
+    "dan": 6,
+    "title": null,
+    "date": "2023-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:plano-aikido-center",
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:silvia-eschenlaur+2022-01-01+6",
+    "person": "person:silvia-eschenlaur",
+    "dan": 6,
+    "title": null,
+    "date": "2022-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:florida-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:stephanie-cook+2022-01-01+5",
+    "person": "person:stephanie-cook",
+    "dan": 5,
+    "title": null,
+    "date": "2022-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:new-york-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:stephen-kopka+2022-01-01+5",
+    "person": "person:stephen-kopka",
+    "dan": 5,
+    "title": null,
+    "date": "2022-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:midwest-aikido-center",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:steve-sandage+2023-01-01+5",
+    "person": "person:steve-sandage",
+    "dan": 5,
+    "title": null,
+    "date": "2023-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:san-francisco-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:susanne-beisert+2023-01-01+6",
+    "person": "person:susanne-beisert",
+    "dan": 6,
+    "title": null,
+    "date": "2023-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:dairyukai-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:sylvie-firestone+2023-01-01+6",
+    "person": "person:sylvie-firestone",
+    "dan": 6,
+    "title": null,
+    "date": "2023-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:aikido-of-westchester",
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:than-vinh-pham+2025-01-01+6",
+    "person": "person:than-vinh-pham",
+    "dan": 6,
+    "title": null,
+    "date": "2025-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:aikido-de-la-montagne",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:thomas-milucci+2022-01-01+6",
+    "person": "person:thomas-milucci",
+    "dan": 6,
+    "title": null,
+    "date": "2022-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:aikido-of-fairfield-county",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:tina-shepard+2022-01-01+7",
+    "person": "person:tina-shepard",
+    "dan": 7,
+    "title": null,
+    "date": "2022-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:new-york-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:tinka-sloss+2026-01-01+5",
+    "person": "person:tinka-sloss",
+    "dan": 5,
+    "title": null,
+    "date": "2026-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:aikido-of-santa-barbara",
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:tommy-lee-white+2026-01-01+5",
+    "person": "person:tommy-lee-white",
+    "dan": 5,
+    "title": null,
+    "date": "2026-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:open-sky-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:victor-ancer+2024-01-01+6",
+    "person": "person:victor-ancer",
+    "dan": 6,
+    "title": null,
+    "date": "2024-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:midwest-aikido-center",
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:vidhya-rojanavongse+2026-01-01+5",
+    "person": "person:vidhya-rojanavongse",
+    "dan": 5,
+    "title": null,
+    "date": "2026-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:new-york-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:vincent-hauser+2026-01-01+5",
+    "person": "person:vincent-hauser",
+    "dan": 5,
+    "title": null,
+    "date": "2026-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:violet-crown-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:virginia-becart+2023-01-01+5",
+    "person": "person:virginia-becart",
+    "dan": 5,
+    "title": null,
+    "date": "2023-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:florida-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:walter-braxton-iii+2023-01-01+5",
+    "person": "person:walter-braxton-iii",
+    "dan": 5,
+    "title": null,
+    "date": "2023-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:aikido-schools-of-new-jersey",
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:wayne-brown+2025-01-01+6",
+    "person": "person:wayne-brown",
+    "dan": 6,
+    "title": null,
+    "date": "2025-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:twin-cities-aikido-center",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:wayne-massey+2023-01-01+6",
+    "person": "person:wayne-massey",
+    "dan": 6,
+    "title": null,
+    "date": "2023-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:el-pas-aikikai",
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:wendell-gault+2025-01-01+6",
+    "person": "person:wendell-gault",
+    "dan": 6,
+    "title": null,
+    "date": "2025-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:aikido-of-park-slope",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:william-tilles+2025-01-01+5",
+    "person": "person:william-tilles",
+    "dan": 5,
+    "title": null,
+    "date": "2025-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:aikido-of-park-slope",
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  },
+  {
+    "id": "rank:youssef-sadkane+2022-01-01+6",
+    "person": "person:youssef-sadkane",
+    "dan": 6,
+    "title": null,
+    "date": "2022-01-01",
+    "conferred_by": "org:aikikai-hombu",
+    "via_org": "org:usaf",
+    "dojo": "dojo:sadkane-school-for-aikido",
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11"
+  }
+]

@@ -1,0 +1,9 @@
+[project]
+name = "atr-motion"
+version = "0.0.0"
+description = "ATR builder package: ingest, represent, model, train, eval."
+requires-python = ">=3.11"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["atr_motion*"]

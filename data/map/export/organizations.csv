@@ -1,0 +1,18 @@
+id,name,abbrev,type,lineage,parent_org,hq,founded,governance,website,status,retrieved
+org:aaa,"Aikido Association of America",AAA,association,toyoda,org:aai,"Chicago, USA",1984,,https://www.aaa-aikido.com/,provisional,2026-06-11
+org:aai,"Aikido Association International",AAI,alliance,toyoda,,,,,,provisional,2026-06-11
+org:aikikai-hombu,"Aikikai Foundation (Aikido World Headquarters / Hombu Dojo)",Aikikai,hombu,aikikai,,"Tokyo, Japan",1948,"Doshu + Aikikai Foundation",https://www.aikikai.or.jp/eng/,provisional,2026-06-11
+org:arizona-aikido-ki-society,"Arizona Aikido-Ki Society",,association,ki-society,org:ki-society,,,,https://ki-society.com/department/arizona-aikido-ki-society/,provisional,2026-06-11
+org:asu,"Aikido Schools of Ueshiba",ASU,association,aikikai,org:aikikai-hombu,"United States",,,https://asu.org/,provisional,2026-06-11
+org:birankai,"Birankai North America",Birankai,association,aikikai,org:aikikai-hombu,"San Diego, USA",,,https://birankai.org/,provisional,2026-06-11
+org:chicago-ki-society,"Chicago Ki Society",,association,ki-society,org:ki-society,,,,https://ki-society.com/department/chicago-ki-society/,provisional,2026-06-11
+org:eastern-ki-federation,"Eastern Ki Federation (EKF)",EKF,federation,ki-society,org:ki-society,,,,https://ki-society.com/department/eastern-ki-federation-ekf/,provisional,2026-06-11
+org:hawaii-ki-federation,"Hawaii Ki Federation (HKF)",HKF,federation,ki-society,org:ki-society,,,,https://ki-society.com/department/hawaii-ki-federation-hkf/,provisional,2026-06-11
+org:honolulu-ki-society,"Honolulu Ki Society",,association,ki-society,org:ki-society,,,,https://ki-society.com/department/honolulu-ki-society/,provisional,2026-06-11
+org:ki-society,"Ki Society (Ki no Kenkyukai)","Ki Society",association,ki-society,,"Tochigi, Japan",1971,,https://ki-society.com/,provisional,2026-06-11
+org:midland-ki-federation,"Midland Ki Federation (MKF)",MKF,federation,ki-society,org:ki-society,,,,https://ki-society.com/department/midland-ki-federation-mkf/,provisional,2026-06-11
+org:northern-california-ki-society,"Northern California Ki Society",,association,ki-society,org:ki-society,,,,https://ki-society.com/department/northern-california-ki-society/,provisional,2026-06-11
+org:northwest-ki-federation,"Northwest Ki Federation",,federation,ki-society,org:ki-society,,,,https://ki-society.com/department/northwest-ki-federation/,provisional,2026-06-11
+org:shin-kaze,"Shin Kaze Aikido Alliance","Shin Kaze",alliance,aikikai,org:aikikai-hombu,"United States",,,https://shinkazeaikidoalliance.com/,provisional,2026-06-11
+org:southern-california-ki-society,"Southern California Ki Society",,association,ki-society,org:ki-society,,,,https://ki-society.com/department/southern-california-ki-society/,provisional,2026-06-11
+org:usaf,"United States Aikido Federation",USAF,federation,aikikai,org:aikikai-hombu,"United States",1976,"Technical Committee + Board",https://www.usaikifed.com/,provisional,2026-06-11

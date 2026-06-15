@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "atr:aml/movement.schema.json",
+  "title": "ATR Aikido Movement Language -- Tier 1 kineme alphabet",
+  "description": "Validates data/taxonomy/kinemes.json: an array of kineme DEFINITIONS (the closed atomic alphabet). See docs/atr_14_movement_language_text.md. Companion data model: schema/movement.py.",
+  "type": "array",
+  "items": { "$ref": "#/$defs/kineme" },
+
+  "$defs": {
+    "articulator": {
+      "type": "string",
+      "enum": ["foot", "koshi", "spine", "shoulder", "elbow", "knee", "forearm", "wrist", "hand", "head", "tai"]
+    },
+    "action": {
+      "type": "string",
+      "enum": ["rotate", "translate", "flex-extend", "pivot", "level", "open-close"]
+    },
+    "axis": {
+      "type": "string",
+      "enum": ["vertical", "sagittal", "lateral", "longitudinal", "spiral"]
+    },
+    "kineme": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string", "pattern": "^kineme:[a-z0-9-]+$" },
+        "label": { "type": "string", "minLength": 1 },
+        "articulator": { "$ref": "#/$defs/articulator" },
+        "action": { "$ref": "#/$defs/action" },
+        "axes": { "type": "array", "items": { "$ref": "#/$defs/axis" }, "minItems": 1 },
+        "magnitude_scale": { "type": ["string", "null"], "enum": ["turn", "extent", "level", null] },
+        "directions": { "type": "array", "items": { "type": "string" } },
+        "signature": { "type": "string", "minLength": 1, "description": "Predicate over canonical skeleton channels: when this kineme is present in measured motion." },
+        "crosswalk": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "ewmn": { "type": ["string", "null"], "description": "Eshkol-Wachman geometric mapping" },
+            "laban": { "type": ["string", "null"], "description": "Laban Effort/Shape mapping" }
+          }
+        },
+        "aikido_terms": { "type": "array", "items": { "type": "string" } },
+        "source": { "type": "string" },
+        "status": { "type": "string", "enum": ["provisional", "ratified", "contested"] }
+      },
+      "required": ["id", "label", "articulator", "action", "axes", "signature", "source", "status"]
+    }
+  }
+}

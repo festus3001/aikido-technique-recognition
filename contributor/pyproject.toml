@@ -1,0 +1,6 @@
+[project]
+name = "atr-contributor"
+version = "0.0.0"
+description = "ATR FastAPI backend: serving + contribution records."
+requires-python = ">=3.11"
+dependencies = ["fastapi", "uvicorn[standard]", "pydantic"]

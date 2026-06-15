@@ -1,0 +1,85 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "atr:ingest/ingest.schema.json",
+  "title": "ATR book-ingestion records (techniques + keyframes)",
+  "description": "Validates data/taxonomy/techniques.json (array of technique) and keyframes.json (array of keyframe). See tools/ingest and docs/atr_09_book_ingestion.md.",
+  "$defs": {
+    "era": {
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "properties": {
+        "start": { "type": ["string", "null"] },
+        "end": { "type": ["string", "null"] },
+        "confidence": { "type": "string", "enum": ["stated", "inferred", "contested"] },
+        "note": { "type": ["string", "null"] }
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "Observation context: who performed the technique, when, and from which recording. performer is a person:slug into data/map.",
+      "properties": {
+        "performer": { "type": ["string", "null"] },
+        "performer_name": { "type": ["string", "null"] },
+        "era": { "$ref": "#/$defs/era" },
+        "medium": { "type": "string", "enum": ["book", "video"] },
+        "recording": { "type": "string" },
+        "lineage": { "type": ["string", "null"] }
+      },
+      "required": ["medium", "recording"]
+    },
+    "slots": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "technique": { "type": ["string", "null"] },
+        "attack": { "type": ["string", "null"] },
+        "direction": { "type": ["string", "null"] },
+        "form": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "technique": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string", "pattern": "^tech:" },
+        "name_romaji": { "type": "string" },
+        "name_native": { "type": ["string", "null"] },
+        "qualifiers": { "type": "array", "items": { "type": "string" } },
+        "slots": { "$ref": "#/$defs/slots" },
+        "step_count": { "type": "integer", "minimum": 0 },
+        "keyframes": { "type": "array", "items": { "type": "string" } },
+        "source": { "type": "object" },
+        "provenance": { "$ref": "#/$defs/provenance" },
+        "raw_caption": { "type": "string" },
+        "confidence": { "type": "string" },
+        "status": { "type": "string", "enum": ["provisional", "ratified", "contested"] },
+        "retrieved": { "type": "string" }
+      },
+      "required": ["id", "name_romaji", "slots", "step_count", "keyframes", "source", "provenance", "status", "retrieved"]
+    },
+    "keyframe": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string", "pattern": "^kf:" },
+        "technique": { "type": "string", "pattern": "^tech:" },
+        "step_index": { "type": "integer", "minimum": 1 },
+        "step_count": { "type": "integer", "minimum": 0 },
+        "image": { "type": "string" },
+        "name_romaji": { "type": "string" },
+        "name_native": { "type": ["string", "null"] },
+        "attack": { "type": ["string", "null"] },
+        "source": { "type": "object" },
+        "provenance": { "$ref": "#/$defs/provenance" },
+        "granularity": { "type": "string", "enum": ["photo", "row", "page"] },
+        "role": { "type": "string" },
+        "pose": { "type": ["object", "null"] },
+        "embedding": { "type": ["array", "null"] },
+        "status": { "type": "string", "enum": ["provisional", "ratified", "contested"] },
+        "retrieved": { "type": "string" }
+      },
+      "required": ["id", "technique", "step_index", "image", "source", "provenance", "role", "status", "retrieved"]
+    }
+  }
+}

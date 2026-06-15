@@ -1,0 +1,16 @@
+# Source material is DVC-tracked, not committed. Nothing sensitive in git.
+*
+!.gitignore
+!README.md
+!books/
+!videos/
+!books/raw/.gitkeep
+!books/processed/.gitkeep
+!videos/raw/.gitkeep
+!videos/processed/.gitkeep
+books/raw/*
+books/processed/*
+videos/raw/*
+videos/processed/*
+!books/README.md
+!videos/README.md

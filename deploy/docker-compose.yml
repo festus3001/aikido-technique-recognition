@@ -1,0 +1,11 @@
+# Local-first deploy: FastAPI backend + static web build + sqlite volume. One box.
+# The model runs on the same machine (CPU/MPS). No cloud dependency to demo.
+# TODO(agent): fill service definitions, build contexts, volume for sqlite.
+version: "3.9"
+services:
+  api:
+    build: ../contributor
+    # TODO(agent): ports, env, sqlite volume mount
+  web:
+    build: ../web
+    # TODO(agent): static serve of vite build, proxy to api

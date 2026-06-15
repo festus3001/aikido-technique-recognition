@@ -1,0 +1,7267 @@
+[
+  {
+    "id": "dojo:aaa-aai-headquarters-tenshinkan-dojo",
+    "name": "AAA & AAI Headquarters - Tenshinkan Dojo",
+    "org": [
+      "org:aaa"
+    ],
+    "location": {
+      "city": "Chicago",
+      "region": "IL",
+      "country": "USA"
+    },
+    "chief_instructor": "person:tatsuo-toyoda",
+    "instructors": [],
+    "website": "https://aaa-aikido.com",
+    "source": [
+      "https://aaa-aikido.com/dojo/aaa-aai-headquarters-tenshinkan-dojo/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:aiki-muenster",
+    "name": "Aiki Muenster",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions",
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "location": null,
+    "chief_instructor": "person:gabriele-bixel",
+    "instructors": [
+      "person:david-j-ross"
+    ],
+    "website": "http://www.aiki-muenster.de/"
+  },
+  {
+    "id": "dojo:aikido-acacia-antwerp",
+    "name": "Aikido Acacia Antwerp",
+    "org": [
+      "org:aaa"
+    ],
+    "location": null,
+    "chief_instructor": "person:roel-suetens",
+    "instructors": [],
+    "website": "https://aikidoacacia.be",
+    "source": [
+      "https://aaa-aikido.com/dojo/aikido-acacia-antwerp/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:aikido-acacia-edegem",
+    "name": "Aikido Acacia Edegem",
+    "org": [
+      "org:aaa"
+    ],
+    "location": null,
+    "chief_instructor": "person:roel-suetens",
+    "instructors": [],
+    "website": "https://aikidoacacia.be",
+    "source": [
+      "https://aaa-aikido.com/dojo/aikido-acacia-edegem/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:aikido-acacia-lier",
+    "name": "Aikido Acacia Lier",
+    "org": [
+      "org:aaa"
+    ],
+    "location": null,
+    "chief_instructor": "person:roel-suetens",
+    "instructors": [],
+    "website": "https://aikidoacacia.be",
+    "source": [
+      "https://aaa-aikido.com/dojo/aikido-acacia-lier/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:aikido-aikikai-yaku-dojo-asociacion-morihei-ueshiba-del-peru",
+    "name": "AIKIDO AIKIKAI YAKU DOJO - ASOCIACIÓN MORIHEI UESHIBA DEL PERÚ",
+    "org": [
+      "org:shin-kaze"
+    ],
+    "location": null,
+    "chief_instructor": "person:juan-carlos-flores",
+    "instructors": [],
+    "website": "https://www.facebook.com/AikidoAikikaiYakuDojo",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:aikido-aruba",
+    "name": "Aikido Aruba",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "location": {
+      "city": "Noord",
+      "region": null,
+      "country": "Aruba"
+    },
+    "chief_instructor": "person:bryan-coffie",
+    "instructors": [
+      "person:anthony-chong"
+    ],
+    "website": "https://www.facebook.com/groups/118112464893993/"
+  },
+  {
+    "id": "dojo:aikido-avila-dojo-aikikai",
+    "name": "AIKIDO AVILA DOJO AIKIKAI",
+    "org": [
+      "org:shin-kaze"
+    ],
+    "location": null,
+    "chief_instructor": "person:henry-bellorin",
+    "instructors": [],
+    "website": "https://www.facebook.com/profile.php?id=100005647398106",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:aikido-cedar-rapids",
+    "name": "Aikido Cedar Rapids",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "Cedar Rapids",
+      "region": "IA",
+      "country": "USA"
+    },
+    "chief_instructor": "person:jayne-thompson",
+    "instructors": [
+      "person:jack-hayes"
+    ],
+    "website": "https://www.AikidoCedarRapids.com",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:aikido-center-of-atlanta",
+    "name": "Aikido Center of Atlanta",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "location": {
+      "city": "Avondale Estates",
+      "region": "GA",
+      "country": "USA"
+    },
+    "chief_instructor": "person:george-w-kennedy",
+    "instructors": [],
+    "website": "https://www.aikidocenterofatlanta.com/"
+  },
+  {
+    "id": "dojo:aikido-center-of-jacksonville",
+    "name": "Aikido Center of Jacksonville",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions",
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "location": {
+      "city": "Jacksonville",
+      "region": "FL",
+      "country": "USA"
+    },
+    "chief_instructor": "person:dee-seabolt",
+    "instructors": [],
+    "website": "http://www.findyourcenter.net/"
+  },
+  {
+    "id": "dojo:aikido-chiheisen",
+    "name": "Aikido Chiheisen",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "San Juan",
+      "region": "PR",
+      "country": "USA"
+    },
+    "chief_instructor": "person:philip-berrios",
+    "instructors": [
+      "person:samuel-santiago"
+    ],
+    "website": "No website.",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:aikido-de-la-montagne",
+    "name": "Aikido de la Montagne",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions",
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions",
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "location": null,
+    "chief_instructor": "person:robert-saad",
+    "instructors": [],
+    "website": "http://www.aikidodelamontagne.com"
+  },
+  {
+    "id": "dojo:aikido-fujisan-dojo",
+    "name": "AIKIDO FUJISAN DOJO",
+    "org": [
+      "org:shin-kaze"
+    ],
+    "location": null,
+    "chief_instructor": "person:maykell-torres",
+    "instructors": [],
+    "website": "N/A",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:aikido-gro-hesepe",
+    "name": "Aikido Groß Hesepe",
+    "org": [
+      "org:aaa"
+    ],
+    "location": null,
+    "chief_instructor": "person:andrea-moss",
+    "instructors": [],
+    "website": "https://sv-gross-hesepe.de/abteilung/aikido",
+    "source": [
+      "https://aaa-aikido.com/dojo/aikido-gros-hesepe/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:aikido-institute-of-newfoundland",
+    "name": "Aikido Institute of Newfoundland",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions",
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "location": null,
+    "chief_instructor": "person:paul-l-glavine",
+    "instructors": [],
+    "website": "http://www.aikidonl.com/"
+  },
+  {
+    "id": "dojo:aikido-kuwait",
+    "name": "Aikido Kuwait",
+    "org": [
+      "org:aaa"
+    ],
+    "location": null,
+    "chief_instructor": "person:mohammad-alhamar",
+    "instructors": [],
+    "website": "https://facebook.com/AikidoKuwaitDojo",
+    "source": [
+      "https://aaa-aikido.com/dojo/aikido-kuwait/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:aikido-la-forge",
+    "name": "Aikido la Forge",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "location": null,
+    "chief_instructor": "person:stephane-janczuk",
+    "instructors": [],
+    "website": "http://aikidolaforge.com/"
+  },
+  {
+    "id": "dojo:aikido-new-london-county",
+    "name": "Aikido New London County",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "Waterford",
+      "region": "CT",
+      "country": "USA"
+    },
+    "chief_instructor": "person:crystal-n-aldrich",
+    "instructors": [],
+    "website": "http://aikidonewlondoncounty.com",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:aikido-north-jersey",
+    "name": "Aikido North Jersey",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "Teaneck",
+      "region": "NJ",
+      "country": "USA"
+    },
+    "chief_instructor": "person:jerry-b-zimmerman",
+    "instructors": [],
+    "website": "http://AIKIDONJ.COM/",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:aikido-oakville",
+    "name": "AIKIDO OAKVILLE",
+    "org": [
+      "org:shin-kaze"
+    ],
+    "location": null,
+    "chief_instructor": "person:labeeb-zaatara",
+    "instructors": [],
+    "website": "https://www.facebook.com/AikidoOakville",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:aikido-of-amarillo",
+    "name": "Aikido of Amarillo",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "Amarillo",
+      "region": "TX",
+      "country": "USA"
+    },
+    "chief_instructor": "person:a-scott-dejesse",
+    "instructors": [
+      "person:james-albertson"
+    ],
+    "website": "https://www.facebook.com/Aikido-of-Amarillo-97616394896/",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:aikido-of-amherst",
+    "name": "Aikido of Amherst",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "Amherst",
+      "region": "MA",
+      "country": "USA"
+    },
+    "chief_instructor": "person:heath-atchley",
+    "instructors": [],
+    "website": "http://www.aikidoofamherst.com/",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:aikido-of-austin",
+    "name": "AIKIDO OF AUSTIN",
+    "org": [
+      "org:shin-kaze"
+    ],
+    "location": {
+      "city": "Austin",
+      "region": "TX",
+      "country": "USA"
+    },
+    "chief_instructor": "person:josef-birdsong-shihan",
+    "instructors": [],
+    "website": "http://www.austinaikido.org",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:aikido-of-central-new-york",
+    "name": "Aikido of Central New York",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "Jamesville",
+      "region": "NY",
+      "country": "USA"
+    },
+    "chief_instructor": "person:jonathan-reid",
+    "instructors": [],
+    "website": "http://www.aikidocny.com/",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:aikido-of-charlotte",
+    "name": "Aikido of Charlotte",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "location": {
+      "city": "Huntersville",
+      "region": "NC",
+      "country": "USA"
+    },
+    "chief_instructor": "person:jonathan-a-weiner",
+    "instructors": [],
+    "website": "http://www.aikidoofcharlotte.com/"
+  },
+  {
+    "id": "dojo:aikido-of-chester-county",
+    "name": "Aikido of Chester County",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions",
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "location": {
+      "city": "West Chester",
+      "region": "PA",
+      "country": "USA"
+    },
+    "chief_instructor": "person:kenneth-m-cadogan",
+    "instructors": [],
+    "website": "http://www.aikidochesco.com/"
+  },
+  {
+    "id": "dojo:aikido-of-cincinnati",
+    "name": "Aikido of Cincinnati",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "Cincinnati",
+      "region": "OH",
+      "country": "USA"
+    },
+    "chief_instructor": "person:charles-t-mcginnis",
+    "instructors": [],
+    "website": "http://www.aikidocincy.org/",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:aikido-of-colorado",
+    "name": "Aikido of Colorado",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "Fort Collins",
+      "region": "CO",
+      "country": "USA"
+    },
+    "chief_instructor": "person:victor-hung",
+    "instructors": [],
+    "website": "http://www.aikidoofcolorado.info/",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:aikido-of-dallas",
+    "name": "Aikido of Dallas",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "Dallas",
+      "region": "TX",
+      "country": "USA"
+    },
+    "chief_instructor": "person:robert-m-mason",
+    "instructors": [],
+    "website": "http://www.aikido.org/dallas",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:aikido-of-el-paso",
+    "name": "Aikido of El Paso",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "location": {
+      "city": "El Paso",
+      "region": "TX",
+      "country": "USA"
+    },
+    "chief_instructor": "person:paul-forhan",
+    "instructors": [],
+    "website": "http://www.aikidoofelpaso.org/"
+  },
+  {
+    "id": "dojo:aikido-of-fairfield-county",
+    "name": "Aikido of Fairfield County",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions",
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "location": {
+      "city": "Stamford",
+      "region": "CT",
+      "country": "USA"
+    },
+    "chief_instructor": "person:raymond-s-farinato",
+    "instructors": [],
+    "website": "http://aikidofc.com/"
+  },
+  {
+    "id": "dojo:aikido-of-hattiesburg",
+    "name": "Aikido of Hattiesburg",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "Hattiesburg",
+      "region": "MS",
+      "country": "USA"
+    },
+    "chief_instructor": "person:danilo-mezzadri",
+    "instructors": [],
+    "website": "http://aikidohattiesburg.com/",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:aikido-of-hernando-county",
+    "name": "Aikido of Hernando County",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "Brooksville",
+      "region": "FL",
+      "country": "USA"
+    },
+    "chief_instructor": "person:dale-roznowski",
+    "instructors": [],
+    "website": "http://aikidohernando.com",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:aikido-of-miami",
+    "name": "Aikido of Miami",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions",
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "location": {
+      "city": "Miami",
+      "region": "FL",
+      "country": "USA"
+    },
+    "chief_instructor": "person:gustavo-j-ramos",
+    "instructors": [],
+    "website": "http://aikidoofmiami.com"
+  },
+  {
+    "id": "dojo:aikido-of-nassau-county",
+    "name": "Aikido of Nassau County",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "location": {
+      "city": "Lynbrook",
+      "region": "NY",
+      "country": "USA"
+    },
+    "chief_instructor": "person:joseph-f-nemeth",
+    "instructors": [
+      "person:cliff-marcus"
+    ],
+    "website": "http://aikido4nassaucounty.com/"
+  },
+  {
+    "id": "dojo:aikido-of-new-orleans",
+    "name": "Aikido of New Orleans",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions",
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "location": {
+      "city": "New Orleans",
+      "region": "LA",
+      "country": "USA"
+    },
+    "chief_instructor": "person:arturo-a-peal",
+    "instructors": [],
+    "website": "http://AIKIDONEWORLEANS.ORG/"
+  },
+  {
+    "id": "dojo:aikido-of-norfolk",
+    "name": "Aikido of Norfolk",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "Virginia Beach",
+      "region": "VA",
+      "country": "USA"
+    },
+    "chief_instructor": "person:james-a-baker",
+    "instructors": [
+      "person:steve-nelson",
+      "person:eric-m-pierce"
+    ],
+    "website": "http://www.aikidonorfolk.com/",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:aikido-of-northampton",
+    "name": "Aikido of Northampton",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "Florence",
+      "region": "MA",
+      "country": "USA"
+    },
+    "chief_instructor": "person:karen-peterson",
+    "instructors": [],
+    "website": "http://aikidoofnorthampton.org/",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:aikido-of-northwest-kansas",
+    "name": "Aikido of Northwest Kansas",
+    "org": [
+      "org:aaa"
+    ],
+    "location": {
+      "city": "Hays",
+      "region": "KS",
+      "country": "USA"
+    },
+    "chief_instructor": "person:brandon-nimz",
+    "instructors": [],
+    "website": "https://aikidoofnorthwestkansas.com",
+    "source": [
+      "https://aaa-aikido.com/dojo/aikido-of-northwest-kansas/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:aikido-of-northwest-kansas-wichita-aikido-club",
+    "name": "Aikido of Northwest Kansas Wichita Aikido Club",
+    "org": [
+      "org:aaa"
+    ],
+    "location": {
+      "city": null,
+      "region": "KS",
+      "country": "USA"
+    },
+    "chief_instructor": "person:jason-dearmond",
+    "instructors": [],
+    "website": "https://aikidoofnorthwestkansas.com",
+    "source": [
+      "https://aaa-aikido.com/dojo/aikido-of-northwest-kansas-wichita-aikido-club/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:aikido-of-park-slope",
+    "name": "Aikido of Park Slope",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions",
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions",
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions",
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "location": {
+      "city": "Brooklyn",
+      "region": "NY",
+      "country": "USA"
+    },
+    "chief_instructor": "person:hal-lehrman-jr",
+    "instructors": [],
+    "website": "http://www.AikidoOfParkSlope.com/"
+  },
+  {
+    "id": "dojo:aikido-of-prescott",
+    "name": "Aikido of Prescott",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "Prescott",
+      "region": "AZ",
+      "country": "USA"
+    },
+    "chief_instructor": "person:robert-w-ward",
+    "instructors": [],
+    "website": "http://www.aikidoofprescott.org/",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:aikido-of-quinte-west",
+    "name": "AIKIDO OF QUINTE WEST",
+    "org": [
+      "org:shin-kaze"
+    ],
+    "location": null,
+    "chief_instructor": "person:ezzard-neri",
+    "instructors": [],
+    "website": "https://www.facebook.com/groups/1140237496156604/",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:aikido-of-ramapo-valley",
+    "name": "Aikido of Ramapo Valley",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "location": {
+      "city": "Wyckoff",
+      "region": "NJ",
+      "country": "USA"
+    },
+    "chief_instructor": "person:eran-vardi",
+    "instructors": [],
+    "website": "http://www.aikidospirit.com/"
+  },
+  {
+    "id": "dojo:aikido-of-raritan-valley",
+    "name": "Aikido of Raritan Valley",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions",
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:aikido-of-raritan-valley-ren-sei-kan",
+    "name": "Aikido of Raritan Valley/Ren Sei Kan",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "Hillsborough",
+      "region": "NJ",
+      "country": "USA"
+    },
+    "chief_instructor": "person:paul-manogue",
+    "instructors": [
+      "person:paul-manogue"
+    ],
+    "website": "http://www.aikidoofraritanvalley.com",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:aikido-of-red-bank",
+    "name": "Aikido of Red Bank",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "Middletown",
+      "region": "NJ",
+      "country": "USA"
+    },
+    "chief_instructor": "person:james-soviero",
+    "instructors": [],
+    "website": "http://www.aikidoredbank.com/",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:aikido-of-santa-barbara",
+    "name": "Aikido of Santa Barbara",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions",
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "location": {
+      "city": "Santa Barbara",
+      "region": "CA",
+      "country": "USA"
+    },
+    "chief_instructor": "person:christine-wong",
+    "instructors": [],
+    "website": "http://www.aikidoofsantabarbara.com/"
+  },
+  {
+    "id": "dojo:aikido-of-scottsdale",
+    "name": "Aikido of Scottsdale",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions",
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:aikido-of-seminole-county",
+    "name": "Aikido of Seminole County",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "location": {
+      "city": "Casselberry",
+      "region": "FL",
+      "country": "USA"
+    },
+    "chief_instructor": "person:youssef-sadkane",
+    "instructors": [],
+    "website": "http://www.sadkaneaikidoschool.com/"
+  },
+  {
+    "id": "dojo:aikido-of-shreveport",
+    "name": "Aikido of Shreveport",
+    "org": [
+      "org:aaa"
+    ],
+    "location": {
+      "city": "Shreveport",
+      "region": "LA",
+      "country": "USA"
+    },
+    "chief_instructor": "person:william-r-ross",
+    "instructors": [],
+    "website": "https://shreveportmartialarts.com",
+    "source": [
+      "https://aaa-aikido.com/dojo/aikido-of-shreveport/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:aikido-of-the-canyon-lands",
+    "name": "Aikido of the Canyon Lands",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "Tucson",
+      "region": "AZ",
+      "country": "USA"
+    },
+    "chief_instructor": "person:gail-skinner",
+    "instructors": [],
+    "website": "No website.",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:aikido-of-the-canyonlands",
+    "name": "Aikido of the Canyonlands",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:aikido-of-westchester",
+    "name": "Aikido of Westchester",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "location": {
+      "city": "Hartsdale",
+      "region": "NY",
+      "country": "USA"
+    },
+    "chief_instructor": "person:douglas-firestone",
+    "instructors": [],
+    "website": "http://www.aikidoofwestchester.com/"
+  },
+  {
+    "id": "dojo:aikido-ryu-mauritius",
+    "name": "Aikido Ryu (Mauritius)",
+    "org": [
+      "org:aaa"
+    ],
+    "location": null,
+    "chief_instructor": "person:nemraz-juggoo",
+    "instructors": [],
+    "website": null,
+    "source": [
+      "https://aaa-aikido.com/dojo/aikido-ryu-mauritius/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:aikido-sakura",
+    "name": "AIKIDO SAKURA",
+    "org": [
+      "org:shin-kaze"
+    ],
+    "location": null,
+    "chief_instructor": "person:angel-augusto-gonzalez-linares",
+    "instructors": [],
+    "website": "https://www.facebook.com/profile.php?id=100064027725774",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:aikido-santa-fe-dojo-kawai-asociacion-samurai-aikido-kawai",
+    "name": "AIKIDO SANTA FE DOJO KAWAI - ASOCIACION SAMURAI AIKIDO KAWAI",
+    "org": [
+      "org:shin-kaze"
+    ],
+    "location": null,
+    "chief_instructor": "person:carlos-alberto-jara",
+    "instructors": [],
+    "website": "https://www.aikido.com.uy/",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:aikido-santa-fe-miyazawa-dojo-asociacion-samurai-aikido-kawai",
+    "name": "AIKIDO SANTA FE MIYAZAWA DOJO - ASOCIACION SAMURAI AIKIDO KAWAI",
+    "org": [
+      "org:shin-kaze"
+    ],
+    "location": null,
+    "chief_instructor": "person:carlos-alberto-jara",
+    "instructors": [],
+    "website": "https://www.aikido.com.uy/",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:aikido-schools-of-new-jersey",
+    "name": "Aikido Schools of New Jersey",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions",
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "location": {
+      "city": "Roselle Park",
+      "region": "NJ",
+      "country": "USA"
+    },
+    "chief_instructor": "person:jay-tall",
+    "instructors": [],
+    "website": "http://www.aikidoschoolsnj.com/"
+  },
+  {
+    "id": "dojo:aikido-shobukan-dojo",
+    "name": "Aikido Shobukan Dojo",
+    "org": [
+      "org:asu"
+    ],
+    "location": {
+      "city": "Washington",
+      "region": "DC",
+      "country": "USA"
+    },
+    "chief_instructor": "person:mitsugi-saotome",
+    "instructors": [],
+    "founded": null,
+    "anchor": true,
+    "website": "https://www.shobukan.org/",
+    "source": [
+      "https://www.shobukan.org/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:aikido-training-academy",
+    "name": "Aikido Training Academy",
+    "org": [
+      "org:aaa"
+    ],
+    "location": {
+      "city": "Oceanside",
+      "region": "CA",
+      "country": "USA"
+    },
+    "chief_instructor": "person:aaron-boehmer",
+    "instructors": [],
+    "website": "https://aikidotrainingacademy.com",
+    "source": [
+      "https://aaa-aikido.com/dojo/aikido-training-academy/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:aikikai-bonheiden",
+    "name": "Aikikai Bonheiden",
+    "org": [
+      "org:aaa"
+    ],
+    "location": null,
+    "chief_instructor": "person:jef-snellings",
+    "instructors": [],
+    "website": null,
+    "source": [
+      "https://aaa-aikido.com/dojo/aikikai-bonheiden/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:aikikai-de-l-universite-laval",
+    "name": "Aikikai de L'Universite Laval",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions",
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "location": null,
+    "chief_instructor": "person:jean-laplante",
+    "instructors": [
+      "person:laplante-jean"
+    ],
+    "website": "http://www.aikikai-ulaval.com/"
+  },
+  {
+    "id": "dojo:aikikai-hombu-dojo",
+    "name": "Aikikai Hombu Dojo",
+    "org": [
+      "org:aikikai-hombu"
+    ],
+    "location": {
+      "city": "Tokyo",
+      "region": null,
+      "country": "Japan"
+    },
+    "chief_instructor": null,
+    "instructors": [],
+    "founded": "1931",
+    "anchor": true,
+    "website": "https://www.aikikai.or.jp/eng/",
+    "source": [
+      "https://www.aikikai.or.jp/eng/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:aikikai-if-philadelphia",
+    "name": "Aikikai if Philadelphia",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:aikikai-of-philadelphia",
+    "name": "Aikikai of Philadelphia",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "location": {
+      "city": "Philadelphia",
+      "region": "PA",
+      "country": "USA"
+    },
+    "chief_instructor": "person:roderick-j-johnson",
+    "instructors": [],
+    "website": "http://www.aikikaiofphiladelphia.org/"
+  },
+  {
+    "id": "dojo:aikikai-shinka-dojo",
+    "name": "Aikikai Shinka Dojo",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "location": null,
+    "chief_instructor": "person:paulo-volochyn",
+    "instructors": [],
+    "website": "http://aikidoshinka.com.br"
+  },
+  {
+    "id": "dojo:aikikai-tampa-brasil",
+    "name": "Aikikai Tampa Brasil",
+    "org": [
+      "org:usaf"
+    ],
+    "location": null,
+    "chief_instructor": "person:vanessa-stringheti",
+    "instructors": [
+      "person:luciano-silva-de-almeida"
+    ],
+    "website": "http://www.aikikaitampabrasil.org",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:aikikai-tarragona",
+    "name": "AIKIKAI TARRAGONA",
+    "org": [
+      "org:shin-kaze"
+    ],
+    "location": null,
+    "chief_instructor": "person:ali-farhat-monasterios",
+    "instructors": [],
+    "website": "N/A",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:aikisur-aldea-del-fresno",
+    "name": "Aikisur – Aldea del Fresno",
+    "org": [
+      "org:aaa"
+    ],
+    "location": null,
+    "chief_instructor": "person:mission",
+    "instructors": [],
+    "website": "https://aikisur.es",
+    "source": [
+      "https://aaa-aikido.com/dojo/aikisur-aldea-del-fresno/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:aikisur-navalcarnero",
+    "name": "Aikisur – Navalcarnero",
+    "org": [
+      "org:aaa"
+    ],
+    "location": null,
+    "chief_instructor": "person:mission",
+    "instructors": [],
+    "website": "https://shindokan.es",
+    "source": [
+      "https://aaa-aikido.com/dojo/aikisur-navalcarnero/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:aikisur-villa-del-prado",
+    "name": "Aikisur – Villa del Prado",
+    "org": [
+      "org:aaa"
+    ],
+    "location": null,
+    "chief_instructor": "person:alejandro-marduck-aguilar",
+    "instructors": [],
+    "website": "https://aikisur.es",
+    "source": [
+      "https://aaa-aikido.com/dojo/aikisur-villa-del-prado/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:aiseishinkan-dojo",
+    "name": "Aiseishinkan Dojo",
+    "org": [
+      "org:aaa"
+    ],
+    "location": {
+      "city": null,
+      "region": "WI",
+      "country": "USA"
+    },
+    "chief_instructor": "person:susan-dutton",
+    "instructors": [],
+    "website": "https://www.eq-do.com/AiSeiShinKan-Dojo",
+    "source": [
+      "https://aaa-aikido.com/dojo/aiseishinkan-dojo/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:alamo-area-aikikai",
+    "name": "Alamo Area Aikikai",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions",
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "location": {
+      "city": "San Antonio",
+      "region": "TX",
+      "country": "USA"
+    },
+    "chief_instructor": "person:angela-w-murphy",
+    "instructors": [],
+    "website": "http://www.alamoareaaikikai.org/"
+  },
+  {
+    "id": "dojo:albant-aikido",
+    "name": "Albant Aikido",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:albany-aikido",
+    "name": "Albany Aikido",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "Watervliet",
+      "region": "NY",
+      "country": "USA"
+    },
+    "chief_instructor": "person:kevin-p-grace",
+    "instructors": [
+      "person:keith-m-pray"
+    ],
+    "website": "http://www.albanyaikido.com/",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:allegheny-college-aikikai",
+    "name": "Allegheny College Aikikai",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "Meadville",
+      "region": "PA",
+      "country": "USA"
+    },
+    "chief_instructor": "person:robert-humphreys",
+    "instructors": [],
+    "website": "https://sites.google.com/allegheny.edu/alleghenycollegeaikikai/home",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:andes-aikido-dojo-asociacion-samurai-aikido-kawai",
+    "name": "ANDES AIKIDO DOJO - ASOCIACION SAMURAI AIKIDO KAWAI",
+    "org": [
+      "org:shin-kaze"
+    ],
+    "location": null,
+    "chief_instructor": "person:francisco-matamala",
+    "instructors": [],
+    "website": "https://www.aikido.com.uy",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:appalachian-ki-aikido",
+    "name": "Appalachian Ki-Aikido",
+    "org": [
+      "org:ki-society",
+      "org:eastern-ki-federation"
+    ],
+    "location": {
+      "city": null,
+      "region": "South Carolina",
+      "country": "USA"
+    },
+    "chief_instructor": null,
+    "instructors": [],
+    "website": "http://www.appkiaikido.org/",
+    "source": [
+      "https://ki-society.com/?dojo=appalachian-ki-aikidonorth-carolina"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:arizona-ki-society",
+    "name": "Arizona Ki Society",
+    "org": [
+      "org:ki-society",
+      "org:arizona-aikido-ki-society"
+    ],
+    "location": {
+      "city": null,
+      "region": "Arizona",
+      "country": "USA"
+    },
+    "chief_instructor": "person:kirk-fowler",
+    "instructors": [],
+    "website": "http://www.arizonakisociety.com/",
+    "source": [
+      "https://ki-society.com/?dojo=arizona-ki-society"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:art-of-peace-aikido",
+    "name": "ART OF PEACE AIKIDO",
+    "org": [
+      "org:shin-kaze"
+    ],
+    "location": {
+      "city": "Stone Ridge",
+      "region": "NY",
+      "country": "USA"
+    },
+    "chief_instructor": "person:annette-schediwy-mackrel",
+    "instructors": [
+      "person:ralph-legnini"
+    ],
+    "website": "https://artofpeaceaikido.org/",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:asahi-schools-of-aikido",
+    "name": "ASAHI SCHOOLS OF AIKIDO",
+    "org": [
+      "org:shin-kaze"
+    ],
+    "location": {
+      "city": "Collegeville",
+      "region": "PA",
+      "country": "USA"
+    },
+    "chief_instructor": "person:michael-aloia",
+    "instructors": [],
+    "website": "http://www.asahidojo.com",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:asheville-aikikai",
+    "name": "Asheville Aikikai",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions",
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "location": {
+      "city": "Weaverville",
+      "region": "NC",
+      "country": "USA"
+    },
+    "chief_instructor": "person:daniel-palmer",
+    "instructors": [],
+    "website": "http://www.aikidonc.org/"
+  },
+  {
+    "id": "dojo:associacio-andorrana-d-aikido-kokoro-dojo-internacional",
+    "name": "ASSOCIACIÓ ANDORRANA D'AIKIDO - KOKORO DOJO INTERNACIONAL",
+    "org": [
+      "org:shin-kaze"
+    ],
+    "location": null,
+    "chief_instructor": "person:diego-alberto-lozza",
+    "instructors": [],
+    "website": "https://aikidoandorra.com/",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:athens-ki-aikido",
+    "name": "Athens Ki Aikido",
+    "org": [
+      "org:ki-society",
+      "org:midland-ki-federation"
+    ],
+    "location": {
+      "city": null,
+      "region": "Ohio",
+      "country": "USA"
+    },
+    "chief_instructor": "person:stan-haehl",
+    "instructors": [],
+    "website": "http://athens-ki-aikido.net/",
+    "source": [
+      "https://ki-society.com/?dojo=athens-ohio-ki-aikido"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:augusta-aikido-club",
+    "name": "Augusta Aikido Club",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "Augusta",
+      "region": "GA",
+      "country": "USA"
+    },
+    "chief_instructor": "person:darrell-tangman",
+    "instructors": [],
+    "website": "http://aikiaugusta.org/",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:austin-aikikai",
+    "name": "Austin Aikikai",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "location": {
+      "city": "Austin",
+      "region": "TX",
+      "country": "USA"
+    },
+    "chief_instructor": "person:damir-a-jamsek",
+    "instructors": [],
+    "website": "http://austinaikikai.org/"
+  },
+  {
+    "id": "dojo:austin-ki-aikido",
+    "name": "Austin Ki Aikido",
+    "org": [
+      "org:ki-society",
+      "org:midland-ki-federation"
+    ],
+    "location": {
+      "city": null,
+      "region": "Texas",
+      "country": "USA"
+    },
+    "chief_instructor": "person:koichi-kashiwaya-michael-farris",
+    "instructors": [],
+    "website": "https://www.austinkiaikido.org/home",
+    "source": [
+      "https://ki-society.com/?dojo=austin-ki-aikido"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:austin-ki-movement",
+    "name": "Austin Ki Movement",
+    "org": [
+      "org:ki-society",
+      "org:midland-ki-federation"
+    ],
+    "location": {
+      "city": null,
+      "region": "Texas",
+      "country": "USA"
+    },
+    "chief_instructor": "person:koichi-kashiwaya-jason-rosnenblum",
+    "instructors": [],
+    "website": "https://ki.life",
+    "source": [
+      "https://ki-society.com/?dojo=austin-ki-movement"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:bahrain-aikido-academy",
+    "name": "Bahrain Aikido Academy",
+    "org": [
+      "org:aaa"
+    ],
+    "location": null,
+    "chief_instructor": "person:mission",
+    "instructors": [],
+    "website": "https://aikidobahrain.com/",
+    "source": [
+      "https://aaa-aikido.com/dojo/bahrain-aikido-academy/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:beach-cities-aikido",
+    "name": "Beach Cities Aikido",
+    "org": [
+      "org:aaa"
+    ],
+    "location": {
+      "city": null,
+      "region": "CA",
+      "country": "USA"
+    },
+    "chief_instructor": "person:mission",
+    "instructors": [],
+    "website": "https://beachcitiesaikido.com",
+    "source": [
+      "https://aaa-aikido.com/dojo/beach-cities-aikido/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:bend-ki-aikido-dojo",
+    "name": "Bend Ki Aikido Dojo",
+    "org": [
+      "org:ki-society",
+      "org:northwest-ki-federation"
+    ],
+    "location": {
+      "city": null,
+      "region": "Oregon",
+      "country": "USA"
+    },
+    "chief_instructor": "person:brad-welker",
+    "instructors": [],
+    "website": "http://www.oregonki.org",
+    "source": [
+      "https://ki-society.com/?dojo=bend-ki-aikido-dojo"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:bermuda-aikikai",
+    "name": "Bermuda Aikikai",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "location": null,
+    "chief_instructor": "person:collins-smith",
+    "instructors": [
+      "person:james-w-constable"
+    ],
+    "website": "https://bermudaaikido.com/"
+  },
+  {
+    "id": "dojo:blue-ridge-ki-society",
+    "name": "Blue Ridge Ki Society",
+    "org": [
+      "org:ki-society",
+      "org:midland-ki-federation"
+    ],
+    "location": {
+      "city": null,
+      "region": "Argentina",
+      "country": "USA"
+    },
+    "chief_instructor": null,
+    "instructors": [],
+    "website": null,
+    "source": [
+      "https://ki-society.com/?dojo=blue-ridge-ki-society"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:bogota-aikido",
+    "name": "Bogota Aikido",
+    "org": [
+      "org:usaf"
+    ],
+    "location": null,
+    "chief_instructor": "person:alix-adriana-llanes-arenas",
+    "instructors": [],
+    "website": "http://www.bogotaikido.com",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:boston-aikikai",
+    "name": "Boston Aikikai",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "location": {
+      "city": "Boston",
+      "region": "MA",
+      "country": "USA"
+    },
+    "chief_instructor": "person:vu-xuan-ha",
+    "instructors": [],
+    "website": "http://www.bostonaikikai.org/"
+  },
+  {
+    "id": "dojo:boulder-ki-aikido",
+    "name": "Boulder Ki-Aikido",
+    "org": [
+      "org:ki-society",
+      "org:midland-ki-federation"
+    ],
+    "location": {
+      "city": null,
+      "region": "Colorado",
+      "country": "USA"
+    },
+    "chief_instructor": "person:koichi-kashiwaya-abel-vilacorta",
+    "instructors": [],
+    "website": "http://boulderkiaikido.org",
+    "source": [
+      "https://ki-society.com/?dojo=boulder-ki-aikido"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:brampton-aikikai",
+    "name": "BRAMPTON AIKIKAI",
+    "org": [
+      "org:shin-kaze"
+    ],
+    "location": {
+      "city": "Brampton",
+      "region": "ON",
+      "country": "Canada"
+    },
+    "chief_instructor": "person:richard-mcneillie",
+    "instructors": [],
+    "website": "https://www.bramptonaikikai.org/",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:brave-spirit-aikido",
+    "name": "Brave Spirit Aikido",
+    "org": [
+      "org:aaa"
+    ],
+    "location": {
+      "city": "Midvale",
+      "region": "UT",
+      "country": "USA"
+    },
+    "chief_instructor": "person:mark-szczepanski",
+    "instructors": [],
+    "website": "http://bravespiritaikido.com",
+    "source": [
+      "https://aaa-aikido.com/dojo/brave-spirit-aikido/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:brevard-aikikai",
+    "name": "Brevard Aikikai",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "Melbourne",
+      "region": "FL",
+      "country": "USA"
+    },
+    "chief_instructor": "person:grady-d-lane",
+    "instructors": [],
+    "website": "http://www.brevardaikikai.com/",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:bronx-aikikai",
+    "name": "BRONX AIKIKAI",
+    "org": [
+      "org:shin-kaze"
+    ],
+    "location": {
+      "city": "New York",
+      "region": "NY",
+      "country": "USA"
+    },
+    "chief_instructor": "person:dale-nordenberg",
+    "instructors": [],
+    "website": "N/A",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:bushwick-dojo",
+    "name": "BUSHWICK DOJO",
+    "org": [
+      "org:shin-kaze"
+    ],
+    "location": {
+      "city": "New York",
+      "region": "NY",
+      "country": "USA"
+    },
+    "chief_instructor": "person:claire-keller",
+    "instructors": [],
+    "website": "https://brooklynaikido.com/",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:capital-hill-aikikai",
+    "name": "Capital Hill Aikikai",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:capitol-hill-aikikai",
+    "name": "Capitol Hill Aikikai",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "Washington",
+      "region": "DC",
+      "country": "USA"
+    },
+    "chief_instructor": "person:michael-martin",
+    "instructors": [
+      "person:meipo-martin"
+    ],
+    "website": "http://www.capitolhillaikikai.org/",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:casablanca-aikikai",
+    "name": "Casablanca Aikikai",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "location": null,
+    "chief_instructor": "person:driss-benmoussa",
+    "instructors": [],
+    "website": "No website."
+  },
+  {
+    "id": "dojo:celje",
+    "name": "Celje",
+    "org": [
+      "org:aaa"
+    ],
+    "location": null,
+    "chief_instructor": "person:matjaz-dobravec",
+    "instructors": [],
+    "website": "https://shodokan.si",
+    "source": [
+      "https://aaa-aikido.com/dojo/celje/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:center-island-aikido",
+    "name": "Center Island Aikido",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions",
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "location": {
+      "city": "Smithtown",
+      "region": "NY",
+      "country": "USA"
+    },
+    "chief_instructor": "person:richard-morrison",
+    "instructors": [],
+    "website": "http://centerislandaikido.com/"
+  },
+  {
+    "id": "dojo:center-point-aikido",
+    "name": "CENTER POINT AIKIDO",
+    "org": [
+      "org:usaf",
+      "org:shin-kaze"
+    ],
+    "location": {
+      "city": "Toms River",
+      "region": "NJ",
+      "country": "USA"
+    },
+    "chief_instructor": "person:craig-johnson",
+    "instructors": [],
+    "website": "http://centerpointaikido.com/",
+    "source": [
+      "https://services.usaikifed.com/dojos",
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:central-aikido",
+    "name": "Central Aikido",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "Warrenburg",
+      "region": "MO",
+      "country": "USA"
+    },
+    "chief_instructor": "person:thomas-burden",
+    "instructors": [],
+    "website": "http://centralaikido.org/",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:central-illinois-aikikai",
+    "name": "Central Illinois Aikikai",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "Urbana",
+      "region": "IL",
+      "country": "USA"
+    },
+    "chief_instructor": "person:knut-t-o-bauer",
+    "instructors": [],
+    "website": "http://www.aikidocia.org/",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:central-new-brunswick-aikikai",
+    "name": "Central New Brunswick Aikikai",
+    "org": [
+      "org:usaf"
+    ],
+    "location": null,
+    "chief_instructor": "person:evie-pond",
+    "instructors": [],
+    "website": "https://fredericton.ymca.ca/",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:central-ymca-ki-aikido-dojo",
+    "name": "Central YMCA Ki Aikido Dojo",
+    "org": [
+      "org:ki-society",
+      "org:hawaii-ki-federation"
+    ],
+    "location": {
+      "city": null,
+      "region": "Hawaii",
+      "country": "USA"
+    },
+    "chief_instructor": "person:linda-sasaki",
+    "instructors": [],
+    "website": "http://www.hawaiikiaikido.org/",
+    "source": [
+      "https://ki-society.com/?dojo=central-ymca-ki-aikido-dojo"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:chatham-aikido",
+    "name": "Chatham Aikido",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "Chatham",
+      "region": "NY",
+      "country": "USA"
+    },
+    "chief_instructor": "person:eiji-kurashige",
+    "instructors": [],
+    "website": "No website.",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:chicago-ki-aikido",
+    "name": "Chicago Ki Aikido",
+    "org": [
+      "org:ki-society",
+      "org:chicago-ki-society"
+    ],
+    "location": {
+      "city": null,
+      "region": "Illinois",
+      "country": "USA"
+    },
+    "chief_instructor": "person:jonathan-r-eley",
+    "instructors": [],
+    "website": "http://evki.bravesites.com",
+    "source": [
+      "https://ki-society.com/?dojo=chicago-ki-aikido"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:chiheisen-dojo",
+    "name": "Chiheisen Dojo",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:choetsu-aikido",
+    "name": "Choetsu Aikido",
+    "org": [
+      "org:aaa"
+    ],
+    "location": null,
+    "chief_instructor": "person:frank-spera",
+    "instructors": [],
+    "website": null,
+    "source": [
+      "https://aaa-aikido.com/dojo/choetsu-aikido/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:chudokan-dojo",
+    "name": "Chudokan Dojo",
+    "org": [
+      "org:aai"
+    ],
+    "location": {
+      "city": null,
+      "region": null,
+      "country": "Hilton Resort Mangaf"
+    },
+    "chief_instructor": "person:mohammed-alajmi-sensei",
+    "instructors": [],
+    "website": "https://instagram.com/chudokankuwaitt",
+    "source": [
+      "https://aaa-aikido.com/dojo/chudokan-dojo/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:chushin-aikikai",
+    "name": "Chushin Aikikai",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "Omaha",
+      "region": "NE",
+      "country": "USA"
+    },
+    "chief_instructor": "person:daniel-hayes",
+    "instructors": [],
+    "website": "http://www.chushinaikikai.com/",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:chushinkan-dojo",
+    "name": "Chushinkan Dojo",
+    "org": [
+      "org:aaa"
+    ],
+    "location": null,
+    "chief_instructor": "person:james-nakayama",
+    "instructors": [],
+    "website": "http://chushinkan.com",
+    "source": [
+      "https://aaa-aikido.com/dojo/chushinkan-dojo/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:columbia-aikikai",
+    "name": "Columbia Aikikai",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "West Columbia",
+      "region": "SC",
+      "country": "USA"
+    },
+    "chief_instructor": "person:curtis-lamar-sanders-jr",
+    "instructors": [],
+    "website": "No website.",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:commonwealth-aikikai",
+    "name": "COMMONWEALTH AIKIKAI",
+    "org": [
+      "org:shin-kaze"
+    ],
+    "location": {
+      "city": "Woburn",
+      "region": "MA",
+      "country": "USA"
+    },
+    "chief_instructor": "person:david-farrell-shihan",
+    "instructors": [],
+    "website": "https://www.facebook.com/Commonwealth-Aikikai-114830018549266/",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:connecticut-ki-aikido",
+    "name": "Connecticut Ki-Aikido",
+    "org": [
+      "org:ki-society",
+      "org:eastern-ki-federation"
+    ],
+    "location": {
+      "city": null,
+      "region": "South Carolina",
+      "country": "USA"
+    },
+    "chief_instructor": null,
+    "instructors": [],
+    "website": "http://www.connectiutkiaikido.com/",
+    "source": [
+      "https://ki-society.com/?dojo=connecticut-ki-aikido"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:cornell-aikido-club",
+    "name": "Cornell Aikido Club",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "Ithaca",
+      "region": "NY",
+      "country": "USA"
+    },
+    "chief_instructor": "person:yukiko-katagiri",
+    "instructors": [],
+    "website": "http://www.cornellaikidoclub.com/",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:corvallis-ki-aikido-dojo",
+    "name": "Corvallis Ki Aikido Dojo",
+    "org": [
+      "org:ki-society",
+      "org:northwest-ki-federation"
+    ],
+    "location": {
+      "city": null,
+      "region": "Oregon",
+      "country": "USA"
+    },
+    "chief_instructor": "person:bill-peterson",
+    "instructors": [],
+    "website": "http://www.oregonki.org",
+    "source": [
+      "https://ki-society.com/?dojo=corvallis-ki-aikido-dojo"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:crescent-city-aikikai",
+    "name": "Crescent City Aikikai",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "New Orleans",
+      "region": "LA",
+      "country": "USA"
+    },
+    "chief_instructor": "person:yordan-yordanov",
+    "instructors": [
+      "person:mikal-giancola"
+    ],
+    "website": "No website.",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:daikouwan-great-harbour-aikikai",
+    "name": "Daikouwan/Great Harbour Aikikai",
+    "org": [
+      "org:usaf"
+    ],
+    "location": null,
+    "chief_instructor": "person:graham-fraser",
+    "instructors": [],
+    "website": "No website.",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:dairyukai-aikikai",
+    "name": "Dairyukai Aikikai",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "location": null,
+    "chief_instructor": "person:fabio-chirinos",
+    "instructors": [],
+    "website": "http://dairyukai.com/"
+  },
+  {
+    "id": "dojo:denver-ki-aikido-dojo",
+    "name": "Denver Ki-Aikido Dojo",
+    "org": [
+      "org:ki-society",
+      "org:midland-ki-federation"
+    ],
+    "location": {
+      "city": null,
+      "region": "Colorado",
+      "country": "USA"
+    },
+    "chief_instructor": "person:koichi-kashiwaya-susan-chandler",
+    "instructors": [],
+    "website": "http://denverkiaikido.com",
+    "source": [
+      "https://ki-society.com/?dojo=denver-ki-aikido-dojo"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:diamond-state-aikido",
+    "name": "Diamond State Aikido",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "New Castle",
+      "region": "DE",
+      "country": "USA"
+    },
+    "chief_instructor": "person:john-hadfield",
+    "instructors": [],
+    "website": "http://www.diamondstateaikido.com/",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:dojo-aikikai-uclv-kan-sho-ryu",
+    "name": "DOJO AIKIKAI UCLV - KAN SHO RYU",
+    "org": [
+      "org:shin-kaze"
+    ],
+    "location": null,
+    "chief_instructor": "person:alberto-rodriguez-carvajal",
+    "instructors": [],
+    "website": "N/A",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:dojo-himawari-asociacion-morihei-ueshiba-del-peru",
+    "name": "DOJO HIMAWARI - ASOCIACIÓN MORIHEI UESHIBA DEL PERÚ",
+    "org": [
+      "org:shin-kaze"
+    ],
+    "location": null,
+    "chief_instructor": "person:juan-carlos-delgado",
+    "instructors": [],
+    "website": "https://www.facebook.com/DojoHimawari/",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:dojo-manuel-cormenzana",
+    "name": "DOJO MANUEL CORMENZANA",
+    "org": [
+      "org:shin-kaze"
+    ],
+    "location": null,
+    "chief_instructor": "person:manuel-cormenzana-casuriaga",
+    "instructors": [],
+    "website": "N/A",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:dojo-shin-sakura",
+    "name": "DOJO SHIN SAKURA",
+    "org": [
+      "org:shin-kaze"
+    ],
+    "location": null,
+    "chief_instructor": "person:alexis-botiel-fernandez",
+    "instructors": [],
+    "website": "N/A",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:domzale",
+    "name": "Domzale",
+    "org": [
+      "org:aaa"
+    ],
+    "location": null,
+    "chief_instructor": "person:matjaz-dobravec",
+    "instructors": [],
+    "website": "https://shodokan.si",
+    "source": [
+      "https://aaa-aikido.com/dojo/domzale/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:east-end-aikido-nl",
+    "name": "East End Aikido NL",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "location": null,
+    "chief_instructor": "person:colleen-m-hogan",
+    "instructors": [],
+    "website": "https://eeaikidonl.myfreesites.net/"
+  },
+  {
+    "id": "dojo:eastern-ki-federation",
+    "name": "Eastern Ki Federation",
+    "org": [
+      "org:ki-society",
+      "org:eastern-ki-federation"
+    ],
+    "location": {
+      "city": null,
+      "region": "South Carolina",
+      "country": "USA"
+    },
+    "chief_instructor": "person:david-shaner-ekf-chief-instructor",
+    "instructors": [],
+    "website": "http://www.easternkifederation.com/",
+    "source": [
+      "https://ki-society.com/?dojo=eastern-ki-federationsouth-carolina"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:el-pas-aikikai",
+    "name": "El Pas Aikikai",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:el-paso-aikikai",
+    "name": "El Paso Aikikai",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "El Paso",
+      "region": "TX",
+      "country": "USA"
+    },
+    "chief_instructor": "person:wayne-massey",
+    "instructors": [],
+    "website": "No website.",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:elkton-valley-ki-aikido",
+    "name": "Elkton Valley Ki-Aikido",
+    "org": [
+      "org:ki-society",
+      "org:eastern-ki-federation"
+    ],
+    "location": {
+      "city": null,
+      "region": "Virginia",
+      "country": "USA"
+    },
+    "chief_instructor": null,
+    "instructors": [],
+    "website": "http://www.elktonkiaikido.org/",
+    "source": [
+      "https://ki-society.com/?dojo=elkton-valley-ki-aikidovirginia"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:endokan-dojo",
+    "name": "Endokan Dojo",
+    "org": [
+      "org:aaa"
+    ],
+    "location": null,
+    "chief_instructor": "person:mission",
+    "instructors": [],
+    "website": "https://aikisur.es",
+    "source": [
+      "https://aaa-aikido.com/dojo/endokan-dojo/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:endokan-dojo-satellite",
+    "name": "Endokan Dojo – Satellite",
+    "org": [
+      "org:aaa"
+    ],
+    "location": null,
+    "chief_instructor": "person:alberto-alonso-conchina",
+    "instructors": [],
+    "website": "https://aikisur.es",
+    "source": [
+      "https://aaa-aikido.com/dojo/endokan-dojo-satellite/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:escuela-nacional-de-aikido-zen-bu-dojo-aikikai-venezuela",
+    "name": "ESCUELA NACIONAL DE AIKIDO ZEN BU DOJO AIKIKAI VENEZUELA",
+    "org": [
+      "org:shin-kaze"
+    ],
+    "location": null,
+    "chief_instructor": "person:jesus-a-gonzalez-jimenez",
+    "instructors": [],
+    "website": "N/A",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:eugene-ki-aikido-dojo",
+    "name": "Eugene Ki Aikido Dojo",
+    "org": [
+      "org:ki-society",
+      "org:northwest-ki-federation"
+    ],
+    "location": {
+      "city": null,
+      "region": "Oregon",
+      "country": "USA"
+    },
+    "chief_instructor": "person:terry-copperman",
+    "instructors": [],
+    "website": "http://www.oregonki.org",
+    "source": [
+      "https://ki-society.com/?dojo=eugene-ki-aikido-dojo"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:evanston-aikido-center",
+    "name": "Evanston Aikido Center",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "location": {
+      "city": "Evanston",
+      "region": "IL",
+      "country": "USA"
+    },
+    "chief_instructor": "person:art-wise",
+    "instructors": [],
+    "website": "http://www.evanstonaikidocenter.com/"
+  },
+  {
+    "id": "dojo:fairfield-iowa-aikikai",
+    "name": "Fairfield Iowa Aikikai",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "Fairfield",
+      "region": "IA",
+      "country": "USA"
+    },
+    "chief_instructor": "person:motier-haskins",
+    "instructors": [],
+    "website": "http://www.fairfieldaikido.com",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:fenton-ki-aikido",
+    "name": "Fenton Ki-Aikido",
+    "org": [
+      "org:ki-society",
+      "org:midland-ki-federation"
+    ],
+    "location": {
+      "city": null,
+      "region": "Missouri",
+      "country": "USA"
+    },
+    "chief_instructor": "person:koichi-kashiwaya-tomoyuki-nishino",
+    "instructors": [],
+    "website": "http://www.fentonkiaikido.com",
+    "source": [
+      "https://ki-society.com/?dojo=fenton-ki-aikido"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:finger-lakes-aikido",
+    "name": "Finger Lakes Aikido",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "Ithaca",
+      "region": "NY",
+      "country": "USA"
+    },
+    "chief_instructor": "person:larry-e-bieri",
+    "instructors": [],
+    "website": "http://www.fingerlakesaikido.com/",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:florida-aikikai",
+    "name": "Florida Aikikai",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions",
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions",
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions",
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "location": {
+      "city": "Fort Lauderdale",
+      "region": "FL",
+      "country": "USA"
+    },
+    "chief_instructor": "person:penny-strake-bernath",
+    "instructors": [
+      "person:peter-bernath"
+    ],
+    "website": "http://www.floridaaikikai.com/"
+  },
+  {
+    "id": "dojo:fort-worth-aikikai",
+    "name": "Fort Worth Aikikai",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "Fort Worth",
+      "region": "TX",
+      "country": "USA"
+    },
+    "chief_instructor": "person:ashley-coles",
+    "instructors": [],
+    "website": "http://fortworthaikikai.org",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:framingham-aikikai",
+    "name": "FRAMINGHAM AIKIKAI",
+    "org": [
+      "org:shin-kaze"
+    ],
+    "location": {
+      "city": "Natick",
+      "region": "MA",
+      "country": "USA"
+    },
+    "chief_instructor": "person:david-halprin-shihan",
+    "instructors": [],
+    "website": "http://www.aikidoframingham.com",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:franklin-ki-aikido",
+    "name": "Franklin Ki Aikido",
+    "org": [
+      "org:ki-society",
+      "org:midland-ki-federation"
+    ],
+    "location": {
+      "city": null,
+      "region": "New Jersey",
+      "country": "USA"
+    },
+    "chief_instructor": "person:koichi-kashiwaya-mort-melman",
+    "instructors": [],
+    "website": null,
+    "source": [
+      "https://ki-society.com/?dojo=franklin-ki-aikido"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:fudoshin-aiki",
+    "name": "Fudoshin Aiki",
+    "org": [
+      "org:aaa"
+    ],
+    "location": null,
+    "chief_instructor": "person:rafael-urrutia-pairol",
+    "instructors": [],
+    "website": null,
+    "source": [
+      "https://aaa-aikido.com/dojo/fudoshin-aiki/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:fudoshin-aikikai",
+    "name": "Fudoshin Aikikai",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "location": null,
+    "chief_instructor": "person:michael-clair",
+    "instructors": [],
+    "website": "https://fudoshin.ca"
+  },
+  {
+    "id": "dojo:furman-ki-aikido",
+    "name": "Furman Ki-Aikido",
+    "org": [
+      "org:ki-society",
+      "org:eastern-ki-federation"
+    ],
+    "location": {
+      "city": null,
+      "region": "South Carolina",
+      "country": "USA"
+    },
+    "chief_instructor": null,
+    "instructors": [],
+    "website": "https://orgsync.com/40988/chapter",
+    "source": [
+      "https://ki-society.com/?dojo=furman-ki-aikidosouth-carolina"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:glen-ellyn-aikido-club",
+    "name": "Glen Ellyn Aikido Club",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions",
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "location": {
+      "city": "Glen Ellyn",
+      "region": "IL",
+      "country": "USA"
+    },
+    "chief_instructor": "person:matthias-lynch",
+    "instructors": [],
+    "website": "http://aikidogeac.org/"
+  },
+  {
+    "id": "dojo:gold-coast-aikikai",
+    "name": "Gold Coast Aikikai",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "location": {
+      "city": "Miami",
+      "region": "FL",
+      "country": "USA"
+    },
+    "chief_instructor": "person:maria-cristina-dumlao",
+    "instructors": [],
+    "website": "http://www.aikikai.com/"
+  },
+  {
+    "id": "dojo:granite-state-aikido-club",
+    "name": "Granite State Aikido Club",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "location": {
+      "city": "Merrimack",
+      "region": "NH",
+      "country": "USA"
+    },
+    "chief_instructor": "person:michel-j-hovan",
+    "instructors": [],
+    "website": "http://www.gsaikido.com"
+  },
+  {
+    "id": "dojo:greater-hartford-aikikai",
+    "name": "Greater Hartford Aikikai",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "location": {
+      "city": "Manchester",
+      "region": "CT",
+      "country": "USA"
+    },
+    "chief_instructor": "person:michael-sheahon",
+    "instructors": [],
+    "website": "http://aikidohartford.com/"
+  },
+  {
+    "id": "dojo:greater-moncton-aikikai",
+    "name": "Greater Moncton AIkikai",
+    "org": [
+      "org:usaf"
+    ],
+    "location": null,
+    "chief_instructor": "person:derek-leblanc",
+    "instructors": [],
+    "website": "No website.",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:green-bay-ki-aikido",
+    "name": "Green Bay Ki-Aikido",
+    "org": [
+      "org:ki-society",
+      "org:eastern-ki-federation"
+    ],
+    "location": {
+      "city": null,
+      "region": "South Carolina",
+      "country": "USA"
+    },
+    "chief_instructor": null,
+    "instructors": [],
+    "website": null,
+    "source": [
+      "https://ki-society.com/?dojo=green-bay-ki-aikidowisconsin"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:grinnell-aikikai",
+    "name": "Grinnell Aikikai",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "Grinnell",
+      "region": "IA",
+      "country": "USA"
+    },
+    "chief_instructor": "person:charles-e-cunningham",
+    "instructors": [],
+    "website": "No website.",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:hagakure-dojo-asociacion-samurai-aikido-kawai",
+    "name": "HAGAKURE DOJO - ASOCIACION SAMURAI AIKIDO KAWAI",
+    "org": [
+      "org:shin-kaze"
+    ],
+    "location": null,
+    "chief_instructor": "person:pablo-vitelio",
+    "instructors": [],
+    "website": "aikido.com.uy",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:hanapepe-ki-aikido-dojo",
+    "name": "Hanapepe Ki Aikido Dojo",
+    "org": [
+      "org:ki-society",
+      "org:hawaii-ki-federation"
+    ],
+    "location": {
+      "city": null,
+      "region": "Hawaii",
+      "country": "USA"
+    },
+    "chief_instructor": "person:dean-mayer",
+    "instructors": [],
+    "website": "http://www.hawaiikiaikido.org/",
+    "source": [
+      "https://ki-society.com/?dojo=hanapepe-ki-aikido-dojo"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:happu-aikido-dojo",
+    "name": "HAPPU AIKIDO DOJO",
+    "org": [
+      "org:shin-kaze"
+    ],
+    "location": null,
+    "chief_instructor": "person:aneida-gonzalez",
+    "instructors": [],
+    "website": "N/A",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:harvard-aikikai",
+    "name": "Harvard Aikikai",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "location": {
+      "city": "Cambridge",
+      "region": "MA",
+      "country": "USA"
+    },
+    "chief_instructor": "person:daryl-muranaka",
+    "instructors": [],
+    "website": "https://sites.google.com/view/harvardaikikai/home?authuser=0"
+  },
+  {
+    "id": "dojo:hatsudokan-dojo",
+    "name": "Hatsudokan Dojo",
+    "org": [
+      "org:aaa"
+    ],
+    "location": null,
+    "chief_instructor": "person:raul-espinosa-y-jorge-aguilar",
+    "instructors": [],
+    "website": "https://aikisur.es",
+    "source": [
+      "https://aaa-aikido.com/dojo/hatsudokan-dojo/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:hawaii-ki-federation",
+    "name": "Hawaii Ki Federation",
+    "org": [
+      "org:ki-society",
+      "org:hawaii-ki-federation"
+    ],
+    "location": {
+      "city": null,
+      "region": "Hawaii",
+      "country": "USA"
+    },
+    "chief_instructor": "person:eric-nonaka",
+    "instructors": [],
+    "website": "https://www.hawaiikifederation.org/",
+    "source": [
+      "https://ki-society.com/?dojo=hawaii-ki-federation"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:heaven-and-earth-aikido",
+    "name": "Heaven and Earth Aikido",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "location": {
+      "city": "Herndon",
+      "region": "VA",
+      "country": "USA"
+    },
+    "chief_instructor": "person:brian-ericksen",
+    "instructors": [],
+    "website": "http://heavenandearthaikido.org"
+  },
+  {
+    "id": "dojo:hillsboro-ki-aikido-dojo",
+    "name": "Hillsboro Ki-Aikido Dojo",
+    "org": [
+      "org:ki-society",
+      "org:northwest-ki-federation"
+    ],
+    "location": {
+      "city": null,
+      "region": "Oregon",
+      "country": "USA"
+    },
+    "chief_instructor": "person:paul-rebollido",
+    "instructors": [],
+    "website": "http://www.oregonki.org",
+    "source": [
+      "https://ki-society.com/?dojo=hillsboro-ki-aikido-dojo"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:hilo-ki-aikido-dojo",
+    "name": "Hilo Ki Aikido Dojo",
+    "org": [
+      "org:ki-society",
+      "org:hawaii-ki-federation"
+    ],
+    "location": {
+      "city": null,
+      "region": "Hawaii",
+      "country": "USA"
+    },
+    "chief_instructor": "person:david-kaneshiro",
+    "instructors": [],
+    "website": "http://www.hawaiikiaikido.org/",
+    "source": [
+      "https://ki-society.com/?dojo=hilo-ki-aikido-dojo"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:hoboken-aikikai",
+    "name": "Hoboken Aikikai",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "Hoboken",
+      "region": "NJ",
+      "country": "USA"
+    },
+    "chief_instructor": "person:michael-j-mcnally",
+    "instructors": [],
+    "website": "http://hobokenaikikai.com/",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:honokaa-ki-aikido-dojo",
+    "name": "Honokaa Ki Aikido Dojo",
+    "org": [
+      "org:ki-society",
+      "org:hawaii-ki-federation"
+    ],
+    "location": {
+      "city": null,
+      "region": "Hawaii",
+      "country": "USA"
+    },
+    "chief_instructor": "person:lillian-paiva",
+    "instructors": [],
+    "website": "http://www.hawaiikiaikido.org/",
+    "source": [
+      "https://ki-society.com/?dojo=honokaa-ki-aikido-dojo"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:honolulu-ki-society",
+    "name": "Honolulu Ki Society",
+    "org": [
+      "org:ki-society",
+      "org:northwest-ki-federation"
+    ],
+    "location": {
+      "city": null,
+      "region": "Hawaii",
+      "country": "USA"
+    },
+    "chief_instructor": "person:phil-smith-chris-omuro-jeff-carlson",
+    "instructors": [],
+    "website": "http://www.honoluluki.org",
+    "source": [
+      "https://ki-society.com/?dojo=honolulu-ki-society"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:honsen-aikikai",
+    "name": "HONSEN AIKIKAI",
+    "org": [
+      "org:shin-kaze"
+    ],
+    "location": {
+      "city": "Narberth",
+      "region": "PA",
+      "country": "USA"
+    },
+    "chief_instructor": "person:andrew-benioff",
+    "instructors": [],
+    "website": "N/A",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:houston-aikido",
+    "name": "Houston Aikido",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "League City",
+      "region": "TX",
+      "country": "USA"
+    },
+    "chief_instructor": "person:jonel-romero",
+    "instructors": [],
+    "website": "https://houstonaikido.org",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:houston-aikikai",
+    "name": "Houston Aikikai",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "location": {
+      "city": "Houston",
+      "region": "TX",
+      "country": "USA"
+    },
+    "chief_instructor": "person:richard-gibbs",
+    "instructors": [
+      "person:christopher-walla",
+      "person:michael-lum"
+    ],
+    "website": "http://www.houstonaikikai.org"
+  },
+  {
+    "id": "dojo:houston-ki-aikido-dojo",
+    "name": "Houston Ki-Aikido Dojo",
+    "org": [
+      "org:ki-society",
+      "org:midland-ki-federation"
+    ],
+    "location": {
+      "city": null,
+      "region": "Texas",
+      "country": "USA"
+    },
+    "chief_instructor": "person:koichi-kashiwaya-colin-li-pi-shan",
+    "instructors": [],
+    "website": "http://www.houstonkiaikido.org",
+    "source": [
+      "https://ki-society.com/?dojo=houston-ki-aikido-dojo"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:howard-county-ki-society",
+    "name": "Howard County Ki Society",
+    "org": [
+      "org:ki-society",
+      "org:midland-ki-federation"
+    ],
+    "location": {
+      "city": null,
+      "region": "Maryland",
+      "country": "USA"
+    },
+    "chief_instructor": "person:koichi-kashiwaya-russell-daubar",
+    "instructors": [],
+    "website": null,
+    "source": [
+      "https://ki-society.com/?dojo=howard-county-ki-society"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:illiana-aikikai",
+    "name": "Illiana Aikikai",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "Highland",
+      "region": "IN",
+      "country": "USA"
+    },
+    "chief_instructor": "person:wyatt-smith",
+    "instructors": [],
+    "website": "http://www.highlandkarate.org/",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:indiana-ki-aikido",
+    "name": "Indiana Ki Aikido",
+    "org": [
+      "org:ki-society",
+      "org:eastern-ki-federation"
+    ],
+    "location": {
+      "city": null,
+      "region": "South Carolina",
+      "country": "USA"
+    },
+    "chief_instructor": null,
+    "instructors": [],
+    "website": "http://indianakiaikido.com/",
+    "source": [
+      "https://ki-society.com/?dojo=indiana-ki-aikido"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:instituto-makaro-de-aikido",
+    "name": "Instituto Makaro de Aikido",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:instituto-makoto-de-aikido",
+    "name": "Instituto Makoto de Aikido",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "location": null,
+    "chief_instructor": "person:josemar-dias",
+    "instructors": [
+      "person:josnei-dias"
+    ],
+    "website": "http://www.aikidoaracaju.com.br"
+  },
+  {
+    "id": "dojo:intermountain-aikido",
+    "name": "Intermountain Aikido",
+    "org": [
+      "org:aaa"
+    ],
+    "location": null,
+    "chief_instructor": "person:jeremy-neff",
+    "instructors": [],
+    "website": null,
+    "source": [
+      "https://aaa-aikido.com/dojo/intermountain-aikido/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:iowa-city-aikikai",
+    "name": "Iowa City Aikikai",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "Iowa City",
+      "region": "IA",
+      "country": "USA"
+    },
+    "chief_instructor": "person:ivar-w-christopher",
+    "instructors": [],
+    "website": "https://www.facebook.com/iowacityaikikai/",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:island-aikido",
+    "name": "Island Aikido",
+    "org": [
+      "org:usaf",
+      "org:aaa"
+    ],
+    "location": {
+      "city": "Johns Island",
+      "region": "SC",
+      "country": "USA"
+    },
+    "chief_instructor": "person:max-c-sherman",
+    "instructors": [],
+    "website": "http://www.Islandaikidobainbridge.com",
+    "source": [
+      "https://services.usaikifed.com/dojos",
+      "https://aaa-aikido.com/dojo/island-aikido/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:jatun-dojo",
+    "name": "Jatun Dojo",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "Quito",
+      "region": null,
+      "country": "Ecuador"
+    },
+    "chief_instructor": "person:juan-pablo-guachamin-andrade",
+    "instructors": [],
+    "website": "https://jatundojo.wixsite.com/misitio",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:jonesboro-aikido",
+    "name": "Jonesboro Aikido",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "Jonesboro",
+      "region": "AR",
+      "country": "USA"
+    },
+    "chief_instructor": "person:perry-ivy",
+    "instructors": [],
+    "website": "http://WWW.aikijonesar.homestead.com/",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:joshinkan-dojo-the-aikido-academy-of-nc",
+    "name": "Joshinkan Dojo / The Aikido Academy of NC",
+    "org": [
+      "org:aaa"
+    ],
+    "location": {
+      "city": "Raleigh",
+      "region": "NC",
+      "country": "USA"
+    },
+    "chief_instructor": "person:jon-whatley",
+    "instructors": [],
+    "website": "http://raleighaikido.com/",
+    "source": [
+      "https://aaa-aikido.com/dojo/joshinkan-dojo-the-aikido-academy-of-nc/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:joshua-tree-aikido-collaborative",
+    "name": "JOSHUA TREE AIKIDO COLLABORATIVE",
+    "org": [
+      "org:shin-kaze"
+    ],
+    "location": {
+      "city": "Yucca Valley",
+      "region": "CA",
+      "country": "USA"
+    },
+    "chief_instructor": "person:janice-taitel",
+    "instructors": [],
+    "website": "htpps://tinyurl.com/JTreeAikido",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:jyushinkan-dojo-aikido-of-northern-utah",
+    "name": "Jyushinkan Dojo / Aikido of Northern Utah",
+    "org": [
+      "org:aaa"
+    ],
+    "location": {
+      "city": "Logan",
+      "region": "UT",
+      "country": "USA"
+    },
+    "chief_instructor": "person:ronald-c-sims",
+    "instructors": [],
+    "website": null,
+    "source": [
+      "https://aaa-aikido.com/dojo/jyushinkan-dojo-aikido-of-northern-utah/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:kaist-aikido",
+    "name": "KAIST Aikido",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:kaist-aikido-club",
+    "name": "KAIST Aikido Club",
+    "org": [
+      "org:usaf"
+    ],
+    "location": null,
+    "chief_instructor": "person:michael-s-pak",
+    "instructors": [],
+    "website": "No website.",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:kan-sho-ryu-dojo",
+    "name": "KAN SHO RYU DOJO",
+    "org": [
+      "org:shin-kaze"
+    ],
+    "location": null,
+    "chief_instructor": "person:leonel-sanchez-sotolongo",
+    "instructors": [],
+    "website": "N/A",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:kanjou-dojo-asociacion-samurai-aikido-kawai",
+    "name": "KANJOU DOJO - ASOCIACION SAMURAI AIKIDO KAWAI",
+    "org": [
+      "org:shin-kaze"
+    ],
+    "location": null,
+    "chief_instructor": "person:rubel-batista",
+    "instructors": [],
+    "website": "https://www.aikido.com.uy",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:kansas-city-aikido-school",
+    "name": "Kansas City Aikido School",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "Kansas City",
+      "region": "MO",
+      "country": "USA"
+    },
+    "chief_instructor": "person:larry-graham",
+    "instructors": [],
+    "website": "http://www.kcaikido.com/",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:kansas-city-ki-aikido-society",
+    "name": "Kansas City Ki-Aikido Society",
+    "org": [
+      "org:ki-society",
+      "org:midland-ki-federation"
+    ],
+    "location": {
+      "city": null,
+      "region": "Kansas",
+      "country": "USA"
+    },
+    "chief_instructor": "person:koichi-kashiwaya-h-vic-montgomery",
+    "instructors": [],
+    "website": null,
+    "source": [
+      "https://ki-society.com/?dojo=kansas-city-ki-aikido-society"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:kapaa-ki-aikido-dojo",
+    "name": "Kapaa Ki Aikido Dojo",
+    "org": [
+      "org:ki-society",
+      "org:hawaii-ki-federation"
+    ],
+    "location": {
+      "city": null,
+      "region": "Hawaii",
+      "country": "USA"
+    },
+    "chief_instructor": "person:rene-relacion",
+    "instructors": [],
+    "website": "http://www.hawaiikiaikido.org/",
+    "source": [
+      "https://ki-society.com/?dojo=kapaa-ki-aikido-dojo"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:katsujinken-dojo-asociacion-morihei-ueshiba-del-peru",
+    "name": "KATSUJINKEN DOJO - ASOCIACIÓN MORIHEI UESHIBA DEL PERÚ",
+    "org": [
+      "org:shin-kaze"
+    ],
+    "location": null,
+    "chief_instructor": "person:javier-raa",
+    "instructors": [],
+    "website": "N/A",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:kendokan-dojo",
+    "name": "Kendokan Dojo",
+    "org": [
+      "org:aaa"
+    ],
+    "location": null,
+    "chief_instructor": "person:sensei-bader-al-saifan",
+    "instructors": [],
+    "website": null,
+    "source": [
+      "https://aaa-aikido.com/dojo/kendokan-dojo/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:kenosha-aikikai",
+    "name": "Kenosha Aikikai",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "Kenosha",
+      "region": "WI",
+      "country": "USA"
+    },
+    "chief_instructor": "person:rock-lazo",
+    "instructors": [],
+    "website": "http://www.kenoshaaikikai.org/",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:kenshinkan-dojo-aikido-of-north-county",
+    "name": "Kenshinkan Dojo – Aikido of North County",
+    "org": [
+      "org:aaa"
+    ],
+    "location": {
+      "city": "Vista",
+      "region": "CA",
+      "country": "USA"
+    },
+    "chief_instructor": "person:ken-macbeth",
+    "instructors": [],
+    "website": "https://aikidoofnorthcounty.com",
+    "source": [
+      "https://aaa-aikido.com/dojo/kenshinkan-dojo-aikido-of-north-county/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:kentuckiana-aikikai",
+    "name": "Kentuckiana Aikikai",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "location": {
+      "city": "Louisville",
+      "region": "KY",
+      "country": "USA"
+    },
+    "chief_instructor": "person:alicia-c-hardesty-cordero",
+    "instructors": [
+      "person:patrick-h-hardesty"
+    ],
+    "website": "https://www.kyaikikai.com/"
+  },
+  {
+    "id": "dojo:kern-river-aikikai",
+    "name": "Kern River Aikikai",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "Bakersfield",
+      "region": "CA",
+      "country": "USA"
+    },
+    "chief_instructor": "person:jason-parsons",
+    "instructors": [],
+    "website": "http://www.bakersfieldbudo.com/",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:ki-aikido-of-anderson-valley",
+    "name": "Ki-Aikido of Anderson Valley",
+    "org": [
+      "org:ki-society",
+      "org:midland-ki-federation"
+    ],
+    "location": {
+      "city": null,
+      "region": "California",
+      "country": "USA"
+    },
+    "chief_instructor": "person:alex-korn",
+    "instructors": [],
+    "website": null,
+    "source": [
+      "https://ki-society.com/?dojo=ki-aikido-of-anderson-valley"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:ki-jin-dojo",
+    "name": "Ki Jin Dojo",
+    "org": [
+      "org:aaa"
+    ],
+    "location": null,
+    "chief_instructor": "person:chris-verhaeren",
+    "instructors": [],
+    "website": "https://aikidobeveren.be",
+    "source": [
+      "https://aaa-aikido.com/dojo/ki-jin-dojo/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:ki-jin-haasdonk",
+    "name": "Ki Jin Haasdonk",
+    "org": [
+      "org:aaa"
+    ],
+    "location": null,
+    "chief_instructor": "person:dana-caluwaerts",
+    "instructors": [],
+    "website": "https://aikidobeveren.be",
+    "source": [
+      "https://aaa-aikido.com/dojo/ki-jin-haasdonk/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:ki-jin-temse",
+    "name": "Ki Jin Temse",
+    "org": [
+      "org:aaa"
+    ],
+    "location": null,
+    "chief_instructor": "person:chris-verhaeren",
+    "instructors": [],
+    "website": "https://aikidobeveren.be",
+    "source": [
+      "https://aaa-aikido.com/dojo/ki-jin-temse/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:ki-rei-shinkan-aikido-dojo",
+    "name": "Ki Rei Shinkan Aikido Dojo",
+    "org": [
+      "org:aaa"
+    ],
+    "location": {
+      "city": "Salem",
+      "region": "NH",
+      "country": "USA"
+    },
+    "chief_instructor": "person:mission",
+    "instructors": [],
+    "website": "https://aikido-dojo.org/",
+    "source": [
+      "https://aaa-aikido.com/dojo/ki-rei-shinkan-aikido-dojo/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:kingston-aikido",
+    "name": "Kingston Aikido",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "location": {
+      "city": "Kingston",
+      "region": "NY",
+      "country": "USA"
+    },
+    "chief_instructor": "person:brian-mizerak",
+    "instructors": [],
+    "website": "http://www.kingstonaikido.com/"
+  },
+  {
+    "id": "dojo:kitsap-aikido",
+    "name": "Kitsap Aikido",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "Poulsbo",
+      "region": "WA",
+      "country": "USA"
+    },
+    "chief_instructor": "person:robert-l-clark",
+    "instructors": [],
+    "website": "http://www.kitsapaikido.org/",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:knoxville-aikikai",
+    "name": "Knoxville Aikikai",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "Knoxville",
+      "region": "TN",
+      "country": "USA"
+    },
+    "chief_instructor": "person:rob-crowell",
+    "instructors": [],
+    "website": "http://www.knoxvilleaikidocenter.com",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:kokoro-dojo",
+    "name": "KOKORO DOJO",
+    "org": [
+      "org:shin-kaze"
+    ],
+    "location": null,
+    "chief_instructor": "person:daniel-eduardo-medina",
+    "instructors": [],
+    "website": "https://kokorodojo.com.ar",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:konshinkan-dojo",
+    "name": "Konshinkan Dojo",
+    "org": [
+      "org:aaa"
+    ],
+    "location": null,
+    "chief_instructor": "person:robert-ford",
+    "instructors": [],
+    "website": null,
+    "source": [
+      "https://aaa-aikido.com/dojo/konshinkan-dojo/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:kototama-dojo-asociacion-morihei-ueshiba-del-peru",
+    "name": "KOTOTAMA DOJO - ASOCIACIÓN MORIHEI UESHIBA DEL PERÚ",
+    "org": [
+      "org:shin-kaze"
+    ],
+    "location": null,
+    "chief_instructor": "person:jorge-campos",
+    "instructors": [],
+    "website": "https://www.instagram.com/kototama.dojo/",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:kranj",
+    "name": "Kranj",
+    "org": [
+      "org:aaa"
+    ],
+    "location": null,
+    "chief_instructor": "person:mission",
+    "instructors": [],
+    "website": "https://shodokan.si",
+    "source": [
+      "https://aaa-aikido.com/dojo/kranj/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:kyiv-aikido-club",
+    "name": "KYIV AIKIDO CLUB",
+    "org": [
+      "org:shin-kaze"
+    ],
+    "location": null,
+    "chief_instructor": "person:mykola-yemelianov",
+    "instructors": [],
+    "website": "https://www.kyiv-aikido.club/",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:lahaina-ki-aikido",
+    "name": "Lahaina Ki Aikido",
+    "org": [
+      "org:ki-society",
+      "org:honolulu-ki-society"
+    ],
+    "location": {
+      "city": null,
+      "region": "Hawaii",
+      "country": "USA"
+    },
+    "chief_instructor": "person:rick-lewis",
+    "instructors": [],
+    "website": "http://LahainaKiAikido.com",
+    "source": [
+      "https://ki-society.com/?dojo=lahaina-ki-aikido"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:lake-county-aikikai",
+    "name": "Lake County Aikikai",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "location": {
+      "city": "Eustis",
+      "region": "FL",
+      "country": "USA"
+    },
+    "chief_instructor": "person:edmund-di-marco",
+    "instructors": [],
+    "website": "http://lakeaikikai.com/"
+  },
+  {
+    "id": "dojo:las-vegas-ki-aikido-dojo",
+    "name": "Las Vegas Ki Aikido Dojo",
+    "org": [
+      "org:ki-society",
+      "org:southern-california-ki-society"
+    ],
+    "location": {
+      "city": null,
+      "region": "California",
+      "country": "USA"
+    },
+    "chief_instructor": "person:wayne-tsuma",
+    "instructors": [],
+    "website": null,
+    "source": [
+      "https://ki-society.com/?dojo=las-vegas-ki-aikido-dojo"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:lawrence-ki-aikido-dojo",
+    "name": "Lawrence Ki-Aikido Dojo",
+    "org": [
+      "org:ki-society",
+      "org:midland-ki-federation"
+    ],
+    "location": {
+      "city": null,
+      "region": "Kansas",
+      "country": "USA"
+    },
+    "chief_instructor": "person:koichi-kashiwaya-george-andrew-lebar",
+    "instructors": [],
+    "website": null,
+    "source": [
+      "https://ki-society.com/?dojo=lawrence-ki-aikido-dojo"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:lenape-aikikai",
+    "name": "Lenape Aikikai",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "Egg Harbor Township",
+      "region": "NJ",
+      "country": "USA"
+    },
+    "chief_instructor": "person:acxel-saravia",
+    "instructors": [],
+    "website": "http://www.lenapeaikikai.com/",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:lewiston-aikido-willow",
+    "name": "Lewiston Aikido/WIllow",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "Lewiston",
+      "region": "ME",
+      "country": "USA"
+    },
+    "chief_instructor": "person:diane-p-dubois",
+    "instructors": [],
+    "website": "No website.",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:litchfield-hills-aikikai",
+    "name": "Litchfield Hills Aikikai",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions",
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "location": {
+      "city": "Litchfield",
+      "region": "CT",
+      "country": "USA"
+    },
+    "chief_instructor": "person:laura-jacobs-pavlick",
+    "instructors": [],
+    "website": "http://www.litchfieldaikido.com/"
+  },
+  {
+    "id": "dojo:little-apple-aikido-ksu-aikido",
+    "name": "Little Apple Aikido (KSU Aikido)",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "Manhattan",
+      "region": "KS",
+      "country": "USA"
+    },
+    "chief_instructor": "person:don-eisele",
+    "instructors": [],
+    "website": "https://littleappledojo.com/",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:lokahi-ki-aikido-dojo",
+    "name": "Lokahi Ki Aikido Dojo",
+    "org": [
+      "org:ki-society",
+      "org:hawaii-ki-federation"
+    ],
+    "location": {
+      "city": null,
+      "region": "Hawaii",
+      "country": "USA"
+    },
+    "chief_instructor": "person:charles-boyer",
+    "instructors": [],
+    "website": "http://www.hawaiikiaikido.org/",
+    "source": [
+      "https://ki-society.com/?dojo=lokahi-ki-aikido-dojo"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:long-beach-island-aikikai",
+    "name": "Long Beach Island Aikikai",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "location": {
+      "city": "Keyport",
+      "region": "NJ",
+      "country": "USA"
+    },
+    "chief_instructor": "person:james-shaffer",
+    "instructors": [
+      "person:chester-s-griffin"
+    ],
+    "website": "http://www.aikidolbi.com/"
+  },
+  {
+    "id": "dojo:loudoun-valley-ki-aikido",
+    "name": "Loudoun Valley Ki-Aikido",
+    "org": [
+      "org:ki-society",
+      "org:eastern-ki-federation"
+    ],
+    "location": {
+      "city": null,
+      "region": "Virginia",
+      "country": "USA"
+    },
+    "chief_instructor": null,
+    "instructors": [],
+    "website": "http://www.loudounaikido.org/",
+    "source": [
+      "https://ki-society.com/?dojo=loudoun-valley-ki-aikidovirginia"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:lunenburg-aikikai",
+    "name": "Lunenburg Aikikai",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "location": null,
+    "chief_instructor": "person:jason-martell",
+    "instructors": [],
+    "website": "http://www.lunenburgaikikai.org"
+  },
+  {
+    "id": "dojo:maipu-kai-aikido-dojo",
+    "name": "Maipu Kai Aikido Dojo",
+    "org": [
+      "org:usaf"
+    ],
+    "location": null,
+    "chief_instructor": "person:orlando-soto",
+    "instructors": [],
+    "website": "http://www.aikidomaipukai.com",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:mandala-aikido",
+    "name": "Mandala Aikido",
+    "org": [
+      "org:usaf"
+    ],
+    "location": null,
+    "chief_instructor": "person:martin-wise",
+    "instructors": [],
+    "website": "http://mandalaaikido.com/",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:martha-s-vineyard-aikido-club",
+    "name": "Martha's Vineyard Aikido Club",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "location": {
+      "city": "West Tisbury",
+      "region": "MA",
+      "country": "USA"
+    },
+    "chief_instructor": "person:sean-m-conley",
+    "instructors": [
+      "person:caroline-murtha"
+    ],
+    "website": "No website."
+  },
+  {
+    "id": "dojo:maru-aikikai-south",
+    "name": "Maru Aikikai South",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:marubashi-aikido-dojo",
+    "name": "MARUBASHI AIKIDO DOJO",
+    "org": [
+      "org:shin-kaze"
+    ],
+    "location": null,
+    "chief_instructor": "person:jorge-russo",
+    "instructors": [],
+    "website": "https://aikidomarubashi.wordpress.com/",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:maryland-ki-society-montgomery-county",
+    "name": "Maryland Ki Society-Montgomery County",
+    "org": [
+      "org:ki-society",
+      "org:midland-ki-federation"
+    ],
+    "location": {
+      "city": null,
+      "region": "Maryland",
+      "country": "USA"
+    },
+    "chief_instructor": "person:koichi-kashiwaya-william-r-fairweather",
+    "instructors": [],
+    "website": "https://southmountainaikido.com",
+    "source": [
+      "https://ki-society.com/?dojo=maryland-ki-society-montgomery-county"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:mcgill-aikido",
+    "name": "McGill Aikido",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:miami-aikikai",
+    "name": "Miami Aikikai",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions",
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "location": {
+      "city": "Miami",
+      "region": "FL",
+      "country": "USA"
+    },
+    "chief_instructor": "person:eliot-w-rifkin",
+    "instructors": [],
+    "website": "https://www.miamiaikikai.com/"
+  },
+  {
+    "id": "dojo:midland-ki-federation-usa-canada",
+    "name": "Midland Ki Federation USA/Canada",
+    "org": [
+      "org:ki-society",
+      "org:midland-ki-federation"
+    ],
+    "location": {
+      "city": null,
+      "region": "Ohio",
+      "country": "USA"
+    },
+    "chief_instructor": "person:koichi-kashiwaya",
+    "instructors": [],
+    "website": "http://midlandki.org/",
+    "source": [
+      "https://ki-society.com/?dojo=midland-ki-federation-usa-canada"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:midwest-aikido-center",
+    "name": "Midwest Aikido Center",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "Chicago",
+      "region": "IL",
+      "country": "USA"
+    },
+    "chief_instructor": "person:naomi-wentworth",
+    "instructors": [],
+    "founded": "1972",
+    "anchor": true,
+    "website": "https://midwestaikidocenter.org/",
+    "source": [
+      "https://www.midwestaikidocenter.org/",
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions",
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:mililani-ki-aikido-dojo",
+    "name": "Mililani Ki Aikido Dojo",
+    "org": [
+      "org:ki-society",
+      "org:hawaii-ki-federation"
+    ],
+    "location": {
+      "city": null,
+      "region": "Hawaii",
+      "country": "USA"
+    },
+    "chief_instructor": "person:eric-nonaka",
+    "instructors": [],
+    "website": "http://www.hawaiikiaikido.org/",
+    "source": [
+      "https://ki-society.com/?dojo=mililani-ki-aikido-dojo"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:minnesota-ki-aikido",
+    "name": "Minnesota Ki-Aikido",
+    "org": [
+      "org:ki-society",
+      "org:eastern-ki-federation"
+    ],
+    "location": {
+      "city": null,
+      "region": "South Carolina",
+      "country": "USA"
+    },
+    "chief_instructor": null,
+    "instructors": [],
+    "website": "http://www.mindbodyoneness.com/",
+    "source": [
+      "https://ki-society.com/?dojo=minnesota-ki-aikido"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:mit-aikido-club",
+    "name": "MIT AIkido Club",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "Cambridge",
+      "region": "MA",
+      "country": "USA"
+    },
+    "chief_instructor": "person:matthew-bagedonow",
+    "instructors": [],
+    "website": "https://aikido.mit.edu/",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:mohawk-valley-aikido",
+    "name": "Mohawk Valley Aikido",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "New Hartford",
+      "region": "NY",
+      "country": "USA"
+    },
+    "chief_instructor": "person:stephan-jerberger",
+    "instructors": [],
+    "website": "No website.",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:monserrate-aikido-bogota",
+    "name": "MONSERRATE AIKIDO BOGOTÁ",
+    "org": [
+      "org:shin-kaze"
+    ],
+    "location": null,
+    "chief_instructor": "person:alejandro-rojas-mora",
+    "instructors": [],
+    "website": "https://www.facebook.com/monserratedojo",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:monteregie-aikikai",
+    "name": "Montérégie Aikikai",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "location": null,
+    "chief_instructor": "person:joshua-layton",
+    "instructors": [],
+    "website": "http://www.monteregieaikikai.com/"
+  },
+  {
+    "id": "dojo:morihiro-saito-dojo-kan-sho-ryu",
+    "name": "MORIHIRO SAITO DOJO - KAN SHO RYU",
+    "org": [
+      "org:shin-kaze"
+    ],
+    "location": null,
+    "chief_instructor": "person:michel-casanova-casanova",
+    "instructors": [],
+    "website": "N/A",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:moti-horenstein-mma-rockland-aikido",
+    "name": "Moti Horenstein MMA / Rockland Aikido",
+    "org": [
+      "org:aaa"
+    ],
+    "location": {
+      "city": "West Nyack",
+      "region": "NY",
+      "country": "USA"
+    },
+    "chief_instructor": "person:glen-matsuda",
+    "instructors": [],
+    "website": "https://rocklandaikido.com",
+    "source": [
+      "https://aaa-aikido.com/dojo/moti-horenstein-mma-rockland-aikido/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:motor-city-aikido",
+    "name": "Motor City Aikido",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "Shelby Twp",
+      "region": "MI",
+      "country": "USA"
+    },
+    "chief_instructor": "person:eric-vollrath",
+    "instructors": [],
+    "website": "http://www.motorcityaikido.com",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:national-institute-of-health-aikido-club",
+    "name": "National Institute of Health Aikido Club",
+    "org": [
+      "org:aaa"
+    ],
+    "location": {
+      "city": "Bethesda",
+      "region": "MD",
+      "country": "USA"
+    },
+    "chief_instructor": "person:irvin-vann",
+    "instructors": [],
+    "website": null,
+    "source": [
+      "https://aaa-aikido.com/dojo/national-institute-of-health-aikido-club/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:nations-aikikai",
+    "name": "Nations Aikikai",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "Houston",
+      "region": "TX",
+      "country": "USA"
+    },
+    "chief_instructor": "person:nelson-andujar",
+    "instructors": [],
+    "website": "http://www.nationsaikikai.org/",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:ne-portland-ki-aikido-dojo",
+    "name": "NE Portland Ki Aikido Dojo",
+    "org": [
+      "org:ki-society",
+      "org:northwest-ki-federation"
+    ],
+    "location": {
+      "city": null,
+      "region": "Oregon",
+      "country": "USA"
+    },
+    "chief_instructor": "person:jon-maxson",
+    "instructors": [],
+    "website": "http://www.oregonki.org",
+    "source": [
+      "https://ki-society.com/?dojo=ne-portland-ki-aikido-dojo"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:new-castle-aikikai",
+    "name": "New Castle Aikikai",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions",
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "location": {
+      "city": "New Castle",
+      "region": "PA",
+      "country": "USA"
+    },
+    "chief_instructor": "person:andrew-p-demko",
+    "instructors": [],
+    "website": "http://aikidoncpa@yahoo.com"
+  },
+  {
+    "id": "dojo:new-england-aikikai",
+    "name": "New England Aikikai",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "Cambridge",
+      "region": "MA",
+      "country": "USA"
+    },
+    "chief_instructor": "person:sharon-kanai",
+    "instructors": [],
+    "founded": "1966",
+    "anchor": true,
+    "website": "http://www.neaikikai.org/",
+    "source": [
+      "https://neaikikai.com/",
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:new-haven-aikikai",
+    "name": "NEW HAVEN AIKIKAI",
+    "org": [
+      "org:shin-kaze"
+    ],
+    "location": {
+      "city": "New Haven",
+      "region": "CT",
+      "country": "USA"
+    },
+    "chief_instructor": "person:liese-klein",
+    "instructors": [],
+    "website": "http://www.newhavenaikikai.com/",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:new-york-aikikai",
+    "name": "New York Aikikai",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "New York",
+      "region": "NY",
+      "country": "USA"
+    },
+    "chief_instructor": "person:steven-pimsler",
+    "instructors": [],
+    "founded": "1964",
+    "anchor": true,
+    "website": "http://www.nyaikikai.com/",
+    "source": [
+      "https://www.nyaikikai.com/",
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions",
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions",
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions",
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:new-york-ki-aikido",
+    "name": "New York Ki Aikido",
+    "org": [
+      "org:ki-society",
+      "org:eastern-ki-federation"
+    ],
+    "location": {
+      "city": null,
+      "region": "South Carolina",
+      "country": "USA"
+    },
+    "chief_instructor": null,
+    "instructors": [],
+    "website": "http://www.newyorkkiaikido.com/",
+    "source": [
+      "https://ki-society.com/?dojo=new-york-ki-aikido"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:newport-beach-aikikai",
+    "name": "Newport Beach Aikikai",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions",
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions",
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "location": {
+      "city": "Newport Beach",
+      "region": "CA",
+      "country": "USA"
+    },
+    "chief_instructor": "person:gentil-pennewaert",
+    "instructors": [],
+    "website": "http://aikido-orangecounty.com"
+  },
+  {
+    "id": "dojo:niagara-falls-aikikai",
+    "name": "NIAGARA FALLS AIKIKAI",
+    "org": [
+      "org:shin-kaze"
+    ],
+    "location": {
+      "city": "Niagara Falls",
+      "region": "ON",
+      "country": "Canada"
+    },
+    "chief_instructor": "person:raymond-caldwell",
+    "instructors": [],
+    "website": "http://www.niagarafallsaikikai.ca",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:niji-dojo-asociacion-morihei-ueshiba-del-peru",
+    "name": "NIJI DOJO - ASOCIACIÓN MORIHEI UESHIBA DEL PERÚ",
+    "org": [
+      "org:shin-kaze"
+    ],
+    "location": null,
+    "chief_instructor": "person:miguel-antonio-morales-bermudez-field",
+    "instructors": [],
+    "website": "https://asociacionmueshiba.pe",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:north-carolina-state-university-aikido-club",
+    "name": "NORTH CAROLINA STATE UNIVERSITY AIKIDO CLUB",
+    "org": [
+      "org:shin-kaze"
+    ],
+    "location": {
+      "city": "Raleigh",
+      "region": "NC",
+      "country": "USA"
+    },
+    "chief_instructor": "person:christopher-crandall",
+    "instructors": [],
+    "website": "https://orgs.ncsu.edu/aikido/about-us/",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:north-coast-aikikai",
+    "name": "North Coast Aikikai",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions",
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "location": {
+      "city": "Willoughby",
+      "region": "OH",
+      "country": "USA"
+    },
+    "chief_instructor": "person:salvatore-j-lacorte",
+    "instructors": [],
+    "website": "http://www.ncaikikai.com/"
+  },
+  {
+    "id": "dojo:north-lawrence-ki-aikido-lawrence-parks-recreation",
+    "name": "North Lawrence Ki-Aikido – Lawrence Parks & Recreation",
+    "org": [
+      "org:ki-society",
+      "org:midland-ki-federation"
+    ],
+    "location": {
+      "city": null,
+      "region": "Kansas",
+      "country": "USA"
+    },
+    "chief_instructor": "person:koichi-kashiwaya-h-vic-montgomery-william-perkins",
+    "instructors": [],
+    "website": null,
+    "source": [
+      "https://ki-society.com/?dojo=north-lawrence-ki-aikido-lawrence-parks-recreation"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:north-shore-aikido-torashinkan-dojo",
+    "name": "North Shore Aikido / Torashinkan Dojo",
+    "org": [
+      "org:aaa"
+    ],
+    "location": {
+      "city": "Northbrook",
+      "region": "IL",
+      "country": "USA"
+    },
+    "chief_instructor": "person:josh-weiser",
+    "instructors": [],
+    "website": "https://nsaikido.com/",
+    "source": [
+      "https://aaa-aikido.com/dojo/north-shore-aikido-torashinkan-dojo/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:northern-california-ki-society",
+    "name": "Northern California Ki Society",
+    "org": [
+      "org:ki-society",
+      "org:northern-california-ki-society"
+    ],
+    "location": {
+      "city": null,
+      "region": "California",
+      "country": "USA"
+    },
+    "chief_instructor": "person:pietro-maida",
+    "instructors": [],
+    "website": "http://www.kiaikido.org/",
+    "source": [
+      "https://ki-society.com/?dojo=northern-california-ki-society-california"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:northern-virginia-aikikai",
+    "name": "Northern Virginia Aikikai",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "Arlington",
+      "region": "VA",
+      "country": "USA"
+    },
+    "chief_instructor": "person:gordon-sakamoto",
+    "instructors": [],
+    "website": "http://www.aikidoka.com/",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:northern-virginia-ki-aikido",
+    "name": "Northern Virginia Ki-Aikido",
+    "org": [
+      "org:ki-society",
+      "org:eastern-ki-federation"
+    ],
+    "location": {
+      "city": null,
+      "region": "Virginia",
+      "country": "USA"
+    },
+    "chief_instructor": null,
+    "instructors": [],
+    "website": "http://www.novakiaikido.org/",
+    "source": [
+      "https://ki-society.com/?dojo=northern-virginia-ki-aikido"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:northwest-ki-federation",
+    "name": "Northwest Ki Federation",
+    "org": [
+      "org:ki-society",
+      "org:northwest-ki-federation"
+    ],
+    "location": {
+      "city": null,
+      "region": "Argentina",
+      "country": "USA"
+    },
+    "chief_instructor": "person:calvin-tabata",
+    "instructors": [],
+    "website": "http://www.oregonki.org",
+    "source": [
+      "https://ki-society.com/?dojo=northwest-ki-federation"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:notting-hill-aikikai",
+    "name": "Notting Hill Aikikai",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "location": null,
+    "chief_instructor": "person:anthea-p-pascaris",
+    "instructors": [],
+    "website": "http://www.nottinghillaikikai.co.uk/"
+  },
+  {
+    "id": "dojo:ny-eastside-aikikai",
+    "name": "NY Eastside Aikikai",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "location": {
+      "city": "New York",
+      "region": "NY",
+      "country": "USA"
+    },
+    "chief_instructor": "person:ken-yamazaki",
+    "instructors": [],
+    "website": "http://www.nyeaikikai.com/"
+  },
+  {
+    "id": "dojo:obiji-dojo",
+    "name": "Obiji Dojo",
+    "org": [
+      "org:ki-society",
+      "org:midland-ki-federation"
+    ],
+    "location": {
+      "city": null,
+      "region": "Kansas",
+      "country": "USA"
+    },
+    "chief_instructor": "person:koichi-kashiwaya-h-vic-montgomery-mel-smith",
+    "instructors": [],
+    "website": null,
+    "source": [
+      "https://ki-society.com/?dojo=obiji-dojo"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:old-city-aikido",
+    "name": "OLD CITY AIKIDO",
+    "org": [
+      "org:shin-kaze"
+    ],
+    "location": {
+      "city": "Philadelphia",
+      "region": "PA",
+      "country": "USA"
+    },
+    "chief_instructor": "person:jason-perna",
+    "instructors": [],
+    "website": "https://www.oldcityaikido.com/",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:open-sky-aikikai",
+    "name": "Open Sky Aikikai",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "location": {
+      "city": "Hillsborough",
+      "region": "NC",
+      "country": "USA"
+    },
+    "chief_instructor": "person:steven-kaufmann",
+    "instructors": [],
+    "website": "http://openskymartialarts.com/"
+  },
+  {
+    "id": "dojo:orange-county-ki-society",
+    "name": "Orange County Ki Society",
+    "org": [
+      "org:ki-society",
+      "org:northwest-ki-federation"
+    ],
+    "location": {
+      "city": null,
+      "region": "California",
+      "country": "USA"
+    },
+    "chief_instructor": "person:john-gilmore",
+    "instructors": [],
+    "website": "http://www.orangecountyki.org",
+    "source": [
+      "https://ki-society.com/?dojo=orange-county-ki-society"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:oregon-ki-society",
+    "name": "Oregon Ki Society",
+    "org": [
+      "org:ki-society",
+      "org:northwest-ki-federation"
+    ],
+    "location": {
+      "city": null,
+      "region": "Oregon",
+      "country": "USA"
+    },
+    "chief_instructor": "person:brenda-tam-louis-sloss",
+    "instructors": [],
+    "website": "http://www.oregonki.org/",
+    "source": [
+      "https://ki-society.com/?dojo=oregon-ki-society"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:ottawa-aikido-centre",
+    "name": "Ottawa Aikido Centre",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "location": null,
+    "chief_instructor": "person:gary-roberts",
+    "instructors": [],
+    "website": "No website."
+  },
+  {
+    "id": "dojo:palm-beach-aikikai",
+    "name": "Palm Beach Aikikai",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions",
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "location": {
+      "city": "W. Palm Beach",
+      "region": "FL",
+      "country": "USA"
+    },
+    "chief_instructor": "person:richard-wagener",
+    "instructors": [],
+    "website": "http://www.palmbeachaikikai.com/"
+  },
+  {
+    "id": "dojo:pasadena-aikikai",
+    "name": "Pasadena Aikikai",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "Pasadena",
+      "region": "CA",
+      "country": "USA"
+    },
+    "chief_instructor": "person:ray-feliciano",
+    "instructors": [],
+    "website": "http://pasadenaaikikai.com",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:pathway-to-harmony",
+    "name": "Pathway to Harmony",
+    "org": [
+      "org:aaa"
+    ],
+    "location": null,
+    "chief_instructor": "person:rick-butler",
+    "instructors": [],
+    "website": "https://pathwaytoharmony.com",
+    "source": [
+      "https://aaa-aikido.com/dojo/pathway-to-harmony/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:pax-river-aikikai",
+    "name": "Pax River Aikikai",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "location": {
+      "city": "Leonardtown",
+      "region": "MD",
+      "country": "USA"
+    },
+    "chief_instructor": "person:david-a-norton",
+    "instructors": [],
+    "website": "No website."
+  },
+  {
+    "id": "dojo:peachtree-aikikai-atlanta",
+    "name": "Peachtree Aikikai Atlanta",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "Atlanta",
+      "region": "GA",
+      "country": "USA"
+    },
+    "chief_instructor": "person:blue-spruell",
+    "instructors": [],
+    "website": "http://www.peachtreeaikikai.com/",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:personal-kiatsu-school",
+    "name": "Personal Kiatsu School",
+    "org": [
+      "org:ki-society",
+      "org:northwest-ki-federation"
+    ],
+    "location": {
+      "city": null,
+      "region": "Oregon",
+      "country": "USA"
+    },
+    "chief_instructor": "person:terry-copperman",
+    "instructors": [],
+    "website": "http://www.oregonki.org",
+    "source": [
+      "https://ki-society.com/?dojo=personal-kiatsu-school"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:philadelphia-ki-aikido",
+    "name": "Philadelphia Ki-Aikido",
+    "org": [
+      "org:ki-society",
+      "org:eastern-ki-federation"
+    ],
+    "location": {
+      "city": null,
+      "region": "South Carolina",
+      "country": "USA"
+    },
+    "chief_instructor": null,
+    "instructors": [],
+    "website": "http://www.njks.org/",
+    "source": [
+      "https://ki-society.com/?dojo=philadelphia-ki-aikidopennsylvania"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:pinellas-county-aikikai",
+    "name": "Pinellas County Aikikai",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "Tarpon Springs",
+      "region": "FL",
+      "country": "USA"
+    },
+    "chief_instructor": "person:reuven-lirov",
+    "instructors": [],
+    "website": "http://www.aikidopinellas.com/",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:plano-aikido-center",
+    "name": "Plano Aikido Center",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions",
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "location": {
+      "city": "Plano",
+      "region": "TX",
+      "country": "USA"
+    },
+    "chief_instructor": "person:sidney-shiba",
+    "instructors": [
+      "person:robert-loftin"
+    ],
+    "website": "http://www.planoaikido.com"
+  },
+  {
+    "id": "dojo:pompano-beach-aikikai",
+    "name": "Pompano Beach Aikikai",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "Pompano Beach",
+      "region": "FL",
+      "country": "USA"
+    },
+    "chief_instructor": "person:david-mata",
+    "instructors": [],
+    "website": "No website.",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:portland-aikido",
+    "name": "Portland Aikido",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "Portland",
+      "region": "ME",
+      "country": "USA"
+    },
+    "chief_instructor": "person:christopher-l-clark",
+    "instructors": [],
+    "website": "http://www.portlandaikido.org/",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:portland-aikikai",
+    "name": "Portland Aikikai",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "Portland",
+      "region": "OR",
+      "country": "USA"
+    },
+    "chief_instructor": "person:ty-barker",
+    "instructors": [
+      "person:michael-napoli"
+    ],
+    "website": "http://portlandaikikai.com/",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:postojna",
+    "name": "Postojna",
+    "org": [
+      "org:aaa"
+    ],
+    "location": null,
+    "chief_instructor": "person:matjaz-dobravec",
+    "instructors": [],
+    "website": "https://shodokan.si",
+    "source": [
+      "https://aaa-aikido.com/dojo/postojna/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:prairie-aikikai",
+    "name": "Prairie Aikikai",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "Des Moines",
+      "region": "IA",
+      "country": "USA"
+    },
+    "chief_instructor": "person:richard-l-mintz",
+    "instructors": [],
+    "website": "http://www.prairieaikikai.org",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:pro-sessions-aikido-11th-st",
+    "name": "Pro-Sessions Aikido – 11th St",
+    "org": [
+      "org:aaa"
+    ],
+    "location": {
+      "city": "Upland",
+      "region": "CA",
+      "country": "USA"
+    },
+    "chief_instructor": "person:eugene-morales",
+    "instructors": [],
+    "website": "https://prosessionsaikido.com",
+    "source": [
+      "https://aaa-aikido.com/dojo/pro-sessions-aikido-11th-st/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:pro-sessions-aikido-dewey-way",
+    "name": "Pro-Sessions Aikido – Dewey Way",
+    "org": [
+      "org:aaa"
+    ],
+    "location": {
+      "city": "Upland",
+      "region": "CA",
+      "country": "USA"
+    },
+    "chief_instructor": "person:eugene-morales",
+    "instructors": [],
+    "website": "https://prosessionsaikido.com",
+    "source": [
+      "https://aaa-aikido.com/dojo/pro-sessions-aikido-dewey-way/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:providence-aikikai",
+    "name": "PROVIDENCE AIKIKAI",
+    "org": [
+      "org:shin-kaze"
+    ],
+    "location": {
+      "city": "Pawtucket",
+      "region": "RI",
+      "country": "USA"
+    },
+    "chief_instructor": "person:david-halprin-shihan",
+    "instructors": [],
+    "website": "https://www.aikidoprovidence.com/",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:raleigh-aikikai",
+    "name": "RALEIGH AIKIKAI",
+    "org": [
+      "org:shin-kaze"
+    ],
+    "location": {
+      "city": "Raleigh",
+      "region": "NC",
+      "country": "USA"
+    },
+    "chief_instructor": "person:christopher-crandall",
+    "instructors": [],
+    "website": "http://www.raleighaikikai.com/",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:raleigh-ki-aikido",
+    "name": "Raleigh Ki-Aikido",
+    "org": [
+      "org:ki-society",
+      "org:eastern-ki-federation"
+    ],
+    "location": {
+      "city": null,
+      "region": "South Carolina",
+      "country": "USA"
+    },
+    "chief_instructor": null,
+    "instructors": [],
+    "website": "http://www.raleighkiaikido.com/",
+    "source": [
+      "https://ki-society.com/?dojo=raleigh-ki-aikidonorth-carolina"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:rocy-mountain-ki-society-westminster-ki-aikido-dojo",
+    "name": "Rocy Mountain Ki Society — Westminster Ki Aikido Dojo",
+    "org": [
+      "org:ki-society",
+      "org:midland-ki-federation"
+    ],
+    "location": {
+      "city": null,
+      "region": "Argentina",
+      "country": "USA"
+    },
+    "chief_instructor": "person:koichi-kashiwaya-derek-nabel",
+    "instructors": [],
+    "website": "http://www.rmks.org",
+    "source": [
+      "https://ki-society.com/?dojo=rocy-mountain-ki-society-westminster-ki-aikido-dojo"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:ronin-dojo",
+    "name": "RONIN DOJO",
+    "org": [
+      "org:shin-kaze"
+    ],
+    "location": null,
+    "chief_instructor": "person:mariusz-kantek",
+    "instructors": [],
+    "website": "N/A",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:ryoshinkan-dojo",
+    "name": "Ryoshinkan Dojo",
+    "org": [
+      "org:aaa"
+    ],
+    "location": {
+      "city": null,
+      "region": "IL",
+      "country": "USA"
+    },
+    "chief_instructor": "person:tim-spies",
+    "instructors": [],
+    "website": "https://aikidoresolutions.com",
+    "source": [
+      "https://aaa-aikido.com/dojo/ryoshinkan-dojo/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:ryushin-juku",
+    "name": "Ryushin Juku",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "Los Angeles",
+      "region": "CA",
+      "country": "USA"
+    },
+    "chief_instructor": "person:yukihisa-aokusa",
+    "instructors": [],
+    "website": "http://ryushinjuku.org",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:ryushinkan-dojo",
+    "name": "Ryushinkan Dojo",
+    "org": [
+      "org:aaa"
+    ],
+    "location": {
+      "city": "San Diego",
+      "region": "CA",
+      "country": "USA"
+    },
+    "chief_instructor": "person:martin-katz",
+    "instructors": [],
+    "website": "https://www.ryushinkandojo.org",
+    "source": [
+      "https://aaa-aikido.com/dojo/ryushinkan-dojo/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:sadkane-school-for-aikido",
+    "name": "Sadkane School for Aikido",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:samay-dojo-asociacion-morihei-ueshiba-del-peru",
+    "name": "SAMAY DOJO - ASOCIACIÓN MORIHEI UESHIBA DEL PERÚ",
+    "org": [
+      "org:shin-kaze"
+    ],
+    "location": null,
+    "chief_instructor": "person:carola-robles",
+    "instructors": [],
+    "website": "https://www.facebook.com/casacon.tacto",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:samurai-dojo-asociacion-samurai-aikido-kawai",
+    "name": "SAMURAI DOJO - ASOCIACION SAMURAI AIKIDO KAWAI",
+    "org": [
+      "org:shin-kaze"
+    ],
+    "location": null,
+    "chief_instructor": "person:enrique-silvera",
+    "instructors": [],
+    "website": "https://www.aikido.com.uy",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:san-diego-aikikai",
+    "name": "San Diego Aikikai",
+    "org": [
+      "org:birankai"
+    ],
+    "location": {
+      "city": "San Diego",
+      "region": "CA",
+      "country": "USA"
+    },
+    "chief_instructor": "person:kazuo-chiba",
+    "instructors": [],
+    "founded": null,
+    "anchor": true,
+    "website": null,
+    "source": [
+      "https://birankai.org/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:san-francisco-aikikai",
+    "name": "San Francisco Aikikai",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions",
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "location": {
+      "city": "San Francisco",
+      "region": "CA",
+      "country": "USA"
+    },
+    "chief_instructor": "person:lauren-mallas",
+    "instructors": [],
+    "website": "http://www.sfaikikai.com/"
+  },
+  {
+    "id": "dojo:san-juan-aikikai",
+    "name": "San Juan Aikikai",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "location": {
+      "city": "San Juan",
+      "region": "PR",
+      "country": "USA"
+    },
+    "chief_instructor": "person:javier-vazquez-bravo",
+    "instructors": [
+      "person:javier-vazquez-bravo"
+    ],
+    "website": "https://www.facebook.com/sjaikikai"
+  },
+  {
+    "id": "dojo:sand-drift-aikido",
+    "name": "Sand Drift Aikido",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "location": {
+      "city": "Cocoa",
+      "region": "FL",
+      "country": "USA"
+    },
+    "chief_instructor": "person:randy-beck",
+    "instructors": [],
+    "website": "http://www.sanddriftaikido.com"
+  },
+  {
+    "id": "dojo:sand-drift-aikikai",
+    "name": "Sand Drift Aikikai",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:sangamon-aikikai",
+    "name": "Sangamon Aikikai",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "location": {
+      "city": "Springfield",
+      "region": "IL",
+      "country": "USA"
+    },
+    "chief_instructor": "person:lenore-i-killam",
+    "instructors": [],
+    "website": "https://www.sangamonaikikai.com/"
+  },
+  {
+    "id": "dojo:sanshin-dojo",
+    "name": "SANSHIN DOJO",
+    "org": [
+      "org:shin-kaze"
+    ],
+    "location": null,
+    "chief_instructor": "person:everest-guix-fermin",
+    "instructors": [],
+    "website": "N/A",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:santa-barbara-ki-aikido-dojo",
+    "name": "Santa Barbara Ki Aikido Dojo",
+    "org": [
+      "org:ki-society",
+      "org:southern-california-ki-society"
+    ],
+    "location": {
+      "city": null,
+      "region": "California",
+      "country": "USA"
+    },
+    "chief_instructor": "person:david-almcrantz",
+    "instructors": [],
+    "website": null,
+    "source": [
+      "https://ki-society.com/?dojo=santa-barbara-ki-aikido-dojo"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:santa-fe-budokan",
+    "name": "Santa Fe Budokan",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "location": {
+      "city": "Santa Fe",
+      "region": "NM",
+      "country": "USA"
+    },
+    "chief_instructor": "person:damon-g-apodaca",
+    "instructors": [],
+    "website": "http://www.sfbudokan.com"
+  },
+  {
+    "id": "dojo:santa-fe-ki-society",
+    "name": "Santa Fe Ki Society",
+    "org": [
+      "org:ki-society",
+      "org:arizona-aikido-ki-society"
+    ],
+    "location": {
+      "city": null,
+      "region": "New Mexico",
+      "country": "USA"
+    },
+    "chief_instructor": "person:kim-sorvig",
+    "instructors": [],
+    "website": null,
+    "source": [
+      "https://ki-society.com/?dojo=santa-fe-ki-societynew-mexico"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:santiago-del-estero-aikikai",
+    "name": "SANTIAGO DEL ESTERO AIKIKAI",
+    "org": [
+      "org:shin-kaze"
+    ],
+    "location": null,
+    "chief_instructor": "person:leandro-obligado",
+    "instructors": [],
+    "website": "N/A",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:savannah-aikikai",
+    "name": "Savannah Aikikai",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "location": {
+      "city": "Savannah",
+      "region": "GA",
+      "country": "USA"
+    },
+    "chief_instructor": "person:alan-james-gay",
+    "instructors": [],
+    "website": "http://www.savannahaikikai.com/"
+  },
+  {
+    "id": "dojo:sei-fu-kai",
+    "name": "SEI FU KAI",
+    "org": [
+      "org:shin-kaze"
+    ],
+    "location": null,
+    "chief_instructor": "person:mikhail-korozei",
+    "instructors": [],
+    "website": "N/A",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:seishinkan-dojo",
+    "name": "Seishinkan Dojo",
+    "org": [
+      "org:ki-society",
+      "org:northwest-ki-federation",
+      "org:aaa"
+    ],
+    "location": {
+      "city": "Dickinson",
+      "region": "TX",
+      "country": "USA"
+    },
+    "chief_instructor": "person:walter-marker",
+    "instructors": [],
+    "website": "http://www.honoluluki.org/",
+    "source": [
+      "https://ki-society.com/?dojo=seishinkan-dojo",
+      "https://aaa-aikido.com/dojo/seishinkan-dojo/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:senshi-dojo",
+    "name": "Senshi Dojo",
+    "org": [
+      "org:aaa"
+    ],
+    "location": {
+      "city": "Johnson City",
+      "region": "NY",
+      "country": "USA"
+    },
+    "chief_instructor": "person:jeffrey-a-gonz",
+    "instructors": [],
+    "website": null,
+    "source": [
+      "https://aaa-aikido.com/dojo/senshi-dojo/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:shidokizen-dojo",
+    "name": "SHIDOKIZEN DOJO",
+    "org": [
+      "org:shin-kaze"
+    ],
+    "location": null,
+    "chief_instructor": "person:baruc-hunck",
+    "instructors": [],
+    "website": "N/A",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:shindokan-dojo",
+    "name": "Shindokan Dojo",
+    "org": [
+      "org:aaa"
+    ],
+    "location": null,
+    "chief_instructor": "person:mission",
+    "instructors": [],
+    "website": "https://shindokan.es",
+    "source": [
+      "https://aaa-aikido.com/dojo/shindokan-dojo/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:shinshinkan-dojo-blue-rapids",
+    "name": "Shinshinkan Dojo – Blue Rapids",
+    "org": [
+      "org:aaa"
+    ],
+    "location": {
+      "city": "Blue Rapids",
+      "region": "KS",
+      "country": "USA"
+    },
+    "chief_instructor": "person:mission",
+    "instructors": [],
+    "website": "https://facebook.com/profile.php?id=100090601984581",
+    "source": [
+      "https://aaa-aikido.com/dojo/shinshinkan-dojo-blue-rapids/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:shishinkan-dojo-rockland-aikido",
+    "name": "Shishinkan Dojo / Rockland Aikido",
+    "org": [
+      "org:aaa"
+    ],
+    "location": {
+      "city": "Norwood",
+      "region": "NJ",
+      "country": "USA"
+    },
+    "chief_instructor": "person:glen-matsuda",
+    "instructors": [],
+    "website": "https://rocklandaikido.com",
+    "source": [
+      "https://aaa-aikido.com/dojo/shishinkan-dojo-rockland-aikido/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:shodokan",
+    "name": "Shodokan",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "Beverly",
+      "region": "MA",
+      "country": "USA"
+    },
+    "chief_instructor": "person:robert-a-whelan",
+    "instructors": [
+      "person:bernard-j-mulligan"
+    ],
+    "website": "http://www.shodokan.org/",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:shodokan-dojo",
+    "name": "Shodokan Dojo",
+    "org": [
+      "org:aaa"
+    ],
+    "location": null,
+    "chief_instructor": "person:matjaz-dobravec",
+    "instructors": [],
+    "website": "https://shodokan.si",
+    "source": [
+      "https://aaa-aikido.com/dojo/shodokan-dojo/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:shoshinkan",
+    "name": "Shoshinkan",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "Las Vegas",
+      "region": "NV",
+      "country": "USA"
+    },
+    "chief_instructor": "person:fulvio-mateo",
+    "instructors": [],
+    "website": "http://www.shoshinkanlv.com",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:shoshinkan-dojo",
+    "name": "Shoshinkan Dojo",
+    "org": [
+      "org:aaa"
+    ],
+    "location": null,
+    "chief_instructor": "person:rick-testa",
+    "instructors": [],
+    "website": "https://facebook.com/shoshinkanri",
+    "source": [
+      "https://aaa-aikido.com/dojo/shoshinkan-dojo/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:shudokan-dojo",
+    "name": "Shudokan Dojo",
+    "org": [
+      "org:aai"
+    ],
+    "location": {
+      "city": null,
+      "region": null,
+      "country": "Crowne Plaza Hotel"
+    },
+    "chief_instructor": "person:abdulrazzaq-alissa",
+    "instructors": [],
+    "website": null,
+    "source": [
+      "https://aaa-aikido.com/dojo/shudokan-dojo/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:shunshinkan-dojo",
+    "name": "Shunshinkan Dojo",
+    "org": [
+      "org:ki-society",
+      "org:hawaii-ki-federation"
+    ],
+    "location": {
+      "city": null,
+      "region": "Hawaii",
+      "country": "USA"
+    },
+    "chief_instructor": "person:tracy-reasoner",
+    "instructors": [],
+    "website": "https://www.mauikiaikido.com/",
+    "source": [
+      "https://ki-society.com/?dojo=shunshinkan-dojowailuku-hawaii"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:skylands-aikikai",
+    "name": "Skylands Aikikai",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "Mine Hill",
+      "region": "NJ",
+      "country": "USA"
+    },
+    "chief_instructor": "person:karen-de-paola",
+    "instructors": [],
+    "website": "http://www.skylandsaikikai.com/",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:south-bay-aikikai",
+    "name": "South Bay Aikikai",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "Mountain View",
+      "region": "CA",
+      "country": "USA"
+    },
+    "chief_instructor": "person:gustavo-rearte",
+    "instructors": [],
+    "website": "No website.",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:south-carolina-ki-aikido",
+    "name": "South Carolina Ki Aikido",
+    "org": [
+      "org:ki-society",
+      "org:eastern-ki-federation"
+    ],
+    "location": {
+      "city": null,
+      "region": "South Carolina",
+      "country": "USA"
+    },
+    "chief_instructor": null,
+    "instructors": [],
+    "website": "http://www.southcarolinakiaikido.com/",
+    "source": [
+      "https://ki-society.com/?dojo=south-carolina-ki-aikido"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:south-mountain-aikido-frederick-ki-society-mkf",
+    "name": "South Mountain Aikido-Frederick Ki Society / MKF",
+    "org": [
+      "org:ki-society",
+      "org:midland-ki-federation"
+    ],
+    "location": {
+      "city": null,
+      "region": "Maryland",
+      "country": "USA"
+    },
+    "chief_instructor": "person:koichi-kashiwaya-joe-decapua",
+    "instructors": [],
+    "website": "https://southmountainaikido.com",
+    "source": [
+      "https://ki-society.com/?dojo=south-mountain-aikido-frederick-ki-society-mkf"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:southern-california-ki-society",
+    "name": "Southern California Ki Society",
+    "org": [
+      "org:ki-society",
+      "org:southern-california-ki-society"
+    ],
+    "location": {
+      "city": null,
+      "region": "California",
+      "country": "USA"
+    },
+    "chief_instructor": "person:clarence-chinn",
+    "instructors": [],
+    "website": null,
+    "source": [
+      "https://ki-society.com/?dojo=southern-california-ki-society"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:southern-live-oak-dojo-of-coastal-georgia",
+    "name": "Southern Live Oak Dojo of Coastal Georgia",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "Statesboro",
+      "region": "GA",
+      "country": "USA"
+    },
+    "chief_instructor": "person:donald-slater",
+    "instructors": [],
+    "website": "No website.",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:southern-maryland-aikido-center",
+    "name": "Southern Maryland Aikido Center",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "location": {
+      "city": "Waldorf",
+      "region": "MD",
+      "country": "USA"
+    },
+    "chief_instructor": "person:darrell-grant",
+    "instructors": [],
+    "website": "http://smdaikido.com/"
+  },
+  {
+    "id": "dojo:southernmost-aikikai",
+    "name": "Southernmost Aikikai",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "Big Pine Key",
+      "region": "FL",
+      "country": "USA"
+    },
+    "chief_instructor": "person:john-duke",
+    "instructors": [],
+    "website": "https://www.facebook.com/AikidoSouthernmostaikikai",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:southland-aikido",
+    "name": "Southland Aikido",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "Monterey Park",
+      "region": "CA",
+      "country": "USA"
+    },
+    "chief_instructor": "person:james-graves",
+    "instructors": [],
+    "website": "http://southlandaikido.org/",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:southside-aikido-club",
+    "name": "Southside Aikido Club",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "Peachtree City",
+      "region": "GA",
+      "country": "USA"
+    },
+    "chief_instructor": "person:timothy-j-antrim",
+    "instructors": [],
+    "website": "http://www.southsideaikido.com",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:springfield-aikido-school",
+    "name": "Springfield Aikido School",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "Springfield",
+      "region": "MO",
+      "country": "USA"
+    },
+    "chief_instructor": "person:chuck-renner",
+    "instructors": [],
+    "website": "No website.",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:st-ives-aiki-dojo",
+    "name": "St. Ives Aiki Dojo",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2023-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "location": null,
+    "chief_instructor": "person:nicholas-howes",
+    "instructors": [],
+    "website": "http://www.stives-aiki-dojo.org.uk/"
+  },
+  {
+    "id": "dojo:st-louis-ki-aikido",
+    "name": "St. Louis Ki Aikido",
+    "org": [
+      "org:ki-society",
+      "org:midland-ki-federation"
+    ],
+    "location": {
+      "city": null,
+      "region": "Missouri",
+      "country": "USA"
+    },
+    "chief_instructor": "person:koichi-kashiwaya-richard-blanke",
+    "instructors": [],
+    "website": "http://www.stlki.org",
+    "source": [
+      "https://ki-society.com/?dojo=st-louis-ki-aikido"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:staunton-aikikai",
+    "name": "Staunton Aikikai",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "Staunton",
+      "region": "VA",
+      "country": "USA"
+    },
+    "chief_instructor": "person:james-jacenich",
+    "instructors": [],
+    "website": "https://www.stauntonaikikai.com",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:suidokan-dojo",
+    "name": "Suidokan Dojo",
+    "org": [
+      "org:aaa"
+    ],
+    "location": null,
+    "chief_instructor": "person:maite-fuertemoreno",
+    "instructors": [],
+    "website": "https://aikisur.es",
+    "source": [
+      "https://aaa-aikido.com/dojo/suidokan-dojo/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:summit-view-aikido",
+    "name": "Summit View Aikido",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "Camillus",
+      "region": "NY",
+      "country": "USA"
+    },
+    "chief_instructor": "person:cong-nguyen",
+    "instructors": [],
+    "website": "http://www.summitviewaikido.com/",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:syracuse-university-aikido-club",
+    "name": "Syracuse University Aikido Club",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "Syracuse",
+      "region": "NY",
+      "country": "USA"
+    },
+    "chief_instructor": "person:masako-nakatsugawa",
+    "instructors": [],
+    "website": "No website.",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:taipei-budokai",
+    "name": "Taipei Budokai",
+    "org": [
+      "org:usaf"
+    ],
+    "location": null,
+    "chief_instructor": "person:edward-lin",
+    "instructors": [],
+    "website": "http://www.taipeibudokai.com",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:takushinkan-dojo",
+    "name": "Takushinkan Dojo",
+    "org": [
+      "org:ki-society",
+      "org:northwest-ki-federation"
+    ],
+    "location": {
+      "city": null,
+      "region": "Oregon",
+      "country": "USA"
+    },
+    "chief_instructor": "person:bob-hart-brenda-tam",
+    "instructors": [],
+    "website": "http://www.oregonki.org",
+    "source": [
+      "https://ki-society.com/?dojo=takushinkan-sw-dojo"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:tarzana-aikikai",
+    "name": "Tarzana Aikikai",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "Woodland Hills",
+      "region": "CA",
+      "country": "USA"
+    },
+    "chief_instructor": "person:robert-hyatt",
+    "instructors": [
+      "person:alexander-angustain"
+    ],
+    "website": "http://www.tarzanaaikikai.com",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:team-silva-aikido-colombia",
+    "name": "TEAM SILVA AIKIDO COLOMBIA",
+    "org": [
+      "org:shin-kaze"
+    ],
+    "location": null,
+    "chief_instructor": "person:jorge-silva",
+    "instructors": [],
+    "website": "https://www.facebook.com/aikidoiwamaclub/",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:tenchi-aikido-of-somerset",
+    "name": "Tenchi Aikido of Somerset",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "Bridgewater",
+      "region": "NJ",
+      "country": "USA"
+    },
+    "chief_instructor": "person:marie-torrecampo",
+    "instructors": [],
+    "website": "https://www.tenchiaikidosomerset.com/",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:tenzan-aikido",
+    "name": "Tenzan Aikido",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "location": {
+      "city": "Seattle",
+      "region": "WA",
+      "country": "USA"
+    },
+    "chief_instructor": "person:melissa-pittman-fischer",
+    "instructors": [
+      "person:bruce-bookman"
+    ],
+    "website": "http://www.tenzanaikido.com"
+  },
+  {
+    "id": "dojo:the-university-of-chicago-shin-shin-toitsu-aikido-club",
+    "name": "The University of Chicago Shin Shin Tōitsu Aikidō Club",
+    "org": [
+      "org:ki-society",
+      "org:midland-ki-federation"
+    ],
+    "location": {
+      "city": null,
+      "region": "Illinois",
+      "country": "USA"
+    },
+    "chief_instructor": "person:kagan-ar-k",
+    "instructors": [],
+    "website": null,
+    "source": [
+      "https://ki-society.com/?dojo=the-university-of-chicago-shin-shin-toitsu-aikido-club"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:the-wind-on-the-top-of-the-mountain",
+    "name": "THE WIND ON THE TOP OF THE MOUNTAIN",
+    "org": [
+      "org:shin-kaze"
+    ],
+    "location": null,
+    "chief_instructor": "person:fiona-blyth",
+    "instructors": [],
+    "website": "N/A",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:toronto-aikikai",
+    "name": "TORONTO AIKIKAI",
+    "org": [
+      "org:shin-kaze"
+    ],
+    "location": null,
+    "chief_instructor": "person:robert-zimmermann-shihan",
+    "instructors": [],
+    "website": "http://www.torontoaikikai.com",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:torrance-ki-aikido-dojo",
+    "name": "Torrance Ki Aikido Dojo",
+    "org": [
+      "org:ki-society",
+      "org:southern-california-ki-society"
+    ],
+    "location": {
+      "city": null,
+      "region": "California",
+      "country": "USA"
+    },
+    "chief_instructor": "person:young-nguyen",
+    "instructors": [],
+    "website": "http://torranceaikidoclub.org/",
+    "source": [
+      "https://ki-society.com/?dojo=torrance-ki-aikido-dojo-calfornia"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:traditional-aikido-qatar",
+    "name": "Traditional Aikido Qatar",
+    "org": [
+      "org:aaa"
+    ],
+    "location": null,
+    "chief_instructor": "person:mission",
+    "instructors": [],
+    "website": "https://pinoytkd.com",
+    "source": [
+      "https://aaa-aikido.com/dojo/traditional-aikido-qatar/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:tres-rios-paraiso-aikikai",
+    "name": "TRES RIOS PARAISO AIKIKAI",
+    "org": [
+      "org:shin-kaze"
+    ],
+    "location": null,
+    "chief_instructor": "person:allen-kline",
+    "instructors": [],
+    "website": "https://tres-rios-paraiso-aikikai.webnode.page/",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:triangle-aikido",
+    "name": "TRIANGLE AIKIDO",
+    "org": [
+      "org:shin-kaze"
+    ],
+    "location": {
+      "city": "Durham",
+      "region": "NC",
+      "country": "USA"
+    },
+    "chief_instructor": "person:charlene-m-reiss",
+    "instructors": [],
+    "website": "http://triangleaikido.com/",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:tsushinkan-dojo",
+    "name": "Tsushinkan Dojo",
+    "org": [
+      "org:aaa"
+    ],
+    "location": null,
+    "chief_instructor": "person:yousef-alsuwayed",
+    "instructors": [],
+    "website": "https://instagram.com/q8aikido",
+    "source": [
+      "https://aaa-aikido.com/dojo/tsushinkan-dojo/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:twin-cities-aikido-center",
+    "name": "Twin Cities Aikido Center",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions",
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions",
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "location": {
+      "city": "St. Paul",
+      "region": "MN",
+      "country": "USA"
+    },
+    "chief_instructor": "person:calvin-e-blanchard",
+    "instructors": [],
+    "website": "http://www.tcaikido.com/"
+  },
+  {
+    "id": "dojo:two-circles-aikido-dojo",
+    "name": "Two Circles Aikido Dojo",
+    "org": [
+      "org:aaa"
+    ],
+    "location": null,
+    "chief_instructor": "person:john-edge",
+    "instructors": [],
+    "website": "https://twocircles.org.uk",
+    "source": [
+      "https://aaa-aikido.com/dojo/two-circles-aikido-dojo/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:uba-dojo",
+    "name": "UBA DOJO",
+    "org": [
+      "org:shin-kaze"
+    ],
+    "location": null,
+    "chief_instructor": "person:rafael-pacheco",
+    "instructors": [],
+    "website": "http://dojokokyuhovzla.org.ve/",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:upstate-aikido",
+    "name": "Upstate Aikido",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "Anderson",
+      "region": "SC",
+      "country": "USA"
+    },
+    "chief_instructor": "person:michael-a-lambert",
+    "instructors": [],
+    "website": "http://upstateaikido.com",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:usaf-academy-aikido-club",
+    "name": "USAF Academy Aikido Club",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "USAFA",
+      "region": "CO",
+      "country": "USA"
+    },
+    "chief_instructor": "person:edward-peteroy",
+    "instructors": [],
+    "website": "No website.",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:uvu-aikido-club",
+    "name": "UVU Aikido Club",
+    "org": [
+      "org:aaa"
+    ],
+    "location": {
+      "city": "Orem",
+      "region": "UT",
+      "country": "USA"
+    },
+    "chief_instructor": "person:marc-hugentobler",
+    "instructors": [],
+    "website": "https://uvuaikidoclub.blogspot.com",
+    "source": [
+      "https://aaa-aikido.com/dojo/uvu-aikido-club/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:valley-aikido",
+    "name": "Valley Aikido",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "Northampton",
+      "region": "MA",
+      "country": "USA"
+    },
+    "chief_instructor": "person:julia-m-freedgood",
+    "instructors": [
+      "person:larry-r-levitt"
+    ],
+    "website": "http://www.valleyaikido.org/",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:venezuela-aikido-kokyu-ho-dojo",
+    "name": "VENEZUELA AIKIDO KOKYU HO DOJO",
+    "org": [
+      "org:shin-kaze"
+    ],
+    "location": null,
+    "chief_instructor": "person:rafael-pacheco",
+    "instructors": [],
+    "website": "http://dojokokyuhovzla.org.ve/",
+    "source": [
+      "https://shinkazeaikidoalliance.com/home/dojos/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:violet-crown-aikikai",
+    "name": "Violet Crown Aikikai",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "location": {
+      "city": "Austin",
+      "region": "TX",
+      "country": "USA"
+    },
+    "chief_instructor": "person:vincent-hauser",
+    "instructors": [],
+    "website": "No website."
+  },
+  {
+    "id": "dojo:waianae-coast-aikido",
+    "name": "Waianae Coast Aikido",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "Waianae",
+      "region": "HI",
+      "country": "USA"
+    },
+    "chief_instructor": "person:geraldine-tremblay",
+    "instructors": [
+      "person:william-x-staub"
+    ],
+    "website": "http://www.waianaecoastaikido.com",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:water-oak-aikikai",
+    "name": "Water Oak Aikikai",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "Weddington",
+      "region": "NC",
+      "country": "USA"
+    },
+    "chief_instructor": "person:william-mcluskie",
+    "instructors": [],
+    "website": "http://www.water-oak.net/aikikai",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:water-s-edge-aikikai",
+    "name": "Water's Edge Aikikai",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "Catonsville",
+      "region": "MD",
+      "country": "USA"
+    },
+    "chief_instructor": "person:margaret-s-bower",
+    "instructors": [],
+    "website": "http://www.watersedgeaikikai.com/",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:west-georgia-aikikai",
+    "name": "West Georgia Aikikai",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "location": {
+      "city": "Carrolton",
+      "region": "GA",
+      "country": "USA"
+    },
+    "chief_instructor": "person:garn-g-sherman",
+    "instructors": [],
+    "website": "http://wgaikikai.com/"
+  },
+  {
+    "id": "dojo:west-linn-dojo",
+    "name": "West Linn Dojo",
+    "org": [
+      "org:ki-society",
+      "org:northwest-ki-federation"
+    ],
+    "location": {
+      "city": null,
+      "region": "Oregon",
+      "country": "USA"
+    },
+    "chief_instructor": "person:paul-ward",
+    "instructors": [],
+    "website": "http://www.oregonki.org",
+    "source": [
+      "https://ki-society.com/?dojo=west-linn-dojo"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:wildflower-aikikai",
+    "name": "Wildflower Aikikai",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "CANYON LAKE",
+      "region": "TX",
+      "country": "USA"
+    },
+    "chief_instructor": "person:noel-murphy",
+    "instructors": [],
+    "website": "https://wildfloweraikikai.wixsite.com/aikido-canyonlake-tx",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:woodstock-aikido",
+    "name": "Woodstock Aikido",
+    "org": [
+      "org:usaf"
+    ],
+    "source": [
+      "https://www.usaikifed.com/post/2022-kagamibiraki-promotions",
+      "https://www.usaikifed.com/post/2024-kagamibiraki-promotions",
+      "https://www.usaikifed.com/post/2025-kagamibiraki-promotions",
+      "https://www.usaikifed.com/post/2026-kagamibiraki-promotions",
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional",
+    "location": {
+      "city": "Woodstock",
+      "region": "NY",
+      "country": "USA"
+    },
+    "chief_instructor": "person:harvey-konigsberg",
+    "instructors": [],
+    "website": "https://woodstockaikidollc.com"
+  },
+  {
+    "id": "dojo:yama-kawa-dojo-school-of-aikido-and-iaido",
+    "name": "Yama Kawa Dojo - School of Aikido and Iaido",
+    "org": [
+      "org:usaf"
+    ],
+    "location": {
+      "city": "Schenectady",
+      "region": "NY",
+      "country": "USA"
+    },
+    "chief_instructor": "person:suzanne-rancourt",
+    "instructors": [
+      "person:keith-m-pray"
+    ],
+    "website": "https://yamakawadojo.net/",
+    "source": [
+      "https://services.usaikifed.com/dojos"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "dojo:zanshinkan-aikido-dubai",
+    "name": "Zanshinkan Aikido Dubai",
+    "org": [
+      "org:aaa"
+    ],
+    "location": null,
+    "chief_instructor": "person:cathy-darnell",
+    "instructors": [],
+    "website": "https://aikidodubai.com",
+    "source": [
+      "https://aaa-aikido.com/dojo/zanshinkan-aikido-dubai/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  }
+]

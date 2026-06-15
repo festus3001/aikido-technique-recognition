@@ -1,0 +1,870 @@
+[
+  {
+    "id": "edge:akira-tohei+koichi-tohei",
+    "student": "person:akira-tohei",
+    "teacher": "person:koichi-tohei",
+    "kind": "uchi-deshi",
+    "period": "1955-1955",
+    "confidence": "inferred",
+    "notes": "inferred from co-presence at dojo:aikikai-hombu-dojo (1955-1955)",
+    "source": [
+      "https://aikidojournal.com/",
+      "https://ki-society.com/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "edge:akira-tohei+morihei-ueshiba",
+    "student": "person:akira-tohei",
+    "teacher": "person:morihei-ueshiba",
+    "kind": "uchi-deshi",
+    "period": "1946-1955",
+    "confidence": "inferred",
+    "notes": "inferred from co-presence at dojo:aikikai-hombu-dojo (1946-1955)",
+    "source": [
+      "https://www.aikikai.or.jp/eng/",
+      "https://aikidojournal.com/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "edge:ando+gozo-shioda",
+    "student": "person:ando",
+    "teacher": "person:gozo-shioda",
+    "kind": "direct-student",
+    "period": null,
+    "confidence": "stated",
+    "notes": "Wikipedia infobox (Notable students), via lineage_seed_sources.md",
+    "source": [
+      "https://en.wikipedia.org/wiki/Gozo_Shioda"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "edge:chassang+nobuyoshi-tamura",
+    "student": "person:chassang",
+    "teacher": "person:nobuyoshi-tamura",
+    "kind": "direct-student",
+    "period": null,
+    "confidence": "stated",
+    "notes": "Wikipedia infobox (Notable students), via lineage_seed_sources.md",
+    "source": [
+      "https://en.wikipedia.org/wiki/Nobuyoshi_Tamura"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "edge:chida+gozo-shioda",
+    "student": "person:chida",
+    "teacher": "person:gozo-shioda",
+    "kind": "direct-student",
+    "period": null,
+    "confidence": "stated",
+    "notes": "Wikipedia infobox (Notable students), via lineage_seed_sources.md",
+    "source": [
+      "https://en.wikipedia.org/wiki/Gozo_Shioda"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "edge:chris-mooney-aikido+kazuo-chiba",
+    "student": "person:chris-mooney-aikido",
+    "teacher": "person:kazuo-chiba",
+    "kind": "direct-student",
+    "period": null,
+    "confidence": "stated",
+    "notes": "Wikipedia infobox: notable students of Kazuo Chiba",
+    "source": [
+      "https://en.wikipedia.org/wiki/Kazuo_Chiba",
+      "https://en.wikipedia.org/wiki/Chris_Mooney_(aikido)"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "edge:gozo-shioda+morihei-ueshiba",
+    "student": "person:gozo-shioda",
+    "teacher": "person:morihei-ueshiba",
+    "kind": "direct-student",
+    "period": null,
+    "confidence": "stated",
+    "notes": "Wikipedia infobox: teacher of Gozo Shioda",
+    "source": [
+      "https://en.wikipedia.org/wiki/Gozo_Shioda"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "edge:hiroshi-ikeda+mitsugi-saotome",
+    "student": "person:hiroshi-ikeda",
+    "teacher": "person:mitsugi-saotome",
+    "kind": "direct-student",
+    "period": null,
+    "confidence": "stated",
+    "notes": "Wikipedia infobox (Notable students), via lineage_seed_sources.md",
+    "source": [
+      "https://en.wikipedia.org/wiki/Mitsugi_Saotome"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "edge:ishiyama+bansen-tanaka",
+    "student": "person:ishiyama",
+    "teacher": "person:bansen-tanaka",
+    "kind": "direct-student",
+    "period": null,
+    "confidence": "stated",
+    "notes": "Wikipedia infobox (Notable students), via lineage_seed_sources.md",
+    "source": [
+      "https://en.wikipedia.org/wiki/Bansen_Tanaka"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "edge:jacques-payet+gozo-shioda",
+    "student": "person:jacques-payet",
+    "teacher": "person:gozo-shioda",
+    "kind": "direct-student",
+    "period": null,
+    "confidence": "stated",
+    "notes": "Wikipedia infobox: notable students of Gozo Shioda",
+    "source": [
+      "https://en.wikipedia.org/wiki/Gozo_Shioda",
+      "https://en.wikipedia.org/wiki/Jacques_Payet"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "edge:k-inoue+gozo-shioda",
+    "student": "person:k-inoue",
+    "teacher": "person:gozo-shioda",
+    "kind": "direct-student",
+    "period": null,
+    "confidence": "stated",
+    "notes": "Wikipedia infobox (Notable students), via lineage_seed_sources.md",
+    "source": [
+      "https://en.wikipedia.org/wiki/Gozo_Shioda"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "edge:kawahara+bansen-tanaka",
+    "student": "person:kawahara",
+    "teacher": "person:bansen-tanaka",
+    "kind": "direct-student",
+    "period": null,
+    "confidence": "stated",
+    "notes": "Wikipedia infobox (Notable students), via lineage_seed_sources.md",
+    "source": [
+      "https://en.wikipedia.org/wiki/Bansen_Tanaka"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "edge:kazuo-chiba+kisshomaru-ueshiba",
+    "student": "person:kazuo-chiba",
+    "teacher": "person:kisshomaru-ueshiba",
+    "kind": "direct-student",
+    "period": null,
+    "confidence": "stated",
+    "notes": "Wikipedia infobox: teacher of Kazuo Chiba",
+    "source": [
+      "https://en.wikipedia.org/wiki/Kazuo_Chiba"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "edge:kazuo-chiba+koichi-tohei",
+    "student": "person:kazuo-chiba",
+    "teacher": "person:koichi-tohei",
+    "kind": "uchi-deshi",
+    "period": "1958-1966",
+    "confidence": "inferred",
+    "notes": "inferred from co-presence at dojo:aikikai-hombu-dojo (1958-1966)",
+    "source": [
+      "https://aikidojournal.com/",
+      "https://ki-society.com/",
+      "https://birankai.org/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "edge:kazuo-chiba+morihei-ueshiba",
+    "student": "person:kazuo-chiba",
+    "teacher": "person:morihei-ueshiba",
+    "kind": "uchi-deshi",
+    "period": "1958-1966",
+    "confidence": "stated",
+    "notes": "inferred from co-presence at dojo:aikikai-hombu-dojo (1958-1966)",
+    "source": [
+      "https://en.wikipedia.org/wiki/Kazuo_Chiba",
+      "https://www.aikikai.or.jp/eng/",
+      "https://birankai.org/",
+      "https://aikidojournal.com/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "edge:kenji-tomiki+jigoro-kano",
+    "student": "person:kenji-tomiki",
+    "teacher": "person:jigoro-kano",
+    "kind": "direct-student",
+    "period": null,
+    "confidence": "stated",
+    "notes": "Wikipedia infobox: teacher of Kenji Tomiki",
+    "source": [
+      "https://en.wikipedia.org/wiki/Kenji_Tomiki"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "edge:kenji-tomiki+morihei-ueshiba",
+    "student": "person:kenji-tomiki",
+    "teacher": "person:morihei-ueshiba",
+    "kind": "direct-student",
+    "period": null,
+    "confidence": "stated",
+    "notes": "Wikipedia infobox: teacher of Kenji Tomiki",
+    "source": [
+      "https://en.wikipedia.org/wiki/Kenji_Tomiki"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "edge:kisshomaru-ueshiba+morihei-ueshiba",
+    "student": "person:kisshomaru-ueshiba",
+    "teacher": "person:morihei-ueshiba",
+    "kind": "direct-student",
+    "period": null,
+    "confidence": "stated",
+    "notes": "Wikipedia infobox: teacher of Kisshomaru Ueshiba",
+    "source": [
+      "https://en.wikipedia.org/wiki/Kisshomaru_Ueshiba"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "edge:kushida+gozo-shioda",
+    "student": "person:kushida",
+    "teacher": "person:gozo-shioda",
+    "kind": "direct-student",
+    "period": null,
+    "confidence": "stated",
+    "notes": "Wikipedia infobox (Notable students), via lineage_seed_sources.md",
+    "source": [
+      "https://en.wikipedia.org/wiki/Gozo_Shioda"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "edge:kyoichi-inoue+gozo-shioda",
+    "student": "person:kyoichi-inoue",
+    "teacher": "person:gozo-shioda",
+    "kind": "direct-student",
+    "period": null,
+    "confidence": "stated",
+    "notes": "Wikipedia infobox: notable students of Gozo Shioda",
+    "source": [
+      "https://en.wikipedia.org/wiki/Gozo_Shioda",
+      "https://en.wikipedia.org/wiki/Kyoichi_Inoue"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "edge:makiyama+gozo-shioda",
+    "student": "person:makiyama",
+    "teacher": "person:gozo-shioda",
+    "kind": "direct-student",
+    "period": null,
+    "confidence": "stated",
+    "notes": "Wikipedia infobox (Notable students), via lineage_seed_sources.md",
+    "source": [
+      "https://en.wikipedia.org/wiki/Gozo_Shioda"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "edge:martin+nobuyoshi-tamura",
+    "student": "person:martin",
+    "teacher": "person:nobuyoshi-tamura",
+    "kind": "direct-student",
+    "period": null,
+    "confidence": "stated",
+    "notes": "Wikipedia infobox (Notable students), via lineage_seed_sources.md",
+    "source": [
+      "https://en.wikipedia.org/wiki/Nobuyoshi_Tamura"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "edge:masatomi-ikeda+hiroshi-tada",
+    "student": "person:masatomi-ikeda",
+    "teacher": "person:hiroshi-tada",
+    "kind": "direct-student",
+    "period": null,
+    "confidence": "stated",
+    "notes": "Wikipedia infobox: notable students of Hiroshi Tada",
+    "source": [
+      "https://en.wikipedia.org/wiki/Hiroshi_Tada"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "edge:mitsugi-saotome+koichi-tohei",
+    "student": "person:mitsugi-saotome",
+    "teacher": "person:koichi-tohei",
+    "kind": "uchi-deshi",
+    "period": "1955-1969",
+    "confidence": "inferred",
+    "notes": "inferred from co-presence at dojo:aikikai-hombu-dojo (1955-1969)",
+    "source": [
+      "https://aikidojournal.com/",
+      "https://ki-society.com/",
+      "https://asu.org/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "edge:mitsugi-saotome+morihei-ueshiba",
+    "student": "person:mitsugi-saotome",
+    "teacher": "person:morihei-ueshiba",
+    "kind": "uchi-deshi",
+    "period": "1955-1969",
+    "confidence": "inferred",
+    "notes": "inferred from co-presence at dojo:aikikai-hombu-dojo (1955-1969)",
+    "source": [
+      "https://www.aikikai.or.jp/eng/",
+      "https://asu.org/",
+      "https://aikidojournal.com/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "edge:mitsunari-kanai+koichi-tohei",
+    "student": "person:mitsunari-kanai",
+    "teacher": "person:koichi-tohei",
+    "kind": "uchi-deshi",
+    "period": "1959-1966",
+    "confidence": "inferred",
+    "notes": "inferred from co-presence at dojo:aikikai-hombu-dojo (1959-1966)",
+    "source": [
+      "https://aikidojournal.com/",
+      "https://ki-society.com/",
+      "https://neaikikai.com/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "edge:mitsunari-kanai+morihei-ueshiba",
+    "student": "person:mitsunari-kanai",
+    "teacher": "person:morihei-ueshiba",
+    "kind": "uchi-deshi",
+    "period": "1959-1966",
+    "confidence": "stated",
+    "notes": "inferred from co-presence at dojo:aikikai-hombu-dojo (1959-1966)",
+    "source": [
+      "https://en.wikipedia.org/wiki/Mitsunari_Kanai",
+      "https://www.aikikai.or.jp/eng/",
+      "https://neaikikai.com/",
+      "https://aikidojournal.com/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "edge:morihei-ueshiba+takeda-sokaku",
+    "student": "person:morihei-ueshiba",
+    "teacher": "person:takeda-sokaku",
+    "kind": "direct-student",
+    "period": null,
+    "confidence": "stated",
+    "notes": "Wikipedia infobox: teacher of Morihei Ueshiba",
+    "source": [
+      "https://en.wikipedia.org/wiki/Morihei_Ueshiba"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "edge:morihiro-saito+morihei-ueshiba",
+    "student": "person:morihiro-saito",
+    "teacher": "person:morihei-ueshiba",
+    "kind": "direct-student",
+    "period": null,
+    "confidence": "stated",
+    "notes": "Wikipedia infobox: teacher of Morihiro Saito",
+    "source": [
+      "https://en.wikipedia.org/wiki/Morihiro_Saito"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "edge:moriteru-ueshiba+kisshomaru-ueshiba",
+    "student": "person:moriteru-ueshiba",
+    "teacher": "person:kisshomaru-ueshiba",
+    "kind": "direct-student",
+    "period": null,
+    "confidence": "stated",
+    "notes": "Wikipedia infobox: teacher of Moriteru Ueshiba",
+    "source": [
+      "https://en.wikipedia.org/wiki/Moriteru_Ueshiba"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "edge:moriteru-ueshiba+morihei-ueshiba",
+    "student": "person:moriteru-ueshiba",
+    "teacher": "person:morihei-ueshiba",
+    "kind": "direct-student",
+    "period": null,
+    "confidence": "stated",
+    "notes": "Wikipedia infobox: teacher of Moriteru Ueshiba",
+    "source": [
+      "https://en.wikipedia.org/wiki/Moriteru_Ueshiba"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "edge:payet+gozo-shioda",
+    "student": "person:payet",
+    "teacher": "person:gozo-shioda",
+    "kind": "direct-student",
+    "period": null,
+    "confidence": "stated",
+    "notes": "Wikipedia infobox (Notable students), via lineage_seed_sources.md",
+    "source": [
+      "https://en.wikipedia.org/wiki/Gozo_Shioda"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "edge:pierre-chassang+nobuyoshi-tamura",
+    "student": "person:pierre-chassang",
+    "teacher": "person:nobuyoshi-tamura",
+    "kind": "direct-student",
+    "period": null,
+    "confidence": "stated",
+    "notes": "Wikipedia infobox: notable students of Nobuyoshi Tamura",
+    "source": [
+      "https://en.wikipedia.org/wiki/Nobuyoshi_Tamura"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "edge:robert-mustard+gozo-shioda",
+    "student": "person:robert-mustard",
+    "teacher": "person:gozo-shioda",
+    "kind": "direct-student",
+    "period": null,
+    "confidence": "stated",
+    "notes": "Wikipedia infobox: notable students of Gozo Shioda",
+    "source": [
+      "https://en.wikipedia.org/wiki/Gozo_Shioda",
+      "https://en.wikipedia.org/wiki/Robert_Mustard"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "edge:robert-mustard+tsutomu-chida",
+    "student": "person:robert-mustard",
+    "teacher": "person:tsutomu-chida",
+    "kind": "direct-student",
+    "period": null,
+    "confidence": "stated",
+    "notes": "Wikipedia infobox: teacher of Robert Mustard",
+    "source": [
+      "https://en.wikipedia.org/wiki/Robert_Mustard"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "edge:seiichi-sugano+kisshomaru-ueshiba",
+    "student": "person:seiichi-sugano",
+    "teacher": "person:kisshomaru-ueshiba",
+    "kind": "direct-student",
+    "period": null,
+    "confidence": "stated",
+    "notes": "Wikipedia infobox: teacher of Seiichi Sugano",
+    "source": [
+      "https://en.wikipedia.org/wiki/Seiichi_Sugano"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "edge:seiichi-sugano+koichi-tohei",
+    "student": "person:seiichi-sugano",
+    "teacher": "person:koichi-tohei",
+    "kind": "uchi-deshi",
+    "period": "1957-1965",
+    "confidence": "inferred",
+    "notes": "inferred from co-presence at dojo:aikikai-hombu-dojo (1957-1965)",
+    "source": [
+      "https://aikidojournal.com/",
+      "https://ki-society.com/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "edge:seiichi-sugano+morihei-ueshiba",
+    "student": "person:seiichi-sugano",
+    "teacher": "person:morihei-ueshiba",
+    "kind": "uchi-deshi",
+    "period": "1957-1965",
+    "confidence": "stated",
+    "notes": "inferred from co-presence at dojo:aikikai-hombu-dojo (1957-1965)",
+    "source": [
+      "https://en.wikipedia.org/wiki/Seiichi_Sugano",
+      "https://www.aikikai.or.jp/eng/",
+      "https://aikidojournal.com/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "edge:shoji-nishio+kyuzo-mifune",
+    "student": "person:shoji-nishio",
+    "teacher": "person:kyuzo-mifune",
+    "kind": "direct-student",
+    "period": null,
+    "confidence": "stated",
+    "notes": "Wikipedia infobox: teacher of Shoji Nishio",
+    "source": [
+      "https://en.wikipedia.org/wiki/Shoji_Nishio"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "edge:shoji-nishio+morihei-ueshiba",
+    "student": "person:shoji-nishio",
+    "teacher": "person:morihei-ueshiba",
+    "kind": "direct-student",
+    "period": null,
+    "confidence": "stated",
+    "notes": "Wikipedia infobox: teacher of Shoji Nishio",
+    "source": [
+      "https://en.wikipedia.org/wiki/Shoji_Nishio"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "edge:shoji-nishio+yasuhiro-konishi",
+    "student": "person:shoji-nishio",
+    "teacher": "person:yasuhiro-konishi",
+    "kind": "direct-student",
+    "period": null,
+    "confidence": "stated",
+    "notes": "Wikipedia infobox: teacher of Shoji Nishio",
+    "source": [
+      "https://en.wikipedia.org/wiki/Shoji_Nishio"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "edge:suga+nobuyoshi-tamura",
+    "student": "person:suga",
+    "teacher": "person:nobuyoshi-tamura",
+    "kind": "direct-student",
+    "period": null,
+    "confidence": "stated",
+    "notes": "Wikipedia infobox (Notable students), via lineage_seed_sources.md",
+    "source": [
+      "https://en.wikipedia.org/wiki/Nobuyoshi_Tamura"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "edge:tadashi-abe+morihei-ueshiba",
+    "student": "person:tadashi-abe",
+    "teacher": "person:morihei-ueshiba",
+    "kind": "direct-student",
+    "period": null,
+    "confidence": "stated",
+    "notes": "Wikipedia infobox: teacher of Tadashi Abe",
+    "source": [
+      "https://en.wikipedia.org/wiki/Tadashi_Abe"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "edge:takashi-kushida+gozo-shioda",
+    "student": "person:takashi-kushida",
+    "teacher": "person:gozo-shioda",
+    "kind": "direct-student",
+    "period": null,
+    "confidence": "stated",
+    "notes": "Wikipedia infobox: notable students of Gozo Shioda",
+    "source": [
+      "https://en.wikipedia.org/wiki/Gozo_Shioda"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "edge:terada+gozo-shioda",
+    "student": "person:terada",
+    "teacher": "person:gozo-shioda",
+    "kind": "direct-student",
+    "period": null,
+    "confidence": "stated",
+    "notes": "Wikipedia infobox (Notable students), via lineage_seed_sources.md",
+    "source": [
+      "https://en.wikipedia.org/wiki/Gozo_Shioda"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "edge:terada-kiyoyuki+gozo-shioda",
+    "student": "person:terada-kiyoyuki",
+    "teacher": "person:gozo-shioda",
+    "kind": "direct-student",
+    "period": null,
+    "confidence": "stated",
+    "notes": "Wikipedia infobox: notable students of Gozo Shioda",
+    "source": [
+      "https://en.wikipedia.org/wiki/Gozo_Shioda"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "edge:thomas-h-makiyama+gozo-shioda",
+    "student": "person:thomas-h-makiyama",
+    "teacher": "person:gozo-shioda",
+    "kind": "direct-student",
+    "period": null,
+    "confidence": "stated",
+    "notes": "Wikipedia infobox: notable students of Gozo Shioda",
+    "source": [
+      "https://en.wikipedia.org/wiki/Gozo_Shioda"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "edge:tomita+bansen-tanaka",
+    "student": "person:tomita",
+    "teacher": "person:bansen-tanaka",
+    "kind": "direct-student",
+    "period": null,
+    "confidence": "stated",
+    "notes": "Wikipedia infobox (Notable students), via lineage_seed_sources.md",
+    "source": [
+      "https://en.wikipedia.org/wiki/Bansen_Tanaka"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "edge:toshiro-suga+nobuyoshi-tamura",
+    "student": "person:toshiro-suga",
+    "teacher": "person:nobuyoshi-tamura",
+    "kind": "direct-student",
+    "period": null,
+    "confidence": "stated",
+    "notes": "Wikipedia infobox: notable students of Nobuyoshi Tamura",
+    "source": [
+      "https://en.wikipedia.org/wiki/Nobuyoshi_Tamura"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "edge:tsuneo-ando+gozo-shioda",
+    "student": "person:tsuneo-ando",
+    "teacher": "person:gozo-shioda",
+    "kind": "direct-student",
+    "period": null,
+    "confidence": "stated",
+    "notes": "Wikipedia infobox: notable students of Gozo Shioda",
+    "source": [
+      "https://en.wikipedia.org/wiki/Gozo_Shioda"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "edge:tsutomu-chida+gozo-shioda",
+    "student": "person:tsutomu-chida",
+    "teacher": "person:gozo-shioda",
+    "kind": "direct-student",
+    "period": null,
+    "confidence": "stated",
+    "notes": "Wikipedia infobox: notable students of Gozo Shioda",
+    "source": [
+      "https://en.wikipedia.org/wiki/Gozo_Shioda"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "edge:vural+nobuyoshi-tamura",
+    "student": "person:vural",
+    "teacher": "person:nobuyoshi-tamura",
+    "kind": "direct-student",
+    "period": null,
+    "confidence": "stated",
+    "notes": "Wikipedia infobox (Notable students), via lineage_seed_sources.md",
+    "source": [
+      "https://en.wikipedia.org/wiki/Nobuyoshi_Tamura"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "edge:william-gleason+mitsugi-saotome",
+    "student": "person:william-gleason",
+    "teacher": "person:mitsugi-saotome",
+    "kind": "direct-student",
+    "period": null,
+    "confidence": "stated",
+    "notes": "Wikipedia infobox (Notable students), via lineage_seed_sources.md",
+    "source": [
+      "https://en.wikipedia.org/wiki/Mitsugi_Saotome"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "edge:yasuhisa-shioda+gozo-shioda",
+    "student": "person:yasuhisa-shioda",
+    "teacher": "person:gozo-shioda",
+    "kind": "direct-student",
+    "period": null,
+    "confidence": "stated",
+    "notes": "Wikipedia infobox: notable students of Gozo Shioda",
+    "source": [
+      "https://en.wikipedia.org/wiki/Gozo_Shioda"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "edge:yoshimitsu-yamada+koichi-tohei",
+    "student": "person:yoshimitsu-yamada",
+    "teacher": "person:koichi-tohei",
+    "kind": "uchi-deshi",
+    "period": "1955-1964",
+    "confidence": "inferred",
+    "notes": "inferred from co-presence at dojo:aikikai-hombu-dojo (1955-1964)",
+    "source": [
+      "https://aikidojournal.com/",
+      "https://ki-society.com/",
+      "https://www.nyaikikai.com/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "edge:yoshimitsu-yamada+morihei-ueshiba",
+    "student": "person:yoshimitsu-yamada",
+    "teacher": "person:morihei-ueshiba",
+    "kind": "uchi-deshi",
+    "period": "1955-1964",
+    "confidence": "stated",
+    "notes": "inferred from co-presence at dojo:aikikai-hombu-dojo (1955-1964)",
+    "source": [
+      "https://en.wikipedia.org/wiki/Yoshimitsu_Yamada",
+      "https://www.aikikai.or.jp/eng/",
+      "https://www.nyaikikai.com/",
+      "https://aikidojournal.com/"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "edge:yoshimitsu-yamada+tadashi-abe",
+    "student": "person:yoshimitsu-yamada",
+    "teacher": "person:tadashi-abe",
+    "kind": "direct-student",
+    "period": null,
+    "confidence": "stated",
+    "notes": "Wikipedia infobox: teacher of Yoshimitsu Yamada",
+    "source": [
+      "https://en.wikipedia.org/wiki/Yoshimitsu_Yamada"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "edge:yoshio-sugino+kano-jigoro",
+    "student": "person:yoshio-sugino",
+    "teacher": "person:kano-jigoro",
+    "kind": "direct-student",
+    "period": null,
+    "confidence": "stated",
+    "notes": "Wikipedia infobox: teacher of Yoshio Sugino",
+    "source": [
+      "https://en.wikipedia.org/wiki/Yoshio_Sugino"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "edge:yoshio-sugino+kunisaburo-iizuka",
+    "student": "person:yoshio-sugino",
+    "teacher": "person:kunisaburo-iizuka",
+    "kind": "direct-student",
+    "period": null,
+    "confidence": "stated",
+    "notes": "Wikipedia infobox: teacher of Yoshio Sugino",
+    "source": [
+      "https://en.wikipedia.org/wiki/Yoshio_Sugino"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  },
+  {
+    "id": "edge:yoshio-sugino+morihei-ueshiba",
+    "student": "person:yoshio-sugino",
+    "teacher": "person:morihei-ueshiba",
+    "kind": "direct-student",
+    "period": null,
+    "confidence": "stated",
+    "notes": "Wikipedia infobox: teacher of Yoshio Sugino",
+    "source": [
+      "https://en.wikipedia.org/wiki/Yoshio_Sugino"
+    ],
+    "retrieved": "2026-06-11",
+    "status": "provisional"
+  }
+]
