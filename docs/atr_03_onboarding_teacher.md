@@ -100,4 +100,4 @@ If you want to read more on the basics of prompting, the makers of the assistant
 
 ---
 
-_ATR · onboarding: master teachers · rev 2026-06-08 · draft_
+_ATR · onboarding: master teachers · rev 1 · 2026-06-08 · draft_

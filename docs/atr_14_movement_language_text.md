@@ -318,4 +318,4 @@ Project scientific and technical basis (verified, see atr_01_overview.md):
 
 ---
 
-_ATR · aikido movement language spec · rev 2026-06-12 · draft_
+_ATR · aikido movement language spec · rev 1 · 2026-06-12 · draft_

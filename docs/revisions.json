@@ -1,0 +1,72 @@
+{
+  "atr_01_overview.md": {
+    "date": "2026-06-08",
+    "hash": "9df845687eb2",
+    "rev": 1
+  },
+  "atr_02_roadmap.md": {
+    "date": "2026-06-08",
+    "hash": "d9cfefa81261",
+    "rev": 1
+  },
+  "atr_03_onboarding_teacher.md": {
+    "date": "2026-06-08",
+    "hash": "da8761195f52",
+    "rev": 1
+  },
+  "atr_04_governance_thread.md": {
+    "date": "2026-06-08",
+    "hash": "af13d62628d8",
+    "rev": 1
+  },
+  "atr_05_domain_graph.svg": {
+    "date": "2026-06-15",
+    "hash": "7aa3ec3e1824",
+    "rev": 1
+  },
+  "atr_06_toolchain_stack.md": {
+    "date": "2026-06-08",
+    "hash": "8f60309eb826",
+    "rev": 1
+  },
+  "atr_09_book_ingestion.md": {
+    "date": "2026-06-08",
+    "hash": "699894a71580",
+    "rev": 1
+  },
+  "atr_10_source_bibliography.md": {
+    "date": "2026-06-15",
+    "hash": "5fbb0febd4fd",
+    "rev": 1
+  },
+  "atr_11_lineage_tree.md": {
+    "date": "2026-06-08",
+    "hash": "5ac94fea0635",
+    "rev": 1
+  },
+  "atr_12_federation_map.md": {
+    "date": "2026-06-08",
+    "hash": "539a5ced7392",
+    "rev": 1
+  },
+  "atr_13_datamap_crawl.md": {
+    "date": "2026-06-08",
+    "hash": "6eaed89df0b6",
+    "rev": 1
+  },
+  "atr_14_movement_language_text.md": {
+    "date": "2026-06-12",
+    "hash": "d765c4cf9070",
+    "rev": 1
+  },
+  "atr_15_roadmap_graph.md": {
+    "date": "2026-06-15",
+    "hash": "b42cb1810cfc",
+    "rev": 1
+  },
+  "atr_15_roadmap_graph.svg": {
+    "date": "2026-06-15",
+    "hash": "9cb433113212",
+    "rev": 1
+  }
+}

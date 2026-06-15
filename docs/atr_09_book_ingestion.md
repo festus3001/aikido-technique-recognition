@@ -190,4 +190,4 @@ without pretending they meet archival grade:
 
 ---
 
-_ATR · book ingestion pipeline · rev 2026-06-08 · draft_
+_ATR · book ingestion pipeline · rev 1 · 2026-06-08 · draft_

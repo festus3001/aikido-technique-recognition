@@ -130,4 +130,4 @@ here because they anchor the taxonomy across all schools.
 
 ---
 
-_ATR · source bibliography · rev 2026-06-15 · draft_
+_ATR · source bibliography · rev 1 · 2026-06-15 · draft_

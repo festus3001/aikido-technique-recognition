@@ -117,4 +117,4 @@ Entry points for understanding the field without a technical background:
 
 ---
 
-_ATR · overview · rev 2026-06-08 · draft_
+_ATR · overview · rev 1 · 2026-06-08 · draft_

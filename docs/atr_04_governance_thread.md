@@ -124,4 +124,4 @@ Parked here as working items, not yet decided:
 
 ---
 
-_ATR · governance thread · rev 2026-06-08 · draft_
+_ATR · governance thread · rev 1 · 2026-06-08 · draft_

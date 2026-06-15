@@ -44,4 +44,4 @@ Ongoing. Grow taxonomy coverage as more sources join; develop the deep, qualitat
 
 ---
 
-_ATR · roadmap · rev 2026-06-08 · draft_
+_ATR · roadmap · rev 1 · 2026-06-08 · draft_

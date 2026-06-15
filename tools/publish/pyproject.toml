@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "atr-publish"
+version = "0.1.0"
+description = "ATR documentation build: markdown -> docx, SVG -> PNG, for the stakeholder Google Drive"
+requires-python = ">=3.10"
+dependencies = ["pillow"]
+
+[project.scripts]
+atr-publish = "atr_publish.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

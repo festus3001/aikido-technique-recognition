@@ -133,4 +133,4 @@ taxonomy bootstrap (text) -> data analysis -> contributor stack -> model -> depl
 
 ---
 
-_ATR · toolchain & stack · rev 2026-06-08 · draft_
+_ATR · toolchain & stack · rev 1 · 2026-06-08 · draft_

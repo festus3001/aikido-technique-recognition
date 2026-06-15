@@ -150,4 +150,4 @@ which is what prioritization actually needs. Rosters change; this is a dated sna
 
 ---
 
-_ATR · federation & dojo map · rev 2026-06-08 · draft_
+_ATR · federation & dojo map · rev 1 · 2026-06-08 · draft_

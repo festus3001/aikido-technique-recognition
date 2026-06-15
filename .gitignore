@@ -14,6 +14,11 @@ __pycache__/
 # regenerable build artifacts (rebuild with atr-crawler-db)
 *.sqlite
 
+# documentation build outputs (rebuild with atr-publish; copied to Google Drive)
+dist/
+# docx are built from markdown by tools/publish; markdown is the source of truth
+*.docx
+
 # conda environments are never stored in-tree
 envs/
 
