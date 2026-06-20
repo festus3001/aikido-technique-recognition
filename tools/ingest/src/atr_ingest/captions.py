@@ -195,6 +195,50 @@ def find_caption_lines(lines: list[str]) -> list[str]:
     return [ln for ln in lines if is_caption(ln)]
 
 
+# -- weapon (ken / jo) captions -------------------------------------------------
+# In a weapon section a caption names a suburi / awase / kata movement, not a paired
+# attack. We detect these structurally (a movement word or a number marker) and parse
+# them WITHOUT the taijutsu lexicon, so a jo 突き is never recorded as attack=tsuki.
+_WEAPON_KANJI = ("素振り", "合わせ", "合せ", "突き", "打ち込み", "打ち", "返し", "流し",
+                 "巻き", "払い", "受け", "張り", "切り", "斬り", "段")
+_WEAPON_ROMAJI = ("suburi", "awase", "tsuki", "uchikomi", "uchi", "kaeshi", "nagashi",
+                  "tsuburi", "kata")
+_SECTION_HEADER = re.compile(r"の\s*部")          # 〇〇の部 = a group header, not a movement
+_NUM_MARK = re.compile(r"[(\[（【]\s*(\d{1,2})\s*[)\]）】]")
+_KANJI_RUN = re.compile(r"[぀-ヿ㐀-鿿々]+")
+
+
+def is_section_header(line: str) -> bool:
+    """A short '〇〇の部' line is a group header (sets sub-context), not a record."""
+    despaced = re.sub(r"\s+", "", line)
+    return bool(_SECTION_HEADER.search(despaced)) and len(despaced) <= 10
+
+
+def is_weapon_caption(line: str) -> bool:
+    if is_section_header(line) or _looks_like_prose(line):
+        return False
+    despaced = re.sub(r"\s+", "", line)
+    has_word = any(w in despaced for w in _WEAPON_KANJI) or \
+        any(w in _norm(line) for w in _WEAPON_ROMAJI)
+    return bool(has_word or _NUM_MARK.search(line))
+
+
+def parse_weapon_caption(line: str) -> Caption:
+    """Parse a weapon-movement caption: keep the Japanese name + number, no attack/technique."""
+    num = _NUM_MARK.search(line)
+    quals = [num.group(1)] if num else []
+    kanji = _KANJI_RUN.findall(re.sub(r"\s+", "", line))
+    native = max(kanji, key=len) if kanji else None
+    romaji = "" if _looks_like_kanji_only(line) else re.sub(r"\s+", " ", line).strip(" -.,")
+    return Caption(name_romaji=romaji, qualifiers=quals,
+                   slots={"technique": None, "attack": None, "direction": None, "form": []},
+                   name_native=native, raw=re.sub(r"\s+", " ", line).strip())
+
+
+def _looks_like_kanji_only(line: str) -> bool:
+    return not re.search(r"[A-Za-z]", line)
+
+
 def _has_ascii(s: str) -> bool:
     return bool(re.search(r"[A-Za-z]", s or ""))
 

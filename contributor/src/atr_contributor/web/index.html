@@ -194,7 +194,12 @@ async function load(){
   const t = d.technique, r = d.review;
   $("cap").textContent = clean(t.raw_caption || t.name_romaji || t.id);
   const s = t.source || {};
-  $("meta").textContent = `${s.title || s.book || ""}  ·  p.${s.pdf_page || "?"}  ·  ${(t.provenance||{}).performer_name||""} (${(t.provenance||{}).lineage||""})`;
+  const struct = [t.context, t.kind, t.weapon, t.form].filter(x => x && x !== "technique" && x !== "taijutsu");
+  const tag = struct.length ? "  ·  " + struct.join(" / ") : "";
+  $("meta").textContent = `${s.title || s.book || ""}  ·  p.${s.pdf_page || "?"}  ·  ${(t.provenance||{}).performer_name||""} (${(t.provenance||{}).lineage||""})${tag}`;
+  // weapon records (suburi/kata/kumi) are not paired attacks -- de-emphasize the attack field
+  const weapon = t.context === "aiki-ken" || t.context === "aiki-jo";
+  $("attack").placeholder = weapon ? "(weapon form -- usually no attack)" : "";
 
   // working keyframe sequence (editable copy)
   seq = (d.keyframes || []).map(k => ({image:k.image, img:k.img, caption:k.caption||""}));

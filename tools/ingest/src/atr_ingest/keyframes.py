@@ -16,15 +16,29 @@ import cv2
 import numpy as np
 
 from .captions import Caption
+from .structure import Section
+from .util import slugify
+
+_DEFAULT_SECTION = Section("taijutsu", "technique")
 
 
 def build_records(book: dict, caption: Caption, boxes: list[tuple[int, int, int, int]],
                   page_img: np.ndarray, pdf_page: int, processed_root: Path,
-                  retrieved: str, repo_root: Path | None = None) -> tuple[dict, list[dict]]:
+                  retrieved: str, repo_root: Path | None = None,
+                  section: Section | None = None, seq: int | None = None) -> tuple[dict, list[dict]]:
     """Crop and save each photo; return (technique_record, [keyframe_records])."""
     repo_root = repo_root or processed_root
+    section = section or _DEFAULT_SECTION
     vol = book["id"]  # canonical book slug, used on the path and in ids
+    # weapon records are not paired attacks; keep their slots empty even if the OCR
+    # name happened to contain a word like 突き.
+    attack = None if section.is_weapon else caption.slots.get("attack")
     slug = caption.slug()
+    # weapon captions are often kanji-only (slug falls back to "technique"); build a
+    # stable, unique slug from the section + the movement number / page index.
+    if section.is_weapon and slug in ("technique", ""):
+        q = caption.qualifiers[0] if caption.qualifiers else (str(seq) if seq else "1")
+        slug = slugify(f"{section.weapon or section.context}-{section.kind}-{q}") or "weapon"
     # observation provenance: who performed, when, from which recording. The
     # performer is a person:slug resolving into the lineage data map; era is the
     # source's era (a 1970s book vs a later video are distinct observations).
@@ -36,6 +50,7 @@ def build_records(book: dict, caption: Caption, boxes: list[tuple[int, int, int,
         "recording": book["id"],
         "lineage": book.get("lineage"),
     }
+    kind = section.kind if section.kind != "skip" else "technique"
     tech_id = f"tech:{vol}-p{pdf_page}-{slug}"
     out_dir = processed_root / vol / f"p{pdf_page}-{slug}"
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -60,7 +75,7 @@ def build_records(book: dict, caption: Caption, boxes: list[tuple[int, int, int,
             "image": image_path,
             "name_romaji": caption.name_romaji,
             "name_native": caption.name_native,
-            "attack": caption.slots.get("attack"),
+            "attack": attack,
             "source": {"book": vol, "title": book.get("full_title"), "pdf_page": pdf_page,
                        "bbox": [int(x), int(y), int(w), int(h)]},
             "provenance": provenance,
@@ -72,12 +87,19 @@ def build_records(book: dict, caption: Caption, boxes: list[tuple[int, int, int,
             "retrieved": retrieved,
         })
 
+    slots = dict(caption.slots)
+    if section.is_weapon:
+        slots["attack"] = None
     technique = {
         "id": tech_id,
         "name_romaji": caption.name_romaji,
         "name_native": caption.name_native,
         "qualifiers": caption.qualifiers,
-        "slots": caption.slots,
+        "kind": kind,                 # technique | suburi | kata | kumi
+        "context": section.context,   # taijutsu | aiki-ken | aiki-jo
+        "weapon": section.weapon,     # ken | jo | None
+        "form": section.form,         # named form this belongs to (e.g. 31-no-jo), or None
+        "slots": slots,
         "step_count": len(boxes),
         "keyframes": [k["id"] for k in keyframes],
         "source": {"book": vol, "title": book.get("full_title"), "pdf_page": pdf_page},

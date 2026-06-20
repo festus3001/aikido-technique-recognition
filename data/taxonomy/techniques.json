@@ -1,14 +1,18 @@
 [
   {
     "id": "tech:saito-traditional-aikido-vol1-p100-9",
-    "name_romaji": "面 打 ち 後 突き",
-    "name_native": null,
+    "name_romaji": "",
+    "name_native": "面打ち後突き",
     "qualifiers": [
       "9"
     ],
+    "kind": "suburi",
+    "context": "aiki-jo",
+    "weapon": "jo",
+    "form": "31-no-jo",
     "slots": {
       "technique": null,
-      "attack": "tsuki",
+      "attack": null,
       "direction": null,
       "form": []
     },
@@ -22,10 +26,6 @@
       "title": "Traditional Aikido, Volume 1: Basic Techniques",
       "pdf_page": 100
     },
-    "raw_caption": "(9) 面 打 ち 後 突き",
-    "confidence": "ocr",
-    "status": "provisional",
-    "retrieved": "2026-06-15",
     "provenance": {
       "performer": "person:morihiro-saito",
       "performer_name": "Morihiro Saito",
@@ -38,36 +38,40 @@
       "medium": "book",
       "recording": "saito-traditional-aikido-vol1",
       "lineage": "iwama"
-    }
+    },
+    "raw_caption": "(9) 面 打 ち 後 突き",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
   },
   {
-    "id": "tech:saito-traditional-aikido-vol1-p100-tsuki",
-    "name_romaji": "( 後 突 き 参",
-    "name_native": null,
+    "id": "tech:saito-traditional-aikido-vol1-p100-jo-suburi-2",
+    "name_romaji": "",
+    "name_native": "後突き参",
     "qualifiers": [],
+    "kind": "suburi",
+    "context": "aiki-jo",
+    "weapon": "jo",
+    "form": "31-no-jo",
     "slots": {
       "technique": null,
-      "attack": "tsuki",
+      "attack": null,
       "direction": null,
       "form": []
     },
     "step_count": 5,
     "keyframes": [
-      "kf:saito-traditional-aikido-vol1-p100-tsuki-01",
-      "kf:saito-traditional-aikido-vol1-p100-tsuki-02",
-      "kf:saito-traditional-aikido-vol1-p100-tsuki-03",
-      "kf:saito-traditional-aikido-vol1-p100-tsuki-04",
-      "kf:saito-traditional-aikido-vol1-p100-tsuki-05"
+      "kf:saito-traditional-aikido-vol1-p100-jo-suburi-2-01",
+      "kf:saito-traditional-aikido-vol1-p100-jo-suburi-2-02",
+      "kf:saito-traditional-aikido-vol1-p100-jo-suburi-2-03",
+      "kf:saito-traditional-aikido-vol1-p100-jo-suburi-2-04",
+      "kf:saito-traditional-aikido-vol1-p100-jo-suburi-2-05"
     ],
     "source": {
       "book": "saito-traditional-aikido-vol1",
       "title": "Traditional Aikido, Volume 1: Basic Techniques",
       "pdf_page": 100
     },
-    "raw_caption": "( 後 突 き 参",
-    "confidence": "ocr",
-    "status": "provisional",
-    "retrieved": "2026-06-15",
     "provenance": {
       "performer": "person:morihiro-saito",
       "performer_name": "Morihiro Saito",
@@ -80,16 +84,24 @@
       "medium": "book",
       "recording": "saito-traditional-aikido-vol1",
       "lineage": "iwama"
-    }
+    },
+    "raw_caption": "( 後 突 き 参",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
   },
   {
     "id": "tech:saito-traditional-aikido-vol1-p101-menuchi-ushiro-tsuki",
     "name_romaji": "Menuchi Ushiro Tsuki",
     "name_native": null,
     "qualifiers": [],
+    "kind": "suburi",
+    "context": "aiki-jo",
+    "weapon": "jo",
+    "form": "31-no-jo",
     "slots": {
       "technique": null,
-      "attack": "tsuki",
+      "attack": null,
       "direction": null,
       "form": []
     },
@@ -108,10 +120,6 @@
       "title": "Traditional Aikido, Volume 1: Basic Techniques",
       "pdf_page": 101
     },
-    "raw_caption": "Menuchi Ushiro Tsuki",
-    "confidence": "ocr",
-    "status": "provisional",
-    "retrieved": "2026-06-15",
     "provenance": {
       "performer": "person:morihiro-saito",
       "performer_name": "Morihiro Saito",
@@ -124,42 +132,85 @@
       "medium": "book",
       "recording": "saito-traditional-aikido-vol1",
       "lineage": "iwama"
-    }
+    },
+    "raw_caption": "Menuchi Ushiro Tsuki",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
   },
   {
-    "id": "tech:saito-traditional-aikido-vol1-p103-gyaku-yokomen-ushiro-tsuki-10",
-    "name_romaji": "Gyaku Yokomen Ushiro Tsuki",
-    "name_native": "Gyaku Yokomen Ushiro Tsuki",
-    "qualifiers": [
-      "10"
-    ],
+    "id": "tech:saito-traditional-aikido-vol1-p102-jo-suburi-1",
+    "name_romaji": "",
+    "name_native": null,
+    "qualifiers": [],
+    "kind": "suburi",
+    "context": "aiki-jo",
+    "weapon": "jo",
+    "form": "31-no-jo",
     "slots": {
       "technique": null,
-      "attack": "tsuki",
+      "attack": null,
       "direction": null,
       "form": []
     },
-    "step_count": 9,
+    "step_count": 4,
     "keyframes": [
-      "kf:saito-traditional-aikido-vol1-p103-gyaku-yokomen-ushiro-tsuki-10-01",
-      "kf:saito-traditional-aikido-vol1-p103-gyaku-yokomen-ushiro-tsuki-10-02",
-      "kf:saito-traditional-aikido-vol1-p103-gyaku-yokomen-ushiro-tsuki-10-03",
-      "kf:saito-traditional-aikido-vol1-p103-gyaku-yokomen-ushiro-tsuki-10-04",
-      "kf:saito-traditional-aikido-vol1-p103-gyaku-yokomen-ushiro-tsuki-10-05",
-      "kf:saito-traditional-aikido-vol1-p103-gyaku-yokomen-ushiro-tsuki-10-06",
-      "kf:saito-traditional-aikido-vol1-p103-gyaku-yokomen-ushiro-tsuki-10-07",
-      "kf:saito-traditional-aikido-vol1-p103-gyaku-yokomen-ushiro-tsuki-10-08",
-      "kf:saito-traditional-aikido-vol1-p103-gyaku-yokomen-ushiro-tsuki-10-09"
+      "kf:saito-traditional-aikido-vol1-p102-jo-suburi-1-01",
+      "kf:saito-traditional-aikido-vol1-p102-jo-suburi-1-02",
+      "kf:saito-traditional-aikido-vol1-p102-jo-suburi-1-03",
+      "kf:saito-traditional-aikido-vol1-p102-jo-suburi-1-04"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 102
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "aiki-jo jo suburi",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p103-10",
+    "name_romaji": "",
+    "name_native": "逆横面後突き",
+    "qualifiers": [
+      "10"
+    ],
+    "kind": "suburi",
+    "context": "aiki-jo",
+    "weapon": "jo",
+    "form": "31-no-jo",
+    "slots": {
+      "technique": null,
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 3,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p103-10-01",
+      "kf:saito-traditional-aikido-vol1-p103-10-02",
+      "kf:saito-traditional-aikido-vol1-p103-10-03"
     ],
     "source": {
       "book": "saito-traditional-aikido-vol1",
       "title": "Traditional Aikido, Volume 1: Basic Techniques",
       "pdf_page": 103
     },
-    "raw_caption": "(10) 逆 横 面 後 突き",
-    "confidence": "ocr",
-    "status": "provisional",
-    "retrieved": "2026-06-15",
     "provenance": {
       "performer": "person:morihiro-saito",
       "performer_name": "Morihiro Saito",
@@ -172,38 +223,471 @@
       "medium": "book",
       "recording": "saito-traditional-aikido-vol1",
       "lineage": "iwama"
-    }
+    },
+    "raw_caption": "(10) 逆 横 面 後 突き",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
   },
   {
-    "id": "tech:saito-traditional-aikido-vol1-p112-hasso-gaeshi-tsuki-5",
-    "name_romaji": "Hasso Gaeshi Tsuki",
-    "name_native": "Hasso Gaeshi Tsuki",
-    "qualifiers": [
-      "5"
-    ],
+    "id": "tech:saito-traditional-aikido-vol1-p103-gyaku-yokomen-ushiro-tsuki",
+    "name_romaji": "Gyaku Yokomen Ushiro Tsuki",
+    "name_native": null,
+    "qualifiers": [],
+    "kind": "suburi",
+    "context": "aiki-jo",
+    "weapon": "jo",
+    "form": "31-no-jo",
     "slots": {
       "technique": null,
-      "attack": "tsuki",
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 6,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p103-gyaku-yokomen-ushiro-tsuki-01",
+      "kf:saito-traditional-aikido-vol1-p103-gyaku-yokomen-ushiro-tsuki-02",
+      "kf:saito-traditional-aikido-vol1-p103-gyaku-yokomen-ushiro-tsuki-03",
+      "kf:saito-traditional-aikido-vol1-p103-gyaku-yokomen-ushiro-tsuki-04",
+      "kf:saito-traditional-aikido-vol1-p103-gyaku-yokomen-ushiro-tsuki-05",
+      "kf:saito-traditional-aikido-vol1-p103-gyaku-yokomen-ushiro-tsuki-06"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 103
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "Gyaku Yokomen Ushiro Tsuki",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p104-jo-suburi-1",
+    "name_romaji": "",
+    "name_native": "片手下段返し",
+    "qualifiers": [],
+    "kind": "suburi",
+    "context": "aiki-jo",
+    "weapon": "jo",
+    "form": "31-no-jo",
+    "slots": {
+      "technique": null,
+      "attack": null,
       "direction": null,
       "form": []
     },
     "step_count": 5,
     "keyframes": [
-      "kf:saito-traditional-aikido-vol1-p112-hasso-gaeshi-tsuki-5-01",
-      "kf:saito-traditional-aikido-vol1-p112-hasso-gaeshi-tsuki-5-02",
-      "kf:saito-traditional-aikido-vol1-p112-hasso-gaeshi-tsuki-5-03",
-      "kf:saito-traditional-aikido-vol1-p112-hasso-gaeshi-tsuki-5-04",
-      "kf:saito-traditional-aikido-vol1-p112-hasso-gaeshi-tsuki-5-05"
+      "kf:saito-traditional-aikido-vol1-p104-jo-suburi-1-01",
+      "kf:saito-traditional-aikido-vol1-p104-jo-suburi-1-02",
+      "kf:saito-traditional-aikido-vol1-p104-jo-suburi-1-03",
+      "kf:saito-traditional-aikido-vol1-p104-jo-suburi-1-04",
+      "kf:saito-traditional-aikido-vol1-p104-jo-suburi-1-05"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 104
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "⑪ 片手 下段 返し",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p105-katate-gedan-gaeshi",
+    "name_romaji": "Katate Gedan Gaeshi",
+    "name_native": null,
+    "qualifiers": [],
+    "kind": "suburi",
+    "context": "aiki-jo",
+    "weapon": "jo",
+    "form": "31-no-jo",
+    "slots": {
+      "technique": null,
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 5,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p105-katate-gedan-gaeshi-01",
+      "kf:saito-traditional-aikido-vol1-p105-katate-gedan-gaeshi-02",
+      "kf:saito-traditional-aikido-vol1-p105-katate-gedan-gaeshi-03",
+      "kf:saito-traditional-aikido-vol1-p105-katate-gedan-gaeshi-04",
+      "kf:saito-traditional-aikido-vol1-p105-katate-gedan-gaeshi-05"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 105
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "Katate Gedan Gaeshi",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p106-12-brr-fits-12",
+    "name_romaji": "(12) BRR FITS",
+    "name_native": null,
+    "qualifiers": [
+      "12"
+    ],
+    "kind": "suburi",
+    "context": "aiki-jo",
+    "weapon": "jo",
+    "form": "31-no-jo",
+    "slots": {
+      "technique": null,
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 5,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p106-12-brr-fits-12-01",
+      "kf:saito-traditional-aikido-vol1-p106-12-brr-fits-12-02",
+      "kf:saito-traditional-aikido-vol1-p106-12-brr-fits-12-03",
+      "kf:saito-traditional-aikido-vol1-p106-12-brr-fits-12-04",
+      "kf:saito-traditional-aikido-vol1-p106-12-brr-fits-12-05"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 106
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "(12) BRR FITS",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p107-jo-suburi-1",
+    "name_romaji": "",
+    "name_native": null,
+    "qualifiers": [],
+    "kind": "suburi",
+    "context": "aiki-jo",
+    "weapon": "jo",
+    "form": "31-no-jo",
+    "slots": {
+      "technique": null,
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 7,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p107-jo-suburi-1-01",
+      "kf:saito-traditional-aikido-vol1-p107-jo-suburi-1-02",
+      "kf:saito-traditional-aikido-vol1-p107-jo-suburi-1-03",
+      "kf:saito-traditional-aikido-vol1-p107-jo-suburi-1-04",
+      "kf:saito-traditional-aikido-vol1-p107-jo-suburi-1-05",
+      "kf:saito-traditional-aikido-vol1-p107-jo-suburi-1-06",
+      "kf:saito-traditional-aikido-vol1-p107-jo-suburi-1-07"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 107
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "aiki-jo jo suburi",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p108-3",
+    "name_romaji": "",
+    "name_native": "片手八の字返し",
+    "qualifiers": [
+      "3"
+    ],
+    "kind": "suburi",
+    "context": "aiki-jo",
+    "weapon": "jo",
+    "form": "31-no-jo",
+    "slots": {
+      "technique": null,
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 6,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p108-3-01",
+      "kf:saito-traditional-aikido-vol1-p108-3-02",
+      "kf:saito-traditional-aikido-vol1-p108-3-03",
+      "kf:saito-traditional-aikido-vol1-p108-3-04",
+      "kf:saito-traditional-aikido-vol1-p108-3-05",
+      "kf:saito-traditional-aikido-vol1-p108-3-06"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 108
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "(3) 片手 八 の 字 返 し",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p109-jo-suburi-1",
+    "name_romaji": "",
+    "name_native": null,
+    "qualifiers": [],
+    "kind": "suburi",
+    "context": "aiki-jo",
+    "weapon": "jo",
+    "form": "31-no-jo",
+    "slots": {
+      "technique": null,
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 8,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p109-jo-suburi-1-01",
+      "kf:saito-traditional-aikido-vol1-p109-jo-suburi-1-02",
+      "kf:saito-traditional-aikido-vol1-p109-jo-suburi-1-03",
+      "kf:saito-traditional-aikido-vol1-p109-jo-suburi-1-04",
+      "kf:saito-traditional-aikido-vol1-p109-jo-suburi-1-05",
+      "kf:saito-traditional-aikido-vol1-p109-jo-suburi-1-06",
+      "kf:saito-traditional-aikido-vol1-p109-jo-suburi-1-07",
+      "kf:saito-traditional-aikido-vol1-p109-jo-suburi-1-08"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 109
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "aiki-jo jo suburi",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p110-4",
+    "name_romaji": "",
+    "name_native": "八相返し打ち",
+    "qualifiers": [
+      "4"
+    ],
+    "kind": "suburi",
+    "context": "aiki-jo",
+    "weapon": "jo",
+    "form": "31-no-jo",
+    "slots": {
+      "technique": null,
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 7,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p110-4-01",
+      "kf:saito-traditional-aikido-vol1-p110-4-02",
+      "kf:saito-traditional-aikido-vol1-p110-4-03",
+      "kf:saito-traditional-aikido-vol1-p110-4-04",
+      "kf:saito-traditional-aikido-vol1-p110-4-05",
+      "kf:saito-traditional-aikido-vol1-p110-4-06",
+      "kf:saito-traditional-aikido-vol1-p110-4-07"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 110
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "(4) 八 相 返し 打ち",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p111-hasso-gaeshi-uchi",
+    "name_romaji": "Hasso Gaeshi Uchi",
+    "name_native": null,
+    "qualifiers": [],
+    "kind": "suburi",
+    "context": "aiki-jo",
+    "weapon": "jo",
+    "form": "31-no-jo",
+    "slots": {
+      "technique": null,
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 5,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p111-hasso-gaeshi-uchi-01",
+      "kf:saito-traditional-aikido-vol1-p111-hasso-gaeshi-uchi-02",
+      "kf:saito-traditional-aikido-vol1-p111-hasso-gaeshi-uchi-03",
+      "kf:saito-traditional-aikido-vol1-p111-hasso-gaeshi-uchi-04",
+      "kf:saito-traditional-aikido-vol1-p111-hasso-gaeshi-uchi-05"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 111
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "Hasso Gaeshi Uchi",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p112-5",
+    "name_romaji": "",
+    "name_native": "八相返し突き",
+    "qualifiers": [
+      "5"
+    ],
+    "kind": "suburi",
+    "context": "aiki-jo",
+    "weapon": "jo",
+    "form": "31-no-jo",
+    "slots": {
+      "technique": null,
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 5,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p112-5-01",
+      "kf:saito-traditional-aikido-vol1-p112-5-02",
+      "kf:saito-traditional-aikido-vol1-p112-5-03",
+      "kf:saito-traditional-aikido-vol1-p112-5-04",
+      "kf:saito-traditional-aikido-vol1-p112-5-05"
     ],
     "source": {
       "book": "saito-traditional-aikido-vol1",
       "title": "Traditional Aikido, Volume 1: Basic Techniques",
       "pdf_page": 112
     },
-    "raw_caption": "(5) 八 相 返 し 突き",
-    "confidence": "ocr",
-    "status": "provisional",
-    "retrieved": "2026-06-15",
     "provenance": {
       "performer": "person:morihiro-saito",
       "performer_name": "Morihiro Saito",
@@ -216,39 +700,92 @@
       "medium": "book",
       "recording": "saito-traditional-aikido-vol1",
       "lineage": "iwama"
-    }
+    },
+    "raw_caption": "(5) 八 相 返 し 突き",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
   },
   {
-    "id": "tech:saito-traditional-aikido-vol1-p114-hasso-gaeshi-ushiro-tsuki-16",
-    "name_romaji": "Hasso Gaeshi Ushiro Tsuki",
-    "name_native": "Hasso Gaeshi Ushiro Tsuki",
-    "qualifiers": [
-      "16"
-    ],
+    "id": "tech:saito-traditional-aikido-vol1-p113-jo-suburi-1",
+    "name_romaji": "",
+    "name_native": null,
+    "qualifiers": [],
+    "kind": "suburi",
+    "context": "aiki-jo",
+    "weapon": "jo",
+    "form": "31-no-jo",
     "slots": {
       "technique": null,
-      "attack": "tsuki",
+      "attack": null,
       "direction": null,
       "form": []
     },
-    "step_count": 6,
+    "step_count": 9,
     "keyframes": [
-      "kf:saito-traditional-aikido-vol1-p114-hasso-gaeshi-ushiro-tsuki-16-01",
-      "kf:saito-traditional-aikido-vol1-p114-hasso-gaeshi-ushiro-tsuki-16-02",
-      "kf:saito-traditional-aikido-vol1-p114-hasso-gaeshi-ushiro-tsuki-16-03",
-      "kf:saito-traditional-aikido-vol1-p114-hasso-gaeshi-ushiro-tsuki-16-04",
-      "kf:saito-traditional-aikido-vol1-p114-hasso-gaeshi-ushiro-tsuki-16-05",
-      "kf:saito-traditional-aikido-vol1-p114-hasso-gaeshi-ushiro-tsuki-16-06"
+      "kf:saito-traditional-aikido-vol1-p113-jo-suburi-1-01",
+      "kf:saito-traditional-aikido-vol1-p113-jo-suburi-1-02",
+      "kf:saito-traditional-aikido-vol1-p113-jo-suburi-1-03",
+      "kf:saito-traditional-aikido-vol1-p113-jo-suburi-1-04",
+      "kf:saito-traditional-aikido-vol1-p113-jo-suburi-1-05",
+      "kf:saito-traditional-aikido-vol1-p113-jo-suburi-1-06",
+      "kf:saito-traditional-aikido-vol1-p113-jo-suburi-1-07",
+      "kf:saito-traditional-aikido-vol1-p113-jo-suburi-1-08",
+      "kf:saito-traditional-aikido-vol1-p113-jo-suburi-1-09"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 113
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "aiki-jo jo suburi",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p114-16",
+    "name_romaji": "",
+    "name_native": "八相返し後突き",
+    "qualifiers": [
+      "16"
+    ],
+    "kind": "suburi",
+    "context": "aiki-jo",
+    "weapon": "jo",
+    "form": "31-no-jo",
+    "slots": {
+      "technique": null,
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 5,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p114-16-01",
+      "kf:saito-traditional-aikido-vol1-p114-16-02",
+      "kf:saito-traditional-aikido-vol1-p114-16-03",
+      "kf:saito-traditional-aikido-vol1-p114-16-04",
+      "kf:saito-traditional-aikido-vol1-p114-16-05"
     ],
     "source": {
       "book": "saito-traditional-aikido-vol1",
       "title": "Traditional Aikido, Volume 1: Basic Techniques",
       "pdf_page": 114
     },
-    "raw_caption": "(16) 八 相 返 し 後 突 き",
-    "confidence": "ocr",
-    "status": "provisional",
-    "retrieved": "2026-06-15",
     "provenance": {
       "performer": "person:morihiro-saito",
       "performer_name": "Morihiro Saito",
@@ -261,34 +798,411 @@
       "medium": "book",
       "recording": "saito-traditional-aikido-vol1",
       "lineage": "iwama"
-    }
+    },
+    "raw_caption": "(16) 八 相 返 し 後 突 き",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
   },
   {
-    "id": "tech:saito-traditional-aikido-vol1-p122-migi-nagare-gaeshi-tsuki",
-    "name_romaji": "Migi Nagare Gaeshi Tsuki",
-    "name_native": "Migi Nagare Gaeshi Tsuki",
+    "id": "tech:saito-traditional-aikido-vol1-p114-hasso-gaeshi-ushiro-tsuki",
+    "name_romaji": "Hasso Gaeshi Ushiro Tsuki",
+    "name_native": null,
     "qualifiers": [],
+    "kind": "suburi",
+    "context": "aiki-jo",
+    "weapon": "jo",
+    "form": "31-no-jo",
     "slots": {
       "technique": null,
-      "attack": "tsuki",
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 1,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p114-hasso-gaeshi-ushiro-tsuki-01"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 114
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "Hasso Gaeshi Ushiro Tsuki",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p115-jo-suburi-1",
+    "name_romaji": "",
+    "name_native": null,
+    "qualifiers": [],
+    "kind": "suburi",
+    "context": "aiki-jo",
+    "weapon": "jo",
+    "form": "31-no-jo",
+    "slots": {
+      "technique": null,
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 7,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p115-jo-suburi-1-01",
+      "kf:saito-traditional-aikido-vol1-p115-jo-suburi-1-02",
+      "kf:saito-traditional-aikido-vol1-p115-jo-suburi-1-03",
+      "kf:saito-traditional-aikido-vol1-p115-jo-suburi-1-04",
+      "kf:saito-traditional-aikido-vol1-p115-jo-suburi-1-05",
+      "kf:saito-traditional-aikido-vol1-p115-jo-suburi-1-06",
+      "kf:saito-traditional-aikido-vol1-p115-jo-suburi-1-07"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 115
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "aiki-jo jo suburi",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p116-17",
+    "name_romaji": "",
+    "name_native": "八相返し後方打ち",
+    "qualifiers": [
+      "17"
+    ],
+    "kind": "suburi",
+    "context": "aiki-jo",
+    "weapon": "jo",
+    "form": "31-no-jo",
+    "slots": {
+      "technique": null,
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 6,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p116-17-01",
+      "kf:saito-traditional-aikido-vol1-p116-17-02",
+      "kf:saito-traditional-aikido-vol1-p116-17-03",
+      "kf:saito-traditional-aikido-vol1-p116-17-04",
+      "kf:saito-traditional-aikido-vol1-p116-17-05",
+      "kf:saito-traditional-aikido-vol1-p116-17-06"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 116
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "(17) 八 相 返し 後方 打ち",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p117-jo-suburi-1",
+    "name_romaji": "",
+    "name_native": null,
+    "qualifiers": [],
+    "kind": "suburi",
+    "context": "aiki-jo",
+    "weapon": "jo",
+    "form": "31-no-jo",
+    "slots": {
+      "technique": null,
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 8,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p117-jo-suburi-1-01",
+      "kf:saito-traditional-aikido-vol1-p117-jo-suburi-1-02",
+      "kf:saito-traditional-aikido-vol1-p117-jo-suburi-1-03",
+      "kf:saito-traditional-aikido-vol1-p117-jo-suburi-1-04",
+      "kf:saito-traditional-aikido-vol1-p117-jo-suburi-1-05",
+      "kf:saito-traditional-aikido-vol1-p117-jo-suburi-1-06",
+      "kf:saito-traditional-aikido-vol1-p117-jo-suburi-1-07",
+      "kf:saito-traditional-aikido-vol1-p117-jo-suburi-1-08"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 117
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "aiki-jo jo suburi",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p118-8",
+    "name_romaji": "",
+    "name_native": "八相返し後方払い",
+    "qualifiers": [
+      "8"
+    ],
+    "kind": "suburi",
+    "context": "aiki-jo",
+    "weapon": "jo",
+    "form": "31-no-jo",
+    "slots": {
+      "technique": null,
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 9,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p118-8-01",
+      "kf:saito-traditional-aikido-vol1-p118-8-02",
+      "kf:saito-traditional-aikido-vol1-p118-8-03",
+      "kf:saito-traditional-aikido-vol1-p118-8-04",
+      "kf:saito-traditional-aikido-vol1-p118-8-05",
+      "kf:saito-traditional-aikido-vol1-p118-8-06",
+      "kf:saito-traditional-aikido-vol1-p118-8-07",
+      "kf:saito-traditional-aikido-vol1-p118-8-08",
+      "kf:saito-traditional-aikido-vol1-p118-8-09"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 118
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "(8) 八 相 返し 後方 払い",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p119-jo-suburi-1",
+    "name_romaji": "",
+    "name_native": null,
+    "qualifiers": [],
+    "kind": "suburi",
+    "context": "aiki-jo",
+    "weapon": "jo",
+    "form": "31-no-jo",
+    "slots": {
+      "technique": null,
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 1,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p119-jo-suburi-1-01"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 119
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "aiki-jo jo suburi",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p120-jo-suburi-1",
+    "name_romaji": "",
+    "name_native": "左流れ返し打ち",
+    "qualifiers": [],
+    "kind": "suburi",
+    "context": "aiki-jo",
+    "weapon": "jo",
+    "form": "31-no-jo",
+    "slots": {
+      "technique": null,
+      "attack": null,
       "direction": null,
       "form": []
     },
     "step_count": 3,
     "keyframes": [
-      "kf:saito-traditional-aikido-vol1-p122-migi-nagare-gaeshi-tsuki-01",
-      "kf:saito-traditional-aikido-vol1-p122-migi-nagare-gaeshi-tsuki-02",
-      "kf:saito-traditional-aikido-vol1-p122-migi-nagare-gaeshi-tsuki-03"
+      "kf:saito-traditional-aikido-vol1-p120-jo-suburi-1-01",
+      "kf:saito-traditional-aikido-vol1-p120-jo-suburi-1-02",
+      "kf:saito-traditional-aikido-vol1-p120-jo-suburi-1-03"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 120
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "(9 左 流れ 返し 打ち",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p121-jo-suburi-1",
+    "name_romaji": "",
+    "name_native": null,
+    "qualifiers": [],
+    "kind": "suburi",
+    "context": "aiki-jo",
+    "weapon": "jo",
+    "form": "31-no-jo",
+    "slots": {
+      "technique": null,
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 6,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p121-jo-suburi-1-01",
+      "kf:saito-traditional-aikido-vol1-p121-jo-suburi-1-02",
+      "kf:saito-traditional-aikido-vol1-p121-jo-suburi-1-03",
+      "kf:saito-traditional-aikido-vol1-p121-jo-suburi-1-04",
+      "kf:saito-traditional-aikido-vol1-p121-jo-suburi-1-05",
+      "kf:saito-traditional-aikido-vol1-p121-jo-suburi-1-06"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 121
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "aiki-jo jo suburi",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p122-jo-suburi-1",
+    "name_romaji": "",
+    "name_native": "右流れ返し突き",
+    "qualifiers": [],
+    "kind": "suburi",
+    "context": "aiki-jo",
+    "weapon": "jo",
+    "form": "31-no-jo",
+    "slots": {
+      "technique": null,
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 3,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p122-jo-suburi-1-01",
+      "kf:saito-traditional-aikido-vol1-p122-jo-suburi-1-02",
+      "kf:saito-traditional-aikido-vol1-p122-jo-suburi-1-03"
     ],
     "source": {
       "book": "saito-traditional-aikido-vol1",
       "title": "Traditional Aikido, Volume 1: Basic Techniques",
       "pdf_page": 122
     },
-    "raw_caption": "20) 右 流れ 返し 突き",
-    "confidence": "ocr",
-    "status": "provisional",
-    "retrieved": "2026-06-15",
     "provenance": {
       "performer": "person:morihiro-saito",
       "performer_name": "Morihiro Saito",
@@ -301,13 +1215,2244 @@
       "medium": "book",
       "recording": "saito-traditional-aikido-vol1",
       "lineage": "iwama"
-    }
+    },
+    "raw_caption": "20) 右 流れ 返し 突き",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p123-jo-suburi-1",
+    "name_romaji": "",
+    "name_native": null,
+    "qualifiers": [],
+    "kind": "suburi",
+    "context": "aiki-jo",
+    "weapon": "jo",
+    "form": "31-no-jo",
+    "slots": {
+      "technique": null,
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 5,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p123-jo-suburi-1-01",
+      "kf:saito-traditional-aikido-vol1-p123-jo-suburi-1-02",
+      "kf:saito-traditional-aikido-vol1-p123-jo-suburi-1-03",
+      "kf:saito-traditional-aikido-vol1-p123-jo-suburi-1-04",
+      "kf:saito-traditional-aikido-vol1-p123-jo-suburi-1-05"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 123
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "aiki-jo jo suburi",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p124-1",
+    "name_romaji": "",
+    "name_native": "合わせ一",
+    "qualifiers": [
+      "1"
+    ],
+    "kind": "kumi",
+    "context": "aiki-jo",
+    "weapon": "jo",
+    "form": "kumijo",
+    "slots": {
+      "technique": null,
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 4,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p124-1-01",
+      "kf:saito-traditional-aikido-vol1-p124-1-02",
+      "kf:saito-traditional-aikido-vol1-p124-1-03",
+      "kf:saito-traditional-aikido-vol1-p124-1-04"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 124
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "合わ せ 一 (1)",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p124-jo-kumi-1",
+    "name_romaji": "",
+    "name_native": "杖の合わせ法",
+    "qualifiers": [],
+    "kind": "kumi",
+    "context": "aiki-jo",
+    "weapon": "jo",
+    "form": "kumijo",
+    "slots": {
+      "technique": null,
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 2,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p124-jo-kumi-1-01",
+      "kf:saito-traditional-aikido-vol1-p124-jo-kumi-1-02"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 124
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "杖 の 合わ せ 法",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p125-2",
+    "name_romaji": "",
+    "name_native": "合わせ一",
+    "qualifiers": [
+      "2"
+    ],
+    "kind": "kumi",
+    "context": "aiki-jo",
+    "weapon": "jo",
+    "form": "kumijo",
+    "slots": {
+      "technique": null,
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 7,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p125-2-01",
+      "kf:saito-traditional-aikido-vol1-p125-2-02",
+      "kf:saito-traditional-aikido-vol1-p125-2-03",
+      "kf:saito-traditional-aikido-vol1-p125-2-04",
+      "kf:saito-traditional-aikido-vol1-p125-2-05",
+      "kf:saito-traditional-aikido-vol1-p125-2-06",
+      "kf:saito-traditional-aikido-vol1-p125-2-07"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 125
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "合わ せ 一 (2)",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p126-3",
+    "name_romaji": "",
+    "name_native": "合わせ一",
+    "qualifiers": [
+      "3"
+    ],
+    "kind": "kumi",
+    "context": "aiki-jo",
+    "weapon": "jo",
+    "form": "kumijo",
+    "slots": {
+      "technique": null,
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 4,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p126-3-01",
+      "kf:saito-traditional-aikido-vol1-p126-3-02",
+      "kf:saito-traditional-aikido-vol1-p126-3-03",
+      "kf:saito-traditional-aikido-vol1-p126-3-04"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 126
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "合わ せ 一 (3)",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p127-4",
+    "name_romaji": "",
+    "name_native": "合わせ一",
+    "qualifiers": [
+      "4"
+    ],
+    "kind": "kumi",
+    "context": "aiki-jo",
+    "weapon": "jo",
+    "form": "kumijo",
+    "slots": {
+      "technique": null,
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 8,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p127-4-01",
+      "kf:saito-traditional-aikido-vol1-p127-4-02",
+      "kf:saito-traditional-aikido-vol1-p127-4-03",
+      "kf:saito-traditional-aikido-vol1-p127-4-04",
+      "kf:saito-traditional-aikido-vol1-p127-4-05",
+      "kf:saito-traditional-aikido-vol1-p127-4-06",
+      "kf:saito-traditional-aikido-vol1-p127-4-07",
+      "kf:saito-traditional-aikido-vol1-p127-4-08"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 127
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "合わ せ 一 (4)",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p128-jo-kumi-1",
+    "name_romaji": "",
+    "name_native": null,
+    "qualifiers": [],
+    "kind": "kumi",
+    "context": "aiki-jo",
+    "weapon": "jo",
+    "form": "kumijo",
+    "slots": {
+      "technique": null,
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 1,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p128-jo-kumi-1-01"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 128
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "aiki-jo jo kumi",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p129-5",
+    "name_romaji": "",
+    "name_native": "合わせ一",
+    "qualifiers": [
+      "5"
+    ],
+    "kind": "kumi",
+    "context": "aiki-jo",
+    "weapon": "jo",
+    "form": "kumijo",
+    "slots": {
+      "technique": null,
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 5,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p129-5-01",
+      "kf:saito-traditional-aikido-vol1-p129-5-02",
+      "kf:saito-traditional-aikido-vol1-p129-5-03",
+      "kf:saito-traditional-aikido-vol1-p129-5-04",
+      "kf:saito-traditional-aikido-vol1-p129-5-05"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 129
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "合わ せ 一 (5)",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p130-bh-t-6-6",
+    "name_romaji": "Bh t —(6)",
+    "name_native": null,
+    "qualifiers": [
+      "6"
+    ],
+    "kind": "kumi",
+    "context": "aiki-jo",
+    "weapon": "jo",
+    "form": "kumijo",
+    "slots": {
+      "technique": null,
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 6,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p130-bh-t-6-6-01",
+      "kf:saito-traditional-aikido-vol1-p130-bh-t-6-6-02",
+      "kf:saito-traditional-aikido-vol1-p130-bh-t-6-6-03",
+      "kf:saito-traditional-aikido-vol1-p130-bh-t-6-6-04",
+      "kf:saito-traditional-aikido-vol1-p130-bh-t-6-6-05",
+      "kf:saito-traditional-aikido-vol1-p130-bh-t-6-6-06"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 130
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "Bh t —(6)",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p131-7",
+    "name_romaji": "",
+    "name_native": null,
+    "qualifiers": [
+      "7"
+    ],
+    "kind": "kumi",
+    "context": "aiki-jo",
+    "weapon": "jo",
+    "form": "kumijo",
+    "slots": {
+      "technique": null,
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 4,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p131-7-01",
+      "kf:saito-traditional-aikido-vol1-p131-7-02",
+      "kf:saito-traditional-aikido-vol1-p131-7-03",
+      "kf:saito-traditional-aikido-vol1-p131-7-04"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 131
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "(7)",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p131-jo-kumi-2",
+    "name_romaji": "",
+    "name_native": "合わせ",
+    "qualifiers": [],
+    "kind": "kumi",
+    "context": "aiki-jo",
+    "weapon": "jo",
+    "form": "kumijo",
+    "slots": {
+      "technique": null,
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 3,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p131-jo-kumi-2-01",
+      "kf:saito-traditional-aikido-vol1-p131-jo-kumi-2-02",
+      "kf:saito-traditional-aikido-vol1-p131-jo-kumi-2-03"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 131
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "合わ せ",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p132-bt-8-8",
+    "name_romaji": "bt — (8)",
+    "name_native": null,
+    "qualifiers": [
+      "8"
+    ],
+    "kind": "kumi",
+    "context": "aiki-jo",
+    "weapon": "jo",
+    "form": "kumijo",
+    "slots": {
+      "technique": null,
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 4,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p132-bt-8-8-01",
+      "kf:saito-traditional-aikido-vol1-p132-bt-8-8-02",
+      "kf:saito-traditional-aikido-vol1-p132-bt-8-8-03",
+      "kf:saito-traditional-aikido-vol1-p132-bt-8-8-04"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 132
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "bt — (8)",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p133-jo-kumi-1",
+    "name_romaji": "",
+    "name_native": null,
+    "qualifiers": [],
+    "kind": "kumi",
+    "context": "aiki-jo",
+    "weapon": "jo",
+    "form": "kumijo",
+    "slots": {
+      "technique": null,
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 1,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p133-jo-kumi-1-01"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 133
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "aiki-jo jo kumi",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p26-ken-suburi-1",
+    "name_romaji": "",
+    "name_native": "素振りー",
+    "qualifiers": [],
+    "kind": "suburi",
+    "context": "aiki-ken",
+    "weapon": "ken",
+    "form": null,
+    "slots": {
+      "technique": null,
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 3,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p26-ken-suburi-1-01",
+      "kf:saito-traditional-aikido-vol1-p26-ken-suburi-1-02",
+      "kf:saito-traditional-aikido-vol1-p26-ken-suburi-1-03"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 26
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "素振り ー①⑪)",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p27-ken-suburi-1",
+    "name_romaji": "",
+    "name_native": null,
+    "qualifiers": [],
+    "kind": "suburi",
+    "context": "aiki-ken",
+    "weapon": "ken",
+    "form": null,
+    "slots": {
+      "technique": null,
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 4,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p27-ken-suburi-1-01",
+      "kf:saito-traditional-aikido-vol1-p27-ken-suburi-1-02",
+      "kf:saito-traditional-aikido-vol1-p27-ken-suburi-1-03",
+      "kf:saito-traditional-aikido-vol1-p27-ken-suburi-1-04"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 27
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "aiki-ken ken suburi",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p28-3",
+    "name_romaji": "",
+    "name_native": "素振りー",
+    "qualifiers": [
+      "3"
+    ],
+    "kind": "suburi",
+    "context": "aiki-ken",
+    "weapon": "ken",
+    "form": null,
+    "slots": {
+      "technique": null,
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 3,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p28-3-01",
+      "kf:saito-traditional-aikido-vol1-p28-3-02",
+      "kf:saito-traditional-aikido-vol1-p28-3-03"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 28
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "素振り ー(3)",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p28-third-suburi",
+    "name_romaji": "Third Suburi",
+    "name_native": null,
+    "qualifiers": [],
+    "kind": "suburi",
+    "context": "aiki-ken",
+    "weapon": "ken",
+    "form": null,
+    "slots": {
+      "technique": null,
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 3,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p28-third-suburi-01",
+      "kf:saito-traditional-aikido-vol1-p28-third-suburi-02",
+      "kf:saito-traditional-aikido-vol1-p28-third-suburi-03"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 28
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "Third Suburi",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p29-second-suburi",
+    "name_romaji": "Second Suburi",
+    "name_native": null,
+    "qualifiers": [],
+    "kind": "suburi",
+    "context": "aiki-ken",
+    "weapon": "ken",
+    "form": null,
+    "slots": {
+      "technique": null,
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 5,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p29-second-suburi-01",
+      "kf:saito-traditional-aikido-vol1-p29-second-suburi-02",
+      "kf:saito-traditional-aikido-vol1-p29-second-suburi-03",
+      "kf:saito-traditional-aikido-vol1-p29-second-suburi-04",
+      "kf:saito-traditional-aikido-vol1-p29-second-suburi-05"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 29
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "Second Suburi",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p30-fourth-suburi",
+    "name_romaji": "Fourth Suburi",
+    "name_native": null,
+    "qualifiers": [],
+    "kind": "suburi",
+    "context": "aiki-ken",
+    "weapon": "ken",
+    "form": null,
+    "slots": {
+      "technique": null,
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 5,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p30-fourth-suburi-01",
+      "kf:saito-traditional-aikido-vol1-p30-fourth-suburi-02",
+      "kf:saito-traditional-aikido-vol1-p30-fourth-suburi-03",
+      "kf:saito-traditional-aikido-vol1-p30-fourth-suburi-04",
+      "kf:saito-traditional-aikido-vol1-p30-fourth-suburi-05"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 30
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "Fourth Suburi",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p31-ken-suburi-1",
+    "name_romaji": "",
+    "name_native": null,
+    "qualifiers": [],
+    "kind": "suburi",
+    "context": "aiki-ken",
+    "weapon": "ken",
+    "form": null,
+    "slots": {
+      "technique": null,
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 1,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p31-ken-suburi-1-01"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 31
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "aiki-ken ken suburi",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p32-5",
+    "name_romaji": "",
+    "name_native": "素振りー",
+    "qualifiers": [
+      "5"
+    ],
+    "kind": "suburi",
+    "context": "aiki-ken",
+    "weapon": "ken",
+    "form": null,
+    "slots": {
+      "technique": null,
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 2,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p32-5-01",
+      "kf:saito-traditional-aikido-vol1-p32-5-02"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 32
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "素振り ー(5)",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p32-fifth-suburi",
+    "name_romaji": "Fifth Suburi",
+    "name_native": null,
+    "qualifiers": [],
+    "kind": "suburi",
+    "context": "aiki-ken",
+    "weapon": "ken",
+    "form": null,
+    "slots": {
+      "technique": null,
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 1,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p32-fifth-suburi-01"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 32
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "Fifth Suburi",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p33-ken-suburi-1",
+    "name_romaji": "",
+    "name_native": null,
+    "qualifiers": [],
+    "kind": "suburi",
+    "context": "aiki-ken",
+    "weapon": "ken",
+    "form": null,
+    "slots": {
+      "technique": null,
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 4,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p33-ken-suburi-1-01",
+      "kf:saito-traditional-aikido-vol1-p33-ken-suburi-1-02",
+      "kf:saito-traditional-aikido-vol1-p33-ken-suburi-1-03",
+      "kf:saito-traditional-aikido-vol1-p33-ken-suburi-1-04"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 33
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "aiki-ken ken suburi",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p34-ken-suburi-1",
+    "name_romaji": "",
+    "name_native": null,
+    "qualifiers": [],
+    "kind": "suburi",
+    "context": "aiki-ken",
+    "weapon": "ken",
+    "form": null,
+    "slots": {
+      "technique": null,
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 6,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p34-ken-suburi-1-01",
+      "kf:saito-traditional-aikido-vol1-p34-ken-suburi-1-02",
+      "kf:saito-traditional-aikido-vol1-p34-ken-suburi-1-03",
+      "kf:saito-traditional-aikido-vol1-p34-ken-suburi-1-04",
+      "kf:saito-traditional-aikido-vol1-p34-ken-suburi-1-05",
+      "kf:saito-traditional-aikido-vol1-p34-ken-suburi-1-06"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 34
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "aiki-ken ken suburi",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p35-6",
+    "name_romaji": "",
+    "name_native": "素振りー",
+    "qualifiers": [
+      "6"
+    ],
+    "kind": "suburi",
+    "context": "aiki-ken",
+    "weapon": "ken",
+    "form": null,
+    "slots": {
+      "technique": null,
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 4,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p35-6-01",
+      "kf:saito-traditional-aikido-vol1-p35-6-02",
+      "kf:saito-traditional-aikido-vol1-p35-6-03",
+      "kf:saito-traditional-aikido-vol1-p35-6-04"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 35
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "素振り ー(6)",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p35-sixth-suburi",
+    "name_romaji": "Sixth Suburi",
+    "name_native": null,
+    "qualifiers": [],
+    "kind": "suburi",
+    "context": "aiki-ken",
+    "weapon": "ken",
+    "form": null,
+    "slots": {
+      "technique": null,
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 1,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p35-sixth-suburi-01"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 35
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "Sixth Suburi",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p36-7",
+    "name_romaji": "",
+    "name_native": "素振りー",
+    "qualifiers": [
+      "7"
+    ],
+    "kind": "suburi",
+    "context": "aiki-ken",
+    "weapon": "ken",
+    "form": null,
+    "slots": {
+      "technique": null,
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 3,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p36-7-01",
+      "kf:saito-traditional-aikido-vol1-p36-7-02",
+      "kf:saito-traditional-aikido-vol1-p36-7-03"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 36
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "素振り ー(7)",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p37-ken-suburi-1",
+    "name_romaji": "",
+    "name_native": null,
+    "qualifiers": [],
+    "kind": "suburi",
+    "context": "aiki-ken",
+    "weapon": "ken",
+    "form": null,
+    "slots": {
+      "technique": null,
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 6,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p37-ken-suburi-1-01",
+      "kf:saito-traditional-aikido-vol1-p37-ken-suburi-1-02",
+      "kf:saito-traditional-aikido-vol1-p37-ken-suburi-1-03",
+      "kf:saito-traditional-aikido-vol1-p37-ken-suburi-1-04",
+      "kf:saito-traditional-aikido-vol1-p37-ken-suburi-1-05",
+      "kf:saito-traditional-aikido-vol1-p37-ken-suburi-1-06"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 37
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "aiki-ken ken suburi",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p38-ken-suburi-1",
+    "name_romaji": "",
+    "name_native": null,
+    "qualifiers": [],
+    "kind": "suburi",
+    "context": "aiki-ken",
+    "weapon": "ken",
+    "form": null,
+    "slots": {
+      "technique": null,
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 1,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p38-ken-suburi-1-01"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 38
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "aiki-ken ken suburi",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p39-ken-suburi-1",
+    "name_romaji": "",
+    "name_native": null,
+    "qualifiers": [],
+    "kind": "suburi",
+    "context": "aiki-ken",
+    "weapon": "ken",
+    "form": null,
+    "slots": {
+      "technique": null,
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 10,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p39-ken-suburi-1-01",
+      "kf:saito-traditional-aikido-vol1-p39-ken-suburi-1-02",
+      "kf:saito-traditional-aikido-vol1-p39-ken-suburi-1-03",
+      "kf:saito-traditional-aikido-vol1-p39-ken-suburi-1-04",
+      "kf:saito-traditional-aikido-vol1-p39-ken-suburi-1-05",
+      "kf:saito-traditional-aikido-vol1-p39-ken-suburi-1-06",
+      "kf:saito-traditional-aikido-vol1-p39-ken-suburi-1-07",
+      "kf:saito-traditional-aikido-vol1-p39-ken-suburi-1-08",
+      "kf:saito-traditional-aikido-vol1-p39-ken-suburi-1-09",
+      "kf:saito-traditional-aikido-vol1-p39-ken-suburi-1-10"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 39
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "aiki-ken ken suburi",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p40-ken-suburi-1",
+    "name_romaji": "",
+    "name_native": "剣の合わせ法",
+    "qualifiers": [],
+    "kind": "suburi",
+    "context": "aiki-ken",
+    "weapon": "ken",
+    "form": null,
+    "slots": {
+      "technique": null,
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 2,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p40-ken-suburi-1-01",
+      "kf:saito-traditional-aikido-vol1-p40-ken-suburi-1-02"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 40
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "剣 の 合わ せ 法",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p41-1",
+    "name_romaji": "",
+    "name_native": "合わせ一",
+    "qualifiers": [
+      "1"
+    ],
+    "kind": "kumi",
+    "context": "aiki-ken",
+    "weapon": "ken",
+    "form": "kumitachi",
+    "slots": {
+      "technique": null,
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 2,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p41-1-01",
+      "kf:saito-traditional-aikido-vol1-p41-1-02"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 41
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "合わ せ 一 (1)",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p41-ken-kumi-1",
+    "name_romaji": "",
+    "name_native": "剣の合わせ法",
+    "qualifiers": [],
+    "kind": "kumi",
+    "context": "aiki-ken",
+    "weapon": "ken",
+    "form": "kumitachi",
+    "slots": {
+      "technique": null,
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 2,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p41-ken-kumi-1-01",
+      "kf:saito-traditional-aikido-vol1-p41-ken-kumi-1-02"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 41
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "剣 の 合わ せ 法",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p42-2",
+    "name_romaji": "",
+    "name_native": "合わせ一",
+    "qualifiers": [
+      "2"
+    ],
+    "kind": "kumi",
+    "context": "aiki-ken",
+    "weapon": "ken",
+    "form": "kumitachi",
+    "slots": {
+      "technique": null,
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 5,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p42-2-01",
+      "kf:saito-traditional-aikido-vol1-p42-2-02",
+      "kf:saito-traditional-aikido-vol1-p42-2-03",
+      "kf:saito-traditional-aikido-vol1-p42-2-04",
+      "kf:saito-traditional-aikido-vol1-p42-2-05"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 42
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "合わ せ 一 (2)",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p43-3",
+    "name_romaji": "",
+    "name_native": "合わせ一",
+    "qualifiers": [
+      "3"
+    ],
+    "kind": "kumi",
+    "context": "aiki-ken",
+    "weapon": "ken",
+    "form": "kumitachi",
+    "slots": {
+      "technique": null,
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 3,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p43-3-01",
+      "kf:saito-traditional-aikido-vol1-p43-3-02",
+      "kf:saito-traditional-aikido-vol1-p43-3-03"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 43
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "合わ せ 一 (3)",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p44-4",
+    "name_romaji": "",
+    "name_native": "合わせ一",
+    "qualifiers": [
+      "4"
+    ],
+    "kind": "kumi",
+    "context": "aiki-ken",
+    "weapon": "ken",
+    "form": "kumitachi",
+    "slots": {
+      "technique": null,
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 6,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p44-4-01",
+      "kf:saito-traditional-aikido-vol1-p44-4-02",
+      "kf:saito-traditional-aikido-vol1-p44-4-03",
+      "kf:saito-traditional-aikido-vol1-p44-4-04",
+      "kf:saito-traditional-aikido-vol1-p44-4-05",
+      "kf:saito-traditional-aikido-vol1-p44-4-06"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 44
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "合わ せ 一 (4)",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p45-5",
+    "name_romaji": "",
+    "name_native": "合わせ一",
+    "qualifiers": [
+      "5"
+    ],
+    "kind": "kumi",
+    "context": "aiki-ken",
+    "weapon": "ken",
+    "form": "kumitachi",
+    "slots": {
+      "technique": null,
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 3,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p45-5-01",
+      "kf:saito-traditional-aikido-vol1-p45-5-02",
+      "kf:saito-traditional-aikido-vol1-p45-5-03"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 45
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "合わ せ 一 (5)",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p45-ken-kumi-2",
+    "name_romaji": "",
+    "name_native": "る相手の小手の動きに合わせて打ち入る",
+    "qualifiers": [],
+    "kind": "kumi",
+    "context": "aiki-ken",
+    "weapon": "ken",
+    "form": "kumitachi",
+    "slots": {
+      "technique": null,
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 1,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p45-ken-kumi-2-01"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 45
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "る 相手 の 小手 の 動き に 合わ せ て 打ち 入る 。",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p46-6",
+    "name_romaji": "",
+    "name_native": "合わせ一",
+    "qualifiers": [
+      "6"
+    ],
+    "kind": "kumi",
+    "context": "aiki-ken",
+    "weapon": "ken",
+    "form": "kumitachi",
+    "slots": {
+      "technique": null,
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 3,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p46-6-01",
+      "kf:saito-traditional-aikido-vol1-p46-6-02",
+      "kf:saito-traditional-aikido-vol1-p46-6-03"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 46
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "合わ せ 一 (6)",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p46-7",
+    "name_romaji": "",
+    "name_native": "合わせ一",
+    "qualifiers": [
+      "7"
+    ],
+    "kind": "kumi",
+    "context": "aiki-ken",
+    "weapon": "ken",
+    "form": "kumitachi",
+    "slots": {
+      "technique": null,
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 5,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p46-7-01",
+      "kf:saito-traditional-aikido-vol1-p46-7-02",
+      "kf:saito-traditional-aikido-vol1-p46-7-03",
+      "kf:saito-traditional-aikido-vol1-p46-7-04",
+      "kf:saito-traditional-aikido-vol1-p46-7-05"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 46
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "合わ せ 一 (7)",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p46-ken-kumi-2",
+    "name_romaji": "",
+    "name_native": "相手の気の動きに全く合わせる",
+    "qualifiers": [],
+    "kind": "kumi",
+    "context": "aiki-ken",
+    "weapon": "ken",
+    "form": "kumitachi",
+    "slots": {
+      "technique": null,
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 1,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p46-ken-kumi-2-01"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 46
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "相手 の 気 の 動 き に 全く 合わ せる 。",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p47-ken-kumi-1",
+    "name_romaji": "",
+    "name_native": null,
+    "qualifiers": [],
+    "kind": "kumi",
+    "context": "aiki-ken",
+    "weapon": "ken",
+    "form": "kumitachi",
+    "slots": {
+      "technique": null,
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 8,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p47-ken-kumi-1-01",
+      "kf:saito-traditional-aikido-vol1-p47-ken-kumi-1-02",
+      "kf:saito-traditional-aikido-vol1-p47-ken-kumi-1-03",
+      "kf:saito-traditional-aikido-vol1-p47-ken-kumi-1-04",
+      "kf:saito-traditional-aikido-vol1-p47-ken-kumi-1-05",
+      "kf:saito-traditional-aikido-vol1-p47-ken-kumi-1-06",
+      "kf:saito-traditional-aikido-vol1-p47-ken-kumi-1-07",
+      "kf:saito-traditional-aikido-vol1-p47-ken-kumi-1-08"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 47
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "aiki-ken ken kumi",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p48-ken-kumi-1",
+    "name_romaji": "",
+    "name_native": null,
+    "qualifiers": [],
+    "kind": "kumi",
+    "context": "aiki-ken",
+    "weapon": "ken",
+    "form": "kumitachi",
+    "slots": {
+      "technique": null,
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 1,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p48-ken-kumi-1-01"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 48
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "aiki-ken ken kumi",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p49-ken-kumi-1",
+    "name_romaji": "",
+    "name_native": null,
+    "qualifiers": [],
+    "kind": "kumi",
+    "context": "aiki-ken",
+    "weapon": "ken",
+    "form": "kumitachi",
+    "slots": {
+      "technique": null,
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 2,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p49-ken-kumi-1-01",
+      "kf:saito-traditional-aikido-vol1-p49-ken-kumi-1-02"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 49
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "aiki-ken ken kumi",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p50-ken-kumi-1",
+    "name_romaji": "",
+    "name_native": null,
+    "qualifiers": [],
+    "kind": "kumi",
+    "context": "aiki-ken",
+    "weapon": "ken",
+    "form": "kumitachi",
+    "slots": {
+      "technique": null,
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 2,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p50-ken-kumi-1-01",
+      "kf:saito-traditional-aikido-vol1-p50-ken-kumi-1-02"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 50
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "aiki-ken ken kumi",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p51-ken-kumi-1",
+    "name_romaji": "",
+    "name_native": null,
+    "qualifiers": [],
+    "kind": "kumi",
+    "context": "aiki-ken",
+    "weapon": "ken",
+    "form": "kumitachi",
+    "slots": {
+      "technique": null,
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 2,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p51-ken-kumi-1-01",
+      "kf:saito-traditional-aikido-vol1-p51-ken-kumi-1-02"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 51
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "aiki-ken ken kumi",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p52-ken-kumi-1",
+    "name_romaji": "",
+    "name_native": null,
+    "qualifiers": [],
+    "kind": "kumi",
+    "context": "aiki-ken",
+    "weapon": "ken",
+    "form": "kumitachi",
+    "slots": {
+      "technique": null,
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 6,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p52-ken-kumi-1-01",
+      "kf:saito-traditional-aikido-vol1-p52-ken-kumi-1-02",
+      "kf:saito-traditional-aikido-vol1-p52-ken-kumi-1-03",
+      "kf:saito-traditional-aikido-vol1-p52-ken-kumi-1-04",
+      "kf:saito-traditional-aikido-vol1-p52-ken-kumi-1-05",
+      "kf:saito-traditional-aikido-vol1-p52-ken-kumi-1-06"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 52
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "aiki-ken ken kumi",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p53-ken-kumi-1",
+    "name_romaji": "",
+    "name_native": null,
+    "qualifiers": [],
+    "kind": "kumi",
+    "context": "aiki-ken",
+    "weapon": "ken",
+    "form": "kumitachi",
+    "slots": {
+      "technique": null,
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 5,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p53-ken-kumi-1-01",
+      "kf:saito-traditional-aikido-vol1-p53-ken-kumi-1-02",
+      "kf:saito-traditional-aikido-vol1-p53-ken-kumi-1-03",
+      "kf:saito-traditional-aikido-vol1-p53-ken-kumi-1-04",
+      "kf:saito-traditional-aikido-vol1-p53-ken-kumi-1-05"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 53
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "aiki-ken ken kumi",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p54-ken-kumi-1",
+    "name_romaji": "",
+    "name_native": null,
+    "qualifiers": [],
+    "kind": "kumi",
+    "context": "aiki-ken",
+    "weapon": "ken",
+    "form": "kumitachi",
+    "slots": {
+      "technique": null,
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 1,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p54-ken-kumi-1-01"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 54
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "aiki-ken ken kumi",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
   },
   {
     "id": "tech:saito-traditional-aikido-vol1-p55-shomen-uchi-irimi",
     "name_romaji": "Shomen Uchi Irimi",
     "name_native": "正面",
     "qualifiers": [],
+    "kind": "technique",
+    "context": "taijutsu",
+    "weapon": null,
+    "form": null,
     "slots": {
       "technique": "irimi-nage",
       "attack": "shomen-uchi",
@@ -330,10 +3475,6 @@
       "title": "Traditional Aikido, Volume 1: Basic Techniques",
       "pdf_page": 55
     },
-    "raw_caption": "正面 打ち 入 身 投げ",
-    "confidence": "ocr",
-    "status": "provisional",
-    "retrieved": "2026-06-15",
     "provenance": {
       "performer": "person:morihiro-saito",
       "performer_name": "Morihiro Saito",
@@ -346,7 +3487,11 @@
       "medium": "book",
       "recording": "saito-traditional-aikido-vol1",
       "lineage": "iwama"
-    }
+    },
+    "raw_caption": "正面 打ち 入 身 投げ",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
   },
   {
     "id": "tech:saito-traditional-aikido-vol1-p56-shomen-uchi-irimi-nage",
@@ -355,6 +3500,10 @@
     "qualifiers": [
       "座 法"
     ],
+    "kind": "technique",
+    "context": "taijutsu",
+    "weapon": null,
+    "form": null,
     "slots": {
       "technique": "irimi-nage",
       "attack": "shomen-uchi",
@@ -375,10 +3524,6 @@
       "title": "Traditional Aikido, Volume 1: Basic Techniques",
       "pdf_page": 56
     },
-    "raw_caption": "正面 打ち 入 身投げ ( 座 法 )",
-    "confidence": "ocr",
-    "status": "provisional",
-    "retrieved": "2026-06-15",
     "provenance": {
       "performer": "person:morihiro-saito",
       "performer_name": "Morihiro Saito",
@@ -391,7 +3536,11 @@
       "medium": "book",
       "recording": "saito-traditional-aikido-vol1",
       "lineage": "iwama"
-    }
+    },
+    "raw_caption": "正面 打ち 入 身投げ ( 座 法 )",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
   },
   {
     "id": "tech:saito-traditional-aikido-vol1-p59-kokyu-nage-tachi-dori",
@@ -401,6 +3550,10 @@
       "太刀 取り",
       "Tachi dori"
     ],
+    "kind": "technique",
+    "context": "taijutsu",
+    "weapon": null,
+    "form": null,
     "slots": {
       "technique": "kokyu-nage",
       "attack": null,
@@ -426,10 +3579,6 @@
       "title": "Traditional Aikido, Volume 1: Basic Techniques",
       "pdf_page": 59
     },
-    "raw_caption": "呼吸 投げ (太刀 取り )",
-    "confidence": "ocr",
-    "status": "provisional",
-    "retrieved": "2026-06-15",
     "provenance": {
       "performer": "person:morihiro-saito",
       "performer_name": "Morihiro Saito",
@@ -442,7 +3591,11 @@
       "medium": "book",
       "recording": "saito-traditional-aikido-vol1",
       "lineage": "iwama"
-    }
+    },
+    "raw_caption": "呼吸 投げ (太刀 取り )",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
   },
   {
     "id": "tech:saito-traditional-aikido-vol1-p60-kokyu-nage-tachi-dori-tsuki",
@@ -452,6 +3605,10 @@
       "Tachi dori",
       "Tsuki"
     ],
+    "kind": "technique",
+    "context": "taijutsu",
+    "weapon": null,
+    "form": null,
     "slots": {
       "technique": "kokyu-nage",
       "attack": "tsuki",
@@ -478,10 +3635,6 @@
       "title": "Traditional Aikido, Volume 1: Basic Techniques",
       "pdf_page": 60
     },
-    "raw_caption": "Kokyu Nage (Tachi dori) (Tsuki)",
-    "confidence": "ocr",
-    "status": "provisional",
-    "retrieved": "2026-06-15",
     "provenance": {
       "performer": "person:morihiro-saito",
       "performer_name": "Morihiro Saito",
@@ -494,7 +3647,11 @@
       "medium": "book",
       "recording": "saito-traditional-aikido-vol1",
       "lineage": "iwama"
-    }
+    },
+    "raw_caption": "Kokyu Nage (Tachi dori) (Tsuki)",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
   },
   {
     "id": "tech:saito-traditional-aikido-vol1-p65-katate-dori",
@@ -503,6 +3660,10 @@
     "qualifiers": [
       "片手 取り"
     ],
+    "kind": "technique",
+    "context": "taijutsu",
+    "weapon": null,
+    "form": null,
     "slots": {
       "technique": null,
       "attack": "katate-dori",
@@ -524,10 +3685,6 @@
       "title": "Traditional Aikido, Volume 1: Basic Techniques",
       "pdf_page": 65
     },
-    "raw_caption": "(片手 取り )",
-    "confidence": "ocr",
-    "status": "provisional",
-    "retrieved": "2026-06-15",
     "provenance": {
       "performer": "person:morihiro-saito",
       "performer_name": "Morihiro Saito",
@@ -540,13 +3697,21 @@
       "medium": "book",
       "recording": "saito-traditional-aikido-vol1",
       "lineage": "iwama"
-    }
+    },
+    "raw_caption": "(片手 取り )",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
   },
   {
     "id": "tech:saito-traditional-aikido-vol1-p67-shomen-uchi-shi-ho-nage",
     "name_romaji": "Shomen Uchi Shi-ho-nage",
     "name_native": "正面",
     "qualifiers": [],
+    "kind": "technique",
+    "context": "taijutsu",
+    "weapon": null,
+    "form": null,
     "slots": {
       "technique": "shiho-nage",
       "attack": "shomen-uchi",
@@ -567,10 +3732,6 @@
       "title": "Traditional Aikido, Volume 1: Basic Techniques",
       "pdf_page": 67
     },
-    "raw_caption": "正面 打ち 四方 投げ 一 表 技",
-    "confidence": "ocr",
-    "status": "provisional",
-    "retrieved": "2026-06-15",
     "provenance": {
       "performer": "person:morihiro-saito",
       "performer_name": "Morihiro Saito",
@@ -583,13 +3744,21 @@
       "medium": "book",
       "recording": "saito-traditional-aikido-vol1",
       "lineage": "iwama"
-    }
+    },
+    "raw_caption": "正面 打ち 四方 投げ 一 表 技",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
   },
   {
     "id": "tech:saito-traditional-aikido-vol1-p68-shomen-uchi-shiho-nage-omote",
     "name_romaji": "正面 打ち 四方 投げ 一 表 技",
     "name_native": "正面",
     "qualifiers": [],
+    "kind": "technique",
+    "context": "taijutsu",
+    "weapon": null,
+    "form": null,
     "slots": {
       "technique": "shiho-nage",
       "attack": "shomen-uchi",
@@ -607,10 +3776,6 @@
       "title": "Traditional Aikido, Volume 1: Basic Techniques",
       "pdf_page": 68
     },
-    "raw_caption": "正面 打ち 四方 投げ 一 表 技",
-    "confidence": "ocr",
-    "status": "provisional",
-    "retrieved": "2026-06-15",
     "provenance": {
       "performer": "person:morihiro-saito",
       "performer_name": "Morihiro Saito",
@@ -623,7 +3788,11 @@
       "medium": "book",
       "recording": "saito-traditional-aikido-vol1",
       "lineage": "iwama"
-    }
+    },
+    "raw_caption": "正面 打ち 四方 投げ 一 表 技",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
   },
   {
     "id": "tech:saito-traditional-aikido-vol1-p68-shomen-uchi-shiho-nage-ura",
@@ -632,6 +3801,10 @@
     "qualifiers": [
       "剣 の 理"
     ],
+    "kind": "technique",
+    "context": "taijutsu",
+    "weapon": null,
+    "form": null,
     "slots": {
       "technique": "shiho-nage",
       "attack": "shomen-uchi",
@@ -652,10 +3825,6 @@
       "title": "Traditional Aikido, Volume 1: Basic Techniques",
       "pdf_page": 68
     },
-    "raw_caption": "正面 打ち 四方 投げ 一 裏 技 ( 剣 の 理 )",
-    "confidence": "ocr",
-    "status": "provisional",
-    "retrieved": "2026-06-15",
     "provenance": {
       "performer": "person:morihiro-saito",
       "performer_name": "Morihiro Saito",
@@ -668,13 +3837,21 @@
       "medium": "book",
       "recording": "saito-traditional-aikido-vol1",
       "lineage": "iwama"
-    }
+    },
+    "raw_caption": "正面 打ち 四方 投げ 一 裏 技 ( 剣 の 理 )",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
   },
   {
     "id": "tech:saito-traditional-aikido-vol1-p69-shomen-uchi-shi-he-nage-ura-waza",
     "name_romaji": "Shomen Uchi Shi-hé-nage—Ura waza",
     "name_native": null,
     "qualifiers": [],
+    "kind": "technique",
+    "context": "taijutsu",
+    "weapon": null,
+    "form": null,
     "slots": {
       "technique": null,
       "attack": "shomen-uchi",
@@ -695,10 +3872,6 @@
       "title": "Traditional Aikido, Volume 1: Basic Techniques",
       "pdf_page": 69
     },
-    "raw_caption": "Shomen Uchi Shi-hé-nage—Ura waza",
-    "confidence": "ocr",
-    "status": "provisional",
-    "retrieved": "2026-06-15",
     "provenance": {
       "performer": "person:morihiro-saito",
       "performer_name": "Morihiro Saito",
@@ -711,13 +3884,21 @@
       "medium": "book",
       "recording": "saito-traditional-aikido-vol1",
       "lineage": "iwama"
-    }
+    },
+    "raw_caption": "Shomen Uchi Shi-hé-nage—Ura waza",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
   },
   {
     "id": "tech:saito-traditional-aikido-vol1-p69-shomen-uchi-shi-ho-nage-omote-waza",
     "name_romaji": "Shomen Uchi Shi-ho-Nage—Omote waza",
     "name_native": null,
     "qualifiers": [],
+    "kind": "technique",
+    "context": "taijutsu",
+    "weapon": null,
+    "form": null,
     "slots": {
       "technique": "shiho-nage",
       "attack": "shomen-uchi",
@@ -735,10 +3916,6 @@
       "title": "Traditional Aikido, Volume 1: Basic Techniques",
       "pdf_page": 69
     },
-    "raw_caption": "Shomen Uchi Shi-ho-Nage—Omote waza",
-    "confidence": "ocr",
-    "status": "provisional",
-    "retrieved": "2026-06-15",
     "provenance": {
       "performer": "person:morihiro-saito",
       "performer_name": "Morihiro Saito",
@@ -751,13 +3928,21 @@
       "medium": "book",
       "recording": "saito-traditional-aikido-vol1",
       "lineage": "iwama"
-    }
+    },
+    "raw_caption": "Shomen Uchi Shi-ho-Nage—Omote waza",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
   },
   {
     "id": "tech:saito-traditional-aikido-vol1-p70-ryo-te-tori-shi-ho-nage-omote-waza",
     "name_romaji": "Ryo te Tori Shi-Ho-Nage—Omote waza",
     "name_native": "両手",
     "qualifiers": [],
+    "kind": "technique",
+    "context": "taijutsu",
+    "weapon": null,
+    "form": null,
     "slots": {
       "technique": "shiho-nage",
       "attack": "ryote-dori",
@@ -777,10 +3962,6 @@
       "title": "Traditional Aikido, Volume 1: Basic Techniques",
       "pdf_page": 70
     },
-    "raw_caption": "両手 取り 四方 投げ ー 表 技",
-    "confidence": "ocr",
-    "status": "provisional",
-    "retrieved": "2026-06-15",
     "provenance": {
       "performer": "person:morihiro-saito",
       "performer_name": "Morihiro Saito",
@@ -793,7 +3974,11 @@
       "medium": "book",
       "recording": "saito-traditional-aikido-vol1",
       "lineage": "iwama"
-    }
+    },
+    "raw_caption": "両手 取り 四方 投げ ー 表 技",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
   },
   {
     "id": "tech:saito-traditional-aikido-vol1-p72-shomen-uchi-kote-gaeshi",
@@ -802,6 +3987,10 @@
     "qualifiers": [
       "剣 の 理"
     ],
+    "kind": "technique",
+    "context": "taijutsu",
+    "weapon": null,
+    "form": null,
     "slots": {
       "technique": "kote-gaeshi",
       "attack": "shomen-uchi",
@@ -821,10 +4010,6 @@
       "title": "Traditional Aikido, Volume 1: Basic Techniques",
       "pdf_page": 72
     },
-    "raw_caption": "正面 打ち 小手 返し ( 剣 の 理 )",
-    "confidence": "ocr",
-    "status": "provisional",
-    "retrieved": "2026-06-15",
     "provenance": {
       "performer": "person:morihiro-saito",
       "performer_name": "Morihiro Saito",
@@ -837,7 +4022,11 @@
       "medium": "book",
       "recording": "saito-traditional-aikido-vol1",
       "lineage": "iwama"
-    }
+    },
+    "raw_caption": "正面 打ち 小手 返し ( 剣 の 理 )",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
   },
   {
     "id": "tech:saito-traditional-aikido-vol1-p73-shomen-uchi-kote-gaeshi-tachi-dori",
@@ -846,6 +4035,10 @@
     "qualifiers": [
       "太刀 取り"
     ],
+    "kind": "technique",
+    "context": "taijutsu",
+    "weapon": null,
+    "form": null,
     "slots": {
       "technique": "kote-gaeshi",
       "attack": "shomen-uchi",
@@ -869,10 +4062,6 @@
       "title": "Traditional Aikido, Volume 1: Basic Techniques",
       "pdf_page": 73
     },
-    "raw_caption": "正面 打ち 小手 返し (太刀 取り )",
-    "confidence": "ocr",
-    "status": "provisional",
-    "retrieved": "2026-06-15",
     "provenance": {
       "performer": "person:morihiro-saito",
       "performer_name": "Morihiro Saito",
@@ -885,13 +4074,21 @@
       "medium": "book",
       "recording": "saito-traditional-aikido-vol1",
       "lineage": "iwama"
-    }
+    },
+    "raw_caption": "正面 打ち 小手 返し (太刀 取り )",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
   },
   {
     "id": "tech:saito-traditional-aikido-vol1-p74-shomen-uchi-kote-gaeshi",
     "name_romaji": "Shomen Uchi Kote Gaeshi",
     "name_native": "正面",
     "qualifiers": [],
+    "kind": "technique",
+    "context": "taijutsu",
+    "weapon": null,
+    "form": null,
     "slots": {
       "technique": "kote-gaeshi",
       "attack": "shomen-uchi",
@@ -918,10 +4115,6 @@
       "title": "Traditional Aikido, Volume 1: Basic Techniques",
       "pdf_page": 74
     },
-    "raw_caption": "正面 打ち 小手 返し",
-    "confidence": "ocr",
-    "status": "provisional",
-    "retrieved": "2026-06-15",
     "provenance": {
       "performer": "person:morihiro-saito",
       "performer_name": "Morihiro Saito",
@@ -934,7 +4127,11 @@
       "medium": "book",
       "recording": "saito-traditional-aikido-vol1",
       "lineage": "iwama"
-    }
+    },
+    "raw_caption": "正面 打ち 小手 返し",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
   },
   {
     "id": "tech:saito-traditional-aikido-vol1-p75-yokomen-uchi-shi-ho-nage-rf",
@@ -943,6 +4140,10 @@
     "qualifiers": [
       "RF"
     ],
+    "kind": "technique",
+    "context": "taijutsu",
+    "weapon": null,
+    "form": null,
     "slots": {
       "technique": "shiho-nage",
       "attack": "yokomen-uchi",
@@ -964,10 +4165,6 @@
       "title": "Traditional Aikido, Volume 1: Basic Techniques",
       "pdf_page": 75
     },
-    "raw_caption": "横 面 打ち 四方 投げ (RF)",
-    "confidence": "ocr",
-    "status": "provisional",
-    "retrieved": "2026-06-15",
     "provenance": {
       "performer": "person:morihiro-saito",
       "performer_name": "Morihiro Saito",
@@ -980,13 +4177,21 @@
       "medium": "book",
       "recording": "saito-traditional-aikido-vol1",
       "lineage": "iwama"
-    }
+    },
+    "raw_caption": "横 面 打ち 四方 投げ (RF)",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
   },
   {
     "id": "tech:saito-traditional-aikido-vol1-p76-yokomen-uchi-shiho-nage",
     "name_romaji": "横 面 打ち 四方 投げ",
     "name_native": null,
     "qualifiers": [],
+    "kind": "technique",
+    "context": "taijutsu",
+    "weapon": null,
+    "form": null,
     "slots": {
       "technique": "shiho-nage",
       "attack": "yokomen-uchi",
@@ -1006,10 +4211,6 @@
       "title": "Traditional Aikido, Volume 1: Basic Techniques",
       "pdf_page": 76
     },
-    "raw_caption": "横 面 打ち 四方 投げ",
-    "confidence": "ocr",
-    "status": "provisional",
-    "retrieved": "2026-06-15",
     "provenance": {
       "performer": "person:morihiro-saito",
       "performer_name": "Morihiro Saito",
@@ -1022,13 +4223,21 @@
       "medium": "book",
       "recording": "saito-traditional-aikido-vol1",
       "lineage": "iwama"
-    }
+    },
+    "raw_caption": "横 面 打ち 四方 投げ",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
   },
   {
     "id": "tech:saito-traditional-aikido-vol1-p77-yokomen-uchi-shi-ho-nage",
     "name_romaji": "Yokomen Uchi Shi-ho-Nage",
     "name_native": null,
     "qualifiers": [],
+    "kind": "technique",
+    "context": "taijutsu",
+    "weapon": null,
+    "form": null,
     "slots": {
       "technique": "shiho-nage",
       "attack": "yokomen-uchi",
@@ -1048,10 +4257,6 @@
       "title": "Traditional Aikido, Volume 1: Basic Techniques",
       "pdf_page": 77
     },
-    "raw_caption": "Yokomen Uchi Shi-ho-Nage",
-    "confidence": "ocr",
-    "status": "provisional",
-    "retrieved": "2026-06-15",
     "provenance": {
       "performer": "person:morihiro-saito",
       "performer_name": "Morihiro Saito",
@@ -1064,7 +4269,11 @@
       "medium": "book",
       "recording": "saito-traditional-aikido-vol1",
       "lineage": "iwama"
-    }
+    },
+    "raw_caption": "Yokomen Uchi Shi-ho-Nage",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
   },
   {
     "id": "tech:saito-traditional-aikido-vol1-p81-kokyu-ho-standard",
@@ -1073,6 +4282,10 @@
     "qualifiers": [
       "Standard"
     ],
+    "kind": "technique",
+    "context": "taijutsu",
+    "weapon": null,
+    "form": null,
     "slots": {
       "technique": "kokyu-ho",
       "attack": null,
@@ -1096,10 +4309,6 @@
       "title": "Traditional Aikido, Volume 1: Basic Techniques",
       "pdf_page": 81
     },
-    "raw_caption": "Kokyu-ho (Standard)",
-    "confidence": "ocr",
-    "status": "provisional",
-    "retrieved": "2026-06-15",
     "provenance": {
       "performer": "person:morihiro-saito",
       "performer_name": "Morihiro Saito",
@@ -1112,7 +4321,11 @@
       "medium": "book",
       "recording": "saito-traditional-aikido-vol1",
       "lineage": "iwama"
-    }
+    },
+    "raw_caption": "Kokyu-ho (Standard)",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
   },
   {
     "id": "tech:saito-traditional-aikido-vol1-p82-kokyuho-sitting",
@@ -1122,6 +4335,10 @@
       "座 法",
       "Sitting"
     ],
+    "kind": "technique",
+    "context": "taijutsu",
+    "weapon": null,
+    "form": null,
     "slots": {
       "technique": "kokyu-ho",
       "attack": null,
@@ -1143,10 +4360,6 @@
       "title": "Traditional Aikido, Volume 1: Basic Techniques",
       "pdf_page": 82
     },
-    "raw_caption": "呼吸 法 ( 座 法 )",
-    "confidence": "ocr",
-    "status": "provisional",
-    "retrieved": "2026-06-15",
     "provenance": {
       "performer": "person:morihiro-saito",
       "performer_name": "Morihiro Saito",
@@ -1159,34 +4372,40 @@
       "medium": "book",
       "recording": "saito-traditional-aikido-vol1",
       "lineage": "iwama"
-    }
+    },
+    "raw_caption": "呼吸 法 ( 座 法 )",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
   },
   {
-    "id": "tech:saito-traditional-aikido-vol1-p86-1",
-    "name_romaji": "(1] 直 突き",
-    "name_native": "突き",
+    "id": "tech:saito-traditional-aikido-vol1-p83-jo-suburi-1",
+    "name_romaji": "",
+    "name_native": null,
     "qualifiers": [],
+    "kind": "suburi",
+    "context": "aiki-jo",
+    "weapon": "jo",
+    "form": "31-no-jo",
     "slots": {
       "technique": null,
-      "attack": "tsuki",
+      "attack": null,
       "direction": null,
       "form": []
     },
-    "step_count": 3,
+    "step_count": 5,
     "keyframes": [
-      "kf:saito-traditional-aikido-vol1-p86-1-01",
-      "kf:saito-traditional-aikido-vol1-p86-1-02",
-      "kf:saito-traditional-aikido-vol1-p86-1-03"
+      "kf:saito-traditional-aikido-vol1-p83-jo-suburi-1-01",
+      "kf:saito-traditional-aikido-vol1-p83-jo-suburi-1-02",
+      "kf:saito-traditional-aikido-vol1-p83-jo-suburi-1-03",
+      "kf:saito-traditional-aikido-vol1-p83-jo-suburi-1-04",
+      "kf:saito-traditional-aikido-vol1-p83-jo-suburi-1-05"
     ],
     "source": {
       "book": "saito-traditional-aikido-vol1",
       "title": "Traditional Aikido, Volume 1: Basic Techniques",
-      "pdf_page": 86
+      "pdf_page": 83
     },
-    "raw_caption": "(1] 直 突き",
-    "confidence": "ocr",
-    "status": "provisional",
-    "retrieved": "2026-06-15",
     "provenance": {
       "performer": "person:morihiro-saito",
       "performer_name": "Morihiro Saito",
@@ -1199,32 +4418,36 @@
       "medium": "book",
       "recording": "saito-traditional-aikido-vol1",
       "lineage": "iwama"
-    }
+    },
+    "raw_caption": "aiki-jo jo suburi",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
   },
   {
-    "id": "tech:saito-traditional-aikido-vol1-p86-choku-tsuki",
-    "name_romaji": "Choku tsuki",
-    "name_native": "突き",
+    "id": "tech:saito-traditional-aikido-vol1-p84-jo-suburi-1",
+    "name_romaji": "",
+    "name_native": null,
     "qualifiers": [],
+    "kind": "suburi",
+    "context": "aiki-jo",
+    "weapon": "jo",
+    "form": "31-no-jo",
     "slots": {
       "technique": null,
-      "attack": "tsuki",
+      "attack": null,
       "direction": null,
       "form": []
     },
     "step_count": 1,
     "keyframes": [
-      "kf:saito-traditional-aikido-vol1-p86-choku-tsuki-01"
+      "kf:saito-traditional-aikido-vol1-p84-jo-suburi-1-01"
     ],
     "source": {
       "book": "saito-traditional-aikido-vol1",
       "title": "Traditional Aikido, Volume 1: Basic Techniques",
-      "pdf_page": 86
+      "pdf_page": 84
     },
-    "raw_caption": "[突き の 部 ]",
-    "confidence": "ocr",
-    "status": "provisional",
-    "retrieved": "2026-06-15",
     "provenance": {
       "performer": "person:morihiro-saito",
       "performer_name": "Morihiro Saito",
@@ -1237,39 +4460,126 @@
       "medium": "book",
       "recording": "saito-traditional-aikido-vol1",
       "lineage": "iwama"
-    }
+    },
+    "raw_caption": "aiki-jo jo suburi",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
   },
   {
-    "id": "tech:saito-traditional-aikido-vol1-p87-kaeshi-tsuki-2",
-    "name_romaji": "Kaeshi Tsuki",
-    "name_native": "Kaeshi Tsuki",
-    "qualifiers": [
-      "2"
-    ],
+    "id": "tech:saito-traditional-aikido-vol1-p86-choku-tsuki",
+    "name_romaji": "Choku tsuki",
+    "name_native": null,
+    "qualifiers": [],
+    "kind": "suburi",
+    "context": "aiki-jo",
+    "weapon": "jo",
+    "form": "31-no-jo",
     "slots": {
       "technique": null,
-      "attack": "tsuki",
+      "attack": null,
       "direction": null,
       "form": []
     },
-    "step_count": 6,
+    "step_count": 3,
     "keyframes": [
-      "kf:saito-traditional-aikido-vol1-p87-kaeshi-tsuki-2-01",
-      "kf:saito-traditional-aikido-vol1-p87-kaeshi-tsuki-2-02",
-      "kf:saito-traditional-aikido-vol1-p87-kaeshi-tsuki-2-03",
-      "kf:saito-traditional-aikido-vol1-p87-kaeshi-tsuki-2-04",
-      "kf:saito-traditional-aikido-vol1-p87-kaeshi-tsuki-2-05",
-      "kf:saito-traditional-aikido-vol1-p87-kaeshi-tsuki-2-06"
+      "kf:saito-traditional-aikido-vol1-p86-choku-tsuki-01",
+      "kf:saito-traditional-aikido-vol1-p86-choku-tsuki-02",
+      "kf:saito-traditional-aikido-vol1-p86-choku-tsuki-03"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 86
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "Choku tsuki",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p86-suburi",
+    "name_romaji": "Suburi",
+    "name_native": null,
+    "qualifiers": [],
+    "kind": "suburi",
+    "context": "aiki-jo",
+    "weapon": "jo",
+    "form": "31-no-jo",
+    "slots": {
+      "technique": null,
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 1,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p86-suburi-01"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 86
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "Suburi",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p87-2",
+    "name_romaji": "",
+    "name_native": "返し突き",
+    "qualifiers": [
+      "2"
+    ],
+    "kind": "suburi",
+    "context": "aiki-jo",
+    "weapon": "jo",
+    "form": "31-no-jo",
+    "slots": {
+      "technique": null,
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 3,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p87-2-01",
+      "kf:saito-traditional-aikido-vol1-p87-2-02",
+      "kf:saito-traditional-aikido-vol1-p87-2-03"
     ],
     "source": {
       "book": "saito-traditional-aikido-vol1",
       "title": "Traditional Aikido, Volume 1: Basic Techniques",
       "pdf_page": 87
     },
-    "raw_caption": "(2) 返 し 突き",
-    "confidence": "ocr",
-    "status": "provisional",
-    "retrieved": "2026-06-15",
     "provenance": {
       "performer": "person:morihiro-saito",
       "performer_name": "Morihiro Saito",
@@ -1282,37 +4592,84 @@
       "medium": "book",
       "recording": "saito-traditional-aikido-vol1",
       "lineage": "iwama"
-    }
+    },
+    "raw_caption": "(2) 返 し 突き",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
   },
   {
-    "id": "tech:saito-traditional-aikido-vol1-p88-ushiro-tsuki",
-    "name_romaji": "Ushiro Tsuki",
-    "name_native": "ニー",
+    "id": "tech:saito-traditional-aikido-vol1-p87-kaeshi-tsuki",
+    "name_romaji": "Kaeshi Tsuki",
+    "name_native": null,
     "qualifiers": [],
+    "kind": "suburi",
+    "context": "aiki-jo",
+    "weapon": "jo",
+    "form": "31-no-jo",
     "slots": {
       "technique": null,
-      "attack": "tsuki",
+      "attack": null,
       "direction": null,
       "form": []
     },
-    "step_count": 6,
+    "step_count": 3,
     "keyframes": [
-      "kf:saito-traditional-aikido-vol1-p88-ushiro-tsuki-01",
-      "kf:saito-traditional-aikido-vol1-p88-ushiro-tsuki-02",
-      "kf:saito-traditional-aikido-vol1-p88-ushiro-tsuki-03",
-      "kf:saito-traditional-aikido-vol1-p88-ushiro-tsuki-04",
-      "kf:saito-traditional-aikido-vol1-p88-ushiro-tsuki-05",
-      "kf:saito-traditional-aikido-vol1-p88-ushiro-tsuki-06"
+      "kf:saito-traditional-aikido-vol1-p87-kaeshi-tsuki-01",
+      "kf:saito-traditional-aikido-vol1-p87-kaeshi-tsuki-02",
+      "kf:saito-traditional-aikido-vol1-p87-kaeshi-tsuki-03"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 87
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "Kaeshi Tsuki",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p88-2",
+    "name_romaji": "",
+    "name_native": null,
+    "qualifiers": [
+      "2"
+    ],
+    "kind": "suburi",
+    "context": "aiki-jo",
+    "weapon": "jo",
+    "form": "31-no-jo",
+    "slots": {
+      "technique": null,
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 3,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p88-2-01",
+      "kf:saito-traditional-aikido-vol1-p88-2-02",
+      "kf:saito-traditional-aikido-vol1-p88-2-03"
     ],
     "source": {
       "book": "saito-traditional-aikido-vol1",
       "title": "Traditional Aikido, Volume 1: Basic Techniques",
       "pdf_page": 88
     },
-    "raw_caption": "Ushiro Tsuki",
-    "confidence": "ocr",
-    "status": "provisional",
-    "retrieved": "2026-06-15",
     "provenance": {
       "performer": "person:morihiro-saito",
       "performer_name": "Morihiro Saito",
@@ -1325,39 +4682,132 @@
       "medium": "book",
       "recording": "saito-traditional-aikido-vol1",
       "lineage": "iwama"
-    }
+    },
+    "raw_caption": "(2)’",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
   },
   {
-    "id": "tech:saito-traditional-aikido-vol1-p90-tsuki-gedan-gaeshi-4",
-    "name_romaji": "Tsuki Gedan Gaeshi",
-    "name_native": "突き",
+    "id": "tech:saito-traditional-aikido-vol1-p88-3",
+    "name_romaji": "",
+    "name_native": "突の",
     "qualifiers": [
-      "4"
+      "3"
     ],
+    "kind": "suburi",
+    "context": "aiki-jo",
+    "weapon": "jo",
+    "form": "31-no-jo",
     "slots": {
       "technique": null,
-      "attack": "tsuki",
+      "attack": null,
       "direction": null,
       "form": []
     },
-    "step_count": 6,
+    "step_count": 3,
     "keyframes": [
-      "kf:saito-traditional-aikido-vol1-p90-tsuki-gedan-gaeshi-4-01",
-      "kf:saito-traditional-aikido-vol1-p90-tsuki-gedan-gaeshi-4-02",
-      "kf:saito-traditional-aikido-vol1-p90-tsuki-gedan-gaeshi-4-03",
-      "kf:saito-traditional-aikido-vol1-p90-tsuki-gedan-gaeshi-4-04",
-      "kf:saito-traditional-aikido-vol1-p90-tsuki-gedan-gaeshi-4-05",
-      "kf:saito-traditional-aikido-vol1-p90-tsuki-gedan-gaeshi-4-06"
+      "kf:saito-traditional-aikido-vol1-p88-3-01",
+      "kf:saito-traditional-aikido-vol1-p88-3-02",
+      "kf:saito-traditional-aikido-vol1-p88-3-03"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 88
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "(3)& 突 の",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p89-jo-suburi-1",
+    "name_romaji": "",
+    "name_native": null,
+    "qualifiers": [],
+    "kind": "suburi",
+    "context": "aiki-jo",
+    "weapon": "jo",
+    "form": "31-no-jo",
+    "slots": {
+      "technique": null,
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 5,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p89-jo-suburi-1-01",
+      "kf:saito-traditional-aikido-vol1-p89-jo-suburi-1-02",
+      "kf:saito-traditional-aikido-vol1-p89-jo-suburi-1-03",
+      "kf:saito-traditional-aikido-vol1-p89-jo-suburi-1-04",
+      "kf:saito-traditional-aikido-vol1-p89-jo-suburi-1-05"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 89
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "aiki-jo jo suburi",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p90-4",
+    "name_romaji": "",
+    "name_native": "突き下段返し",
+    "qualifiers": [
+      "4"
+    ],
+    "kind": "suburi",
+    "context": "aiki-jo",
+    "weapon": "jo",
+    "form": "31-no-jo",
+    "slots": {
+      "technique": null,
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 3,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p90-4-01",
+      "kf:saito-traditional-aikido-vol1-p90-4-02",
+      "kf:saito-traditional-aikido-vol1-p90-4-03"
     ],
     "source": {
       "book": "saito-traditional-aikido-vol1",
       "title": "Traditional Aikido, Volume 1: Basic Techniques",
       "pdf_page": 90
     },
-    "raw_caption": "(4) 突き 下段 返し",
-    "confidence": "ocr",
-    "status": "provisional",
-    "retrieved": "2026-06-15",
     "provenance": {
       "performer": "person:morihiro-saito",
       "performer_name": "Morihiro Saito",
@@ -1370,39 +4820,90 @@
       "medium": "book",
       "recording": "saito-traditional-aikido-vol1",
       "lineage": "iwama"
-    }
+    },
+    "raw_caption": "(4) 突き 下段 返し",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
   },
   {
-    "id": "tech:saito-traditional-aikido-vol1-p92-tsuki-jodan-gaeshi-5",
-    "name_romaji": "Tsuki Jodan Gaeshi",
-    "name_native": "突き",
-    "qualifiers": [
-      "5"
-    ],
+    "id": "tech:saito-traditional-aikido-vol1-p91-jo-suburi-1",
+    "name_romaji": "",
+    "name_native": null,
+    "qualifiers": [],
+    "kind": "suburi",
+    "context": "aiki-jo",
+    "weapon": "jo",
+    "form": "31-no-jo",
     "slots": {
       "technique": null,
-      "attack": "tsuki",
+      "attack": null,
       "direction": null,
       "form": []
     },
     "step_count": 6,
     "keyframes": [
-      "kf:saito-traditional-aikido-vol1-p92-tsuki-jodan-gaeshi-5-01",
-      "kf:saito-traditional-aikido-vol1-p92-tsuki-jodan-gaeshi-5-02",
-      "kf:saito-traditional-aikido-vol1-p92-tsuki-jodan-gaeshi-5-03",
-      "kf:saito-traditional-aikido-vol1-p92-tsuki-jodan-gaeshi-5-04",
-      "kf:saito-traditional-aikido-vol1-p92-tsuki-jodan-gaeshi-5-05",
-      "kf:saito-traditional-aikido-vol1-p92-tsuki-jodan-gaeshi-5-06"
+      "kf:saito-traditional-aikido-vol1-p91-jo-suburi-1-01",
+      "kf:saito-traditional-aikido-vol1-p91-jo-suburi-1-02",
+      "kf:saito-traditional-aikido-vol1-p91-jo-suburi-1-03",
+      "kf:saito-traditional-aikido-vol1-p91-jo-suburi-1-04",
+      "kf:saito-traditional-aikido-vol1-p91-jo-suburi-1-05",
+      "kf:saito-traditional-aikido-vol1-p91-jo-suburi-1-06"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 91
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "aiki-jo jo suburi",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p92-5",
+    "name_romaji": "",
+    "name_native": "突き上段返し",
+    "qualifiers": [
+      "5"
+    ],
+    "kind": "suburi",
+    "context": "aiki-jo",
+    "weapon": "jo",
+    "form": "31-no-jo",
+    "slots": {
+      "technique": null,
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 6,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p92-5-01",
+      "kf:saito-traditional-aikido-vol1-p92-5-02",
+      "kf:saito-traditional-aikido-vol1-p92-5-03",
+      "kf:saito-traditional-aikido-vol1-p92-5-04",
+      "kf:saito-traditional-aikido-vol1-p92-5-05",
+      "kf:saito-traditional-aikido-vol1-p92-5-06"
     ],
     "source": {
       "book": "saito-traditional-aikido-vol1",
       "title": "Traditional Aikido, Volume 1: Basic Techniques",
       "pdf_page": 92
     },
-    "raw_caption": "(5) 突き 上 段 返 し",
-    "confidence": "ocr",
-    "status": "provisional",
-    "retrieved": "2026-06-15",
     "provenance": {
       "performer": "person:morihiro-saito",
       "performer_name": "Morihiro Saito",
@@ -1415,39 +4916,91 @@
       "medium": "book",
       "recording": "saito-traditional-aikido-vol1",
       "lineage": "iwama"
-    }
+    },
+    "raw_caption": "(5) 突き 上 段 返 し",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
   },
   {
-    "id": "tech:saito-traditional-aikido-vol1-p94-shomen-uchikomi-6",
-    "name_romaji": "Shomen Uchikomi",
-    "name_native": "正面",
+    "id": "tech:saito-traditional-aikido-vol1-p93-7",
+    "name_romaji": "",
+    "name_native": null,
     "qualifiers": [
-      "6"
+      "7"
     ],
+    "kind": "suburi",
+    "context": "aiki-jo",
+    "weapon": "jo",
+    "form": "31-no-jo",
     "slots": {
       "technique": null,
-      "attack": "shomen-uchi",
+      "attack": null,
       "direction": null,
       "form": []
     },
-    "step_count": 6,
+    "step_count": 8,
     "keyframes": [
-      "kf:saito-traditional-aikido-vol1-p94-shomen-uchikomi-6-01",
-      "kf:saito-traditional-aikido-vol1-p94-shomen-uchikomi-6-02",
-      "kf:saito-traditional-aikido-vol1-p94-shomen-uchikomi-6-03",
-      "kf:saito-traditional-aikido-vol1-p94-shomen-uchikomi-6-04",
-      "kf:saito-traditional-aikido-vol1-p94-shomen-uchikomi-6-05",
-      "kf:saito-traditional-aikido-vol1-p94-shomen-uchikomi-6-06"
+      "kf:saito-traditional-aikido-vol1-p93-7-01",
+      "kf:saito-traditional-aikido-vol1-p93-7-02",
+      "kf:saito-traditional-aikido-vol1-p93-7-03",
+      "kf:saito-traditional-aikido-vol1-p93-7-04",
+      "kf:saito-traditional-aikido-vol1-p93-7-05",
+      "kf:saito-traditional-aikido-vol1-p93-7-06",
+      "kf:saito-traditional-aikido-vol1-p93-7-07",
+      "kf:saito-traditional-aikido-vol1-p93-7-08"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 93
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "(7)",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p94-6",
+    "name_romaji": "",
+    "name_native": "正面打ち込み",
+    "qualifiers": [
+      "6"
+    ],
+    "kind": "suburi",
+    "context": "aiki-jo",
+    "weapon": "jo",
+    "form": "31-no-jo",
+    "slots": {
+      "technique": null,
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 3,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p94-6-01",
+      "kf:saito-traditional-aikido-vol1-p94-6-02",
+      "kf:saito-traditional-aikido-vol1-p94-6-03"
     ],
     "source": {
       "book": "saito-traditional-aikido-vol1",
       "title": "Traditional Aikido, Volume 1: Basic Techniques",
       "pdf_page": 94
     },
-    "raw_caption": "(6) 正面 打ち 込み",
-    "confidence": "ocr",
-    "status": "provisional",
-    "retrieved": "2026-06-15",
     "provenance": {
       "performer": "person:morihiro-saito",
       "performer_name": "Morihiro Saito",
@@ -1460,7 +5013,344 @@
       "medium": "book",
       "recording": "saito-traditional-aikido-vol1",
       "lineage": "iwama"
-    }
+    },
+    "raw_caption": "(6) 正面 打ち 込み",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p94-8",
+    "name_romaji": "",
+    "name_native": null,
+    "qualifiers": [
+      "8"
+    ],
+    "kind": "suburi",
+    "context": "aiki-jo",
+    "weapon": "jo",
+    "form": "31-no-jo",
+    "slots": {
+      "technique": null,
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 3,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p94-8-01",
+      "kf:saito-traditional-aikido-vol1-p94-8-02",
+      "kf:saito-traditional-aikido-vol1-p94-8-03"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 94
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "(8)",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p95-jo-suburi-1",
+    "name_romaji": "",
+    "name_native": null,
+    "qualifiers": [],
+    "kind": "suburi",
+    "context": "aiki-jo",
+    "weapon": "jo",
+    "form": "31-no-jo",
+    "slots": {
+      "technique": null,
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 5,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p95-jo-suburi-1-01",
+      "kf:saito-traditional-aikido-vol1-p95-jo-suburi-1-02",
+      "kf:saito-traditional-aikido-vol1-p95-jo-suburi-1-03",
+      "kf:saito-traditional-aikido-vol1-p95-jo-suburi-1-04",
+      "kf:saito-traditional-aikido-vol1-p95-jo-suburi-1-05"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 95
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "aiki-jo jo suburi",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p96-7",
+    "name_romaji": "",
+    "name_native": "連続打ち込み",
+    "qualifiers": [
+      "7"
+    ],
+    "kind": "suburi",
+    "context": "aiki-jo",
+    "weapon": "jo",
+    "form": "31-no-jo",
+    "slots": {
+      "technique": null,
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 9,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p96-7-01",
+      "kf:saito-traditional-aikido-vol1-p96-7-02",
+      "kf:saito-traditional-aikido-vol1-p96-7-03",
+      "kf:saito-traditional-aikido-vol1-p96-7-04",
+      "kf:saito-traditional-aikido-vol1-p96-7-05",
+      "kf:saito-traditional-aikido-vol1-p96-7-06",
+      "kf:saito-traditional-aikido-vol1-p96-7-07",
+      "kf:saito-traditional-aikido-vol1-p96-7-08",
+      "kf:saito-traditional-aikido-vol1-p96-7-09"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 96
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "(7) 連続 打ち 込み",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p97-renzoku-uchikomi",
+    "name_romaji": "Renzoku Uchikomi",
+    "name_native": null,
+    "qualifiers": [],
+    "kind": "suburi",
+    "context": "aiki-jo",
+    "weapon": "jo",
+    "form": "31-no-jo",
+    "slots": {
+      "technique": null,
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 7,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p97-renzoku-uchikomi-01",
+      "kf:saito-traditional-aikido-vol1-p97-renzoku-uchikomi-02",
+      "kf:saito-traditional-aikido-vol1-p97-renzoku-uchikomi-03",
+      "kf:saito-traditional-aikido-vol1-p97-renzoku-uchikomi-04",
+      "kf:saito-traditional-aikido-vol1-p97-renzoku-uchikomi-05",
+      "kf:saito-traditional-aikido-vol1-p97-renzoku-uchikomi-06",
+      "kf:saito-traditional-aikido-vol1-p97-renzoku-uchikomi-07"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 97
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "Renzoku Uchikomi",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p98-8",
+    "name_romaji": "",
+    "name_native": "面打ち下段返し",
+    "qualifiers": [
+      "8"
+    ],
+    "kind": "suburi",
+    "context": "aiki-jo",
+    "weapon": "jo",
+    "form": "31-no-jo",
+    "slots": {
+      "technique": null,
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 6,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p98-8-01",
+      "kf:saito-traditional-aikido-vol1-p98-8-02",
+      "kf:saito-traditional-aikido-vol1-p98-8-03",
+      "kf:saito-traditional-aikido-vol1-p98-8-04",
+      "kf:saito-traditional-aikido-vol1-p98-8-05",
+      "kf:saito-traditional-aikido-vol1-p98-8-06"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 98
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "(8) 面 打 ち 下 段 返し",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p98-menuchi-gedan-gaeshi",
+    "name_romaji": "Menuchi Gedan Gaeshi",
+    "name_native": null,
+    "qualifiers": [],
+    "kind": "suburi",
+    "context": "aiki-jo",
+    "weapon": "jo",
+    "form": "31-no-jo",
+    "slots": {
+      "technique": null,
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 1,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p98-menuchi-gedan-gaeshi-01"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 98
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "Menuchi Gedan Gaeshi",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
+  },
+  {
+    "id": "tech:saito-traditional-aikido-vol1-p99-3",
+    "name_romaji": "",
+    "name_native": null,
+    "qualifiers": [
+      "3"
+    ],
+    "kind": "suburi",
+    "context": "aiki-jo",
+    "weapon": "jo",
+    "form": "31-no-jo",
+    "slots": {
+      "technique": null,
+      "attack": null,
+      "direction": null,
+      "form": []
+    },
+    "step_count": 7,
+    "keyframes": [
+      "kf:saito-traditional-aikido-vol1-p99-3-01",
+      "kf:saito-traditional-aikido-vol1-p99-3-02",
+      "kf:saito-traditional-aikido-vol1-p99-3-03",
+      "kf:saito-traditional-aikido-vol1-p99-3-04",
+      "kf:saito-traditional-aikido-vol1-p99-3-05",
+      "kf:saito-traditional-aikido-vol1-p99-3-06",
+      "kf:saito-traditional-aikido-vol1-p99-3-07"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 99
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "raw_caption": "(3)",
+    "confidence": "ocr",
+    "status": "provisional",
+    "retrieved": "2026-06-20"
   },
   {
     "id": "tech:saito-traditional-aikido-vol2-p107-tsuki",
