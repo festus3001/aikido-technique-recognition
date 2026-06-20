@@ -37,7 +37,9 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("--push", action="store_true",
                    help="upload outputs to Google Drive as native Google Docs / images")
     p.add_argument("--folder-name", default="ATR documents",
-                   help="Drive folder to upload into (created if absent)")
+                   help="Drive folder to upload into (created if absent); ignored if --folder-id given")
+    p.add_argument("--folder-id", default=None,
+                   help="upload into this exact Drive folder id (incl. a Shared Drive)")
     p.add_argument("--credentials", type=Path, default=GDRIVE_DIR / "credentials.json",
                    help="Google OAuth client file (Desktop type)")
     args = p.parse_args(argv)
@@ -89,7 +91,7 @@ def main(argv: list[str] | None = None) -> int:
         print(f"Pushing to Google Drive (folder: {args.folder_name!r}) ...")
         built = [args.out / o[3] for o in sorted(outputs)]
         link = drive.push(args.out, built, args.credentials,
-                          GDRIVE_DIR / "token.json", args.folder_name)
+                          GDRIVE_DIR / "token.json", args.folder_name, args.folder_id)
         print(f"Done. Open the folder: {link}")
     return 0
 

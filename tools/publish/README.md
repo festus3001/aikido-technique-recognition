@@ -37,17 +37,22 @@ Re-pushing updates the same files in place (their links are stable), so it is sa
 run every build.
 
 ```
-conda run -n atr-ingest atr-publish --push                          # into "ATR documents"
-conda run -n atr-ingest atr-publish --push --folder-name "ATR docs" # a different folder
+conda run -n atr-ingest atr-publish --push                          # into "ATR documents" in My Drive
+conda run -n atr-ingest atr-publish --push --folder-name "ATR docs" # a different My Drive folder
+conda run -n atr-ingest atr-publish --push --folder-id <FOLDER_ID>  # an exact folder, incl. a Shared Drive
 conda run -n atr-ingest atr-publish --status final --push           # build + push in one go
 ```
+
+`--folder-id` takes the id from a Drive folder URL
+(`drive.google.com/drive/folders/<FOLDER_ID>`) and uploads straight into it, Shared
+Drives included. Without it, the tool finds-or-creates `--folder-name` in My Drive.
 
 One-time Google setup (about 5 minutes):
 1. Go to https://console.cloud.google.com -> create a project (any name).
 2. APIs & Services -> Library -> enable **Google Drive API**.
-3. APIs & Services -> OAuth consent screen -> External -> add yourself as a **Test user**
-   (dla@flazeebo.com). No app verification is needed -- the tool uses the narrow
-   `drive.file` scope, which only ever touches files it created.
+3. APIs & Services -> OAuth consent screen -> set the app to **Internal** (Workspace
+   org). Internal apps need no test users and no Google verification, even for the
+   full `drive` scope the tool uses.
 4. APIs & Services -> Credentials -> Create credentials -> **OAuth client ID** ->
    application type **Desktop app** -> Download JSON.
 5. Save that file as `tools/publish/.gdrive/credentials.json`.
@@ -56,9 +61,10 @@ The first `--push` opens a browser to approve; the token is cached at
 `tools/publish/.gdrive/token.json`, so later pushes are non-interactive. The `.gdrive/`
 folder (client secret + token) is gitignored and never committed.
 
-Scope: `https://www.googleapis.com/auth/drive.file` -- the least-privilege Drive scope.
-The tool can see and manage only the "ATR documents" folder and the files it uploads;
-it has no access to the rest of your Drive.
+Scope: `https://www.googleapis.com/auth/drive`. The full Drive scope is used so the
+tool can target an existing folder by id, including a Shared Drive (the narrower
+`drive.file` scope can only touch folders the tool itself created). It is an Internal
+Workspace app, so this needs no Google verification.
 
 ## Notes
 - docx and png are regenerable, so `dist/` and `*.docx` are gitignored; the old
