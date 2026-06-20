@@ -13,6 +13,8 @@ __pycache__/
 
 # regenerable build artifacts (rebuild with atr-crawler-db)
 *.sqlite
+# ratified taxonomy is a projection of ratifications.json (rebuild with atr-ratify-merge)
+data/taxonomy/techniques_ratified.json
 
 # documentation build outputs (rebuild with atr-publish; copied to Google Drive)
 dist/

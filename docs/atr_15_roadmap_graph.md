@@ -56,7 +56,7 @@ ids carry the track (A foundations ... G product).
 | C1 | Book ingestion pipeline | done | A1 | C2 |
 | C2 | Saito corpus ingested | done | C1 | C3, C4, D3, E3 |
 | C3 | Observation provenance | done | C2 | G4, G6 (time/teacher) |
-| C4 | Teacher ratification of taxonomy | **next** | C2, A3 | D3, F1, F2, F4 |
+| C4 | Teacher ratification of taxonomy | active | C2, A3 | D3, F1, F2, F4 |
 | C5 | Planned books (8, multi-lineage) | **next** | C1 | C2 (breadth) |
 | D1 | AML spec | done | A1 | D2 |
 | D2 | Kineme alphabet | done | D1 | D3, D4, D6 |
@@ -102,6 +102,12 @@ movement," and what makes the teacher-over-time comparison meaningful.
 Two near-term, low-dependency fronts that do not wait on perception: **C4 (teacher ratification
 of the ingested taxonomy)** -- the first real contribution loop, on text -- and **D3 (motif
 lexicon from the books)** for AML. Both build directly on work already done.
+
+C4 is now underway. The ratification tool is built (`contributor/`, run with `atr-ratify`): a
+teacher walks the 217 ingested techniques with the book's step photos and confirms or corrects
+the name and the attack/technique/direction/form slots, plus a free-text note for the deep layer.
+Corrections land in `data/taxonomy/ratifications.json` keyed to the teacher and project onto the
+corpus via `atr-ratify-merge`. The open step is the review itself with a teacher.
 
 ---
 

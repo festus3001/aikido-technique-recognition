@@ -1,0 +1,19 @@
+# Contributor-backend env. Miniforge/conda-forge. Runs the teacher ratification loop
+# (roadmap C4): a local FastAPI tool a teacher uses to confirm/correct the ingested
+# techniques against the book's step photos, writing corrections to
+# data/taxonomy/ratifications.json.
+#
+# Create:  conda env create -f contributor/environment.yml
+# Install: conda run -n atr-contributor pip install -e contributor
+# Run:     conda run -n atr-contributor atr-ratify --reviewer person:<slug> --reviewer-name "Name"
+name: atr-contributor
+channels: [conda-forge]
+dependencies:
+  - python=3.12
+  - pip
+  - pytest>=7
+  - pip:
+    - fastapi
+    - "uvicorn[standard]"
+    - jsonschema>=4.18
+    - httpx

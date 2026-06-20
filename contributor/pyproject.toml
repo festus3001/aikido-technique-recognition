@@ -1,6 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "atr-contributor"
-version = "0.0.0"
-description = "ATR FastAPI backend: serving + contribution records."
-requires-python = ">=3.11"
-dependencies = ["fastapi", "uvicorn[standard]", "pydantic"]
+version = "0.1.0"
+description = "ATR contributor backend: the teacher ratification loop"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "jsonschema",
+]
+
+[project.scripts]
+atr-ratify = "atr_contributor.cli:main"
+atr-ratify-merge = "atr_contributor.merge:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+atr_contributor = ["web/*.html"]

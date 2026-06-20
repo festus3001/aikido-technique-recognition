@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ATR -- Technique Review</title>
+<style>
+  :root { --ink:#23201b; --paper:#f6f1e7; --line:#d9cfbe; --accent:#7a1f1a; --ok:#2f6b34; --muted:#8a8170; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family: Georgia, 'Times New Roman', serif; color:var(--ink); background:var(--paper); }
+  header { display:flex; align-items:center; gap:1rem; padding:.7rem 1.2rem; border-bottom:1px solid var(--line); background:#efe8d9; position:sticky; top:0; z-index:5; }
+  header h1 { font-size:1.05rem; margin:0; font-weight:600; letter-spacing:.02em; }
+  header .who { color:var(--muted); font-size:.85rem; }
+  .bar { flex:1; height:8px; background:#e3dac8; border-radius:4px; overflow:hidden; max-width:340px; }
+  .bar > i { display:block; height:100%; background:var(--ok); width:0; }
+  .count { font-size:.85rem; color:var(--muted); min-width:7rem; text-align:right; }
+  main { max-width:1080px; margin:0 auto; padding:1.2rem; }
+  .caption { font-size:1.15rem; margin:.2rem 0 .1rem; }
+  .sub { color:var(--muted); font-size:.85rem; margin-bottom:1rem; }
+  .photos { display:flex; gap:.8rem; flex-wrap:wrap; margin-bottom:1.2rem; }
+  .photos figure { margin:0; background:#fff; border:1px solid var(--line); border-radius:6px; padding:.4rem; }
+  .photos img { display:block; max-height:340px; max-width:320px; }
+  .photos figcaption { text-align:center; font-size:.8rem; color:var(--muted); padding-top:.3rem; }
+  form { display:grid; grid-template-columns: repeat(2, 1fr); gap:.9rem 1.4rem; }
+  .field { display:flex; flex-direction:column; gap:.25rem; }
+  .field.full { grid-column: 1 / -1; }
+  label { font-size:.8rem; color:var(--muted); text-transform:uppercase; letter-spacing:.04em; }
+  input, textarea, select { font-family:inherit; font-size:1rem; padding:.5rem .6rem; border:1px solid var(--line); border-radius:5px; background:#fff; color:var(--ink); }
+  textarea { min-height:5rem; resize:vertical; }
+  .row { display:flex; gap:1.4rem; }
+  .row .field { flex:1; }
+  .forms { display:flex; gap:1rem; flex-wrap:wrap; padding-top:.2rem; }
+  .forms label { display:flex; align-items:center; gap:.35rem; text-transform:none; letter-spacing:0; font-size:.95rem; color:var(--ink); }
+  .actions { grid-column:1/-1; display:flex; gap:.7rem; align-items:center; margin-top:.4rem; flex-wrap:wrap; }
+  button { font-family:inherit; font-size:.95rem; padding:.55rem 1.1rem; border:1px solid var(--line); border-radius:6px; background:#fff; color:var(--ink); cursor:pointer; }
+  button.primary { background:var(--accent); color:#fff; border-color:var(--accent); }
+  button.good { background:var(--ok); color:#fff; border-color:var(--ok); }
+  button.ghost { color:var(--muted); }
+  .nav { margin-left:auto; display:flex; gap:.5rem; align-items:center; }
+  .saved { color:var(--ok); font-size:.85rem; opacity:0; transition:opacity .2s; }
+  .saved.show { opacity:1; }
+  .badge { font-size:.72rem; padding:.1rem .45rem; border-radius:10px; border:1px solid var(--line); color:var(--muted); }
+  .badge.done { background:#e4efe0; color:var(--ok); border-color:#bcd9b6; }
+</style>
+</head>
+<body>
+<header>
+  <h1>ATR &middot; Technique Review</h1>
+  <span class="who" id="who"></span>
+  <div class="bar"><i id="barfill"></i></div>
+  <span class="count" id="count">--</span>
+</header>
+<main>
+  <div id="card">
+    <div class="caption" id="cap">Loading...</div>
+    <div class="sub" id="meta"></div>
+    <div class="photos" id="photos"></div>
+    <form id="form" onsubmit="return false;">
+      <div class="field full">
+        <label>Name (romaji)</label>
+        <input id="name_romaji" placeholder="e.g. katate-dori shiho-nage" autocomplete="off">
+      </div>
+      <div class="field full">
+        <label>Name (Japanese, optional)</label>
+        <input id="name_native" placeholder="" autocomplete="off">
+      </div>
+      <div class="row full">
+        <div class="field">
+          <label>Attack</label>
+          <input id="attack" list="attacks" autocomplete="off">
+        </div>
+        <div class="field">
+          <label>Technique</label>
+          <input id="technique" list="techniques" autocomplete="off">
+        </div>
+        <div class="field">
+          <label>Direction</label>
+          <select id="direction">
+            <option value="">--</option>
+            <option value="omote">omote</option>
+            <option value="ura">ura</option>
+          </select>
+        </div>
+      </div>
+      <div class="field full">
+        <label>Form</label>
+        <div class="forms" id="forms"></div>
+      </div>
+      <div class="field full">
+        <label>What the name doesn't carry (connection, timing, quality of kuzushi)</label>
+        <textarea id="note" placeholder="Optional. The qualitative layer -- in your words."></textarea>
+      </div>
+      <div class="actions">
+        <button class="good" id="confirm">Confirm as correct</button>
+        <button class="primary" id="correct">Save correction</button>
+        <button class="ghost" id="skip">Skip</button>
+        <button class="ghost" id="reject" title="Not a technique (OCR noise, etc.)">Not a technique</button>
+        <span class="saved" id="saved">saved</span>
+        <div class="nav">
+          <button id="prev">&larr; Prev</button>
+          <span class="badge" id="pos"></span>
+          <button id="next">Next &rarr;</button>
+          <button id="nextnew" class="primary">Next unreviewed</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</main>
+
+<datalist id="attacks">
+  <option>shomenuchi</option><option>yokomenuchi</option><option>tsuki</option>
+  <option>jodan-tsuki</option><option>chudan-tsuki</option>
+  <option>katate-dori</option><option>kosa-dori</option><option>morote-dori</option>
+  <option>ryote-dori</option><option>kata-dori</option><option>ryokata-dori</option>
+  <option>mune-dori</option><option>eri-dori</option><option>sode-dori</option>
+  <option>ushiro-ryote-dori</option><option>ushiro-ryokata-dori</option>
+  <option>ushiro-eri-dori</option><option>ushiro-kubishime</option>
+</datalist>
+<datalist id="techniques">
+  <option>ikkyo</option><option>nikyo</option><option>sankyo</option><option>yonkyo</option><option>gokyo</option>
+  <option>iriminage</option><option>shihonage</option><option>kotegaeshi</option><option>kaitennage</option>
+  <option>tenchinage</option><option>koshinage</option><option>jujigarami</option><option>kokyunage</option>
+  <option>kokyuho</option><option>udekimenage</option><option>hijikimeosae</option>
+  <option>sumiotoshi</option><option>aikiotoshi</option>
+</datalist>
+
+<script>
+const FORMS = ["tachiwaza","suwariwaza","hanmihandachi","ken","jo"];
+let QUEUE = [], idx = 0, current = null;
+
+const $ = id => document.getElementById(id);
+function clean(s){ return (s||"").replace(/\s+/g," ").trim(); }
+
+async function api(path, opts){ const r = await fetch(path, opts); if(!r.ok) throw new Error(path+" "+r.status); return r.json(); }
+
+async function boot(){
+  const prog = await api("/api/progress");
+  $("who").textContent = prog.reviewer_name || prog.reviewer;
+  QUEUE = await api("/api/queue");
+  $("forms").innerHTML = FORMS.map(f =>
+    `<label><input type="checkbox" value="${f}" class="formck"> ${f}</label>`).join("");
+  const firstNew = QUEUE.findIndex(q => !q.verdict);
+  idx = firstNew >= 0 ? firstNew : 0;
+  await load();
+  renderProgress(prog);
+}
+
+function renderProgress(p){
+  const pct = p.total ? Math.round(100*p.reviewed/p.total) : 0;
+  $("barfill").style.width = pct + "%";
+  $("count").textContent = `${p.reviewed} / ${p.total} reviewed`;
+}
+
+async function load(){
+  const item = QUEUE[idx];
+  const d = await api("/api/technique/" + encodeURIComponent(item.id));
+  current = d;
+  const t = d.technique, r = d.ratification;
+  $("cap").textContent = clean(t.raw_caption || t.name_romaji || t.id);
+  const s = t.source || {};
+  $("meta").textContent = `${s.title || s.book || ""}  ·  p.${s.pdf_page || "?"}  ·  ${t.step_count||d.keyframes.length} steps  ·  ${(t.provenance||{}).performer_name||""} (${(t.provenance||{}).lineage||""})`;
+  $("photos").innerHTML = d.keyframes.map(k =>
+    `<figure><img src="${k.img}" alt="step ${k.step_index}" loading="lazy"><figcaption>step ${k.step_index}</figcaption></figure>`).join("")
+    || "<em>(no photos)</em>";
+
+  // Prefill: prior ratification if present, else the provisional parse.
+  const slots = (r && r.slots) || t.slots || {};
+  $("name_romaji").value = r ? (r.name_romaji||"") : clean(t.raw_caption || t.name_romaji || "");
+  $("name_native").value = (r ? r.name_native : t.name_native) || "";
+  $("attack").value = slots.attack || "";
+  $("technique").value = slots.technique || "";
+  $("direction").value = slots.direction || "";
+  $("note").value = (r && r.note) || "";
+  const formset = new Set(slots.form || []);
+  document.querySelectorAll(".formck").forEach(c => c.checked = formset.has(c.value));
+
+  $("pos").textContent = `${idx+1} / ${QUEUE.length}` + (item.verdict ? `  ·  ${item.verdict}` : "");
+  $("pos").className = "badge" + (item.verdict ? " done" : "");
+}
+
+function payload(verdict){
+  return {
+    verdict,
+    name_romaji: clean($("name_romaji").value),
+    name_native: clean($("name_native").value),
+    slots: {
+      attack: clean($("attack").value),
+      technique: clean($("technique").value),
+      direction: $("direction").value,
+      form: [...document.querySelectorAll(".formck")].filter(c=>c.checked).map(c=>c.value),
+    },
+    note: $("note").value.trim(),
+  };
+}
+
+async function save(verdict, advance){
+  const item = QUEUE[idx];
+  const rec = await api("/api/ratify/" + encodeURIComponent(item.id), {
+    method:"POST", headers:{"Content-Type":"application/json"}, body: JSON.stringify(payload(verdict))
+  });
+  item.verdict = rec.verdict;
+  $("saved").classList.add("show"); setTimeout(()=>$("saved").classList.remove("show"), 900);
+  renderProgress(await api("/api/progress"));
+  if(advance) await goNextNew(); else await load();
+}
+
+async function go(delta){ idx = (idx + delta + QUEUE.length) % QUEUE.length; await load(); }
+async function goNextNew(){
+  const after = QUEUE[idx].id;
+  const {id} = await api("/api/next?after=" + encodeURIComponent(after));
+  if(id == null){ alert("All techniques reviewed."); return; }
+  idx = QUEUE.findIndex(q => q.id === id); await load();
+}
+
+$("confirm").onclick = () => save("confirmed", true);
+$("correct").onclick = () => save("corrected", true);
+$("skip").onclick    = () => save("skip", true);
+$("reject").onclick  = () => save("rejected", true);
+$("prev").onclick    = () => go(-1);
+$("next").onclick    = () => go(1);
+$("nextnew").onclick = () => goNextNew();
+document.addEventListener("keydown", e => {
+  if(e.target.tagName === "TEXTAREA" || e.target.tagName === "INPUT") return;
+  if(e.key === "ArrowRight") go(1);
+  if(e.key === "ArrowLeft") go(-1);
+});
+
+boot().catch(e => { $("cap").textContent = "Error: " + e.message; });
+</script>
+</body>
+</html>
