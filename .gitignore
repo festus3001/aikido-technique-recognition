@@ -18,6 +18,9 @@ __pycache__/
 dist/
 # docx are built from markdown by tools/publish; markdown is the source of truth
 *.docx
+# Google Drive OAuth client secret + cached token (never commit credentials)
+.gdrive/
+**/.gdrive/
 
 # conda environments are never stored in-tree
 envs/

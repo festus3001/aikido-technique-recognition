@@ -16,9 +16,11 @@ from pathlib import Path
 from . import convert, revisions
 
 REPO_ROOT = Path(__file__).resolve().parents[4]
+PKG_ROOT = Path(__file__).resolve().parents[2]  # tools/publish
 DOCS = REPO_ROOT / "docs"
 MANIFEST = DOCS / "revisions.json"
 DEFAULT_OUT = REPO_ROOT / "dist" / "google-drive"
+GDRIVE_DIR = PKG_ROOT / ".gdrive"
 
 
 def display_name(text: str, path: Path) -> str:
@@ -32,6 +34,12 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("--out", type=Path, default=DEFAULT_OUT)
     p.add_argument("--date", default=_date.today().isoformat(), help="build date (YYYY-MM-DD)")
     p.add_argument("--status", default="draft", help="footer status, e.g. draft | final")
+    p.add_argument("--push", action="store_true",
+                   help="upload outputs to Google Drive as native Google Docs / images")
+    p.add_argument("--folder-name", default="ATR documents",
+                   help="Drive folder to upload into (created if absent)")
+    p.add_argument("--credentials", type=Path, default=GDRIVE_DIR / "credentials.json",
+                   help="Google OAuth client file (Desktop type)")
     args = p.parse_args(argv)
 
     args.out.mkdir(parents=True, exist_ok=True)
@@ -75,6 +83,14 @@ def main(argv: list[str] | None = None) -> int:
     print(f"  docx: {sum(1 for o in outputs if o[3].endswith('.docx'))} | "
           f"png: {sum(1 for o in outputs if o[3].endswith('.png'))}")
     print(f"  revisions: {MANIFEST}")
+
+    if args.push:
+        from . import drive
+        print(f"Pushing to Google Drive (folder: {args.folder_name!r}) ...")
+        built = [args.out / o[3] for o in sorted(outputs)]
+        link = drive.push(args.out, built, args.credentials,
+                          GDRIVE_DIR / "token.json", args.folder_name)
+        print(f"Done. Open the folder: {link}")
     return 0
 
 

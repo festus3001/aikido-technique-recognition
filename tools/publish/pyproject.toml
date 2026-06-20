@@ -7,7 +7,13 @@ name = "atr-publish"
 version = "0.1.0"
 description = "ATR documentation build: markdown -> docx, SVG -> PNG, for the stakeholder Google Drive"
 requires-python = ">=3.10"
-dependencies = ["pillow"]
+dependencies = [
+    "pillow",
+    # Google Drive push (--push): convert docx -> native Google Docs on upload
+    "google-api-python-client",
+    "google-auth-oauthlib",
+    "google-auth-httplib2",
+]
 
 [project.scripts]
 atr-publish = "atr_publish.cli:main"
