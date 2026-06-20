@@ -11,14 +11,19 @@ Corrections never overwrite the provisional corpus. They land in
 technique updates that teacher's record in place.
 
 ## Run (you driving, locally)
+One command -- it creates the env if missing, installs, starts the server, and opens the
+browser:
+```
+contributor/ratify.sh --reviewer person:morihiro-saito-lineage-teacher --reviewer-name "Sensei Name"
+```
+Any flags are forwarded to `atr-ratify` (`--port`, `--host`, ...). Set `RATIFY_NO_OPEN=1`
+to skip opening the browser. The long way, if you prefer to do the steps by hand:
 ```
 conda env create -f contributor/environment.yml   # first time -> env atr-contributor
 conda run -n atr-contributor pip install -e contributor
-conda run -n atr-contributor atr-ratify \
-    --reviewer person:morihiro-saito-lineage-teacher \
-    --reviewer-name "Sensei Name"
+conda run -n atr-contributor atr-ratify --reviewer person:slug --reviewer-name "Name"
 ```
-Open http://127.0.0.1:8000/. For each technique: the step photos are shown in order; the
+Either way, the tool is at http://127.0.0.1:8000/. For each technique: the step photos are shown in order; the
 fields are prefilled from the OCR parse. Fix the romaji/Japanese name and the slots, add a
 note if you wish, then:
 
