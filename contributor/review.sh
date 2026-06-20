@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
-# Launch the teacher ratification tool: ensure the env exists, install the package if
-# needed, start the local server, and open the browser. Any flags are forwarded to
-# atr-ratify (e.g. --reviewer person:slug --reviewer-name "Name" --port 8000).
+# Launch the teacher review tool: ensure the env exists, install the package if needed,
+# start the local server, and open the browser. Any flags are forwarded to atr-review
+# (e.g. --reviewer person:slug --reviewer-name "Name" --port 8000).
 #
-#   contributor/ratify.sh --reviewer person:morihiro-saito-lineage-teacher --reviewer-name "Sensei"
+#   contributor/review.sh --reviewer person:morihiro-saito-lineage-teacher --reviewer-name "Sensei"
 #
-# Set RATIFY_NO_OPEN=1 to skip opening the browser.
+# Set REVIEW_NO_OPEN=1 to skip opening the browser.
 set -euo pipefail
 
 HERE="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
@@ -44,7 +44,7 @@ done
 URL="http://${HOST}:${PORT}/"
 
 # -- open the browser once the server answers ----------------------------------
-if [ "${RATIFY_NO_OPEN:-0}" != "1" ]; then
+if [ "${REVIEW_NO_OPEN:-0}" != "1" ]; then
   (
     for _ in $(seq 1 60); do
       curl -fs "http://${HOST}:${PORT}/healthz" >/dev/null 2>&1 && break
@@ -56,5 +56,5 @@ if [ "${RATIFY_NO_OPEN:-0}" != "1" ]; then
   ) &
 fi
 
-echo "Ratification tool: $URL   (Ctrl-C to stop)"
-exec conda run -n "$ENV" atr-ratify "$@"
+echo "Review tool: $URL   (Ctrl-C to stop)"
+exec conda run -n "$ENV" atr-review "$@"

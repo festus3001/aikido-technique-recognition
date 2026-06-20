@@ -1,7 +1,8 @@
-"""FastAPI app for the teacher ratification loop.
+"""FastAPI app for the teacher review loop.
 
 One page, served at /. The teacher sees a technique's step photos and corrects the
-name + slots and adds a deep-layer note; each save writes to ratifications.json.
+name + slots, edits the image sequence, and adds a deep-layer note; each save writes
+to reviews.json.
 """
 
 from __future__ import annotations
@@ -18,7 +19,7 @@ WEB = Path(__file__).resolve().parent / "web"
 
 
 def create_app(reviewer: str, reviewer_name: str | None = None) -> FastAPI:
-    app = FastAPI(title="ATR ratification")
+    app = FastAPI(title="ATR review")
     store = Store(reviewer, reviewer_name)
 
     if PROCESSED.exists():
@@ -43,8 +44,8 @@ def create_app(reviewer: str, reviewer_name: str | None = None) -> FastAPI:
     def nxt(after: str | None = None):
         return {"id": store.next_unreviewed(after)}
 
-    @app.post("/api/ratify/{tid}")
-    async def ratify(tid: str, payload: dict):
+    @app.post("/api/review/{tid}")
+    async def review(tid: str, payload: dict):
         try:
             return store.save(tid, payload)
         except KeyError:

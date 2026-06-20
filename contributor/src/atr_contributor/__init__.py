@@ -1,4 +1,4 @@
-"""ATR contributor backend: the teacher ratification loop."""
+"""ATR contributor backend: the teacher review loop."""
 
 from .app import create_app
 
