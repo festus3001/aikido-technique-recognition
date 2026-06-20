@@ -128,11 +128,20 @@ _PROSE_WORDS = {
     "receive", "opponent", "there", "here", "which", "who", "what", "how", "why",
     "into", "about", "also", "been", "being", "one", "two", "techniques", "technique",
     "through", "again",
+    # explanatory / pointer / cross-reference vocabulary seen in Vol.3-5 prose
+    "pointers", "regarding", "case", "counteraction", "against", "develop", "conversely",
+    "instance", "control", "remarks", "identity", "requirements", "before", "foreword",
+    "stage", "first", "second", "third", "method", "movements", "movement", "such",
+    "thus", "must", "should", "may", "still", "another", "same", "becomes", "develops",
 }
 _WORD = re.compile(r"[A-Za-z][A-Za-z'’-]*")
 # Japanese particles / sentence markers that occur in prose, not in short titles.
 _JP_PROSE = ("は", "を", "が", "ます", "です", "から", "ので", "ため", "について", "により",
-             "説明", "次の", "参照", "ました", "である", "します", "して", "など", "という")
+             "説明", "次の", "参照", "ました", "である", "します", "して", "など", "という",
+             # mid-sentence markers: case/when/like/while + common verb stems
+             "場合", "時の", "如く", "ように", "ながら", "つつ", "によ", "以上", "その",
+             "この", "これ", "それ", "逃げ", "返す", "おさえ", "押さえ", "出来", "含め",
+             "移る", "移行", "要領", "稽古法", "注意", "持た", "場面", "とき", "した時")
 
 
 def _looks_like_prose(line: str) -> bool:
@@ -140,13 +149,16 @@ def _looks_like_prose(line: str) -> bool:
     if "refer" in line.lower():
         return True
     words = _WORD.findall(line)
-    if len(words) > 7 or {w.lower() for w in words} & _PROSE_WORDS:
+    if len(words) > 6 or {w.lower() for w in words} & _PROSE_WORDS:
         return True
     despaced = re.sub(r"\s+", "", line)               # OCR spaces out kanji
     if any(p in despaced for p in _JP_PROSE):
         return True
+    # a quoted technique name embedded in other text ("「四方投げ」で...") is a sentence
+    if ("「" in despaced or "」" in despaced) and len(despaced) > 6:
+        return True
     cjk = sum(1 for c in despaced if "぀" <= c <= "ヿ" or "一" <= c <= "鿿")
-    return cjk > 18  # a long run of Japanese is a sentence, not a title
+    return cjk > 14  # a long run of Japanese is a sentence, not a title
 
 
 def is_caption(line: str) -> bool:

@@ -48,6 +48,41 @@ _MAPS: dict[str, list[tuple[int, int, Section]]] = {
                            note="jo suburi by group (突きの部 ...) -- the components of the 31-count jo kata")),
         (124, 137, Section("aiki-jo", "kumi", "jo", form="kumijo", note="杖の合わせ partner jo")),
     ],
+    # Vol.2 "Advanced Techniques": weapons-heavy -- paired sword (組太刀 kumitachi) and its
+    # variations, 太刀取り (taking the sword, taijutsu-vs-ken), paired jo (組杖 kumijo), and
+    # jo-vs-ken riai. Offset printed->pdf is +5. Back-half boundaries are coarse and provisional.
+    "saito-traditional-aikido-vol2": [
+        (1,   28,  Section("taijutsu", "skip", note="front matter / foreword / contents")),
+        (29,  71,  Section("aiki-ken", "kumi", "ken", form="kumitachi",
+                           note="組太刀 + 組太刀変化技 (kumitachi and variations)")),
+        (72,  82,  Section("taijutsu", "technique", form="tachi-dori",
+                           note="太刀取り -- taking the sword (taijutsu vs ken)")),
+        (83,  120, Section("aiki-jo", "kumi", "jo", form="kumijo",
+                           note="組杖 (kumijo) + 杖・剣の理合 jo-vs-ken; boundary provisional")),
+        (121, 184, Section("taijutsu", "technique",
+                           note="remaining body-technique applications; provisional")),
+    ],
+    # Vol.3 "Applied Techniques": all taijutsu (kokyu-ho variations, then ikkyo..gokyo,
+    # shiho-nage, kotegaeshi, kaiten/irimi/tenchi/kokyu-nage, juji-garami, koshi, ushiro).
+    # No weapons. Offset printed->pdf is +4. The fix here is conservative captioning.
+    "saito-traditional-aikido-vol3": [
+        (1,  17,  Section("taijutsu", "skip", note="front matter / foreword / contents / frontispiece")),
+        (18, 144, Section("taijutsu", "technique", note="体術 -- kokyu-ho + basic-technique variations")),
+    ],
+    # Vol.4 "Vital Techniques": taijutsu -- takemusu-aiki variations, then the kaeshi-waza
+    # (返し技, counters) section from printed p126 (pdf +4 = 130). Here 突き IS a real attack.
+    "saito-traditional-aikido-vol4": [
+        (1,   17,  Section("taijutsu", "skip", note="front matter / foreword / contents")),
+        (18,  129, Section("taijutsu", "technique", note="武産合気 takemusu variations")),
+        (130, 170, Section("taijutsu", "technique", form="kaeshi-waza", note="返し技 counters")),
+    ],
+    # Vol.5 "Training Works Wonders": Chapters 1-2 are essays (identity of aikido, training
+    # method) with no technique catalog -- skipped. Chapter 3 (techniques) begins printed
+    # p44 (pdf +4 = 48): grip methods, 固体/柔体/流体 forms, henka, multi-attacker, weapon-taking.
+    "saito-traditional-aikido-vol5": [
+        (1,  47,  Section("taijutsu", "skip", note="front matter + Ch.1-2 essays (no technique catalog)")),
+        (48, 152, Section("taijutsu", "technique", note="Ch.3 技法: forms, henka, multi-attacker, weapon-taking")),
+    ],
 }
 
 _FALLBACK = Section("taijutsu", "technique")  # books without a map yet: behave as before
