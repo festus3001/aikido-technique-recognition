@@ -1,0 +1,4908 @@
+[
+  {
+    "id": "term:ago-tsuki-age",
+    "slug": "ago-tsuki-age",
+    "romaji": "Ago tsuki Age",
+    "kanji": [],
+    "kana": [],
+    "english": "Ah-goh-skee-ah-gay",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:ai",
+    "slug": "ai",
+    "romaji": "Ai",
+    "kanji": [
+      "合"
+    ],
+    "kana": [],
+    "english": "joint; associate; accomplice; fit; put together.Ki – 気　(き): spirit; mood.Dō – 道　(どう): road; path; street; way; method.\n\n\n\nRei – 礼 (れい): literally, expression of gratitude; salutation; thanks – it means “to bow”.",
+    "category": "form",
+    "sources": [
+      "aikidude",
+      "greenwood",
+      "mcgill"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:ai-hanmi",
+    "slug": "ai-hanmi",
+    "romaji": "Ai Hanmi",
+    "kanji": [
+      "相半身"
+    ],
+    "kana": [
+      "あいはんみ"
+    ],
+    "english": "same half-facing stance (both are either in left or right stance)",
+    "category": "attack",
+    "sources": [
+      "aikidude",
+      "mcgill"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:ai-hanmi-katate-dori",
+    "slug": "ai-hanmi-katate-dori",
+    "romaji": "Ai hanmi katate dori",
+    "kanji": [
+      "相半身片手取り"
+    ],
+    "kana": [
+      "あいはんみかたてどり"
+    ],
+    "english": "wrist grip in the same stance, right on right or left on left",
+    "category": null,
+    "sources": [
+      "aikidude",
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:aihanmi",
+    "slug": "aihanmi",
+    "romaji": "Aihanmi",
+    "kanji": [],
+    "kana": [],
+    "english": "Mutual stance to opponent (same foot)",
+    "category": "form",
+    "sources": [
+      "greenwood"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:aiki-nage",
+    "slug": "aiki-nage",
+    "romaji": "Aiki Nage",
+    "kanji": [],
+    "kana": [],
+    "english": "Eye-key Nah-gee",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:aiki-otoshi",
+    "slug": "aiki-otoshi",
+    "romaji": "aiki otoshi",
+    "kanji": [
+      "合気落とし",
+      "合気落し"
+    ],
+    "kana": [],
+    "english": "behind through the legs throw",
+    "category": "technique",
+    "sources": [
+      "atr-lexicon",
+      "mcgill"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:aiki-sotai",
+    "slug": "aiki-sotai",
+    "romaji": "Aiki Sotai",
+    "kanji": [],
+    "kana": [],
+    "english": "Eye-key So-tie",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:aiki-taiso",
+    "slug": "aiki-taiso",
+    "romaji": "Aiki Taiso",
+    "kanji": [],
+    "kana": [],
+    "english": "Eye-key Tie-so",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:aikido",
+    "slug": "aikido",
+    "romaji": "Aikido",
+    "kanji": [],
+    "kana": [],
+    "english": "Eye-key-doe",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:aikidoka",
+    "slug": "aikidoka",
+    "romaji": "Aikidoka",
+    "kanji": [],
+    "kana": [],
+    "english": "Eye-key-doe-kah",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:arigato-gozaimasu",
+    "slug": "arigato-gozaimasu",
+    "romaji": "Arigato Gozaimasu",
+    "kanji": [],
+    "kana": [],
+    "english": "Ah-ree-gah-toe Go-zah-ee-mahss",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:ashi",
+    "slug": "ashi",
+    "romaji": "Ashi",
+    "kanji": [],
+    "kana": [],
+    "english": "foot, leg",
+    "category": "count",
+    "sources": [
+      "mcgill"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:ashi-sabaki",
+    "slug": "ashi-sabaki",
+    "romaji": "Ashi-sabaki",
+    "kanji": [
+      "足捌き"
+    ],
+    "kana": [
+      "あしさばき"
+    ],
+    "english": "footwork",
+    "category": null,
+    "sources": [
+      "aikidude"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:atemi",
+    "slug": "atemi",
+    "romaji": "Atemi",
+    "kanji": [
+      "当て身"
+    ],
+    "kana": [
+      "あてみ"
+    ],
+    "english": "strike to the body",
+    "category": "attack",
+    "sources": [
+      "aikidude",
+      "greenwood",
+      "mcgill"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:atemi-waza",
+    "slug": "atemi-waza",
+    "romaji": "Atemi Waza",
+    "kanji": [],
+    "kana": [],
+    "english": "Ah-teh-mee Wah-zah",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:awase",
+    "slug": "awase",
+    "romaji": "Awase",
+    "kanji": [],
+    "kana": [],
+    "english": "Ah-wah-say",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:ayumi-ashi",
+    "slug": "ayumi-ashi",
+    "romaji": "Ayumi ashi",
+    "kanji": [
+      "歩み足"
+    ],
+    "kana": [
+      "あゆみあし"
+    ],
+    "english": "alternating steps, left and right, like normal walking",
+    "category": null,
+    "sources": [
+      "aikidude"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:behind-two-hands",
+    "slug": "behind-two-hands",
+    "romaji": "behind (two hands)",
+    "kanji": [],
+    "kana": [],
+    "english": "Hidari",
+    "category": "attack",
+    "sources": [
+      "mcgill"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:bokken",
+    "slug": "bokken",
+    "romaji": "Bokken",
+    "kanji": [],
+    "kana": [],
+    "english": "Wooden sword (bo=wood, ken=sword)",
+    "category": "form",
+    "sources": [
+      "greenwood",
+      "mcgill",
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:budo",
+    "slug": "budo",
+    "romaji": "Budo",
+    "kanji": [],
+    "kana": [],
+    "english": "way of the warrior, military (martial) art",
+    "category": "attack",
+    "sources": [
+      "mcgill"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:buki",
+    "slug": "buki",
+    "romaji": "Buki",
+    "kanji": [],
+    "kana": [],
+    "english": "Boo-kee",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:buki-waza",
+    "slug": "buki-waza",
+    "romaji": "buki waza",
+    "kanji": [],
+    "kana": [],
+    "english": null,
+    "category": "form",
+    "sources": [
+      "atr-lexicon"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:bushi",
+    "slug": "bushi",
+    "romaji": "Bushi",
+    "kanji": [],
+    "kana": [],
+    "english": "warrior, samurai",
+    "category": "attack",
+    "sources": [
+      "mcgill"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:bushido",
+    "slug": "bushido",
+    "romaji": "Bushido",
+    "kanji": [],
+    "kana": [],
+    "english": "code of honour of the warrior, samurai",
+    "category": "attack",
+    "sources": [
+      "mcgill"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:chudan",
+    "slug": "chudan",
+    "romaji": "Chudan",
+    "kanji": [],
+    "kana": [],
+    "english": "Middle",
+    "category": "form",
+    "sources": [
+      "greenwood"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:chudan-no-kamae",
+    "slug": "chudan-no-kamae",
+    "romaji": "Chudan-no-kamae",
+    "kanji": [],
+    "kana": [],
+    "english": "Choo-dhahn-no-kuh-mah-ey",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:chudan-tsuki",
+    "slug": "chudan-tsuki",
+    "romaji": "Chudan tsuki",
+    "kanji": [
+      "中段突き"
+    ],
+    "kana": [
+      "ちゅだんつき"
+    ],
+    "english": "strike at belly/solar plexus",
+    "category": "attack",
+    "sources": [
+      "aikidude",
+      "mcgill"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:chuden",
+    "slug": "chuden",
+    "romaji": "Chuden",
+    "kanji": [],
+    "kana": [],
+    "english": "Chew-then",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:dan",
+    "slug": "dan",
+    "romaji": "Dan",
+    "kanji": [],
+    "kana": [],
+    "english": "rank of black belt",
+    "category": "attack",
+    "sources": [
+      "mcgill",
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:deai",
+    "slug": "deai",
+    "romaji": "Deai",
+    "kanji": [],
+    "kana": [],
+    "english": "Day-eye",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:deshi",
+    "slug": "deshi",
+    "romaji": "Deshi",
+    "kanji": [],
+    "kana": [],
+    "english": "Day-she",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:do",
+    "slug": "do",
+    "romaji": "Do",
+    "kanji": [],
+    "kana": [],
+    "english": "way, method, discipline, philosophy",
+    "category": "attack",
+    "sources": [
+      "mcgill"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:do-itashimashite",
+    "slug": "do-itashimashite",
+    "romaji": "Do Itashimashite",
+    "kanji": [],
+    "kana": [],
+    "english": "Doe Ee-tah-she-mah-she-tay",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:dogi",
+    "slug": "dogi",
+    "romaji": "Dogi",
+    "kanji": [],
+    "kana": [],
+    "english": "Doh-ghee",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:dogiri",
+    "slug": "dogiri",
+    "romaji": "Dogiri",
+    "kanji": [],
+    "kana": [],
+    "english": "Horizontal torso cut",
+    "category": "form",
+    "sources": [
+      "greenwood"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:dojo",
+    "slug": "dojo",
+    "romaji": "Dojo",
+    "kanji": [],
+    "kana": [],
+    "english": "training hall where to study the way",
+    "category": "attack",
+    "sources": [
+      "mcgill",
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:doshi",
+    "slug": "doshi",
+    "romaji": "Doshi",
+    "kanji": [],
+    "kana": [],
+    "english": "Doe-she",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:doumo-arigatou-gozaimashita",
+    "slug": "doumo-arigatou-gozaimashita",
+    "romaji": "Doumo arigatou gozaimashita",
+    "kanji": [
+      "どうもありがとうございました"
+    ],
+    "kana": [],
+    "english": "formal way to say “thank you very much”, always used at the end of practice, when bowing to the instructor.",
+    "category": null,
+    "sources": [
+      "aikidude"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:eight",
+    "slug": "eight",
+    "romaji": "eight",
+    "kanji": [],
+    "kana": [],
+    "english": "hip, lower back",
+    "category": "count",
+    "sources": [
+      "mcgill"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:eri-dori",
+    "slug": "eri-dori",
+    "romaji": "Eri dori",
+    "kanji": [
+      "襟取り"
+    ],
+    "kana": [
+      "えりどり"
+    ],
+    "english": "collar grip by the neck",
+    "category": null,
+    "sources": [
+      "aikidude",
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:eri-tori",
+    "slug": "eri-tori",
+    "romaji": "Eri tori",
+    "kanji": [],
+    "kana": [],
+    "english": "collar hold",
+    "category": "attack",
+    "sources": [
+      "mcgill"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:fune-kogi-undo",
+    "slug": "fune-kogi-undo",
+    "romaji": "Fune kogi undo",
+    "kanji": [],
+    "kana": [],
+    "english": "Rowing the boat (kogi=row, fune=boat)",
+    "category": "practice",
+    "sources": [
+      "greenwood"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:furi-tama-undo",
+    "slug": "furi-tama-undo",
+    "romaji": "Furi-tama undo",
+    "kanji": [],
+    "kana": [],
+    "english": "Hand shaking (furi=shake, tama=soul)",
+    "category": "practice",
+    "sources": [
+      "greenwood"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:furikaburi",
+    "slug": "furikaburi",
+    "romaji": "Furikaburi",
+    "kanji": [],
+    "kana": [],
+    "english": "Raising the sword",
+    "category": "form",
+    "sources": [
+      "greenwood"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:furitama",
+    "slug": "furitama",
+    "romaji": "Furitama",
+    "kanji": [
+      "降り魂"
+    ],
+    "kana": [
+      "ふりたま"
+    ],
+    "english": "exercise to still ki",
+    "category": null,
+    "sources": [
+      "aikidude"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:gedan",
+    "slug": "gedan",
+    "romaji": "Gedan",
+    "kanji": [],
+    "kana": [],
+    "english": "Lower",
+    "category": "form",
+    "sources": [
+      "greenwood"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:gedan-hasso-no-kamae",
+    "slug": "gedan-hasso-no-kamae",
+    "romaji": "Gedan-hasso-no-kamae",
+    "kanji": [],
+    "kana": [],
+    "english": "gay-daan-hah-soh--noh-kuh-mah-ey",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:gedan-no-kamae",
+    "slug": "gedan-no-kamae",
+    "romaji": "Gedan-no-kamae",
+    "kanji": [],
+    "kana": [],
+    "english": "gay-daan-noh-kuh-mah-ey",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:gedan-tsuki",
+    "slug": "gedan-tsuki",
+    "romaji": "Gedan tsuki",
+    "kanji": [
+      "下段突き"
+    ],
+    "kana": [
+      "げだんつき"
+    ],
+    "english": "low strike, compared to chudan",
+    "category": null,
+    "sources": [
+      "aikidude"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:gedankuzushi",
+    "slug": "gedankuzushi",
+    "romaji": "Gedankuzushi",
+    "kanji": [],
+    "kana": [],
+    "english": "Breaking uke's balance forward and downward.",
+    "category": "attack",
+    "sources": [
+      "greenwood"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:gi",
+    "slug": "gi",
+    "romaji": "Gi",
+    "kanji": [],
+    "kana": [],
+    "english": "regular practice uniform",
+    "category": "attack",
+    "sources": [
+      "mcgill",
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:gokyo",
+    "slug": "gokyo",
+    "romaji": "gokyo",
+    "kanji": [
+      "第五教",
+      "五教",
+      "五ヶ条"
+    ],
+    "kana": [],
+    "english": "Go-kyoh",
+    "category": "technique",
+    "sources": [
+      "atr-lexicon",
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:gomen-nasai",
+    "slug": "gomen-nasai",
+    "romaji": "Gomen Nasai",
+    "kanji": [],
+    "kana": [],
+    "english": "Go-men Nah-sigh",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:gozaimashita",
+    "slug": "gozaimashita",
+    "romaji": "Gozaimashita",
+    "kanji": [],
+    "kana": [],
+    "english": "Go-zah-ee-mah-she-tah",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:gyaku",
+    "slug": "gyaku",
+    "romaji": "Gyaku",
+    "kanji": [],
+    "kana": [],
+    "english": "Opposite (e.g. Gyakuhanmi)",
+    "category": "form",
+    "sources": [
+      "greenwood"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:gyaku-gedan-hasso-no-kamae",
+    "slug": "gyaku-gedan-hasso-no-kamae",
+    "romaji": "Gyaku-gedan-hasso-no-kamae",
+    "kanji": [],
+    "kana": [],
+    "english": "gyah-kooh- \"",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:gyaku-gedan-no-kamae",
+    "slug": "gyaku-gedan-no-kamae",
+    "romaji": "Gyaku gedan-no-kamae",
+    "kanji": [],
+    "kana": [],
+    "english": "gyah-kooh- \"",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:gyaku-hanmi",
+    "slug": "gyaku-hanmi",
+    "romaji": "Gyaku hanmi",
+    "kanji": [
+      "逆半身"
+    ],
+    "kana": [
+      "ぎゃくはんみ"
+    ],
+    "english": "opposite half-facing stance (one is in left stance and the other in right, for example)",
+    "category": "attack",
+    "sources": [
+      "aikidude",
+      "mcgill"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:gyaku-hanmi-katate-dori",
+    "slug": "gyaku-hanmi-katate-dori",
+    "romaji": "Gyaku hanmi katate dori",
+    "kanji": [
+      "逆半身片手取り"
+    ],
+    "kana": [
+      "ぎゃくはんみかたてどり"
+    ],
+    "english": "wrist grip in reverse stance, left hand takes right or right takes left",
+    "category": null,
+    "sources": [
+      "aikidude",
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:gyaku-hasso-no-kamae",
+    "slug": "gyaku-hasso-no-kamae",
+    "romaji": "Gyaku Hasso-no-kamae",
+    "kanji": [],
+    "kana": [],
+    "english": "gyah-kooh- \"",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:gyakuhanmi",
+    "slug": "gyakuhanmi",
+    "romaji": "Gyakuhanmi",
+    "kanji": [],
+    "kana": [],
+    "english": "Stance opposite to opponent (opposite foot)",
+    "category": "form",
+    "sources": [
+      "greenwood"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:hachi",
+    "slug": "hachi",
+    "romaji": "Hachi",
+    "kanji": [],
+    "kana": [],
+    "english": "Koshi",
+    "category": "count",
+    "sources": [
+      "mcgill",
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:hajimemashite",
+    "slug": "hajimemashite",
+    "romaji": "Hajimemashite",
+    "kanji": [],
+    "kana": [],
+    "english": "Haji-may-mah-she-tay",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:hakama",
+    "slug": "hakama",
+    "romaji": "Hakama",
+    "kanji": [],
+    "kana": [],
+    "english": "skirt-like trousers worn over the gi",
+    "category": "attack",
+    "sources": [
+      "mcgill",
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:hanmi",
+    "slug": "hanmi",
+    "romaji": "Hanmi",
+    "kanji": [],
+    "kana": [],
+    "english": "Half-body stance (used in most aikido schools.",
+    "category": "form",
+    "sources": [
+      "greenwood",
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:hanmi-handachi",
+    "slug": "hanmi-handachi",
+    "romaji": "hanmi handachi",
+    "kanji": [
+      "半身半立",
+      "半身半立ち"
+    ],
+    "kana": [],
+    "english": "Uke standing, nage kneeling",
+    "category": "form",
+    "sources": [
+      "atr-lexicon",
+      "greenwood",
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:hanmi-handachi-waza",
+    "slug": "hanmi-handachi-waza",
+    "romaji": "Hanmi handachi waza",
+    "kanji": [],
+    "kana": [],
+    "english": "Uke standing, Nage kneeling,",
+    "category": "count",
+    "sources": [
+      "mcgill"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:hantai",
+    "slug": "hantai",
+    "romaji": "Hantai",
+    "kanji": [],
+    "kana": [],
+    "english": "Hahn-tie",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:happo-giri",
+    "slug": "happo-giri",
+    "romaji": "Happo giri",
+    "kanji": [],
+    "kana": [],
+    "english": "Eight direction cutting/extension",
+    "category": "body",
+    "sources": [
+      "greenwood"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:hara",
+    "slug": "hara",
+    "romaji": "Hara",
+    "kanji": [],
+    "kana": [],
+    "english": "centre point of body, universe",
+    "category": "attack",
+    "sources": [
+      "mcgill",
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:hasso-no-kamae",
+    "slug": "hasso-no-kamae",
+    "romaji": "Hasso-no-kamae",
+    "kanji": [],
+    "kana": [],
+    "english": "hah-soh-noh-kuh.mah-ey",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:henka-waza",
+    "slug": "henka-waza",
+    "romaji": "Henka waza",
+    "kanji": [],
+    "kana": [],
+    "english": "linked follow-up techniques",
+    "category": "technique",
+    "sources": [
+      "mcgill",
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:hidari",
+    "slug": "hidari",
+    "romaji": "Hidari",
+    "kanji": [
+      "左"
+    ],
+    "kana": [
+      "ひだり"
+    ],
+    "english": "left",
+    "category": "form",
+    "sources": [
+      "aikidude",
+      "greenwood",
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:hidari-hanmi",
+    "slug": "hidari-hanmi",
+    "romaji": "Hidari hanmi",
+    "kanji": [
+      "左半身"
+    ],
+    "kana": [
+      "ひだりはんみ"
+    ],
+    "english": "left foot forward half-facing stance",
+    "category": null,
+    "sources": [
+      "aikidude"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:hiji",
+    "slug": "hiji",
+    "romaji": "Hiji",
+    "kanji": [],
+    "kana": [],
+    "english": "elbow",
+    "category": "count",
+    "sources": [
+      "mcgill",
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:hiji-dori",
+    "slug": "hiji-dori",
+    "romaji": "Hiji dori",
+    "kanji": [
+      "肘取り"
+    ],
+    "kana": [
+      "ひじどり"
+    ],
+    "english": "grip on elbow",
+    "category": null,
+    "sources": [
+      "aikidude",
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:hiji-kime-osae",
+    "slug": "hiji-kime-osae",
+    "romaji": "hiji kime osae",
+    "kanji": [],
+    "kana": [],
+    "english": null,
+    "category": "technique",
+    "sources": [
+      "atr-lexicon"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:hiji-nage",
+    "slug": "hiji-nage",
+    "romaji": "Hiji Nage",
+    "kanji": [],
+    "kana": [],
+    "english": "Hee-gee Nah-gee",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:hiji-tori",
+    "slug": "hiji-tori",
+    "romaji": "Hiji tori",
+    "kanji": [],
+    "kana": [],
+    "english": "elbow hold",
+    "category": "attack",
+    "sources": [
+      "mcgill"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:iaito",
+    "slug": "iaito",
+    "romaji": "Iaito",
+    "kanji": [],
+    "kana": [],
+    "english": "Iaido practice sword (non-sharpened)",
+    "category": "form",
+    "sources": [
+      "greenwood"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:ichi",
+    "slug": "ichi",
+    "romaji": "Ichi",
+    "kanji": [],
+    "kana": [],
+    "english": "Ee-chee",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:ikeda-sensei",
+    "slug": "ikeda-sensei",
+    "romaji": "Ikeda Sensei",
+    "kanji": [],
+    "kana": [],
+    "english": "Ih-kay-dhah",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:ikkyo",
+    "slug": "ikkyo",
+    "romaji": "ikkyo",
+    "kanji": [
+      "第一教",
+      "一教",
+      "一ヶ条"
+    ],
+    "kana": [],
+    "english": "Ee-kyoh",
+    "category": "technique",
+    "sources": [
+      "atr-lexicon",
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:ikkyo-undo",
+    "slug": "ikkyo-undo",
+    "romaji": "Ikkyo undo",
+    "kanji": [],
+    "kana": [],
+    "english": "Raising and lowering both hand blades",
+    "category": "practice",
+    "sources": [
+      "greenwood"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:irimi",
+    "slug": "irimi",
+    "romaji": "Irimi",
+    "kanji": [
+      "入り身"
+    ],
+    "kana": [
+      "いりみ"
+    ],
+    "english": "in to the body, inwards",
+    "category": "form",
+    "sources": [
+      "aikidude",
+      "greenwood",
+      "mcgill",
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:irimi-nage",
+    "slug": "irimi-nage",
+    "romaji": "irimi nage",
+    "kanji": [
+      "入身投げ",
+      "入り身投げ",
+      "入身投"
+    ],
+    "kana": [],
+    "english": "Ee-ree-mee Nah-gee",
+    "category": "technique",
+    "sources": [
+      "atr-lexicon",
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:irimi-sokumen",
+    "slug": "irimi-sokumen",
+    "romaji": "Irimi-sokumen",
+    "kanji": [
+      "入り身側面"
+    ],
+    "kana": [
+      "いりみそくめん"
+    ],
+    "english": "lateral entering",
+    "category": null,
+    "sources": [
+      "aikidude"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:irimi-tenkan",
+    "slug": "irimi-tenkan",
+    "romaji": "Irimi tenkan",
+    "kanji": [
+      "入り身転換"
+    ],
+    "kana": [
+      "いりみてんかん"
+    ],
+    "english": "entering and turning the body",
+    "category": null,
+    "sources": [
+      "aikidude"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:iriminage",
+    "slug": "iriminage",
+    "romaji": "Iriminage",
+    "kanji": [],
+    "kana": [],
+    "english": "entering throw",
+    "category": "technique",
+    "sources": [
+      "mcgill"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:japanese-word",
+    "slug": "japanese-word",
+    "romaji": "Japanese Word",
+    "kanji": [],
+    "kana": [],
+    "english": "Approximate Pronunciation",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:jiyu-waza",
+    "slug": "jiyu-waza",
+    "romaji": "Jiyu waza",
+    "kanji": [],
+    "kana": [],
+    "english": "free-style techniques",
+    "category": "technique",
+    "sources": [
+      "mcgill",
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:jo",
+    "slug": "jo",
+    "romaji": "Jo",
+    "kanji": [],
+    "kana": [],
+    "english": "wooden stave, stick",
+    "category": "attack",
+    "sources": [
+      "mcgill"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:jo-dori",
+    "slug": "jo-dori",
+    "romaji": "jo dori",
+    "kanji": [
+      "杖取り",
+      "杖取"
+    ],
+    "kana": [],
+    "english": null,
+    "category": "form",
+    "sources": [
+      "atr-lexicon"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:jo-nage",
+    "slug": "jo-nage",
+    "romaji": "jo nage",
+    "kanji": [],
+    "kana": [],
+    "english": null,
+    "category": "form",
+    "sources": [
+      "atr-lexicon"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:jo-no-tebiki",
+    "slug": "jo-no-tebiki",
+    "romaji": "Jo no tebiki",
+    "kanji": [],
+    "kana": [],
+    "english": "Leading with the staff",
+    "category": "form",
+    "sources": [
+      "greenwood"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:jo-tai-ken",
+    "slug": "jo-tai-ken",
+    "romaji": "Jo tai ken",
+    "kanji": [],
+    "kana": [],
+    "english": "Sword vs. staff",
+    "category": "form",
+    "sources": [
+      "greenwood"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:jodan",
+    "slug": "jodan",
+    "romaji": "Jodan",
+    "kanji": [],
+    "kana": [],
+    "english": "Upper",
+    "category": "form",
+    "sources": [
+      "greenwood"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:jodan-hasso-no-kamae",
+    "slug": "jodan-hasso-no-kamae",
+    "romaji": "Jodan-hasso-no-kamae",
+    "kanji": [],
+    "kana": [],
+    "english": "Same as Hasso-no-kamae",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:jodan-no-kamae",
+    "slug": "jodan-no-kamae",
+    "romaji": "Jodan-no-kamae",
+    "kanji": [],
+    "kana": [],
+    "english": "Joe-dahn-no-kuh-mah-ey",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:jodan-tsuki",
+    "slug": "jodan-tsuki",
+    "romaji": "Jodan tsuki",
+    "kanji": [],
+    "kana": [],
+    "english": "direct punch to the face",
+    "category": "attack",
+    "sources": [
+      "mcgill"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:jodori",
+    "slug": "jodori",
+    "romaji": "Jodori",
+    "kanji": [],
+    "kana": [],
+    "english": "Disarming a staff (take away)",
+    "category": "form",
+    "sources": [
+      "greenwood"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:juji-garame",
+    "slug": "juji-garame",
+    "romaji": "Juji Garame",
+    "kanji": [],
+    "kana": [],
+    "english": "Joo-gee-guh-rah-mey",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:juji-garami",
+    "slug": "juji-garami",
+    "romaji": "juji garami",
+    "kanji": [
+      "十字絡み",
+      "十字投げ"
+    ],
+    "kana": [],
+    "english": null,
+    "category": "technique",
+    "sources": [
+      "atr-lexicon"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:jujigarami-jujinage",
+    "slug": "jujigarami-jujinage",
+    "romaji": "Jujigarami (jujinage)",
+    "kanji": [],
+    "kana": [],
+    "english": "both crossed arms pin or throw",
+    "category": "technique",
+    "sources": [
+      "mcgill"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:kaeshi-waza",
+    "slug": "kaeshi-waza",
+    "romaji": "Kaeshi waza",
+    "kanji": [],
+    "kana": [],
+    "english": "counter-techniques",
+    "category": "technique",
+    "sources": [
+      "mcgill",
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:kaiten",
+    "slug": "kaiten",
+    "romaji": "Kaiten",
+    "kanji": [
+      "回転"
+    ],
+    "kana": [
+      "かいてん"
+    ],
+    "english": "180 degrees turn, rotation in place (on the toes)",
+    "category": "form",
+    "sources": [
+      "aikidude",
+      "greenwood",
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:kaiten-nage",
+    "slug": "kaiten-nage",
+    "romaji": "kaiten nage",
+    "kanji": [
+      "回転投げ",
+      "回転投"
+    ],
+    "kana": [],
+    "english": "Kigh-ten Nah-gee",
+    "category": "technique",
+    "sources": [
+      "atr-lexicon",
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:kaiten-osae",
+    "slug": "kaiten-osae",
+    "romaji": "kaiten osae",
+    "kanji": [],
+    "kana": [],
+    "english": null,
+    "category": "technique",
+    "sources": [
+      "atr-lexicon"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:kaitennage",
+    "slug": "kaitennage",
+    "romaji": "Kaitennage",
+    "kanji": [],
+    "kana": [],
+    "english": "cart wheel throw",
+    "category": "technique",
+    "sources": [
+      "mcgill"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:kamae",
+    "slug": "kamae",
+    "romaji": "Kamae",
+    "kanji": [
+      "構え"
+    ],
+    "kana": [
+      "かまえ"
+    ],
+    "english": "it comes from 構う [かまう] to mind; to care about; to be concerned about",
+    "category": "form",
+    "sources": [
+      "aikidude",
+      "greenwood",
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:kamiza",
+    "slug": "kamiza",
+    "romaji": "Kamiza",
+    "kanji": [],
+    "kana": [],
+    "english": "upper seat of the mat (face to bow)",
+    "category": "attack",
+    "sources": [
+      "mcgill"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:kashira",
+    "slug": "kashira",
+    "romaji": "Kashira",
+    "kanji": [],
+    "kana": [],
+    "english": "Kah-she-rah",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:kata",
+    "slug": "kata",
+    "romaji": "Kata",
+    "kanji": [],
+    "kana": [],
+    "english": "shoulder",
+    "category": "count",
+    "sources": [
+      "mcgill",
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:kata-dori",
+    "slug": "kata-dori",
+    "romaji": "kata dori",
+    "kanji": [
+      "肩取り",
+      "肩取"
+    ],
+    "kana": [
+      "かたどり"
+    ],
+    "english": "shoulder grip",
+    "category": "attack",
+    "sources": [
+      "atr-lexicon",
+      "aikidude",
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:kata-dori-men-uchi",
+    "slug": "kata-dori-men-uchi",
+    "romaji": "kata dori men uchi",
+    "kanji": [],
+    "kana": [],
+    "english": null,
+    "category": "attack",
+    "sources": [
+      "atr-lexicon"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:kata-tori",
+    "slug": "kata-tori",
+    "romaji": "Kata tori",
+    "kanji": [],
+    "kana": [],
+    "english": "shoulder hold (one hand)",
+    "category": "attack",
+    "sources": [
+      "mcgill"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:katadori",
+    "slug": "katadori",
+    "romaji": "Katadori",
+    "kanji": [],
+    "kana": [],
+    "english": "Shoulder grab (usually gyakuhanmi)",
+    "category": "attack",
+    "sources": [
+      "greenwood"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:katamenuchi",
+    "slug": "katamenuchi",
+    "romaji": "Katamenuchi",
+    "kanji": [],
+    "kana": [],
+    "english": "Kata tori followed by Shomen",
+    "category": "attack",
+    "sources": [
+      "mcgill"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:katana",
+    "slug": "katana",
+    "romaji": "Katana",
+    "kanji": [],
+    "kana": [],
+    "english": "Samurai sword",
+    "category": "form",
+    "sources": [
+      "greenwood",
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:katate",
+    "slug": "katate",
+    "romaji": "Katate",
+    "kanji": [],
+    "kana": [],
+    "english": "Kah-tah-tay",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:katate-dori",
+    "slug": "katate-dori",
+    "romaji": "katate dori",
+    "kanji": [
+      "片手取り",
+      "片手取"
+    ],
+    "kana": [
+      "かたてどり"
+    ],
+    "english": "wrist grip",
+    "category": "attack",
+    "sources": [
+      "atr-lexicon",
+      "aikidude"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:katate-ryuote-mochi",
+    "slug": "katate-ryuote-mochi",
+    "romaji": "Katate Ryuote Mochi",
+    "kanji": [],
+    "kana": [],
+    "english": "Moe-roe-toe Doe-ree",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:katate-tori",
+    "slug": "katate-tori",
+    "romaji": "Katate tori",
+    "kanji": [],
+    "kana": [],
+    "english": "one wrist hold (one hand)",
+    "category": "attack",
+    "sources": [
+      "mcgill"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:katatedori",
+    "slug": "katatedori",
+    "romaji": "Katatedori",
+    "kanji": [],
+    "kana": [],
+    "english": "Single wrist grab (from Gyakuhanmi or Aihanmi)",
+    "category": "attack",
+    "sources": [
+      "greenwood"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:keiko",
+    "slug": "keiko",
+    "romaji": "Keiko",
+    "kanji": [],
+    "kana": [],
+    "english": "Kay-ko",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:ken-no-tebiki",
+    "slug": "ken-no-tebiki",
+    "romaji": "Ken no tebiki",
+    "kanji": [],
+    "kana": [],
+    "english": "Leading with the sword",
+    "category": "form",
+    "sources": [
+      "greenwood"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:ken-tai-jo",
+    "slug": "ken-tai-jo",
+    "romaji": "ken tai jo",
+    "kanji": [],
+    "kana": [],
+    "english": null,
+    "category": "form",
+    "sources": [
+      "atr-lexicon"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:ken-tai-ken",
+    "slug": "ken-tai-ken",
+    "romaji": "Ken tai ken",
+    "kanji": [],
+    "kana": [],
+    "english": "Sword vs. sword",
+    "category": "form",
+    "sources": [
+      "greenwood"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:kesa-giri",
+    "slug": "kesa-giri",
+    "romaji": "Kesa Giri",
+    "kanji": [],
+    "kana": [],
+    "english": "Kay-sah Gi-ree",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:kesagiri",
+    "slug": "kesagiri",
+    "romaji": "Kesagiri",
+    "kanji": [],
+    "kana": [],
+    "english": "Downward diagonal cut",
+    "category": "form",
+    "sources": [
+      "greenwood"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:ki",
+    "slug": "ki",
+    "romaji": "Ki",
+    "kanji": [],
+    "kana": [],
+    "english": "centralized vital (life) energy",
+    "category": "attack",
+    "sources": [
+      "mcgill"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:ki-nagare",
+    "slug": "ki-nagare",
+    "romaji": "Ki nagare",
+    "kanji": [],
+    "kana": [],
+    "english": "Flowing movement",
+    "category": "attack",
+    "sources": [
+      "greenwood"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:ki-no-nagare",
+    "slug": "ki-no-nagare",
+    "romaji": "ki no nagare",
+    "kanji": [],
+    "kana": [],
+    "english": "Key-no-nah-gah-ray",
+    "category": "form",
+    "sources": [
+      "atr-lexicon",
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:kiai",
+    "slug": "kiai",
+    "romaji": "Kiai",
+    "kanji": [],
+    "kana": [],
+    "english": "Key-eye",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:kihon",
+    "slug": "kihon",
+    "romaji": "kihon",
+    "kanji": [],
+    "kana": [],
+    "english": null,
+    "category": "form",
+    "sources": [
+      "atr-lexicon"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:kihon-waza",
+    "slug": "kihon-waza",
+    "romaji": "Kihon Waza",
+    "kanji": [],
+    "kana": [],
+    "english": "Key-hone-wah-zah",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:kiri-age",
+    "slug": "kiri-age",
+    "romaji": "Kiri Age",
+    "kanji": [],
+    "kana": [],
+    "english": "Key-ree-ah-gay",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:kiriage",
+    "slug": "kiriage",
+    "romaji": "Kiriage",
+    "kanji": [],
+    "kana": [],
+    "english": "Rising (upward diagonal) cut",
+    "category": "form",
+    "sources": [
+      "greenwood"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:kirikaeshi",
+    "slug": "kirikaeshi",
+    "romaji": "Kirikaeshi",
+    "kanji": [],
+    "kana": [],
+    "english": "Repeating cuts",
+    "category": "form",
+    "sources": [
+      "greenwood"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:kiriotoshi",
+    "slug": "kiriotoshi",
+    "romaji": "Kiriotoshi",
+    "kanji": [],
+    "kana": [],
+    "english": "Straight downward cut",
+    "category": "form",
+    "sources": [
+      "greenwood"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:kissaki",
+    "slug": "kissaki",
+    "romaji": "Kissaki",
+    "kanji": [],
+    "kana": [],
+    "english": "Kiss-sah-key",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:kobudo",
+    "slug": "kobudo",
+    "romaji": "Kobudo",
+    "kanji": [],
+    "kana": [],
+    "english": "Koh-boo-doe",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:kohai",
+    "slug": "kohai",
+    "romaji": "Kohai",
+    "kanji": [],
+    "kana": [],
+    "english": "Koh-hi",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:kokoro",
+    "slug": "kokoro",
+    "romaji": "Kokoro",
+    "kanji": [],
+    "kana": [],
+    "english": "Co-co-roe",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:kokyu",
+    "slug": "kokyu",
+    "romaji": "Kokyu",
+    "kanji": [],
+    "kana": [],
+    "english": "Co-kyuh",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:kokyu-ho",
+    "slug": "kokyu-ho",
+    "romaji": "kokyu ho",
+    "kanji": [
+      "呼吸法"
+    ],
+    "kana": [],
+    "english": "exercise of breath extension (seiza)",
+    "category": "technique",
+    "sources": [
+      "atr-lexicon",
+      "mcgill",
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:kokyu-nage",
+    "slug": "kokyu-nage",
+    "romaji": "kokyu nage",
+    "kanji": [
+      "呼吸投げ",
+      "呼吸投"
+    ],
+    "kana": [],
+    "english": "Co-kew Nah-gee",
+    "category": "technique",
+    "sources": [
+      "atr-lexicon",
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:kokyu-tanden-ho",
+    "slug": "kokyu-tanden-ho",
+    "romaji": "kokyu tanden ho",
+    "kanji": [],
+    "kana": [],
+    "english": null,
+    "category": "technique",
+    "sources": [
+      "atr-lexicon"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:kokyu-undo",
+    "slug": "kokyu-undo",
+    "romaji": "Kokyu undo",
+    "kanji": [],
+    "kana": [],
+    "english": "Breathing exercises",
+    "category": "body",
+    "sources": [
+      "greenwood"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:kokyunage",
+    "slug": "kokyunage",
+    "romaji": "Kokyunage",
+    "kanji": [],
+    "kana": [],
+    "english": "Throw using atemi, timing, movement, unbalancing",
+    "category": "practice",
+    "sources": [
+      "greenwood",
+      "mcgill"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:komban-wa",
+    "slug": "komban-wa",
+    "romaji": "Komban Wa",
+    "kanji": [],
+    "kana": [],
+    "english": "Comb-bahn Wah",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:konnichi-wa",
+    "slug": "konnichi-wa",
+    "romaji": "Konnichi Wa",
+    "kanji": [],
+    "kana": [],
+    "english": "Kone-knee-chee Wah",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:koshi",
+    "slug": "koshi",
+    "romaji": "Koshi",
+    "kanji": [],
+    "kana": [],
+    "english": "Koh-she",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:koshi-nage",
+    "slug": "koshi-nage",
+    "romaji": "koshi nage",
+    "kanji": [
+      "腰投げ",
+      "腰投"
+    ],
+    "kana": [],
+    "english": "Co-she Nah-gee",
+    "category": "technique",
+    "sources": [
+      "atr-lexicon",
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:koshinage",
+    "slug": "koshinage",
+    "romaji": "Koshinage",
+    "kanji": [],
+    "kana": [],
+    "english": "Hip throw",
+    "category": "practice",
+    "sources": [
+      "greenwood",
+      "mcgill"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:kote",
+    "slug": "kote",
+    "romaji": "Kote",
+    "kanji": [],
+    "kana": [],
+    "english": "Koh-tay",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:kote-gaeshi",
+    "slug": "kote-gaeshi",
+    "romaji": "kote gaeshi",
+    "kanji": [
+      "小手返し",
+      "小手返"
+    ],
+    "kana": [],
+    "english": "wrist twist out pin or throw",
+    "category": "technique",
+    "sources": [
+      "atr-lexicon",
+      "mcgill",
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:kotodama",
+    "slug": "kotodama",
+    "romaji": "Kotodama",
+    "kanji": [],
+    "kana": [],
+    "english": "Coe-thoe-dha-mah",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:kubi",
+    "slug": "kubi",
+    "romaji": "Kubi",
+    "kanji": [],
+    "kana": [],
+    "english": "neck",
+    "category": "count",
+    "sources": [
+      "mcgill",
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:kubi-shime",
+    "slug": "kubi-shime",
+    "romaji": "Kubi Shime",
+    "kanji": [],
+    "kana": [],
+    "english": "Kooh-be Shee-mey",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:kubishime",
+    "slug": "kubishime",
+    "romaji": "Kubishime",
+    "kanji": [
+      "首締め"
+    ],
+    "kana": [
+      "くびしめ"
+    ],
+    "english": "neck choke",
+    "category": null,
+    "sources": [
+      "aikidude"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:kumi-jo",
+    "slug": "kumi-jo",
+    "romaji": "Kumi Jo",
+    "kanji": [],
+    "kana": [],
+    "english": "Koo-me-joe",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:kumi-tachi",
+    "slug": "kumi-tachi",
+    "romaji": "Kumi Tachi",
+    "kanji": [],
+    "kana": [],
+    "english": "Koo-me Tah-chee",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:kumijo",
+    "slug": "kumijo",
+    "romaji": "kumijo",
+    "kanji": [],
+    "kana": [],
+    "english": null,
+    "category": "form",
+    "sources": [
+      "atr-lexicon"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:kumitachi",
+    "slug": "kumitachi",
+    "romaji": "kumitachi",
+    "kanji": [],
+    "kana": [],
+    "english": null,
+    "category": "form",
+    "sources": [
+      "atr-lexicon"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:kyu",
+    "slug": "kyu",
+    "romaji": "Kyu",
+    "kanji": [],
+    "kana": [],
+    "english": "rank below dan",
+    "category": "technique",
+    "sources": [
+      "mcgill"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:ma-ai",
+    "slug": "ma-ai",
+    "romaji": "Ma-ai",
+    "kanji": [],
+    "kana": [],
+    "english": "optimal, basic distance between partners",
+    "category": "technique",
+    "sources": [
+      "mcgill"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:maai",
+    "slug": "maai",
+    "romaji": "Maai",
+    "kanji": [],
+    "kana": [],
+    "english": "Mah-eye",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:mae",
+    "slug": "mae",
+    "romaji": "Mae",
+    "kanji": [
+      "前"
+    ],
+    "kana": [
+      "まえ"
+    ],
+    "english": "front, before",
+    "category": null,
+    "sources": [
+      "aikidude"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:mae-ukemi",
+    "slug": "mae-ukemi",
+    "romaji": "Mae ukemi",
+    "kanji": [
+      "前受け身"
+    ],
+    "kana": [
+      "まえうけみ"
+    ],
+    "english": "forward fall",
+    "category": null,
+    "sources": [
+      "aikidude"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:makuri",
+    "slug": "makuri",
+    "romaji": "Makuri",
+    "kanji": [],
+    "kana": [],
+    "english": "Mah-koo-ree",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:migi",
+    "slug": "migi",
+    "romaji": "Migi",
+    "kanji": [
+      "右"
+    ],
+    "kana": [
+      "みぎ"
+    ],
+    "english": "right",
+    "category": "form",
+    "sources": [
+      "aikidude",
+      "greenwood",
+      "mcgill",
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:migi-hanmi",
+    "slug": "migi-hanmi",
+    "romaji": "Migi hanmi",
+    "kanji": [
+      "右半身"
+    ],
+    "kana": [
+      "みぎはんみ"
+    ],
+    "english": "right foot forward half-facing stance",
+    "category": null,
+    "sources": [
+      "aikidude"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:misogi",
+    "slug": "misogi",
+    "romaji": "Misogi",
+    "kanji": [],
+    "kana": [],
+    "english": "Mee-so-ghee",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:morote-dori",
+    "slug": "morote-dori",
+    "romaji": "morote dori",
+    "kanji": [
+      "諸手取り",
+      "諸手取",
+      "もろ手取り"
+    ],
+    "kana": [
+      "もろてどり"
+    ],
+    "english": "grip of the arm with both hands, also called Katate ryotedori",
+    "category": "attack",
+    "sources": [
+      "atr-lexicon",
+      "aikidude"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:morote-tori",
+    "slug": "morote-tori",
+    "romaji": "Morote tori",
+    "kanji": [],
+    "kana": [],
+    "english": "one wrist hold (two hands)",
+    "category": "attack",
+    "sources": [
+      "mcgill"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:mudansha",
+    "slug": "mudansha",
+    "romaji": "Mudansha",
+    "kanji": [],
+    "kana": [],
+    "english": "Moo-dahn-sha",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:muna-dori",
+    "slug": "muna-dori",
+    "romaji": "Muna Dori",
+    "kanji": [],
+    "kana": [],
+    "english": "Moo-nah Doe-ree",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:mune-dori",
+    "slug": "mune-dori",
+    "romaji": "mune dori",
+    "kanji": [
+      "胸取り",
+      "胸取"
+    ],
+    "kana": [
+      "むねどり"
+    ],
+    "english": "collar grip by the chest",
+    "category": "attack",
+    "sources": [
+      "atr-lexicon",
+      "aikidude"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:mune-tori",
+    "slug": "mune-tori",
+    "romaji": "Mune tori",
+    "kanji": [],
+    "kana": [],
+    "english": "lapel hold (one hand)",
+    "category": "attack",
+    "sources": [
+      "mcgill"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:mune-tsuki",
+    "slug": "mune-tsuki",
+    "romaji": "Mune Tsuki",
+    "kanji": [],
+    "kana": [],
+    "english": "Moo-net-skee",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:mushin",
+    "slug": "mushin",
+    "romaji": "Mushin",
+    "kanji": [],
+    "kana": [],
+    "english": "Moo-shin",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:musubi",
+    "slug": "musubi",
+    "romaji": "Musubi",
+    "kanji": [],
+    "kana": [],
+    "english": "Moo-sue-bee",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:nagashi",
+    "slug": "nagashi",
+    "romaji": "Nagashi",
+    "kanji": [],
+    "kana": [],
+    "english": "Nah-gah-shee",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:nage",
+    "slug": "nage",
+    "romaji": "Nage",
+    "kanji": [],
+    "kana": [],
+    "english": "Person executing a technique (“thrower”)",
+    "category": "general",
+    "sources": [
+      "greenwood",
+      "mcgill",
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:ni",
+    "slug": "ni",
+    "romaji": "Ni",
+    "kanji": [],
+    "kana": [],
+    "english": "Knee",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:nikkyo",
+    "slug": "nikkyo",
+    "romaji": "Nikkyo",
+    "kanji": [],
+    "kana": [],
+    "english": "Knee-kyoh",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:nikyo",
+    "slug": "nikyo",
+    "romaji": "nikyo",
+    "kanji": [
+      "第二教",
+      "二教",
+      "二ヶ条"
+    ],
+    "kana": [],
+    "english": null,
+    "category": "technique",
+    "sources": [
+      "atr-lexicon"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:o-sensei",
+    "slug": "o-sensei",
+    "romaji": "O Sensei",
+    "kanji": [],
+    "kana": [],
+    "english": "Oh-sen-say",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:obi",
+    "slug": "obi",
+    "romaji": "Obi",
+    "kanji": [],
+    "kana": [],
+    "english": "Oh-bee",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:ogenki-desu-ka",
+    "slug": "ogenki-desu-ka",
+    "romaji": "Ogenki Desu Ka",
+    "kanji": [],
+    "kana": [],
+    "english": "Oh-ghen-key Des-kah",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:ohayo-gozaimasu",
+    "slug": "ohayo-gozaimasu",
+    "romaji": "Ohayo Gozaimasu",
+    "kanji": [],
+    "kana": [],
+    "english": "Ohio Go-zah-ee-mahs",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:okagesama-de",
+    "slug": "okagesama-de",
+    "romaji": "Okagesama De",
+    "kanji": [],
+    "kana": [],
+    "english": "Oh-kah-ghe-sama Day",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:okuden",
+    "slug": "okuden",
+    "romaji": "Okuden",
+    "kanji": [],
+    "kana": [],
+    "english": "Oh-koo-then",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:okuri-ashi",
+    "slug": "okuri-ashi",
+    "romaji": "Okuri ashi",
+    "kanji": [
+      "送り足"
+    ],
+    "kana": [
+      "おくりあし"
+    ],
+    "english": "sliding step, where the front foot is advanced then the rear foot brought forward to the normal Kamae/hanmi distance",
+    "category": null,
+    "sources": [
+      "aikidude"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:omote",
+    "slug": "omote",
+    "romaji": "omote",
+    "kanji": [
+      "表"
+    ],
+    "kana": [
+      "おもて"
+    ],
+    "english": "forward direction, or in the front side of the opponent",
+    "category": "direction",
+    "sources": [
+      "atr-lexicon",
+      "aikidude",
+      "greenwood",
+      "mcgill"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:onegai-shimasu",
+    "slug": "onegai-shimasu",
+    "romaji": "Onegai shimasu",
+    "kanji": [
+      "おねがいします"
+    ],
+    "kana": [],
+    "english": "literally it means “please”, and it is always said at the beginning of every class and beginning the practice with a partner, when bowing to the instructor or to each other.",
+    "category": null,
+    "sources": [
+      "aikidude",
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:oyasumi-nasai",
+    "slug": "oyasumi-nasai",
+    "romaji": "Oyasumi Nasai",
+    "kanji": [],
+    "kana": [],
+    "english": "Oh-yah-sue-me Nah-sigh",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:participants",
+    "slug": "participants",
+    "romaji": "Participants",
+    "kanji": [],
+    "kana": [],
+    "english": "Morotedori",
+    "category": "general",
+    "sources": [
+      "greenwood"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:randori",
+    "slug": "randori",
+    "romaji": "Randori",
+    "kanji": [],
+    "kana": [],
+    "english": "Freestyle",
+    "category": "practice",
+    "sources": [
+      "greenwood",
+      "mcgill",
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:rei",
+    "slug": "rei",
+    "romaji": "Rei",
+    "kanji": [],
+    "kana": [],
+    "english": "bowing, gesture of respect",
+    "category": "technique",
+    "sources": [
+      "mcgill"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:reigi-saho",
+    "slug": "reigi-saho",
+    "romaji": "Reigi Saho",
+    "kanji": [],
+    "kana": [],
+    "english": "Ray-gi Sah-hoe",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:reishiki",
+    "slug": "reishiki",
+    "romaji": "Reishiki",
+    "kanji": [
+      "礼式"
+    ],
+    "kana": [
+      "れいしき"
+    ],
+    "english": "etiquette, manners.",
+    "category": null,
+    "sources": [
+      "aikidude"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:roku",
+    "slug": "roku",
+    "romaji": "Roku",
+    "kanji": [],
+    "kana": [],
+    "english": "Roh-ku",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:rokyo",
+    "slug": "rokyo",
+    "romaji": "Rokyo",
+    "kanji": [],
+    "kana": [],
+    "english": "Roe-kyoh",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:ryo",
+    "slug": "ryo",
+    "romaji": "Ryo",
+    "kanji": [],
+    "kana": [],
+    "english": "Ree-oh",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:ryo-kata-tori",
+    "slug": "ryo-kata-tori",
+    "romaji": "Ryo kata tori",
+    "kanji": [],
+    "kana": [],
+    "english": "both shoulders hold (two hands)",
+    "category": "attack",
+    "sources": [
+      "mcgill"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:ryokatadori",
+    "slug": "ryokatadori",
+    "romaji": "Ryokatadori",
+    "kanji": [],
+    "kana": [],
+    "english": "Grabbing both shoulders",
+    "category": "attack",
+    "sources": [
+      "greenwood"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:ryote",
+    "slug": "ryote",
+    "romaji": "Ryote",
+    "kanji": [],
+    "kana": [],
+    "english": "Ryou-tay",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:ryote-dori",
+    "slug": "ryote-dori",
+    "romaji": "ryote dori",
+    "kanji": [
+      "両手取り",
+      "両手取"
+    ],
+    "kana": [],
+    "english": null,
+    "category": "attack",
+    "sources": [
+      "atr-lexicon"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:ryote-tori-jote-tori",
+    "slug": "ryote-tori-jote-tori",
+    "romaji": "Ryote tori (Jote tori)",
+    "kanji": [],
+    "kana": [],
+    "english": "both wrists hold (two hands)",
+    "category": "attack",
+    "sources": [
+      "mcgill"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:ryotedori",
+    "slug": "ryotedori",
+    "romaji": "Ryotedori",
+    "kanji": [],
+    "kana": [],
+    "english": "Grab both forearms of opponent",
+    "category": "attack",
+    "sources": [
+      "greenwood"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:samurai",
+    "slug": "samurai",
+    "romaji": "Samurai",
+    "kanji": [],
+    "kana": [],
+    "english": "Sa-moo-rye",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:san",
+    "slug": "san",
+    "romaji": "San",
+    "kanji": [],
+    "kana": [],
+    "english": "Sahn",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:sankaku",
+    "slug": "sankaku",
+    "romaji": "Sankaku",
+    "kanji": [],
+    "kana": [],
+    "english": "Sahn-kah-koo",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:sankyo",
+    "slug": "sankyo",
+    "romaji": "sankyo",
+    "kanji": [
+      "第三教",
+      "三教",
+      "三ヶ条"
+    ],
+    "kana": [],
+    "english": "Sahn-kyoh",
+    "category": "technique",
+    "sources": [
+      "atr-lexicon",
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:saotome-sensei",
+    "slug": "saotome-sensei",
+    "romaji": "Saotome Sensei",
+    "kanji": [],
+    "kana": [],
+    "english": "Sah-oh-thoe-may",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:saya",
+    "slug": "saya",
+    "romaji": "Saya",
+    "kanji": [],
+    "kana": [],
+    "english": "Sah-yah",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:sayonara",
+    "slug": "sayonara",
+    "romaji": "Sayonara",
+    "kanji": [],
+    "kana": [],
+    "english": "Sah-yoh-nah-rah",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:seigan-no-kamae",
+    "slug": "seigan-no-kamae",
+    "romaji": "Seigan-no-kamae",
+    "kanji": [],
+    "kana": [],
+    "english": "Say-gahn-noh-kuh-mah-ey",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:seiza",
+    "slug": "seiza",
+    "romaji": "Seiza",
+    "kanji": [],
+    "kana": [],
+    "english": "Sitting on knees (lit: correct sitting)",
+    "category": "form",
+    "sources": [
+      "greenwood",
+      "mcgill",
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:sempai",
+    "slug": "sempai",
+    "romaji": "Sempai",
+    "kanji": [],
+    "kana": [],
+    "english": "senior student",
+    "category": "technique",
+    "sources": [
+      "mcgill",
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:sensei",
+    "slug": "sensei",
+    "romaji": "Sensei",
+    "kanji": [],
+    "kana": [],
+    "english": "title of Instructor, Teacher",
+    "category": "technique",
+    "sources": [
+      "mcgill",
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:shi",
+    "slug": "shi",
+    "romaji": "Shi",
+    "kanji": [],
+    "kana": [],
+    "english": "four",
+    "category": "count",
+    "sources": [
+      "mcgill"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:shi-yon",
+    "slug": "shi-yon",
+    "romaji": "Shi/Yon",
+    "kanji": [],
+    "kana": [],
+    "english": "She/Yawn",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:shichi",
+    "slug": "shichi",
+    "romaji": "Shichi",
+    "kanji": [],
+    "kana": [],
+    "english": "seven",
+    "category": "count",
+    "sources": [
+      "mcgill"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:shichi-nana",
+    "slug": "shichi-nana",
+    "romaji": "Shichi/Nana",
+    "kanji": [],
+    "kana": [],
+    "english": "She-chee/Nah-nah",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:shihan",
+    "slug": "shihan",
+    "romaji": "Shihan",
+    "kanji": [],
+    "kana": [],
+    "english": "She-hahn",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:shiho",
+    "slug": "shiho",
+    "romaji": "Shiho",
+    "kanji": [],
+    "kana": [],
+    "english": "She-ho",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:shiho-giri",
+    "slug": "shiho-giri",
+    "romaji": "Shiho giri",
+    "kanji": [],
+    "kana": [],
+    "english": "Four direction cutting/extension",
+    "category": "body",
+    "sources": [
+      "greenwood"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:shiho-nage",
+    "slug": "shiho-nage",
+    "romaji": "shiho nage",
+    "kanji": [
+      "四方投げ",
+      "四方投"
+    ],
+    "kana": [],
+    "english": "four directions arm pin or throw",
+    "category": "technique",
+    "sources": [
+      "atr-lexicon",
+      "mcgill",
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:shihonage",
+    "slug": "shihonage",
+    "romaji": "Shihonage",
+    "kanji": [],
+    "kana": [],
+    "english": "Four directions throw",
+    "category": "body",
+    "sources": [
+      "greenwood"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:shikko",
+    "slug": "shikko",
+    "romaji": "Shikko",
+    "kanji": [],
+    "kana": [],
+    "english": "Knee walking",
+    "category": "practice",
+    "sources": [
+      "greenwood",
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:shikkodachi",
+    "slug": "shikkodachi",
+    "romaji": "Shikkodachi",
+    "kanji": [],
+    "kana": [],
+    "english": "Straddle stance (horse stance)",
+    "category": "form",
+    "sources": [
+      "greenwood"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:shime",
+    "slug": "shime",
+    "romaji": "Shime",
+    "kanji": [],
+    "kana": [],
+    "english": "Choke",
+    "category": "practice",
+    "sources": [
+      "greenwood",
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:shinai",
+    "slug": "shinai",
+    "romaji": "Shinai",
+    "kanji": [],
+    "kana": [],
+    "english": "She-nie",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:shinken",
+    "slug": "shinken",
+    "romaji": "Shinken",
+    "kanji": [],
+    "kana": [],
+    "english": "Real sword with live (sharp) blade",
+    "category": "form",
+    "sources": [
+      "greenwood"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:shizen-tai",
+    "slug": "shizen-tai",
+    "romaji": "Shizen Tai",
+    "kanji": [],
+    "kana": [],
+    "english": "Shi-zen-tie",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:shizentai",
+    "slug": "shizentai",
+    "romaji": "Shizentai",
+    "kanji": [],
+    "kana": [],
+    "english": "Natural (neutral) body stance",
+    "category": "form",
+    "sources": [
+      "greenwood"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:shodan",
+    "slug": "shodan",
+    "romaji": "Shodan",
+    "kanji": [],
+    "kana": [],
+    "english": "Show-dahn",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:shoden",
+    "slug": "shoden",
+    "romaji": "Shoden",
+    "kanji": [],
+    "kana": [],
+    "english": "Show-then",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:shomen",
+    "slug": "shomen",
+    "romaji": "Shomen",
+    "kanji": [],
+    "kana": [],
+    "english": "Show-men",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:shomen-uchi",
+    "slug": "shomen-uchi",
+    "romaji": "shomen uchi",
+    "kanji": [
+      "正面打ち",
+      "正面打"
+    ],
+    "kana": [],
+    "english": "direct blow the top of head",
+    "category": "attack",
+    "sources": [
+      "atr-lexicon",
+      "mcgill",
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:shomenuchi",
+    "slug": "shomenuchi",
+    "romaji": "Shomenuchi",
+    "kanji": [],
+    "kana": [],
+    "english": "Hand blade strike to top of head",
+    "category": "general",
+    "sources": [
+      "greenwood"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:shoto",
+    "slug": "shoto",
+    "romaji": "Shoto",
+    "kanji": [],
+    "kana": [],
+    "english": "Show-toe",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:shugyo",
+    "slug": "shugyo",
+    "romaji": "Shugyo",
+    "kanji": [],
+    "kana": [],
+    "english": "Shuh- ghyoh",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:sode-dori",
+    "slug": "sode-dori",
+    "romaji": "Sode Dori",
+    "kanji": [],
+    "kana": [],
+    "english": "Soe-day Doe-ree",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:sodedori",
+    "slug": "sodedori",
+    "romaji": "Sodedori",
+    "kanji": [],
+    "kana": [],
+    "english": "Grabbing the sleeve (near the elbow)",
+    "category": "attack",
+    "sources": [
+      "greenwood"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:solo-preparation-exercises",
+    "slug": "solo-preparation-exercises",
+    "romaji": "Solo Preparation Exercises",
+    "kanji": [],
+    "kana": [],
+    "english": "Kubishime",
+    "category": "practice",
+    "sources": [
+      "greenwood"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:soto",
+    "slug": "soto",
+    "romaji": "Soto",
+    "kanji": [],
+    "kana": [],
+    "english": "Outside (e.g. Sotokaiten=turning outside uke's arm)",
+    "category": "form",
+    "sources": [
+      "greenwood",
+      "mcgill"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:sotomakikomi",
+    "slug": "sotomakikomi",
+    "romaji": "Sotomakikomi",
+    "kanji": [],
+    "kana": [],
+    "english": "Outside wrap",
+    "category": "attack",
+    "sources": [
+      "greenwood"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:suburi",
+    "slug": "suburi",
+    "romaji": "Suburi",
+    "kanji": [],
+    "kana": [],
+    "english": "Sue-boo-ree",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:sumi-otoshi",
+    "slug": "sumi-otoshi",
+    "romaji": "sumi otoshi",
+    "kanji": [
+      "隅落とし",
+      "隅落し"
+    ],
+    "kana": [],
+    "english": "corner throw",
+    "category": "technique",
+    "sources": [
+      "atr-lexicon",
+      "mcgill",
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:sutemi",
+    "slug": "sutemi",
+    "romaji": "Sutemi",
+    "kanji": [],
+    "kana": [],
+    "english": "Sue-teh-me",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:suwari-waza",
+    "slug": "suwari-waza",
+    "romaji": "suwari waza",
+    "kanji": [
+      "座り技",
+      "坐り技",
+      "座技",
+      "居取り"
+    ],
+    "kana": [],
+    "english": "Uke and nage both kneeling",
+    "category": "form",
+    "sources": [
+      "atr-lexicon",
+      "greenwood",
+      "mcgill",
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:tachi",
+    "slug": "tachi",
+    "romaji": "Tachi",
+    "kanji": [],
+    "kana": [],
+    "english": "Tah-chee",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:tachi-dori",
+    "slug": "tachi-dori",
+    "romaji": "tachi dori",
+    "kanji": [
+      "太刀取り",
+      "太刀取"
+    ],
+    "kana": [],
+    "english": "Ta-chee Doe-ree",
+    "category": "form",
+    "sources": [
+      "atr-lexicon",
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:tachi-waza",
+    "slug": "tachi-waza",
+    "romaji": "tachi waza",
+    "kanji": [],
+    "kana": [],
+    "english": "standing techniques",
+    "category": "form",
+    "sources": [
+      "atr-lexicon",
+      "mcgill",
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:tachidori",
+    "slug": "tachidori",
+    "romaji": "Tachidori",
+    "kanji": [],
+    "kana": [],
+    "english": "Sword disarming (take away)",
+    "category": "form",
+    "sources": [
+      "greenwood"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:tai-no-henko",
+    "slug": "tai-no-henko",
+    "romaji": "Tai No Henko",
+    "kanji": [],
+    "kana": [],
+    "english": "Tie-no-hen-ko",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:tai-sabaki",
+    "slug": "tai-sabaki",
+    "romaji": "Tai-sabaki",
+    "kanji": [
+      "体捌き"
+    ],
+    "kana": [
+      "たいさばき"
+    ],
+    "english": "body move, evasive movement",
+    "category": "form",
+    "sources": [
+      "aikidude",
+      "greenwood",
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:taido",
+    "slug": "taido",
+    "romaji": "Taido",
+    "kanji": [],
+    "kana": [],
+    "english": "Empty handed technique",
+    "category": "form",
+    "sources": [
+      "greenwood"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:taijutsu",
+    "slug": "taijutsu",
+    "romaji": "Taijutsu",
+    "kanji": [],
+    "kana": [],
+    "english": "Tie-ju-tsoo",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:takemusu-aiki",
+    "slug": "takemusu-aiki",
+    "romaji": "Takemusu Aiki",
+    "kanji": [],
+    "kana": [],
+    "english": "Tah-kay-moo-sue Eye-key",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:taninsugake",
+    "slug": "taninsugake",
+    "romaji": "Taninsugake",
+    "kanji": [],
+    "kana": [],
+    "english": "Tuh-nin-sue-gah-kay",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:tanto",
+    "slug": "tanto",
+    "romaji": "Tanto",
+    "kanji": [],
+    "kana": [],
+    "english": "Knife",
+    "category": "form",
+    "sources": [
+      "greenwood",
+      "mcgill",
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:tanto-dori",
+    "slug": "tanto-dori",
+    "romaji": "tanto dori",
+    "kanji": [
+      "短刀取り",
+      "短刀取"
+    ],
+    "kana": [],
+    "english": null,
+    "category": "form",
+    "sources": [
+      "atr-lexicon"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:tantodori",
+    "slug": "tantodori",
+    "romaji": "Tantodori",
+    "kanji": [],
+    "kana": [],
+    "english": "Knife disarming",
+    "category": "form",
+    "sources": [
+      "greenwood"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:tate-hiza",
+    "slug": "tate-hiza",
+    "romaji": "Tate hiza",
+    "kanji": [],
+    "kana": [],
+    "english": "Sitting on one knee, other knee up",
+    "category": "form",
+    "sources": [
+      "greenwood"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:te",
+    "slug": "te",
+    "romaji": "Te",
+    "kanji": [],
+    "kana": [],
+    "english": "hand",
+    "category": "count",
+    "sources": [
+      "mcgill"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:te-kubi",
+    "slug": "te-kubi",
+    "romaji": "Te Kubi",
+    "kanji": [],
+    "kana": [],
+    "english": "Tay-koo-bee",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:techniques",
+    "slug": "techniques",
+    "romaji": "techniques",
+    "kanji": [],
+    "kana": [],
+    "english": "nine",
+    "category": "technique",
+    "sources": [
+      "mcgill"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:tegatana",
+    "slug": "tegatana",
+    "romaji": "Tegatana",
+    "kanji": [],
+    "kana": [],
+    "english": "Hand blade, edge of hand (lit: “Hand sword”)",
+    "category": "form",
+    "sources": [
+      "greenwood",
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:tekubi-furi-undo",
+    "slug": "tekubi-furi-undo",
+    "romaji": "Tekubi furi undo",
+    "kanji": [],
+    "kana": [],
+    "english": "Hand shaking to relax the body",
+    "category": "body",
+    "sources": [
+      "greenwood"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:tenchi",
+    "slug": "tenchi",
+    "romaji": "Tenchi",
+    "kanji": [],
+    "kana": [],
+    "english": "Ten-chee",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:tenchi-nage",
+    "slug": "tenchi-nage",
+    "romaji": "tenchi nage",
+    "kanji": [
+      "天地投げ",
+      "天地投"
+    ],
+    "kana": [],
+    "english": "Tehn-chee Nah-gee",
+    "category": "technique",
+    "sources": [
+      "atr-lexicon",
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:tenchinage",
+    "slug": "tenchinage",
+    "romaji": "Tenchinage",
+    "kanji": [],
+    "kana": [],
+    "english": "earth-sky throw",
+    "category": "count",
+    "sources": [
+      "mcgill"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:tenkan",
+    "slug": "tenkan",
+    "romaji": "Tenkan",
+    "kanji": [
+      "転換"
+    ],
+    "kana": [],
+    "english": "body turn",
+    "category": "form",
+    "sources": [
+      "aikidude",
+      "greenwood",
+      "mcgill"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:tenkan-undo",
+    "slug": "tenkan-undo",
+    "romaji": "Tenkan undo",
+    "kanji": [],
+    "kana": [],
+    "english": "Body turning (tenkan) exercise",
+    "category": "body",
+    "sources": [
+      "greenwood"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:three",
+    "slug": "three",
+    "romaji": "three",
+    "kanji": [],
+    "kana": [],
+    "english": "Tekubi",
+    "category": "count",
+    "sources": [
+      "mcgill"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:tori",
+    "slug": "tori",
+    "romaji": "Tori",
+    "kanji": [
+      "取り"
+    ],
+    "kana": [
+      "とり"
+    ],
+    "english": "the one who takes, defender in aikido, also called Nage (投げ, なげ) or Shi’te ( 指手, して)",
+    "category": null,
+    "sources": [
+      "aikidude",
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:tori-dori",
+    "slug": "tori-dori",
+    "romaji": "Tori / Dori",
+    "kanji": [],
+    "kana": [],
+    "english": "Grab (the term “mochi” is also used)",
+    "category": "practice",
+    "sources": [
+      "greenwood"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:torifune",
+    "slug": "torifune",
+    "romaji": "Torifune",
+    "kanji": [
+      "取り船"
+    ],
+    "kana": [],
+    "english": "rowing exercise (undō 運動 means Motion or Exercices)",
+    "category": null,
+    "sources": [
+      "aikidude"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:tsuba",
+    "slug": "tsuba",
+    "romaji": "Tsuba",
+    "kanji": [],
+    "kana": [],
+    "english": "Tsue-bah",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:tsugi-ashi",
+    "slug": "tsugi-ashi",
+    "romaji": "Tsugi ashi",
+    "kanji": [
+      "次足"
+    ],
+    "kana": [
+      "つぎあし"
+    ],
+    "english": "following step, where the rear foot is brought up close to the front then the front foot moves forward to the normal kamai/hanmi distance",
+    "category": null,
+    "sources": [
+      "aikidude"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:tsuka",
+    "slug": "tsuka",
+    "romaji": "Tsuka",
+    "kanji": [],
+    "kana": [],
+    "english": "Tsue-kah",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:tsuki",
+    "slug": "tsuki",
+    "romaji": "tsuki",
+    "kanji": [
+      "突き"
+    ],
+    "kana": [
+      "つき"
+    ],
+    "english": "punch, strike",
+    "category": "attack",
+    "sources": [
+      "atr-lexicon",
+      "aikidude",
+      "greenwood",
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:uchi",
+    "slug": "uchi",
+    "romaji": "Uchi",
+    "kanji": [
+      "打ち"
+    ],
+    "kana": [
+      "うち"
+    ],
+    "english": "hit",
+    "category": "form",
+    "sources": [
+      "aikidude",
+      "greenwood",
+      "mcgill",
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:ude-garami",
+    "slug": "ude-garami",
+    "romaji": "ude garami",
+    "kanji": [],
+    "kana": [],
+    "english": null,
+    "category": "technique",
+    "sources": [
+      "atr-lexicon"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:ude-osai",
+    "slug": "ude-osai",
+    "romaji": "Ude Osai",
+    "kanji": [],
+    "kana": [],
+    "english": "Oo-day Oh-sah-ay",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:udekimi-nage",
+    "slug": "udekimi-nage",
+    "romaji": "Udekimi nage",
+    "kanji": [],
+    "kana": [],
+    "english": "under elbow lift throw",
+    "category": "technique",
+    "sources": [
+      "mcgill"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:uke",
+    "slug": "uke",
+    "romaji": "Uke",
+    "kanji": [
+      "受け"
+    ],
+    "kana": [
+      "うけ"
+    ],
+    "english": "the one receiving, attacker in aikido",
+    "category": "general",
+    "sources": [
+      "aikidude",
+      "greenwood",
+      "mcgill",
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:ukemi",
+    "slug": "ukemi",
+    "romaji": "Ukemi",
+    "kanji": [
+      "受け身"
+    ],
+    "kana": [
+      "うけみ"
+    ],
+    "english": "falling technique",
+    "category": "technique",
+    "sources": [
+      "aikidude",
+      "mcgill",
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:uki-otoshi",
+    "slug": "uki-otoshi",
+    "romaji": "Uki otoshi",
+    "kanji": [],
+    "kana": [],
+    "english": "floating throw",
+    "category": "technique",
+    "sources": [
+      "mcgill"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:ura",
+    "slug": "ura",
+    "romaji": "ura",
+    "kanji": [
+      "裏"
+    ],
+    "kana": [
+      "うら"
+    ],
+    "english": "backward direction or in the rear side of the opponent",
+    "category": "direction",
+    "sources": [
+      "atr-lexicon",
+      "aikidude",
+      "greenwood",
+      "mcgill"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:ushiro",
+    "slug": "ushiro",
+    "romaji": "Ushiro",
+    "kanji": [
+      "後"
+    ],
+    "kana": [
+      "うしろ"
+    ],
+    "english": "back, behind",
+    "category": "form",
+    "sources": [
+      "aikidude",
+      "greenwood",
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:ushiro-dori",
+    "slug": "ushiro-dori",
+    "romaji": "ushiro dori",
+    "kanji": [
+      "後ろ取り",
+      "後取り"
+    ],
+    "kana": [],
+    "english": "Oo-she-roe Doe-ree",
+    "category": "attack",
+    "sources": [
+      "atr-lexicon",
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:ushiro-eri-dori",
+    "slug": "ushiro-eri-dori",
+    "romaji": "ushiro eri dori",
+    "kanji": [],
+    "kana": [],
+    "english": null,
+    "category": "attack",
+    "sources": [
+      "atr-lexicon"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:ushiro-kubi-jime",
+    "slug": "ushiro-kubi-jime",
+    "romaji": "Ushiro kubi jime",
+    "kanji": [],
+    "kana": [],
+    "english": "one wrist hold from behind, and",
+    "category": "attack",
+    "sources": [
+      "mcgill"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:ushiro-kubishime",
+    "slug": "ushiro-kubishime",
+    "romaji": "ushiro kubishime",
+    "kanji": [],
+    "kana": [],
+    "english": null,
+    "category": "attack",
+    "sources": [
+      "atr-lexicon"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:ushiro-ryo-kata-tori",
+    "slug": "ushiro-ryo-kata-tori",
+    "romaji": "Ushiro ryo kata tori",
+    "kanji": [],
+    "kana": [],
+    "english": "both shoulders hold from",
+    "category": "attack",
+    "sources": [
+      "mcgill"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:ushiro-ryote-dori",
+    "slug": "ushiro-ryote-dori",
+    "romaji": "ushiro ryote dori",
+    "kanji": [
+      "後ろ両手取り",
+      "後両手取り"
+    ],
+    "kana": [],
+    "english": null,
+    "category": "attack",
+    "sources": [
+      "atr-lexicon"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:ushiro-ryote-tori",
+    "slug": "ushiro-ryote-tori",
+    "romaji": "Ushiro ryote tori",
+    "kanji": [],
+    "kana": [],
+    "english": "both wrists hold from behind",
+    "category": "attack",
+    "sources": [
+      "mcgill"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:ushiro-shikko",
+    "slug": "ushiro-shikko",
+    "romaji": "Ushiro shikko",
+    "kanji": [],
+    "kana": [],
+    "english": "Backwards knee walking",
+    "category": "practice",
+    "sources": [
+      "greenwood"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:ushiro-tekubi-dori",
+    "slug": "ushiro-tekubi-dori",
+    "romaji": "Ushiro Tekubi Dori",
+    "kanji": [],
+    "kana": [],
+    "english": "Oo-she-roe Tay-koo-be Doe-ree",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:ushiro-tekubi-tori",
+    "slug": "ushiro-tekubi-tori",
+    "romaji": "Ushiro tekubi tori",
+    "kanji": [],
+    "kana": [],
+    "english": "same hold from behind but static",
+    "category": "attack",
+    "sources": [
+      "mcgill"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:ushiro-ukemi",
+    "slug": "ushiro-ukemi",
+    "romaji": "Ushiro ukemi",
+    "kanji": [
+      "後受け身"
+    ],
+    "kana": [
+      "うしろうけみ"
+    ],
+    "english": "backward fall",
+    "category": null,
+    "sources": [
+      "aikidude"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:ushiro-waza",
+    "slug": "ushiro-waza",
+    "romaji": "Ushiro waza",
+    "kanji": [],
+    "kana": [],
+    "english": "attack from behind techniques",
+    "category": "count",
+    "sources": [
+      "mcgill"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:waki-no-kamae",
+    "slug": "waki-no-kamae",
+    "romaji": "Waki-no-kamae",
+    "kanji": [],
+    "kana": [],
+    "english": "Waah-keeh-noh-kuh-mah-ey",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:waza",
+    "slug": "waza",
+    "romaji": "Waza",
+    "kanji": [],
+    "kana": [],
+    "english": "Wah-zah",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:yoko-giri",
+    "slug": "yoko-giri",
+    "romaji": "Yoko Giri",
+    "kanji": [],
+    "kana": [],
+    "english": "Yoh-koh-ghi-ree",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:yoko-kamae",
+    "slug": "yoko-kamae",
+    "romaji": "Yoko kamae",
+    "kanji": [],
+    "kana": [],
+    "english": "Yoh-koh-kuh-mah-ey",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:yokogiri",
+    "slug": "yokogiri",
+    "romaji": "Yokogiri",
+    "kanji": [],
+    "kana": [],
+    "english": "Horizontal cut",
+    "category": "form",
+    "sources": [
+      "greenwood"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:yokomen",
+    "slug": "yokomen",
+    "romaji": "Yokomen",
+    "kanji": [],
+    "kana": [],
+    "english": "Yoh-ko-men",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:yokomen-uchi",
+    "slug": "yokomen-uchi",
+    "romaji": "yokomen uchi",
+    "kanji": [
+      "横面打ち",
+      "横面打"
+    ],
+    "kana": [
+      "よこめんうち"
+    ],
+    "english": "strike to the side of the head",
+    "category": "attack",
+    "sources": [
+      "atr-lexicon",
+      "aikidude",
+      "mcgill",
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:yokomenuchi",
+    "slug": "yokomenuchi",
+    "romaji": "Yokomenuchi",
+    "kanji": [],
+    "kana": [],
+    "english": "Hand blade strike to side of jaw or neck",
+    "category": "general",
+    "sources": [
+      "greenwood"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:yonkyo",
+    "slug": "yonkyo",
+    "romaji": "yonkyo",
+    "kanji": [
+      "第四教",
+      "四教",
+      "四ヶ条"
+    ],
+    "kana": [],
+    "english": "Yohn-kyoh",
+    "category": "technique",
+    "sources": [
+      "atr-lexicon",
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:yudansha",
+    "slug": "yudansha",
+    "romaji": "Yudansha",
+    "kanji": [],
+    "kana": [],
+    "english": "You-dahn-sha",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:zanshin",
+    "slug": "zanshin",
+    "romaji": "Zanshin",
+    "kanji": [],
+    "kana": [],
+    "english": "Zahn-sheen",
+    "category": null,
+    "sources": [
+      "redlands"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:zengo-undo",
+    "slug": "zengo-undo",
+    "romaji": "Zengo undo",
+    "kanji": [],
+    "kana": [],
+    "english": "Ikkyo-undo turning both front and rear",
+    "category": "practice",
+    "sources": [
+      "greenwood"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:zenkutsudachi",
+    "slug": "zenkutsudachi",
+    "romaji": "Zenkutsudachi",
+    "kanji": [],
+    "kana": [],
+    "english": "One foot forward stance",
+    "category": "form",
+    "sources": [
+      "greenwood"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "term:zenpo",
+    "slug": "zenpo",
+    "romaji": "Zenpo",
+    "kanji": [],
+    "kana": [],
+    "english": "Forward",
+    "category": "form",
+    "sources": [
+      "greenwood"
+    ],
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  }
+]

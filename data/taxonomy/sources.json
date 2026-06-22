@@ -3,7 +3,9 @@
     "id": "saito-traditional-aikido",
     "type": "series",
     "author": "Morihiro Saito",
-    "performer": ["person:morihiro-saito"],
+    "performer": [
+      "person:morihiro-saito"
+    ],
     "title": "Traditional Aikido",
     "volumes": 5,
     "publisher": "Minato Research & Publishing (dist. Japan Publications Trading Co.)",
@@ -19,7 +21,10 @@
     "id": "shioda-total-aikido",
     "type": "book",
     "author": "Gozo Shioda; Yasuhisa Shioda",
-    "performer": ["person:gozo-shioda", "person:yasuhisa-shioda"],
+    "performer": [
+      "person:gozo-shioda",
+      "person:yasuhisa-shioda"
+    ],
     "title": "Total Aikido: The Master Course",
     "publisher": "Kodansha International",
     "place": "Tokyo",
@@ -34,7 +39,9 @@
     "id": "shioda-dynamic-aikido",
     "type": "book",
     "author": "Gozo Shioda",
-    "performer": ["person:gozo-shioda"],
+    "performer": [
+      "person:gozo-shioda"
+    ],
     "title": "Dynamic Aikido",
     "publisher": "Kodansha International",
     "place": "Tokyo",
@@ -49,7 +56,9 @@
     "id": "ueshiba-k-aikido",
     "type": "book",
     "author": "Kisshomaru Ueshiba",
-    "performer": ["person:kisshomaru-ueshiba"],
+    "performer": [
+      "person:kisshomaru-ueshiba"
+    ],
     "title": "Aikido",
     "publisher": "Hozansha Publishing",
     "place": "Tokyo",
@@ -64,7 +73,9 @@
     "id": "yamada-aikido-complete",
     "type": "book",
     "author": "Yoshimitsu Yamada",
-    "performer": ["person:yoshimitsu-yamada"],
+    "performer": [
+      "person:yoshimitsu-yamada"
+    ],
     "title": "Aikido Complete",
     "publisher": "Citadel Press",
     "place": "Secaucus, NJ",
@@ -79,7 +90,9 @@
     "id": "tohei-this-is-aikido",
     "type": "book",
     "author": "Koichi Tohei",
-    "performer": ["person:koichi-tohei"],
+    "performer": [
+      "person:koichi-tohei"
+    ],
     "title": "This Is Aikido: With Mind and Body Coordinated",
     "publisher": "Japan Publications",
     "place": "Tokyo",
@@ -94,7 +107,9 @@
     "id": "ueshiba-m-progressive-aikido",
     "type": "book",
     "author": "Moriteru Ueshiba",
-    "performer": ["person:moriteru-ueshiba"],
+    "performer": [
+      "person:moriteru-ueshiba"
+    ],
     "title": "Progressive Aikido: The Essential Elements",
     "publisher": "Kodansha International",
     "place": "Tokyo",
@@ -109,7 +124,10 @@
     "id": "ueshiba-best-aikido-fundamentals",
     "type": "book",
     "author": "Kisshomaru Ueshiba; Moriteru Ueshiba",
-    "performer": ["person:kisshomaru-ueshiba", "person:moriteru-ueshiba"],
+    "performer": [
+      "person:kisshomaru-ueshiba",
+      "person:moriteru-ueshiba"
+    ],
     "title": "Best Aikido: The Fundamentals (Illustrated Japanese Classics)",
     "publisher": "Kodansha International",
     "place": "Tokyo",
@@ -124,7 +142,9 @@
     "id": "ueshiba-m-best-aikido-2",
     "type": "book",
     "author": "Moriteru Ueshiba",
-    "performer": ["person:moriteru-ueshiba"],
+    "performer": [
+      "person:moriteru-ueshiba"
+    ],
     "title": "The Aikido Master Course: Best Aikido 2",
     "publisher": "Kodansha International",
     "place": "Tokyo",
@@ -134,5 +154,17 @@
     "citation": "Ueshiba, Moriteru. The Aikido Master Course: Best Aikido 2. Tokyo: Kodansha International, 2003.",
     "notes": "Aikikai mainline; advanced companion to Best Aikido. Year to confirm on acquisition.",
     "retrieved": "2026-06-15"
+  },
+  {
+    "id": "hacker-language-of-aikido",
+    "type": "reference",
+    "author": "Michael Hacker",
+    "title": "The Language of Aikido: A Practitioner's Guide to Japanese Characters and Terminology",
+    "isbn_13": "978-0-692-90745-0",
+    "lineage": null,
+    "status": "candidate",
+    "citation": "Hacker, Michael. The Language of Aikido: A Practitioner's Guide to Japanese Characters and Terminology. ISBN 978-0-692-90745-0.",
+    "notes": "Bilingual JP/romaji/English terminology reference; candidate glossary backbone. NOT HELD -- needs acquisition before ingestion. Publisher/year unverified.",
+    "retrieved": "2026-06-22"
   }
 ]

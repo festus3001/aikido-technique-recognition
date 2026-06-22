@@ -30,3 +30,6 @@ envs/
 # resources/ (scanned books, extracted keyframe images) are local-first / DVC-tracked
 # and copyrighted reproductions -- excluded via resources/.gitignore, never committed.
 # data/ JSON outputs are committed as the structured deliverable; the .sqlite is not.
+
+# downloaded third-party glossaries (not redistributed; rebuild data/taxonomy/glossary.json from them)
+resources/glossaries/raw/
