@@ -32,7 +32,12 @@
   .ovl.hot b { background:var(--ok); }
   .ovl.un { border:2px dashed #8a8170; background:rgba(138,129,112,.08); }
   .ovl.un b { background:#8a8170; }
+  .pagelabel { font-size:1.05rem; font-weight:600; margin:0 0 .15rem; }
   .secline { font-size:.82rem; color:var(--muted); margin:.2rem 0 .6rem; }
+  .card.locked { border:2px solid var(--accent); background:#fbf3f0; }
+  .lockbar { display:flex; align-items:center; gap:.6rem; margin-bottom:.5rem; color:var(--accent); font-weight:600; font-size:.9rem; }
+  .card.locked.drag { outline:3px dashed var(--accent); outline-offset:3px; }
+  .ovl[draggable] { cursor:grab; }
   /* RIGHT: sequence cards */
   .right { width:54%; padding:1rem 1.2rem; }
   .toolbar { display:flex; gap:.5rem; align-items:center; margin-bottom:.8rem; flex-wrap:wrap; }
@@ -91,10 +96,12 @@
 </header>
 <main>
   <div class="left">
+    <div class="pagelabel" id="pagelabel"></div>
     <div class="secline" id="secline"></div>
     <div class="pagewrap" id="pagewrap"><img id="pageimg" alt="page"></div>
   </div>
   <div class="right">
+    <div id="locked"></div>
     <div class="toolbar" id="toolbar"></div>
     <div id="cards"></div>
     <details id="drawer" class="drawer">
@@ -126,7 +133,7 @@ const FORMS = ["tachiwaza","suwariwaza","hanmihandachi","ken","jo"];
 const CJK = /[぀-ヿ㐀-鿿豈-﫿]/;
 let BOOKS = [], book = null, page = 1, PAGE = null, cards = [];
 let mode = "committed", inflight = [], selected = new Set(), PREVIEW = null;
-let IMAGES = null, idxTimer = null;
+let IMAGES = null, idxTimer = null, LOCKED = null;
 function ovrSel(){ return {book, page}; }
 function pushOp(op){ inflight = inflight.filter(r => !(r.target==="region.ops" && JSON.stringify(r.payload)===JSON.stringify(op))); inflight.push({level:"page", target:"region.ops", selector:ovrSel(), payload:op}); reparse(); }
 
@@ -169,6 +176,7 @@ async function loadPage(){
   $("cards").innerHTML = "<div class='empty'>loading…</div>";
   $("toolbar").innerHTML = "";
   PAGE = await api(`/api/page/${encodeURIComponent(book)}/${page}`);
+  $("pagelabel").textContent = `Page ${page}` + (curBook() ? ` of ${curBook().pages}` : "");
   const s = PAGE.section;
   $("secline").textContent = `section: ${[s.context, s.kind, s.weapon, s.form].filter(x=>x && x!=="technique" && x!=="taijutsu").join(" / ") || "taijutsu / technique"}` + (s.note ? `  ·  ${s.note}` : "");
   $("pageimg").onload = drawOverlay;
@@ -338,6 +346,9 @@ function drawOverlay(){
       d.style.width = (r.bbox[2]*scale)+"px"; d.style.height = (r.bbox[3]*scale)+"px";
       d.innerHTML = `<b>#${r.n}${r.assigned ? "" : " ·unextracted"}</b>`;
       if(ti != null){ d.onmouseenter = () => highlight(ti, true); d.onmouseleave = () => highlight(ti, false); }
+      d.draggable = true;     // drag an image into a locked sequence
+      d.title = LOCKED ? `drag image #${r.n} into the locked sequence` : `image #${r.n}`;
+      d.ondragstart = e => e.dataTransfer.setData("text/plain", JSON.stringify({book, page, n:r.n}));
       wrap.appendChild(d);
     });
     return;
@@ -389,7 +400,7 @@ function buildCard(t, ti){
 
   el.innerHTML = `
     <h3>${ti+1}. ${clean(tech.raw_caption || tech.name_romaji || tech.id)}</h3>
-    <div class="sub">${ctx ? ctx+"  ·  " : ""}${tech.step_count||t.keyframes.length} step(s)${r ? "  ·  "+r.verdict : ""}</div>
+    <div class="sub">Sequence ${ti+1} of ${PAGE.techniques.length}${ctx ? "  ·  "+ctx : ""}  ·  ${tech.step_count||t.keyframes.length} step(s)${r ? "  ·  "+r.verdict : ""}</div>
     <div class="photos"></div>
     <div class="names">
       <div class="field"><label>Name (romaji)</label><input class="nr" value="${esc(nameR)}" placeholder="e.g. katate-dori shiho-nage"></div>
@@ -408,18 +419,59 @@ function buildCard(t, ti){
       <button class="primary vK">Save correction</button>
       <button class="ghost vS">Skip</button>
       <button class="ghost vR" title="not a technique">Not a technique</button>
+      <button class="ghost vL" title="lock this sequence, then page through content and drag images in">&#128274; Lock</button>
       <span class="saved">saved</span>
     </div>`;
 
-  const c = { el, tech, seq };
+  const c = { el, tech, seq, page, savedVerdict: (r ? r.verdict : null), dirty: false };
   cards[ti] = c;
   renderSeq(c);
-  el.querySelector(".swap").onclick = () => { const a=el.querySelector(".nr"), b=el.querySelector(".nn"); [a.value,b.value]=[b.value,a.value]; };
+  el.querySelector(".swap").onclick = () => { const a=el.querySelector(".nr"), b=el.querySelector(".nn"); [a.value,b.value]=[b.value,a.value]; markDirty(c); };
+  el.querySelectorAll("input,select,textarea").forEach(x => x.addEventListener("input", () => markDirty(c)));
   el.querySelector(".vC").onclick = () => save(c, "confirmed");
   el.querySelector(".vK").onclick = () => save(c, "corrected");
   el.querySelector(".vS").onclick = () => save(c, "skip");
   el.querySelector(".vR").onclick = () => save(c, "rejected");
+  el.querySelector(".vL").onclick = () => lockCard(c);
+  updateButtons(c);
   return el;
+}
+
+function updateButtons(c){
+  const conf = c.el.querySelector(".vC"), sav = c.el.querySelector(".vK");
+  if(conf){ conf.disabled = !!(c.savedVerdict && !c.dirty);
+            conf.textContent = (c.savedVerdict==="confirmed" && !c.dirty) ? "✓ Confirmed" : "Confirm"; }
+  if(sav){ sav.disabled = !c.dirty; }
+}
+function markDirty(c){ c.dirty = true; updateButtons(c); }
+
+function lockCard(c){
+  if(LOCKED && LOCKED !== c){ $("locked").innerHTML = ""; }   // one lock at a time
+  LOCKED = c;
+  c.el.id = "locked-card";
+  c.el.classList.add("locked");
+  if(!c.el.querySelector(".lockbar")){
+    const bar = document.createElement("div");
+    bar.className = "lockbar";
+    bar.innerHTML = `&#128274; Locked sequence (from p${c.page}) &mdash; navigate content and drag images in. <button class="mini ghost" id="unlock">Unlock</button>`;
+    c.el.prepend(bar);
+    bar.querySelector("#unlock").onclick = () => { LOCKED = null; $("locked").innerHTML = ""; loadPage(); };
+  }
+  $("locked").innerHTML = "";
+  $("locked").appendChild(c.el);
+  enableDrop(c);
+}
+function enableDrop(c){
+  c.el.ondragover = e => { e.preventDefault(); c.el.classList.add("drag"); };
+  c.el.ondragleave = () => c.el.classList.remove("drag");
+  c.el.ondrop = async e => {
+    e.preventDefault(); c.el.classList.remove("drag");
+    let d; try { d = JSON.parse(e.dataTransfer.getData("text/plain")); } catch { return; }
+    if(!d || d.n == null) return;
+    const res = await postj("/api/region-crop", {book:d.book, page:d.page, n:d.n});
+    c.seq.push({image:res.image, img:res.img, caption:"", abs:res.n});
+    renderSeq(c); markDirty(c);
+  };
 }
 
 function imgFor(image){ const m="resources/books/processed/"; return image && image.includes(m) ? "/img/"+image.split(m)[1] : image; }
@@ -439,15 +491,16 @@ function renderSeq(c){
     if(a==="d") c.seq.splice(i,1);
     else if(a==="l"&&i>0) [c.seq[i-1],c.seq[i]]=[c.seq[i],c.seq[i-1]];
     else if(a==="r"&&i<c.seq.length-1) [c.seq[i+1],c.seq[i]]=[c.seq[i],c.seq[i+1]];
-    renderSeq(c);
+    renderSeq(c); markDirty(c);
   });
-  box.querySelectorAll("input.cap").forEach(inp => inp.oninput = () => c.seq[+inp.dataset.i].caption = inp.value);
+  box.querySelectorAll("input.cap").forEach(inp => inp.oninput = () => { c.seq[+inp.dataset.i].caption = inp.value; markDirty(c); });
 }
 
 async function save(c, verdict){
   const el = c.el;
-  const origImages = JSON.stringify((PAGE.techniques.find(x=>x.technique.id===c.tech.id).keyframes||[]).map(k=>k.image));
-  const seqChanged = JSON.stringify(c.seq.map(k=>k.image)) !== origImages || c.seq.some(k=>k.caption);
+  const orig = PAGE.techniques.find(x=>x.technique.id===c.tech.id);
+  const origImages = JSON.stringify(((orig && orig.keyframes)||[]).map(k=>k.image));
+  const seqChanged = c === LOCKED || JSON.stringify(c.seq.map(k=>k.image)) !== origImages || c.seq.some(k=>k.caption);
   const payload = {
     verdict,
     name_romaji: clean(el.querySelector(".nr").value),
@@ -462,7 +515,8 @@ async function save(c, verdict){
     note: el.querySelector(".note").value.trim(),
   };
   await api(`/api/review/${encodeURIComponent(c.tech.id)}`, {method:"POST", headers:{"Content-Type":"application/json"}, body:JSON.stringify(payload)});
-  const s = el.querySelector(".saved"); s.classList.add("show"); setTimeout(()=>s.classList.remove("show"), 900);
+  c.savedVerdict = verdict; c.dirty = false; updateButtons(c);
+  const s = el.querySelector(".saved"); s.textContent = verdict + " ✓"; s.classList.add("show"); setTimeout(()=>s.classList.remove("show"), 1200);
   renderProgress(await api("/api/progress"));
 }
 

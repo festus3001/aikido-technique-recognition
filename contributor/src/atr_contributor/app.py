@@ -230,6 +230,28 @@ def create_app(reviewer: str, reviewer_name: str | None = None) -> FastAPI:
             cv2.imwrite(str(cache), img)
         return FileResponse(str(cache), media_type="image/png")
 
+    @app.post("/api/region-crop")
+    def region_crop(payload: dict):
+        """Crop one indexed image (book, page, absolute n) to a file and return its path/url.
+        Lets an image dragged from the page -- including an un-extracted one -- become a real
+        keyframe in a sequence."""
+        book, page, n = payload["book"], int(payload["page"]), int(payload["n"])
+        if book not in books:
+            raise HTTPException(404, "unknown book")
+        idx = _load_index(book)
+        im = next((x for x in (idx or {}).get("images", []) if x["n"] == n and x["page"] == page), None)
+        if not im:
+            raise HTTPException(404, "no such image")
+        out = PROCESSED / book / "_regions" / f"p{page}-n{n}.png"
+        if not out.exists():
+            out.parent.mkdir(parents=True, exist_ok=True)
+            cache = PROCESSED / book / "_pages" / f"p{page}.png"
+            img = cv2.imread(str(cache)) if cache.exists() else render_page(books[book][1], page, 300)
+            x, y, w, h = im["bbox"]
+            cv2.imwrite(str(out), img[max(0, y):y + h, max(0, x):x + w])
+        rel = out.relative_to(PROCESSED)
+        return {"image": f"resources/books/processed/{rel}", "img": f"/img/{rel}", "n": n}
+
     @app.post("/api/commit-page/{book}/{page}")
     def commit_page(book: str, page: int, payload: dict | None = None):
         if book not in books:

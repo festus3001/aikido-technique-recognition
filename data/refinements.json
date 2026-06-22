@@ -1,0 +1,68 @@
+[
+  {
+    "id": "ref:verdict:tech-saito-traditional-aikido-vol1-p26-ken-suburi-1:person-david-avery",
+    "scope": {
+      "level": "technique",
+      "selector": {
+        "technique": "tech:saito-traditional-aikido-vol1-p26-ken-suburi-1"
+      }
+    },
+    "target": "verdict",
+    "payload": {
+      "verdict": "confirmed"
+    },
+    "provenance": {
+      "author": "person:david-avery",
+      "basis": "teacher",
+      "confidence": "stated",
+      "date": "2026-06-22"
+    },
+    "status": "provisional"
+  },
+  {
+    "id": "ref:name:tech-saito-traditional-aikido-vol1-p26-ken-suburi-1:person-david-avery",
+    "scope": {
+      "level": "technique",
+      "selector": {
+        "technique": "tech:saito-traditional-aikido-vol1-p26-ken-suburi-1"
+      }
+    },
+    "target": "name",
+    "payload": {
+      "romaji": "Standing bow",
+      "native": null
+    },
+    "provenance": {
+      "author": "person:david-avery",
+      "basis": "teacher",
+      "confidence": "stated",
+      "date": "2026-06-22"
+    },
+    "status": "provisional"
+  },
+  {
+    "id": "ref:keyframe.sequence:tech-saito-traditional-aikido-vol1-p26-ken-suburi-1:person-david-avery",
+    "scope": {
+      "level": "technique",
+      "selector": {
+        "technique": "tech:saito-traditional-aikido-vol1-p26-ken-suburi-1"
+      }
+    },
+    "target": "keyframe.sequence",
+    "payload": {
+      "sequence": [
+        {
+          "image": "resources/books/processed/saito-traditional-aikido-vol1/p26-ken-suburi-1/step_01.png",
+          "caption": "Standing bow"
+        }
+      ]
+    },
+    "provenance": {
+      "author": "person:david-avery",
+      "basis": "teacher",
+      "confidence": "stated",
+      "date": "2026-06-22"
+    },
+    "status": "provisional"
+  }
+]
