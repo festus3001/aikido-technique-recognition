@@ -404,7 +404,7 @@ function buildCard(t, ti){
 
   el.innerHTML = `
     <h3>${ti+1}. ${clean(tech.raw_caption || tech.name_romaji || tech.id)}</h3>
-    <div class="sub">Sequence ${ti+1} of ${PAGE.techniques.length}${ctx ? "  ·  "+ctx : ""}  ·  ${tech.step_count||t.keyframes.length} step(s)${r ? "  ·  "+r.verdict : ""}</div>
+    <div class="sub">Sequence ${ti+1} of ${PAGE.techniques.length}${ctx ? "  ·  "+ctx : ""}  ·  <span class="stepn"></span> step(s)${r ? "  ·  "+r.verdict : ""}</div>
     <div class="photos"></div>
     <div class="names">
       <div class="field"><label>Name (romaji)</label><input class="nr" value="${esc(nameR)}" placeholder="e.g. katate-dori shiho-nage"></div>
@@ -510,6 +510,7 @@ function renderSeq(c){
     renderSeq(c); markDirty(c);
   });
   box.querySelectorAll("input.cap").forEach(inp => inp.oninput = () => { c.seq[+inp.dataset.i].caption = inp.value; markDirty(c); });
+  const sn = c.el.querySelector(".stepn"); if(sn) sn.textContent = c.seq.length;   // live frame count
 }
 
 async function save(c, verdict){
