@@ -30,6 +30,8 @@
   .ovl b { background:var(--accent); padding:0 .25rem; position:absolute; top:-1px; left:-1px; }
   .ovl.hot { border-color:var(--ok); background:rgba(47,107,52,.14); }
   .ovl.hot b { background:var(--ok); }
+  .ovl.un { border:2px dashed #8a8170; background:rgba(138,129,112,.08); }
+  .ovl.un b { background:#8a8170; }
   .secline { font-size:.82rem; color:var(--muted); margin:.2rem 0 .6rem; }
   /* RIGHT: sequence cards */
   .right { width:54%; padding:1rem 1.2rem; }
@@ -83,6 +85,7 @@
   <span class="who" id="who"></span>
   <div class="bar"><i id="barfill"></i></div>
   <span class="count" id="count">--</span>
+  <span class="count" id="idx"></span>
 </header>
 <main>
   <div class="left">
@@ -121,6 +124,7 @@ const FORMS = ["tachiwaza","suwariwaza","hanmihandachi","ken","jo"];
 const CJK = /[぀-ヿ㐀-鿿豈-﫿]/;
 let BOOKS = [], book = null, page = 1, PAGE = null, cards = [];
 let mode = "committed", inflight = [], selected = new Set(), PREVIEW = null;
+let IMAGES = null, idxTimer = null;
 function ovrSel(){ return {book, page}; }
 function pushOp(op){ inflight = inflight.filter(r => !(r.target==="region.ops" && JSON.stringify(r.payload)===JSON.stringify(op))); inflight.push({level:"page", target:"region.ops", selector:ovrSel(), payload:op}); reparse(); }
 
@@ -140,8 +144,18 @@ async function boot(){
   page = (BOOKS[0].content_pages||[])[0] || 1;
   $("book").value = book;
   await loadPage();
+  ensureIndex(book);
 }
 function curBook(){ return BOOKS.find(b => b.id === book); }
+// Build/track the absolute volume image index; when ready, redraw with absolute numbers.
+async function ensureIndex(b){
+  IMAGES = await api(`/api/images/${enc(b)}`);
+  if(IMAGES.ready){ $("idx").textContent = `${IMAGES.total_images} images indexed`; if(book===b && PAGE) loadPage(); return; }
+  $("idx").textContent = `indexing images… ${IMAGES.done}/${IMAGES.total}`;
+  clearTimeout(idxTimer);
+  idxTimer = setTimeout(() => { if(book===b) ensureIndex(b); }, 2000);
+}
+function contentPages(){ return (IMAGES && IMAGES.ready && IMAGES.pages) ? IMAGES.pages : (curBook().content_pages||[]); }
 function renderProgress(p){
   $("barfill").style.width = (p.total ? Math.round(100*p.reviewed/p.total) : 0) + "%";
   $("count").textContent = `${p.reviewed} / ${p.total} reviewed`;
@@ -309,7 +323,24 @@ function drawOverlay(){
   wrap.querySelectorAll(".ovl").forEach(e => e.remove());
   if(!img.naturalWidth) return;
   const scale = img.clientWidth / img.naturalWidth;
-  PAGE.techniques.forEach((t, ti) => {
+  if(PAGE.regions && PAGE.regions.length){
+    // every detected image on the page, with its ABSOLUTE volume number; unassigned ones dashed.
+    const tIdxByBbox = {};
+    PAGE.techniques.forEach((t, ti) => t.keyframes.forEach(k => { const b=(k.source||{}).bbox; if(b) tIdxByBbox[b.join(",")] = ti; }));
+    PAGE.regions.forEach(r => {
+      const d = document.createElement("div");
+      const ti = tIdxByBbox[r.bbox.join(",")];
+      d.className = "ovl" + (r.assigned ? "" : " un");
+      if(ti != null) d.dataset.t = ti;
+      d.style.left = (r.bbox[0]*scale)+"px"; d.style.top = (r.bbox[1]*scale)+"px";
+      d.style.width = (r.bbox[2]*scale)+"px"; d.style.height = (r.bbox[3]*scale)+"px";
+      d.innerHTML = `<b>#${r.n}${r.assigned ? "" : " ·unextracted"}</b>`;
+      if(ti != null){ d.onmouseenter = () => highlight(ti, true); d.onmouseleave = () => highlight(ti, false); }
+      wrap.appendChild(d);
+    });
+    return;
+  }
+  PAGE.techniques.forEach((t, ti) => {       // fallback before the index is built
     t.keyframes.forEach((k, ki) => {
       const b = (k.source||{}).bbox; if(!b) return;
       const d = document.createElement("div");
@@ -347,7 +378,7 @@ function buildCard(t, ti){
   const provisional = clean(tech.raw_caption || tech.name_romaji || "");
   // working keyframe sequence (review's edited one, else original from this page payload)
   let seq = (r && r.keyframes) ? r.keyframes.map(k => ({image:k.image, img:imgFor(k.image), caption:k.caption||""}))
-                               : t.keyframes.map(k => ({image:k.image, img:k.img, caption:""}));
+                               : t.keyframes.map(k => ({image:k.image, img:k.img, caption:"", abs:k.abs_n}));
   const slots = (r && r.slots) || tech.slots || {};
   const nameR = r ? (r.name_romaji||"") : (CJK.test(provisional) ? "" : provisional);
   const nameN = r ? (r.name_native||"") : (CJK.test(provisional) ? provisional : (tech.name_native||""));
@@ -394,7 +425,7 @@ function renderSeq(c){
   const box = c.el.querySelector(".photos");
   box.innerHTML = c.seq.map((k,i)=>`
     <div class="frame" data-i="${i}">
-      <div class="idx">${i+1}</div>
+      <div class="idx">${i+1}${k.abs?` · #${k.abs}`:""}</div>
       <img src="${k.img}" loading="lazy">
       <div class="ctrls"><button data-a="l" ${i===0?"disabled":""}>&larr;</button><button data-a="d">&#215;</button><button data-a="r" ${i===c.seq.length-1?"disabled":""}>&rarr;</button></div>
       <input class="cap" data-i="${i}" placeholder="caption" value="${esc(k.caption)}">
@@ -434,11 +465,11 @@ async function save(c, verdict){
 // navigation
 function goPage(p){ const b=curBook(); page = Math.max(1, Math.min(p, b.pages||p)); loadPage(); }
 function nearestContent(dir){
-  const cp = (curBook().content_pages)||[];
+  const cp = contentPages();
   if(dir>0){ const n = cp.find(p=>p>page); if(n) goPage(n); }
   else { const prev = [...cp].reverse().find(p=>p<page); if(prev) goPage(prev); }
 }
-$("book").onchange = () => { book = $("book").value; page = (curBook().content_pages||[])[0]||1; loadPage(); };
+$("book").onchange = () => { book = $("book").value; IMAGES = null; $("idx").textContent=""; page = (curBook().content_pages||[])[0]||1; loadPage(); ensureIndex(book); };
 $("page").onchange = () => goPage(+$("page").value);
 $("pprev").onclick = () => goPage(page-1);
 $("pnext").onclick = () => goPage(page+1);

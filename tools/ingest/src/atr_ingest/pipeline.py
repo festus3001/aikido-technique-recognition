@@ -41,6 +41,24 @@ class PageParse:
     crops: list[np.ndarray] | None = None              # preview only: parallel to keyframes
 
 
+def scan_volume_images(pdf: Path, total: int, dpi: int = 300, progress=None) -> list[dict]:
+    """Detect every instructional photo across a volume and number it absolutely 1..N in
+    page order, reading order within a page. No OCR -- this is the raw image registry, stable
+    regardless of which photos got assigned to a technique. Numbers identify an image absolutely."""
+    images: list[dict] = []
+    n = 0
+    for page in range(1, total + 1):
+        img = render_page(pdf, page, dpi)
+        for r in _photos.detect_photo_regions(img):
+            n += 1
+            images.append({"n": n, "page": page,
+                           "bbox": [int(r[0]), int(r[1]), int(r[2]), int(r[3])],
+                           "granularity": r[4] if len(r) > 4 else "photo"})
+        if progress:
+            progress(page, total)
+    return images
+
+
 def _group_lines(words: list[dict]) -> list[dict]:
     """Group OCR words into lines (by block/par/line), preserving position."""
     lines: dict[tuple, list[dict]] = {}

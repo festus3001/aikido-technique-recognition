@@ -8,6 +8,8 @@ technique. Re-parsing runs the ingestion in-process (see /api/reparse, added nex
 
 from __future__ import annotations
 
+import json
+import threading
 from pathlib import Path
 
 import cv2
@@ -18,7 +20,7 @@ from fastapi.staticfiles import StaticFiles
 from atr_ingest import captions as _captions
 from atr_ingest.books import discover_books
 from atr_ingest.cli import BOOKS_DIR
-from atr_ingest.pipeline import parse_page
+from atr_ingest.pipeline import parse_page, scan_volume_images
 from atr_ingest.render import render_page
 from atr_ingest.structure import section_for
 from schema.contribution import Provenance
@@ -54,6 +56,34 @@ def create_app(reviewer: str, reviewer_name: str | None = None) -> FastAPI:
     store = Store(reviewer, reviewer_name)
     books = {b["id"]: (b, pdf) for b, pdf in discover_books(BOOKS_DIR)}
     preview_crops: dict[str, bytes] = {}   # "{book}:{page}:{idx}" -> PNG bytes (live re-parse)
+    image_jobs: dict[str, dict] = {}       # book -> {status, done, total} for the volume image scan
+
+    def _index_path(b: str) -> Path:
+        return PROCESSED / b / "_pages" / "images.json"
+
+    def _load_index(b: str) -> dict | None:
+        p = _index_path(b)
+        return json.loads(p.read_text(encoding="utf-8")) if p.exists() else None
+
+    SCAN_DPI = 150          # 4x faster than 300; detection is dpi-robust
+    SCALE = 300 // SCAN_DPI  # store bboxes in 300-dpi space (matches the page image + keyframes)
+
+    def _build_index(b: str):
+        bk, pdf = books[b]
+        total = bk.get("pages") or 0
+        image_jobs[b] = {"status": "running", "done": 0, "total": total}
+
+        def prog(done, tot):
+            image_jobs[b]["done"] = done
+        images = scan_volume_images(pdf, total, dpi=SCAN_DPI, progress=prog)
+        for im in images:
+            im["bbox"] = [v * SCALE for v in im["bbox"]]   # -> 300-dpi space
+        data = {"book": b, "total_images": len(images), "images": images,
+                "pages": sorted({im["page"] for im in images})}
+        p = _index_path(b)
+        p.parent.mkdir(parents=True, exist_ok=True)
+        p.write_text(json.dumps(data, ensure_ascii=False), encoding="utf-8")
+        image_jobs[b] = {"status": "done", "done": total, "total": total}
 
     if PROCESSED.exists():
         app.mount("/img", StaticFiles(directory=str(PROCESSED)), name="img")
@@ -97,16 +127,58 @@ def create_app(reviewer: str, reviewer_name: str | None = None) -> FastAPI:
         out.sort(key=lambda x: x.get("volume") or 0)
         return out
 
+    @app.get("/api/images/{book}")
+    def images(book: str):
+        """The absolute volume image index (built once, cached). Returns ready=False with
+        progress while a background scan runs."""
+        if book not in books:
+            raise HTTPException(404, "unknown book")
+        idx = _load_index(book)
+        if idx:
+            return {"ready": True, "total_images": idx["total_images"], "pages": idx["pages"]}
+        job = image_jobs.get(book)
+        if not job or job.get("status") != "running":
+            threading.Thread(target=_build_index, args=(book,), daemon=True).start()
+            job = image_jobs.get(book, {"status": "running", "done": 0,
+                                        "total": books[book][0].get("pages") or 0})
+        return {"ready": False, "done": job.get("done", 0), "total": job.get("total", 0)}
+
     @app.get("/api/page/{book}/{page}")
     def page(book: str, page: int):
         if book not in books:
             raise HTTPException(404, "unknown book")
         sec = section_for(book, page, store.refs)
+        techs = store.for_page(book, page)
+        # absolute image numbers for this page, from the cached volume index. Match a keyframe
+        # to its index region by center-containment (index is 150->300 scaled, so not pixel-exact).
+        idx = _load_index(book)
+        regions = []
+        if idx:
+            page_imgs = [im for im in idx["images"] if im["page"] == page]
+
+            def abs_for(bbox):
+                if not bbox:
+                    return None
+                cx, cy = bbox[0] + bbox[2] / 2, bbox[1] + bbox[3] / 2
+                for im in page_imgs:
+                    x, y, w, h = im["bbox"]
+                    if x <= cx <= x + w and y <= cy <= y + h:
+                        return im["n"]
+                return None
+
+            assigned_ns = set()
+            for t in techs:
+                for k in t["keyframes"]:
+                    k["abs_n"] = abs_for(k.get("source", {}).get("bbox"))
+                    if k["abs_n"] is not None:
+                        assigned_ns.add(k["abs_n"])
+            regions = [{"n": im["n"], "bbox": im["bbox"], "granularity": im["granularity"],
+                        "assigned": im["n"] in assigned_ns} for im in page_imgs]
         return {"book": book, "page": page,
                 "raw_page_url": f"/api/page-image/{book}/{page}.png",
                 "section": {"context": sec.context, "kind": sec.kind, "weapon": sec.weapon,
                             "form": sec.form, "note": sec.note},
-                "techniques": store.for_page(book, page),
+                "techniques": techs, "regions": regions,
                 "content_pages": store.content_pages(book)}
 
     # -- live re-parse (preview) -- plain `def` so Starlette offloads OCR to a threadpool --
