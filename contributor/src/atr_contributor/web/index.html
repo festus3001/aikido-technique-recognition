@@ -379,7 +379,9 @@ function buildCard(t, ti){
   const ctx = [tech.context, tech.kind, tech.weapon, tech.form].filter(x=>x && x!=="technique" && x!=="taijutsu").join(" / ");
   const provisional = clean(tech.raw_caption || tech.name_romaji || "");
   // working keyframe sequence (review's edited one, else original from this page payload)
-  let seq = (r && r.keyframes) ? r.keyframes.map(k => ({image:k.image, img:imgFor(k.image), caption:k.caption||""}))
+  const absByImage = {};
+  t.keyframes.forEach(k => { if(k.abs_n != null) absByImage[k.image] = k.abs_n; });
+  let seq = (r && r.keyframes) ? r.keyframes.map(k => ({image:k.image, img:imgFor(k.image), caption:k.caption||"", abs:absByImage[k.image]}))
                                : t.keyframes.map(k => ({image:k.image, img:k.img, caption:"", abs:k.abs_n}));
   const slots = (r && r.slots) || tech.slots || {};
   const nameR = r ? (r.name_romaji||"") : (CJK.test(provisional) ? "" : provisional);
