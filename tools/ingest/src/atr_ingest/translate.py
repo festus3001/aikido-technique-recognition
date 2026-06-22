@@ -21,13 +21,20 @@ DEFAULT_MODEL = "gemma3:12b"
 _CJK = re.compile(r"[぀-ヿ㐀-鿿々]")
 
 
-def load_glossary(path: Path = GLOSSARY_PATH) -> list[tuple[str, dict]]:
+def load_glossary(path: Path = GLOSSARY_PATH, store=None) -> list[tuple[str, dict]]:
     """(kanji, term) pairs that carry both kanji and an English gloss, longest kanji first
-    so specific multi-kanji terms match before their components."""
-    if not path.exists():
-        return []
-    terms = json.loads(path.read_text(encoding="utf-8"))
+    so specific multi-kanji terms match before their components. When a RefinementStore is
+    given, teacher-added `glossary.term` refinements are folded on top (no rebuild needed)."""
+    terms = json.loads(path.read_text(encoding="utf-8")) if path.exists() else []
     pairs = [(k, t) for t in terms for k in t.get("kanji", []) if k and t.get("english")]
+    if store is not None:
+        for r in store.by_target("glossary.term"):
+            if r.status == "retired":
+                continue
+            p = r.payload
+            for k in p.get("kanji", []):
+                if k and p.get("english"):
+                    pairs.append((k, {"romaji": p.get("romaji", ""), "english": p["english"]}))
     pairs.sort(key=lambda kt: -len(kt[0]))
     return pairs
 

@@ -22,6 +22,7 @@ REPO_ROOT = Path(__file__).resolve().parents[3]
 TAXO = REPO_ROOT / "data" / "taxonomy"
 TECHNIQUES = TAXO / "techniques.json"
 KEYFRAMES = TAXO / "keyframes.json"
+TEXTBLOCKS = TAXO / "textblocks.json"
 REFINEMENTS = REPO_ROOT / "data" / "refinements.json"
 PROCESSED = REPO_ROOT / "resources" / "books" / "processed"
 
@@ -71,6 +72,7 @@ class Store:
         self._tech_order = [t["id"] for t in self.techniques]
         self._tech_by_id = {t["id"]: t for t in self.techniques}
         self.refs = RefinementStore(path=REFINEMENTS)
+        self.textblocks = _load(TEXTBLOCKS, [])
 
     # -- refinement access ----------------------------------------------------
     def _my_ref(self, tid: str, target: str):
@@ -143,6 +145,37 @@ class Store:
                 kfs = [{**k, "img": img_url(k.get("image"))} for k in self._kf.get(t["id"], [])]
                 out.append({"technique": t, "keyframes": kfs, "review": self.review_for(t["id"])})
         return out
+
+    # -- text blocks (prose / the books' English) -----------------------------
+    def textblocks_for(self, book: str, page: int) -> list[dict]:
+        """The page's text blocks, with any teacher text/translation corrections applied."""
+        from schema.refinement import resolve
+        out = []
+        for r in self.textblocks:
+            if r["book"] == book and r["page"] == page:
+                unit = {"book": book, "page": page, "block": r["block"]}
+                ocr = resolve("text.ocr", unit, self.refs, base=None)
+                tr = resolve("text.translation", unit, self.refs, base=None)
+                out.append({**r,
+                            "text": ocr["text"] if ocr else r["text"],
+                            "translation": tr["text"] if tr else r.get("translation"),
+                            "corrected": bool(ocr or tr)})
+        out.sort(key=lambda r: r["block"])
+        return out
+
+    def replace_textblocks(self, book: str, page: int, records: list[dict]) -> None:
+        self.textblocks = [r for r in self.textblocks
+                           if not (r["book"] == book and r["page"] == page)] + records
+        self._save_textblocks()
+
+    def update_textblock(self, book: str, page: int, block: int, **fields) -> None:
+        for r in self.textblocks:
+            if r["book"] == book and r["page"] == page and r["block"] == block:
+                r.update(fields)
+        self._save_textblocks()
+
+    def _save_textblocks(self) -> None:
+        _write_atomic(TEXTBLOCKS, sorted(self.textblocks, key=lambda r: (r["book"], r["page"], r["block"])))
 
     def content_pages(self, book: str) -> list[int]:
         return sorted({t["source"]["pdf_page"] for t in self.techniques

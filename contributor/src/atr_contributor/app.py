@@ -23,6 +23,8 @@ from atr_ingest.cli import BOOKS_DIR
 from atr_ingest.pipeline import parse_page, scan_volume_images
 from atr_ingest.render import render_page
 from atr_ingest.structure import section_for
+from atr_ingest.textblocks import extract_text_blocks
+from atr_ingest.translate import DEFAULT_MODEL, load_glossary, translate as _translate
 from schema.contribution import Provenance
 from schema.refinement import Refinement, RefinementStore, Scope, make_id
 
@@ -179,7 +181,60 @@ def create_app(reviewer: str, reviewer_name: str | None = None) -> FastAPI:
                 "section": {"context": sec.context, "kind": sec.kind, "weapon": sec.weapon,
                             "form": sec.form, "note": sec.note},
                 "techniques": techs, "regions": regions,
+                "textblocks": store.textblocks_for(book, page),
                 "content_pages": store.content_pages(book)}
+
+    @app.post("/api/textblocks/{book}/{page}")
+    def capture_text(book: str, page: int, payload: dict | None = None):
+        """OCR every text block on the page (Tesseract layout); optionally translate the
+        Japanese ones (local glossary-tuned). Replaces this page's stored blocks."""
+        if book not in books:
+            raise HTTPException(404, "unknown book")
+        do_tr = bool((payload or {}).get("translate"))
+        bk = books[book][0]
+        prov = {"performer": bk.get("performer"), "performer_name": bk.get("performer_name"),
+                "era": bk.get("era"), "medium": "book", "recording": book, "lineage": bk.get("lineage")}
+        img = render_page(books[book][1], page, 300)
+        glossary = load_glossary(store=store.refs) if do_tr else None
+        recs = []
+        for i, blk in enumerate(extract_text_blocks(img), start=1):
+            rec = {"id": f"text:{book}-p{page}-b{i}", "book": book, "page": page, "block": i,
+                   "bbox": blk["bbox"], "text": blk["text"], "lang": blk["lang"], "conf": blk["conf"],
+                   "translation": None, "translation_model": None, "terms_used": [],
+                   "source": {"book": book, "title": bk.get("full_title"), "pdf_page": page},
+                   "provenance": prov, "status": "provisional", "retrieved": _date.today().isoformat()}
+            if do_tr and blk["lang"] == "ja":
+                en, used = _translate(blk["text"], glossary)
+                rec.update(translation=en, translation_model=DEFAULT_MODEL, terms_used=used)
+            recs.append(rec)
+        store.replace_textblocks(book, page, recs)
+        return {"textblocks": store.textblocks_for(book, page)}
+
+    @app.post("/api/textblock/correct")
+    def correct_text(payload: dict):
+        """Teacher correction of a block's OCR text and/or translation -> Refinements."""
+        sel = {"book": payload["book"], "page": payload["page"], "block": payload["block"]}
+        prov = Provenance(author=reviewer, basis="teacher", note=reviewer_name or None)
+        if payload.get("text") is not None:
+            store.refs.add("page", "text.ocr", {"text": payload["text"]}, prov, selector=sel)
+        if payload.get("translation") is not None:
+            store.refs.add("page", "text.translation", {"text": payload["translation"]}, prov, selector=sel)
+        store.refs.save()
+        return {"ok": True}
+
+    @app.post("/api/textblock/retranslate")
+    def retranslate_text(payload: dict):
+        """Re-translate one block with the current glossary (machine output, stored on the block)."""
+        b, p, bl = payload["book"], payload["page"], payload["block"]
+        from schema.refinement import resolve
+        rec = next((r for r in store.textblocks if r["book"] == b and r["page"] == p and r["block"] == bl), None)
+        if not rec:
+            raise HTTPException(404, "no such block")
+        ocr = resolve("text.ocr", {"book": b, "page": p, "block": bl}, store.refs, base=None)
+        text = ocr["text"] if ocr else rec["text"]
+        en, used = _translate(text, load_glossary(store=store.refs))
+        store.update_textblock(b, p, bl, translation=en, translation_model=DEFAULT_MODEL, terms_used=used)
+        return {"translation": en, "terms_used": used}
 
     # -- live re-parse (preview) -- plain `def` so Starlette offloads OCR to a threadpool --
     @app.post("/api/reparse/{book}/{page}")

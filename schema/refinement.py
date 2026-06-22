@@ -48,6 +48,9 @@ TARGETS: dict[str, dict] = {
     "keyframe.sequence": {"levels": ["technique"], "merge": "override"},
     "verdict":           {"levels": ["technique"], "merge": "override"},
     "note":              {"levels": ["technique"], "merge": "override"},
+    "text.ocr":          {"levels": ["page"], "merge": "override"},        # selector {book,page,block}
+    "text.translation":  {"levels": ["page"], "merge": "override"},
+    "glossary.term":      {"levels": ["process", "corpus", "book"], "merge": "additive"},
 }
 
 
@@ -104,6 +107,8 @@ def make_id(scope: Scope, target: str, payload: dict | None = None,
         parts.append(f"p{s['page']}")
     if "seq" in s:
         parts.append(f"s{s['seq']}")
+    if "block" in s:
+        parts.append(f"b{s['block']}")
     if "technique" in s:
         parts.append(_slug(s["technique"]))
     merge = TARGETS.get(target, {}).get("merge")
@@ -132,6 +137,8 @@ def _matches(scope: Scope, unit: dict) -> bool:
     if "page" in s and unit.get("page") != s["page"]:
         return False
     if "seq" in s and unit.get("seq") != s["seq"]:
+        return False
+    if "block" in s and unit.get("block") != s["block"]:
         return False
     return True
 

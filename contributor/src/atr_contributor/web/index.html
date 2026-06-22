@@ -76,6 +76,13 @@
   .small { font-size:.78rem; color:var(--muted); }
   .refrow { display:flex; gap:.5rem; align-items:center; padding:.2rem 0; font-size:.84rem; border-bottom:1px dotted var(--line); }
   .capforce { display:flex; gap:.4rem; align-items:center; flex-wrap:wrap; }
+  .tpanel-h { display:flex; align-items:center; gap:.6rem; margin:1.1rem 0 .5rem; border-top:1px solid var(--line); padding-top:.7rem; flex-wrap:wrap; }
+  .tblock { background:#fff; border:1px solid var(--line); border-radius:6px; padding:.45rem .6rem; margin-bottom:.5rem; }
+  .tblock .meta { font-size:.74rem; color:var(--muted); display:flex; gap:.5rem; align-items:center; margin-bottom:.3rem; }
+  .tblock textarea { width:100%; font-family:inherit; font-size:.88rem; min-height:2.6rem; padding:.35rem .45rem; border:1px solid var(--line); border-radius:5px; }
+  .tblock textarea.tr { background:#f1ede2; margin-top:.3rem; }
+  .badge.ja { background:#f4e3e0; color:var(--accent); border-color:#e0bdb6; }
+  .badge.en { background:#e4efe0; color:var(--ok); border-color:#bcd9b6; }
 </style>
 </head>
 <body>
@@ -104,10 +111,12 @@
     <div id="locked"></div>
     <div class="toolbar" id="toolbar"></div>
     <div id="cards"></div>
+    <div id="textpanel"></div>
     <details id="drawer" class="drawer">
       <summary>Teach the parser &mdash; refinements</summary>
       <div class="ed" id="ed-section"></div>
       <div class="ed" id="ed-lexicon"></div>
+      <div class="ed" id="ed-glossary"></div>
       <div class="ed" id="ed-refs"></div>
     </details>
   </div>
@@ -183,6 +192,51 @@ async function loadPage(){
   $("pageimg").src = PAGE.raw_page_url + "?t=" + Date.now();
   renderToolbar();
   renderCards();
+  renderTextPanel();
+  loadEditors();
+}
+
+function renderTextPanel(){
+  const blocks = PAGE.textblocks || [];
+  $("textpanel").innerHTML = `<div class="tpanel-h"><b>Text on this page</b>
+    <span class="small">${blocks.length} block(s)</span>
+    <button class="mini" id="cap-text">${blocks.length ? "Re-OCR page text" : "Capture page text"}</button>
+    <label class="small"><input type="checkbox" id="cap-tr" checked> translate Japanese (slow)</label>
+    <span class="small" id="cap-status"></span></div><div id="tblocks"></div>`;
+  $("cap-text").onclick = captureText;
+  $("tblocks").innerHTML = blocks.map(b => `
+    <div class="tblock" data-b="${b.block}">
+      <div class="meta"><span class="badge ${b.lang}">${b.lang}</span>conf ${b.conf} · block ${b.block}${b.corrected ? " · corrected" : ""}
+        <button class="mini ghost" data-a="save">save</button>
+        ${b.lang === "ja" ? '<button class="mini ghost" data-a="retr">re-translate</button>' : ""}</div>
+      <textarea class="tx">${esc(b.text)}</textarea>
+      ${b.lang === "ja" ? `<textarea class="tr" placeholder="translation">${esc(b.translation || "")}</textarea>` : ""}
+    </div>`).join("") || "<div class='small'>none yet — capture to OCR this page's text.</div>";
+  $("tblocks").querySelectorAll(".tblock").forEach(el => {
+    const bl = +el.dataset.b, tr = el.querySelector(".tr");
+    el.querySelector("[data-a=save]").onclick = async (e) => {
+      await postj("/api/textblock/correct", {book, page, block: bl,
+        text: el.querySelector(".tx").value, translation: tr ? tr.value : null});
+      e.target.textContent = "saved ✓"; setTimeout(() => e.target.textContent = "save", 1200);
+    };
+    const rt = el.querySelector("[data-a=retr]");
+    if(rt) rt.onclick = async () => {
+      rt.textContent = "…"; const r = await postj("/api/textblock/retranslate", {book, page, block: bl});
+      if(tr) tr.value = r.translation; rt.textContent = "re-translate";
+    };
+  });
+}
+async function captureText(){
+  $("cap-status").textContent = "capturing… (OCR" + ($("cap-tr").checked ? " + translate, this can take a while" : "") + ")";
+  const r = await postj(`/api/textblocks/${enc(book)}/${page}`, {translate: $("cap-tr").checked});
+  PAGE.textblocks = r.textblocks; renderTextPanel();
+}
+async function addGlossaryTerm(){
+  const r = $("gl-r").value.trim(), k = $("gl-k").value.trim(), e = $("gl-e").value.trim();
+  if(!k || !e) return;
+  await postj("/api/refinements", {level: "process", target: "glossary.term", selector: {},
+    payload: {romaji: r, kanji: [k], english: e, category: null}});
+  $("gl-add").textContent = "added ✓"; setTimeout(() => $("gl-add").textContent = "add term", 1200);
   loadEditors();
 }
 
@@ -297,6 +351,14 @@ async function loadEditors(){
       <input id="lx-kanji" placeholder="kanji (comma)" style="width:8rem">
       <button class="mini" id="lx-add">teach term</button><span class="small">re-parse to apply</span></div>`;
   $("lx-add").onclick = addLexicon;
+  // -- glossary: translator term base (JP->EN) --
+  $("ed-glossary").innerHTML = `<h4>Glossary (translator &mdash; JP&rarr;EN terms)</h4>
+    <div class="frm"><input id="gl-r" placeholder="romaji e.g. dai-jodan" style="width:9rem">
+      <input id="gl-k" placeholder="kanji e.g. 大上段" style="width:8rem">
+      <input id="gl-e" placeholder="English meaning" style="width:14rem">
+      <button class="mini" id="gl-add">add term</button>
+      <span class="small">re-translate a block to apply</span></div>`;
+  $("gl-add").onclick = addGlossaryTerm;
   // -- refinements list (this book) --
   const refs = await api(`/api/refinements?book=${enc(book)}`);
   $("ed-refs").innerHTML = `<h4>Refinements for this book (${refs.length})</h4>` + (refs.map(r=>`
