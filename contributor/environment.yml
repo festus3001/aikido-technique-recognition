@@ -6,14 +6,23 @@
 # Create:  conda env create -f contributor/environment.yml
 # Install: conda run -n atr-contributor pip install -e contributor
 # Run:     conda run -n atr-contributor atr-review --reviewer person:<slug> --reviewer-name "Name"
+# The review tool re-parses pages in-process, so it carries the ingestion runtime deps
+# (and depends on the editable atr-ingest + atr-schema packages). System prerequisites are
+# the same as tools/ingest: poppler (pdftoppm) and tesseract + jpn traineddata.
 name: atr-contributor
 channels: [conda-forge]
 dependencies:
   - python=3.12
   - pip
+  - numpy
+  - pillow
   - pytest>=7
   - pip:
     - fastapi
     - "uvicorn[standard]"
     - jsonschema>=4.18
     - httpx
+    - opencv-python-headless>=4.8
+    - pytesseract>=0.3.10
+    # editable, installed alongside this package:
+    #   pip install -e schema -e tools/ingest -e contributor

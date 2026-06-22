@@ -134,6 +134,20 @@ class Store:
                         "img": f"/img/{rel}", "page": rel.parts[1] if len(rel.parts) > 1 else ""})
         return out
 
+    def for_page(self, book: str, page: int) -> list[dict]:
+        """The committed techniques on one page, each with its keyframes (img + bbox) and review."""
+        out = []
+        for t in self.techniques:
+            s = t.get("source", {})
+            if s.get("book") == book and s.get("pdf_page") == page:
+                kfs = [{**k, "img": img_url(k.get("image"))} for k in self._kf.get(t["id"], [])]
+                out.append({"technique": t, "keyframes": kfs, "review": self.review_for(t["id"])})
+        return out
+
+    def content_pages(self, book: str) -> list[int]:
+        return sorted({t["source"]["pdf_page"] for t in self.techniques
+                       if t.get("source", {}).get("book") == book and t["source"].get("pdf_page")})
+
     def queue(self) -> list[dict]:
         out = []
         for t in self.techniques:

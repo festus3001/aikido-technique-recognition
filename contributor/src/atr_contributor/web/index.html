@@ -3,335 +3,283 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>ATR -- Technique Review</title>
+<title>ATR -- Page Review</title>
 <style>
   :root { --ink:#23201b; --paper:#f6f1e7; --line:#d9cfbe; --accent:#7a1f1a; --ok:#2f6b34; --muted:#8a8170; }
   * { box-sizing: border-box; }
   body { margin:0; font-family: Georgia, 'Times New Roman', serif; color:var(--ink); background:var(--paper); }
-  header { display:flex; align-items:center; gap:1rem; padding:.7rem 1.2rem; border-bottom:1px solid var(--line); background:#efe8d9; position:sticky; top:0; z-index:5; }
-  header h1 { font-size:1.05rem; margin:0; font-weight:600; letter-spacing:.02em; }
-  header .who { color:var(--muted); font-size:.85rem; }
-  .bar { flex:1; height:8px; background:#e3dac8; border-radius:4px; overflow:hidden; max-width:340px; }
+  header { display:flex; align-items:center; gap:.8rem; padding:.6rem 1rem; border-bottom:1px solid var(--line); background:#efe8d9; position:sticky; top:0; z-index:10; flex-wrap:wrap; }
+  header h1 { font-size:1rem; margin:0; font-weight:600; letter-spacing:.02em; white-space:nowrap; }
+  header .who { color:var(--muted); font-size:.82rem; }
+  select, input[type=number] { font-family:inherit; font-size:.95rem; padding:.3rem .5rem; border:1px solid var(--line); border-radius:5px; background:#fff; color:var(--ink); }
+  .bar { width:200px; height:7px; background:#e3dac8; border-radius:4px; overflow:hidden; }
   .bar > i { display:block; height:100%; background:var(--ok); width:0; }
-  .count { font-size:.85rem; color:var(--muted); min-width:7rem; text-align:right; }
-  main { max-width:1100px; margin:0 auto; padding:1.2rem; }
-  .caption { font-size:1.15rem; margin:.2rem 0 .1rem; }
-  .sub { color:var(--muted); font-size:.85rem; margin-bottom:1rem; }
-  .seqhead { display:flex; align-items:center; gap:.6rem; margin:.4rem 0; }
-  .seqhead label { font-size:.8rem; color:var(--muted); text-transform:uppercase; letter-spacing:.04em; }
-  .photos { display:flex; gap:.7rem; flex-wrap:wrap; margin-bottom:1.1rem; }
-  .frame { background:#fff; border:1px solid var(--line); border-radius:6px; padding:.4rem; width:210px; }
-  .frame img { display:block; max-height:230px; max-width:100%; margin:0 auto; }
-  .frame .ctrls { display:flex; gap:.2rem; justify-content:center; margin-top:.35rem; }
-  .frame .ctrls button { padding:.15rem .45rem; font-size:.8rem; line-height:1; }
-  .frame input.cap { width:100%; margin-top:.35rem; font-size:.85rem; padding:.3rem .4rem; border:1px solid var(--line); border-radius:4px; font-family:inherit; }
-  .frame .idx { text-align:center; font-size:.75rem; color:var(--muted); }
-  form { display:grid; grid-template-columns: repeat(2, 1fr); gap:.9rem 1.4rem; }
-  .field { display:flex; flex-direction:column; gap:.25rem; }
-  .field.full { grid-column: 1 / -1; }
-  label { font-size:.8rem; color:var(--muted); text-transform:uppercase; letter-spacing:.04em; }
-  input, textarea, select { font-family:inherit; font-size:1rem; padding:.5rem .6rem; border:1px solid var(--line); border-radius:5px; background:#fff; color:var(--ink); }
-  textarea { min-height:5rem; resize:vertical; }
-  .names { grid-column:1/-1; display:flex; gap:.6rem; align-items:end; }
-  .names .field { flex:1; }
-  #swap { padding:.55rem .7rem; align-self:end; margin-bottom:1px; }
-  .row { display:flex; gap:1.4rem; }
-  .row .field { flex:1; }
-  .forms { display:flex; gap:1rem; flex-wrap:wrap; padding-top:.2rem; }
-  .forms label { display:flex; align-items:center; gap:.35rem; text-transform:none; letter-spacing:0; font-size:.95rem; color:var(--ink); }
-  .actions { grid-column:1/-1; display:flex; gap:.7rem; align-items:center; margin-top:.4rem; flex-wrap:wrap; }
-  button { font-family:inherit; font-size:.95rem; padding:.55rem 1.1rem; border:1px solid var(--line); border-radius:6px; background:#fff; color:var(--ink); cursor:pointer; }
+  .count { font-size:.8rem; color:var(--muted); }
+  button { font-family:inherit; font-size:.92rem; padding:.4rem .9rem; border:1px solid var(--line); border-radius:6px; background:#fff; color:var(--ink); cursor:pointer; }
   button.primary { background:var(--accent); color:#fff; border-color:var(--accent); }
   button.good { background:var(--ok); color:#fff; border-color:var(--ok); }
   button.ghost { color:var(--muted); }
-  button.mini { padding:.25rem .6rem; font-size:.85rem; }
-  .nav { margin-left:auto; display:flex; gap:.5rem; align-items:center; }
-  .saved { color:var(--ok); font-size:.85rem; opacity:0; transition:opacity .2s; }
+  button.mini { padding:.2rem .55rem; font-size:.82rem; }
+  button:disabled { opacity:.5; cursor:default; }
+  main { display:flex; gap:0; align-items:flex-start; }
+  /* LEFT: raw page + overlay */
+  .left { width:46%; position:sticky; top:52px; align-self:flex-start; max-height:calc(100vh - 52px); overflow:auto; padding:1rem; border-right:1px solid var(--line); }
+  .pagewrap { position:relative; display:inline-block; background:#fff; border:1px solid var(--line); }
+  .pagewrap img { display:block; max-width:100%; height:auto; }
+  .ovl { position:absolute; border:2px solid var(--accent); background:rgba(122,31,26,.08); font-size:.7rem; color:#fff; }
+  .ovl b { background:var(--accent); padding:0 .25rem; position:absolute; top:-1px; left:-1px; }
+  .ovl.hot { border-color:var(--ok); background:rgba(47,107,52,.14); }
+  .ovl.hot b { background:var(--ok); }
+  .secline { font-size:.82rem; color:var(--muted); margin:.2rem 0 .6rem; }
+  /* RIGHT: sequence cards */
+  .right { width:54%; padding:1rem 1.2rem; }
+  .toolbar { display:flex; gap:.5rem; align-items:center; margin-bottom:.8rem; flex-wrap:wrap; }
+  .card { background:#fff; border:1px solid var(--line); border-radius:8px; padding:.8rem 1rem; margin-bottom:1rem; }
+  .card h3 { margin:.1rem 0 .2rem; font-size:1.02rem; }
+  .card .sub { color:var(--muted); font-size:.8rem; margin-bottom:.6rem; }
+  .photos { display:flex; gap:.5rem; flex-wrap:wrap; margin-bottom:.7rem; }
+  .frame { width:128px; background:#faf7f0; border:1px solid var(--line); border-radius:5px; padding:.3rem; }
+  .frame img { display:block; max-height:130px; max-width:100%; margin:0 auto; }
+  .frame .idx { text-align:center; font-size:.7rem; color:var(--muted); }
+  .frame .ctrls { display:flex; gap:.15rem; justify-content:center; margin-top:.25rem; }
+  .frame .ctrls button { padding:.1rem .35rem; font-size:.75rem; }
+  .frame input.cap { width:100%; margin-top:.25rem; font-size:.78rem; padding:.2rem .3rem; border:1px solid var(--line); border-radius:4px; font-family:inherit; }
+  .names { display:flex; gap:.5rem; align-items:end; }
+  .names .field { flex:1; }
+  .field { display:flex; flex-direction:column; gap:.2rem; margin-bottom:.5rem; }
+  label { font-size:.74rem; color:var(--muted); text-transform:uppercase; letter-spacing:.04em; }
+  input, textarea, select.slot { font-family:inherit; font-size:.95rem; padding:.4rem .5rem; border:1px solid var(--line); border-radius:5px; background:#fff; color:var(--ink); }
+  textarea { min-height:3.4rem; resize:vertical; }
+  .row3 { display:flex; gap:.7rem; }
+  .row3 .field { flex:1; }
+  .forms { display:flex; gap:.7rem; flex-wrap:wrap; }
+  .forms label { display:flex; align-items:center; gap:.3rem; text-transform:none; letter-spacing:0; font-size:.9rem; color:var(--ink); }
+  .verdicts { display:flex; gap:.5rem; align-items:center; flex-wrap:wrap; margin-top:.5rem; }
+  .saved { color:var(--ok); font-size:.8rem; opacity:0; transition:opacity .2s; }
   .saved.show { opacity:1; }
-  .badge { font-size:.72rem; padding:.1rem .45rem; border-radius:10px; border:1px solid var(--line); color:var(--muted); }
+  .badge { font-size:.7rem; padding:.08rem .4rem; border-radius:9px; border:1px solid var(--line); color:var(--muted); }
   .badge.done { background:#e4efe0; color:var(--ok); border-color:#bcd9b6; }
-  /* add-image picker */
-  .picker { position:fixed; inset:0; background:rgba(30,26,20,.55); display:none; align-items:center; justify-content:center; z-index:20; }
-  .picker.open { display:flex; }
-  .picker .box { background:var(--paper); border-radius:8px; max-width:920px; width:92%; max-height:84vh; overflow:auto; padding:1rem 1.2rem; }
-  .picker h3 { margin:.2rem 0 .8rem; }
-  .grid { display:flex; flex-wrap:wrap; gap:.5rem; }
-  .grid figure { margin:0; width:150px; background:#fff; border:1px solid var(--line); border-radius:5px; padding:.3rem; cursor:pointer; }
-  .grid figure.used { opacity:.4; }
-  .grid img { display:block; max-height:120px; max-width:100%; margin:0 auto; }
-  .grid figcaption { text-align:center; font-size:.72rem; color:var(--muted); padding-top:.2rem; }
+  .empty { color:var(--muted); font-style:italic; padding:1rem 0; }
 </style>
 </head>
 <body>
 <header>
-  <h1>ATR &middot; Technique Review</h1>
+  <h1>ATR &middot; Page Review</h1>
+  <select id="book"></select>
+  <button class="mini" id="pprev">&larr;</button>
+  <input type="number" id="page" min="1" style="width:5rem">
+  <button class="mini" id="pnext">&rarr;</button>
+  <button class="mini ghost" id="pprevc" title="previous page with content">&laquo; content</button>
+  <button class="mini ghost" id="pnextc" title="next page with content">content &raquo;</button>
   <span class="who" id="who"></span>
   <div class="bar"><i id="barfill"></i></div>
   <span class="count" id="count">--</span>
 </header>
 <main>
-  <div id="card">
-    <div class="caption" id="cap">Loading...</div>
-    <div class="sub" id="meta"></div>
-
-    <div class="seqhead">
-      <label>Image sequence</label>
-      <button class="mini" id="addimg">+ Add image</button>
-      <span class="sub" id="seqnote" style="margin:0"></span>
-    </div>
-    <div class="photos" id="photos"></div>
-
-    <form id="form" onsubmit="return false;">
-      <div class="names">
-        <div class="field">
-          <label>Name (romaji)</label>
-          <input id="name_romaji" placeholder="e.g. katate-dori shiho-nage" autocomplete="off">
-        </div>
-        <button id="swap" title="Swap romaji and Japanese">&#8644;</button>
-        <div class="field">
-          <label>Name (Japanese)</label>
-          <input id="name_native" placeholder="" autocomplete="off">
-        </div>
-      </div>
-      <div class="row full">
-        <div class="field">
-          <label>Attack</label>
-          <input id="attack" list="attacks" autocomplete="off">
-        </div>
-        <div class="field">
-          <label>Technique</label>
-          <input id="technique" list="techniques" autocomplete="off">
-        </div>
-        <div class="field">
-          <label>Direction</label>
-          <select id="direction">
-            <option value="">--</option>
-            <option value="omote">omote</option>
-            <option value="ura">ura</option>
-          </select>
-        </div>
-      </div>
-      <div class="field full">
-        <label>Form</label>
-        <div class="forms" id="forms"></div>
-      </div>
-      <div class="field full">
-        <label>What the name doesn't carry (connection, timing, quality of kuzushi)</label>
-        <textarea id="note" placeholder="Optional. The qualitative layer -- in your words."></textarea>
-      </div>
-      <div class="actions">
-        <button class="good" id="confirm">Confirm as correct</button>
-        <button class="primary" id="correct">Save correction</button>
-        <button class="ghost" id="skip">Skip</button>
-        <button class="ghost" id="reject" title="Not a technique (OCR noise, section header, etc.)">Not a technique</button>
-        <span class="saved" id="saved">saved</span>
-        <div class="nav">
-          <button id="prev">&larr; Prev</button>
-          <span class="badge" id="pos"></span>
-          <button id="next">Next &rarr;</button>
-          <button id="nextnew" class="primary">Next unreviewed</button>
-        </div>
-      </div>
-    </form>
+  <div class="left">
+    <div class="secline" id="secline"></div>
+    <div class="pagewrap" id="pagewrap"><img id="pageimg" alt="page"></div>
+  </div>
+  <div class="right">
+    <div class="toolbar" id="toolbar"></div>
+    <div id="cards"></div>
   </div>
 </main>
 
-<div class="picker" id="picker">
-  <div class="box">
-    <h3>Add an image to the sequence <button class="mini ghost" id="closepick" style="float:right">close</button></h3>
-    <div class="grid" id="pickgrid"></div>
-  </div>
-</div>
-
 <datalist id="attacks">
   <option>shomenuchi</option><option>yokomenuchi</option><option>tsuki</option>
-  <option>jodan-tsuki</option><option>chudan-tsuki</option>
-  <option>katate-dori</option><option>kosa-dori</option><option>morote-dori</option>
-  <option>ryote-dori</option><option>kata-dori</option><option>ryokata-dori</option>
-  <option>mune-dori</option><option>eri-dori</option><option>sode-dori</option>
-  <option>ushiro-ryote-dori</option><option>ushiro-ryokata-dori</option>
+  <option>katate-dori</option><option>morote-dori</option><option>ryote-dori</option>
+  <option>kata-dori</option><option>mune-dori</option><option>ushiro-ryote-dori</option>
   <option>ushiro-eri-dori</option><option>ushiro-kubishime</option>
 </datalist>
 <datalist id="techniques">
   <option>ikkyo</option><option>nikyo</option><option>sankyo</option><option>yonkyo</option><option>gokyo</option>
   <option>iriminage</option><option>shihonage</option><option>kotegaeshi</option><option>kaitennage</option>
   <option>tenchinage</option><option>koshinage</option><option>jujigarami</option><option>kokyunage</option>
-  <option>kokyuho</option><option>udekimenage</option><option>hijikimeosae</option>
-  <option>sumiotoshi</option><option>aikiotoshi</option>
+  <option>kokyuho</option><option>udekimenage</option>
 </datalist>
 
 <script>
 const FORMS = ["tachiwaza","suwariwaza","hanmihandachi","ken","jo"];
-const CJK = /[぀-ヿ㐀-鿿豈-﫿]/;
-let QUEUE = [], idx = 0, current = null, seq = [], available = [];
+const CJK = /[぀-ヿ㐀-鿿豈-﫿]/;
+let BOOKS = [], book = null, page = 1, PAGE = null, cards = [];
 
 const $ = id => document.getElementById(id);
-function clean(s){ return (s||"").replace(/\s+/g," ").trim(); }
-async function api(path, opts){ const r = await fetch(path, opts); if(!r.ok) throw new Error(path+" "+r.status); return r.json(); }
+const clean = s => (s||"").replace(/\s+/g," ").trim();
+async function api(p, o){ const r = await fetch(p, o); if(!r.ok) throw new Error(p+" "+r.status); return r.json(); }
 
 async function boot(){
   const prog = await api("/api/progress");
   $("who").textContent = prog.reviewer_name || prog.reviewer;
-  QUEUE = await api("/api/queue");
-  $("forms").innerHTML = FORMS.map(f =>
-    `<label><input type="checkbox" value="${f}" class="formck"> ${f}</label>`).join("");
-  const firstNew = QUEUE.findIndex(q => !q.verdict);
-  idx = firstNew >= 0 ? firstNew : 0;
-  await load();
   renderProgress(prog);
+  BOOKS = await api("/api/books");
+  $("book").innerHTML = BOOKS.map(b => `<option value="${b.id}">Vol.${b.volume||"?"} — ${(b.full_title||b.id)}</option>`).join("");
+  book = BOOKS[0].id;
+  page = (BOOKS[0].content_pages||[])[0] || 1;
+  $("book").value = book;
+  await loadPage();
 }
-
+function curBook(){ return BOOKS.find(b => b.id === book); }
 function renderProgress(p){
-  const pct = p.total ? Math.round(100*p.reviewed/p.total) : 0;
-  $("barfill").style.width = pct + "%";
+  $("barfill").style.width = (p.total ? Math.round(100*p.reviewed/p.total) : 0) + "%";
   $("count").textContent = `${p.reviewed} / ${p.total} reviewed`;
 }
 
-async function load(){
-  const item = QUEUE[idx];
-  const d = await api("/api/technique/" + encodeURIComponent(item.id));
-  current = d; available = d.available || [];
-  const t = d.technique, r = d.review;
-  $("cap").textContent = clean(t.raw_caption || t.name_romaji || t.id);
-  const s = t.source || {};
-  const struct = [t.context, t.kind, t.weapon, t.form].filter(x => x && x !== "technique" && x !== "taijutsu");
-  const tag = struct.length ? "  ·  " + struct.join(" / ") : "";
-  $("meta").textContent = `${s.title || s.book || ""}  ·  p.${s.pdf_page || "?"}  ·  ${(t.provenance||{}).performer_name||""} (${(t.provenance||{}).lineage||""})${tag}`;
-  // weapon records (suburi/kata/kumi) are not paired attacks -- de-emphasize the attack field
-  const weapon = t.context === "aiki-ken" || t.context === "aiki-jo";
-  $("attack").placeholder = weapon ? "(weapon form -- usually no attack)" : "";
-
-  // working keyframe sequence (editable copy)
-  seq = (d.keyframes || []).map(k => ({image:k.image, img:k.img, caption:k.caption||""}));
-  renderSeq();
-
-  // name fields: route OCR Japanese into the native box, leave romaji blank to type.
-  const provisional = clean(t.raw_caption || t.name_romaji || "");
-  if(r){
-    $("name_romaji").value = r.name_romaji || "";
-    $("name_native").value = r.name_native || "";
-  } else if(CJK.test(provisional)){
-    $("name_romaji").value = "";
-    $("name_native").value = provisional;
-  } else {
-    $("name_romaji").value = provisional;
-    $("name_native").value = t.name_native || "";
-  }
-  const slots = (r && r.slots) || t.slots || {};
-  $("attack").value = slots.attack || "";
-  $("technique").value = slots.technique || "";
-  $("direction").value = slots.direction || "";
-  $("note").value = (r && r.note) || "";
-  const formset = new Set(slots.form || []);
-  document.querySelectorAll(".formck").forEach(c => c.checked = formset.has(c.value));
-
-  $("pos").textContent = `${idx+1} / ${QUEUE.length}` + (item.verdict ? `  ·  ${item.verdict}` : "");
-  $("pos").className = "badge" + (item.verdict ? " done" : "");
+async function loadPage(){
+  $("page").value = page;
+  $("cards").innerHTML = "<div class='empty'>loading…</div>";
+  $("toolbar").innerHTML = "";
+  PAGE = await api(`/api/page/${encodeURIComponent(book)}/${page}`);
+  const s = PAGE.section;
+  $("secline").textContent = `section: ${[s.context, s.kind, s.weapon, s.form].filter(x=>x && x!=="technique" && x!=="taijutsu").join(" / ") || "taijutsu / technique"}` + (s.note ? `  ·  ${s.note}` : "");
+  $("pageimg").onload = drawOverlay;
+  $("pageimg").src = PAGE.raw_page_url + "?t=" + Date.now();
+  $("toolbar").innerHTML = `<span class="badge">${PAGE.techniques.length} sequence(s) on this page</span>`;
+  renderCards();
 }
 
-function renderSeq(){
-  $("seqnote").textContent = seq.length + (seq.length===1?" frame":" frames");
-  $("photos").innerHTML = seq.map((k,i) => `
+function drawOverlay(){
+  const img = $("pageimg"), wrap = $("pagewrap");
+  wrap.querySelectorAll(".ovl").forEach(e => e.remove());
+  if(!img.naturalWidth) return;
+  const scale = img.clientWidth / img.naturalWidth;
+  PAGE.techniques.forEach((t, ti) => {
+    t.keyframes.forEach((k, ki) => {
+      const b = (k.source||{}).bbox; if(!b) return;
+      const d = document.createElement("div");
+      d.className = "ovl"; d.dataset.t = ti;
+      d.style.left = (b[0]*scale)+"px"; d.style.top = (b[1]*scale)+"px";
+      d.style.width = (b[2]*scale)+"px"; d.style.height = (b[3]*scale)+"px";
+      d.innerHTML = `<b>${ti+1}.${ki+1}</b>`;
+      d.onmouseenter = () => highlight(ti, true);
+      d.onmouseleave = () => highlight(ti, false);
+      wrap.appendChild(d);
+    });
+  });
+}
+function highlight(ti, on){
+  document.querySelectorAll(`.ovl[data-t='${ti}']`).forEach(e => e.classList.toggle("hot", on));
+  const card = document.getElementById("card-"+ti);
+  if(card) card.style.outline = on ? "2px solid var(--ok)" : "";
+}
+window.addEventListener("resize", () => { if(PAGE) drawOverlay(); });
+
+function renderCards(){
+  cards = [];
+  if(!PAGE.techniques.length){ $("cards").innerHTML = "<div class='empty'>No parsed sequences on this page. (Re-parse / overrides come next.)</div>"; return; }
+  $("cards").innerHTML = "";
+  PAGE.techniques.forEach((t, ti) => $("cards").appendChild(buildCard(t, ti)));
+}
+
+function buildCard(t, ti){
+  const tech = t.technique, r = t.review;
+  const el = document.createElement("div");
+  el.className = "card"; el.id = "card-"+ti;
+  el.onmouseenter = () => highlight(ti, true);
+  el.onmouseleave = () => highlight(ti, false);
+  const ctx = [tech.context, tech.kind, tech.weapon, tech.form].filter(x=>x && x!=="technique" && x!=="taijutsu").join(" / ");
+  const provisional = clean(tech.raw_caption || tech.name_romaji || "");
+  // working keyframe sequence (review's edited one, else original from this page payload)
+  let seq = (r && r.keyframes) ? r.keyframes.map(k => ({image:k.image, img:imgFor(k.image), caption:k.caption||""}))
+                               : t.keyframes.map(k => ({image:k.image, img:k.img, caption:""}));
+  const slots = (r && r.slots) || tech.slots || {};
+  const nameR = r ? (r.name_romaji||"") : (CJK.test(provisional) ? "" : provisional);
+  const nameN = r ? (r.name_native||"") : (CJK.test(provisional) ? provisional : (tech.name_native||""));
+
+  el.innerHTML = `
+    <h3>${ti+1}. ${clean(tech.raw_caption || tech.name_romaji || tech.id)}</h3>
+    <div class="sub">${ctx ? ctx+"  ·  " : ""}${tech.step_count||t.keyframes.length} step(s)${r ? "  ·  "+r.verdict : ""}</div>
+    <div class="photos"></div>
+    <div class="names">
+      <div class="field"><label>Name (romaji)</label><input class="nr" value="${esc(nameR)}" placeholder="e.g. katate-dori shiho-nage"></div>
+      <button class="mini swap" title="swap">&#8644;</button>
+      <div class="field"><label>Name (Japanese)</label><input class="nn" value="${esc(nameN)}"></div>
+    </div>
+    <div class="row3">
+      <div class="field"><label>Attack</label><input class="at" list="attacks" value="${esc(slots.attack||"")}"></div>
+      <div class="field"><label>Technique</label><input class="te" list="techniques" value="${esc(slots.technique||"")}"></div>
+      <div class="field"><label>Direction</label><select class="slot di"><option value="">--</option><option ${slots.direction==="omote"?"selected":""}>omote</option><option ${slots.direction==="ura"?"selected":""}>ura</option></select></div>
+    </div>
+    <div class="field"><label>Form</label><div class="forms">${FORMS.map(f=>`<label><input type="checkbox" class="fm" value="${f}" ${(slots.form||[]).includes(f)?"checked":""}> ${f}</label>`).join("")}</div></div>
+    <div class="field"><label>What the name doesn't carry</label><textarea class="note">${esc(r&&r.note||"")}</textarea></div>
+    <div class="verdicts">
+      <button class="good vC">Confirm</button>
+      <button class="primary vK">Save correction</button>
+      <button class="ghost vS">Skip</button>
+      <button class="ghost vR" title="not a technique">Not a technique</button>
+      <span class="saved">saved</span>
+    </div>`;
+
+  const c = { el, tech, seq };
+  cards[ti] = c;
+  renderSeq(c);
+  el.querySelector(".swap").onclick = () => { const a=el.querySelector(".nr"), b=el.querySelector(".nn"); [a.value,b.value]=[b.value,a.value]; };
+  el.querySelector(".vC").onclick = () => save(c, "confirmed");
+  el.querySelector(".vK").onclick = () => save(c, "corrected");
+  el.querySelector(".vS").onclick = () => save(c, "skip");
+  el.querySelector(".vR").onclick = () => save(c, "rejected");
+  return el;
+}
+
+function imgFor(image){ const m="resources/books/processed/"; return image && image.includes(m) ? "/img/"+image.split(m)[1] : image; }
+function esc(s){ return (s||"").replace(/"/g,"&quot;").replace(/</g,"&lt;"); }
+
+function renderSeq(c){
+  const box = c.el.querySelector(".photos");
+  box.innerHTML = c.seq.map((k,i)=>`
     <div class="frame" data-i="${i}">
       <div class="idx">${i+1}</div>
-      <img src="${k.img}" alt="frame ${i+1}" loading="lazy">
-      <div class="ctrls">
-        <button data-act="left" ${i===0?"disabled":""} title="move left">&larr;</button>
-        <button data-act="del" title="remove">&#215;</button>
-        <button data-act="right" ${i===seq.length-1?"disabled":""} title="move right">&rarr;</button>
-      </div>
-      <input class="cap" data-i="${i}" placeholder="caption (e.g. count / phase)" value="${(k.caption||"").replace(/"/g,'&quot;')}">
-    </div>`).join("") || "<em>(no images)</em>";
-  $("photos").querySelectorAll(".ctrls button").forEach(b => b.onclick = () => {
-    const i = +b.closest(".frame").dataset.i, act = b.dataset.act;
-    if(act==="del") seq.splice(i,1);
-    else if(act==="left" && i>0) [seq[i-1],seq[i]]=[seq[i],seq[i-1]];
-    else if(act==="right" && i<seq.length-1) [seq[i+1],seq[i]]=[seq[i],seq[i+1]];
-    renderSeq();
+      <img src="${k.img}" loading="lazy">
+      <div class="ctrls"><button data-a="l" ${i===0?"disabled":""}>&larr;</button><button data-a="d">&#215;</button><button data-a="r" ${i===c.seq.length-1?"disabled":""}>&rarr;</button></div>
+      <input class="cap" data-i="${i}" placeholder="caption" value="${esc(k.caption)}">
+    </div>`).join("") || "<em class='empty'>(no images)</em>";
+  box.querySelectorAll(".ctrls button").forEach(b => b.onclick = () => {
+    const i=+b.closest(".frame").dataset.i, a=b.dataset.a;
+    if(a==="d") c.seq.splice(i,1);
+    else if(a==="l"&&i>0) [c.seq[i-1],c.seq[i]]=[c.seq[i],c.seq[i-1]];
+    else if(a==="r"&&i<c.seq.length-1) [c.seq[i+1],c.seq[i]]=[c.seq[i],c.seq[i+1]];
+    renderSeq(c);
   });
-  $("photos").querySelectorAll("input.cap").forEach(inp => inp.oninput = () => {
-    seq[+inp.dataset.i].caption = inp.value;
-  });
+  box.querySelectorAll("input.cap").forEach(inp => inp.oninput = () => c.seq[+inp.dataset.i].caption = inp.value);
 }
 
-// add-image picker
-$("addimg").onclick = () => {
-  const used = new Set(seq.map(k=>k.image));
-  $("pickgrid").innerHTML = available.map(a => `
-    <figure class="${used.has(a.image)?"used":""}" data-image="${a.image}" data-img="${a.img}">
-      <img src="${a.img}" loading="lazy"><figcaption>${a.page||""}</figcaption>
-    </figure>`).join("") || "<em>no other images for this book</em>";
-  $("pickgrid").querySelectorAll("figure").forEach(f => f.onclick = () => {
-    seq.push({image:f.dataset.image, img:f.dataset.img, caption:""});
-    renderSeq(); $("picker").classList.remove("open");
-  });
-  $("picker").classList.add("open");
-};
-$("closepick").onclick = () => $("picker").classList.remove("open");
-$("picker").onclick = e => { if(e.target===$("picker")) $("picker").classList.remove("open"); };
-
-$("swap").onclick = () => {
-  const a=$("name_romaji").value; $("name_romaji").value=$("name_native").value; $("name_native").value=a;
-};
-
-function seqChanged(){
-  const orig = (current.review && current.review.keyframes) ||
-    (current.keyframes||[]).map(k=>({image:k.image,caption:k.caption||""}));
-  // compare image order + captions
-  if(seq.length !== current.keyframes.length) return true;
-  return JSON.stringify(seq.map(k=>[k.image,k.caption])) !==
-         JSON.stringify((current.keyframes||[]).map(k=>[k.image,k.caption||""]));
-}
-
-function payload(verdict){
-  return {
+async function save(c, verdict){
+  const el = c.el;
+  const origImages = JSON.stringify((PAGE.techniques.find(x=>x.technique.id===c.tech.id).keyframes||[]).map(k=>k.image));
+  const seqChanged = JSON.stringify(c.seq.map(k=>k.image)) !== origImages || c.seq.some(k=>k.caption);
+  const payload = {
     verdict,
-    name_romaji: clean($("name_romaji").value),
-    name_native: clean($("name_native").value),
+    name_romaji: clean(el.querySelector(".nr").value),
+    name_native: clean(el.querySelector(".nn").value),
     slots: {
-      attack: clean($("attack").value),
-      technique: clean($("technique").value),
-      direction: $("direction").value,
-      form: [...document.querySelectorAll(".formck")].filter(c=>c.checked).map(c=>c.value),
+      attack: clean(el.querySelector(".at").value),
+      technique: clean(el.querySelector(".te").value),
+      direction: el.querySelector(".di").value,
+      form: [...el.querySelectorAll(".fm")].filter(x=>x.checked).map(x=>x.value),
     },
-    keyframes: seqChanged() ? seq.map(k=>({image:k.image, caption:k.caption||""})) : null,
-    note: $("note").value.trim(),
+    keyframes: seqChanged ? c.seq.map(k=>({image:k.image, caption:k.caption||""})) : null,
+    note: el.querySelector(".note").value.trim(),
   };
-}
-
-async function save(verdict, advance){
-  const item = QUEUE[idx];
-  const rec = await api("/api/review/" + encodeURIComponent(item.id), {
-    method:"POST", headers:{"Content-Type":"application/json"}, body: JSON.stringify(payload(verdict))
-  });
-  item.verdict = rec.verdict;
-  $("saved").classList.add("show"); setTimeout(()=>$("saved").classList.remove("show"), 900);
+  await api(`/api/review/${encodeURIComponent(c.tech.id)}`, {method:"POST", headers:{"Content-Type":"application/json"}, body:JSON.stringify(payload)});
+  const s = el.querySelector(".saved"); s.classList.add("show"); setTimeout(()=>s.classList.remove("show"), 900);
   renderProgress(await api("/api/progress"));
-  if(advance) await goNextNew(); else await load();
 }
 
-async function go(delta){ idx = (idx + delta + QUEUE.length) % QUEUE.length; await load(); }
-async function goNextNew(){
-  const after = QUEUE[idx].id;
-  const {id} = await api("/api/next?after=" + encodeURIComponent(after));
-  if(id == null){ alert("All techniques reviewed."); return; }
-  idx = QUEUE.findIndex(q => q.id === id); await load();
+// navigation
+function goPage(p){ const b=curBook(); page = Math.max(1, Math.min(p, b.pages||p)); loadPage(); }
+function nearestContent(dir){
+  const cp = (curBook().content_pages)||[];
+  if(dir>0){ const n = cp.find(p=>p>page); if(n) goPage(n); }
+  else { const prev = [...cp].reverse().find(p=>p<page); if(prev) goPage(prev); }
 }
+$("book").onchange = () => { book = $("book").value; page = (curBook().content_pages||[])[0]||1; loadPage(); };
+$("page").onchange = () => goPage(+$("page").value);
+$("pprev").onclick = () => goPage(page-1);
+$("pnext").onclick = () => goPage(page+1);
+$("pprevc").onclick = () => nearestContent(-1);
+$("pnextc").onclick = () => nearestContent(1);
 
-$("confirm").onclick = () => save("confirmed", true);
-$("correct").onclick = () => save("corrected", true);
-$("skip").onclick    = () => save("skip", true);
-$("reject").onclick  = () => save("rejected", true);
-$("prev").onclick    = () => go(-1);
-$("next").onclick    = () => go(1);
-$("nextnew").onclick = () => goNextNew();
-document.addEventListener("keydown", e => {
-  if(e.target.tagName === "TEXTAREA" || e.target.tagName === "INPUT") return;
-  if(e.key === "ArrowRight") go(1);
-  if(e.key === "ArrowLeft") go(-1);
-});
-
-boot().catch(e => { $("cap").textContent = "Error: " + e.message; });
+boot().catch(e => $("cards").innerHTML = "<div class='empty'>Error: "+e.message+"</div>");
 </script>
 </body>
 </html>
