@@ -1,0 +1,807 @@
+[
+  {
+    "id": "text:saito-traditional-aikido-vol1-p26-b1",
+    "book": "saito-traditional-aikido-vol1",
+    "page": 26,
+    "block": 1,
+    "bbox": [
+      316,
+      380,
+      246,
+      205
+    ],
+    "text": "中 4\nStanding\nBow",
+    "lang": "en",
+    "conf": 80.5,
+    "translation": null,
+    "translation_model": null,
+    "terms_used": [],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 26
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "text:saito-traditional-aikido-vol1-p26-b2",
+    "book": "saito-traditional-aikido-vol1",
+    "page": 26,
+    "block": 2,
+    "bbox": [
+      202,
+      2094,
+      1694,
+      334
+    ],
+    "text": "素振り ー(⑪\n真っ 直ぐ に 振り 上 げ 、 真 っ 直ぐ に 打ち お ろ す こと が 大 切 で ある 。 特に 合気道 の\n素振り で は 、 剣 を 打ち 下 し た 時 に 腰 を 充分 に 落ち 基 け る の で ある 。\nFirst Suburi",
+    "lang": "ja",
+    "conf": 90.0,
+    "translation": "First *Suburi*—\n\nIt is important to swing straight up and strike straight down. Especially in *aikidō* *suburi*, when striking down the sword, it is necessary to drop the hips sufficiently.",
+    "translation_model": "gemma3:12b",
+    "terms_used": [
+      "打ち",
+      "合"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 26
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "text:saito-traditional-aikido-vol1-p26-b3",
+    "book": "saito-traditional-aikido-vol1",
+    "page": 26,
+    "block": 3,
+    "bbox": [
+      201,
+      2489,
+      1612,
+      188
+    ],
+    "text": "It is important that the sword be raised overhead and brought down mn\nexactly a vertical line. As in all Aikido suburi, during the downward\nstroke of the sword, the hips must be solidly based.",
+    "lang": "en",
+    "conf": 94.4,
+    "translation": null,
+    "translation_model": null,
+    "terms_used": [],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 26
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "text:saito-traditional-aikido-vol1-p27-b1",
+    "book": "saito-traditional-aikido-vol1",
+    "page": 27,
+    "block": 1,
+    "bbox": [
+      1568,
+      1225,
+      300,
+      54
+    ],
+    "text": "金明 は 49 頁 )",
+    "lang": "ja",
+    "conf": 65.4,
+    "translation": "Kanmyō (金明) is on page 49.",
+    "translation_model": "gemma3:12b",
+    "terms_used": [],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 27
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "text:saito-traditional-aikido-vol1-p27-b2",
+    "book": "saito-traditional-aikido-vol1",
+    "page": 27,
+    "block": 2,
+    "bbox": [
+      1361,
+      1353,
+      178,
+      43
+    ],
+    "text": "Kamae",
+    "lang": "en",
+    "conf": 90.0,
+    "translation": null,
+    "translation_model": null,
+    "terms_used": [],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 27
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "text:saito-traditional-aikido-vol1-p27-b3",
+    "book": "saito-traditional-aikido-vol1",
+    "page": 27,
+    "block": 3,
+    "bbox": [
+      1574,
+      1353,
+      427,
+      56
+    ],
+    "text": "Refer to page 49",
+    "lang": "en",
+    "conf": 91.8,
+    "translation": null,
+    "translation_model": null,
+    "terms_used": [],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 27
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "text:saito-traditional-aikido-vol1-p27-b4",
+    "book": "saito-traditional-aikido-vol1",
+    "page": 27,
+    "block": 4,
+    "bbox": [
+      1034,
+      2881,
+      98,
+      28
+    ],
+    "text": "r 25 ー",
+    "lang": "ja",
+    "conf": 69.7,
+    "translation": "25. When the opponent attacks with a *shihonage* (四本落), step back with your left foot, pivoting on the ball of your foot.",
+    "translation_model": "gemma3:12b",
+    "terms_used": [],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 27
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "text:saito-traditional-aikido-vol1-p28-b1",
+    "book": "saito-traditional-aikido-vol1",
+    "page": 28,
+    "block": 1,
+    "bbox": [
+      189,
+      194,
+      289,
+      58
+    ],
+    "text": "素振り ー(2)",
+    "lang": "ja",
+    "conf": 87.0,
+    "translation": "Suburi – (2)",
+    "translation_model": "gemma3:12b",
+    "terms_used": [],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 28
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "text:saito-traditional-aikido-vol1-p28-b2",
+    "book": "saito-traditional-aikido-vol1",
+    "page": 28,
+    "block": 2,
+    "bbox": [
+      280,
+      304,
+      371,
+      131
+    ],
+    "text": "ls TK ER\n込む よう に する",
+    "lang": "ja",
+    "conf": 67.0,
+    "translation": "Blend in as if melting.",
+    "translation_model": "gemma3:12b",
+    "terms_used": [],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 28
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "text:saito-traditional-aikido-vol1-p28-b3",
+    "book": "saito-traditional-aikido-vol1",
+    "page": 28,
+    "block": 3,
+    "bbox": [
+      764,
+      312,
+      876,
+      63
+    ],
+    "text": "りか ぶる 。 こ の 時 充分 に 腰 を ひね る 。 打ち",
+    "lang": "ja",
+    "conf": 89.1,
+    "translation": "Guard. At this time, twist the hips fully. Hit (Uchi).",
+    "translation_model": "gemma3:12b",
+    "terms_used": [
+      "打ち"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 28
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "text:saito-traditional-aikido-vol1-p28-b4",
+    "book": "saito-traditional-aikido-vol1",
+    "page": 28,
+    "block": 4,
+    "bbox": [
+      1652,
+      321,
+      235,
+      57
+    ],
+    "text": "込み は 腰 で",
+    "lang": "ja",
+    "conf": 92.0,
+    "translation": "The power comes from the hips.",
+    "translation_model": "gemma3:12b",
+    "terms_used": [],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 28
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "text:saito-traditional-aikido-vol1-p28-b5",
+    "book": "saito-traditional-aikido-vol1",
+    "page": 28,
+    "block": 5,
+    "bbox": [
+      184,
+      1492,
+      288,
+      57
+    ],
+    "text": "素振り ー(3)",
+    "lang": "ja",
+    "conf": 88.5,
+    "translation": "Suburi – (3)",
+    "translation_model": "gemma3:12b",
+    "terms_used": [],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 28
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "text:saito-traditional-aikido-vol1-p28-b6",
+    "book": "saito-traditional-aikido-vol1",
+    "page": 28,
+    "block": 6,
+    "bbox": [
+      639,
+      1508,
+      528,
+      62
+    ],
+    "text": "' 種 の 深呼吸 で ある 。 右足",
+    "lang": "ja",
+    "conf": 83.4,
+    "translation": "It is a type of deep breathing. Right foot",
+    "translation_model": "gemma3:12b",
+    "terms_used": [
+      "右"
+    ],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 28
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "text:saito-traditional-aikido-vol1-p28-b7",
+    "book": "saito-traditional-aikido-vol1",
+    "page": 28,
+    "block": 7,
+    "bbox": [
+      1228,
+      1512,
+      654,
+      63
+    ],
+    "text": "引き 剣 を 頭上 に 立て 、 宇 宙 の 気",
+    "lang": "ja",
+    "conf": 85.8,
+    "translation": "Draw the sword (hikken) upward, toward the heavens, and connect with the universe’s energy.",
+    "translation_model": "gemma3:12b",
+    "terms_used": [],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 28
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "text:saito-traditional-aikido-vol1-p28-b8",
+    "book": "saito-traditional-aikido-vol1",
+    "page": 28,
+    "block": 8,
+    "bbox": [
+      190,
+      1574,
+      552,
+      64
+    ],
+    "text": "を 剣先 を 通じ て 体内 に 充満",
+    "lang": "ja",
+    "conf": 94.5,
+    "translation": "Allow the point of the sword to permeate the body.",
+    "translation_model": "gemma3:12b",
+    "terms_used": [],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 28
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "text:saito-traditional-aikido-vol1-p28-b9",
+    "book": "saito-traditional-aikido-vol1",
+    "page": 28,
+    "block": 9,
+    "bbox": [
+      1032,
+      1587,
+      431,
+      42
+    ],
+    "text": "止め て 豚 構 え に 移り -",
+    "lang": "ja",
+    "conf": 67.1,
+    "translation": "Stop and transition to a *hiza-guruma* grip.",
+    "translation_model": "gemma3:12b",
+    "terms_used": [],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 28
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "text:saito-traditional-aikido-vol1-p28-b10",
+    "book": "saito-traditional-aikido-vol1",
+    "page": 28,
+    "block": 10,
+    "bbox": [
+      1695,
+      1587,
+      199,
+      59
+    ],
+    "text": "込 び ご と 。",
+    "lang": "ja",
+    "conf": 90.2,
+    "translation": "With commitment.",
+    "translation_model": "gemma3:12b",
+    "terms_used": [],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 28
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "text:saito-traditional-aikido-vol1-p28-b11",
+    "book": "saito-traditional-aikido-vol1",
+    "page": 28,
+    "block": 11,
+    "bbox": [
+      183,
+      1687,
+      353,
+      46
+    ],
+    "text": "Third Suburi",
+    "lang": "en",
+    "conf": 92.0,
+    "translation": null,
+    "translation_model": null,
+    "terms_used": [],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 28
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "text:saito-traditional-aikido-vol1-p28-b12",
+    "book": "saito-traditional-aikido-vol1",
+    "page": 28,
+    "block": 12,
+    "bbox": [
+      211,
+      1791,
+      1612,
+      59
+    ],
+    "text": "This is one of the kokyu, or breath, techniques. As the right foot steps",
+    "lang": "en",
+    "conf": 93.4,
+    "translation": null,
+    "translation_model": null,
+    "terms_used": [],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 28
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "text:saito-traditional-aikido-vol1-p28-b13",
+    "book": "saito-traditional-aikido-vol1",
+    "page": 28,
+    "block": 13,
+    "bbox": [
+      177,
+      1862,
+      101,
+      43
+    ],
+    "text": "back,",
+    "lang": "en",
+    "conf": 96.0,
+    "translation": null,
+    "translation_model": null,
+    "terms_used": [],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 28
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  },
+  {
+    "id": "text:saito-traditional-aikido-vol1-p28-b14",
+    "book": "saito-traditional-aikido-vol1",
+    "page": 28,
+    "block": 14,
+    "bbox": [
+      308,
+      1863,
+      1451,
+      54
+    ],
+    "text": "the sword is raised directly overhead. This alignment allows the",
+    "lang": "en",
+    "conf": 95.0,
+    "translation": null,
+    "translation_model": null,
+    "terms_used": [],
+    "source": {
+      "book": "saito-traditional-aikido-vol1",
+      "title": "Traditional Aikido, Volume 1: Basic Techniques",
+      "pdf_page": 28
+    },
+    "provenance": {
+      "performer": "person:morihiro-saito",
+      "performer_name": "Morihiro Saito",
+      "era": {
+        "start": "1973",
+        "end": "1973",
+        "confidence": "stated",
+        "note": "publication year from book colophon (©)"
+      },
+      "medium": "book",
+      "recording": "saito-traditional-aikido-vol1",
+      "lineage": "iwama"
+    },
+    "status": "provisional",
+    "retrieved": "2026-06-22"
+  }
+]

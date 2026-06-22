@@ -21,6 +21,7 @@ dev = ["pytest>=7"]
 [project.scripts]
 atr-ingest = "atr_ingest.cli:main"
 atr-ingest-backfill = "atr_ingest.backfill:main"
+atr-textblocks = "atr_ingest.textcli:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
