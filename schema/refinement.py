@@ -89,9 +89,11 @@ def _slug(s: Any) -> str:
     return re.sub(r"[^a-z0-9]+", "-", str(s).lower()).strip("-")
 
 
-def make_id(scope: Scope, target: str, payload: dict | None = None) -> str:
-    """Stable id so re-editing the same scope+target upserts rather than duplicates.
-    Additive targets include a payload key (each term is its own record)."""
+def make_id(scope: Scope, target: str, payload: dict | None = None,
+            author: str | None = None) -> str:
+    """Stable id so re-editing the same scope+target by the same author upserts, while a
+    different author's correction coexists (per-teacher attribution). Additive targets also
+    key on the payload term (each vocabulary entry is its own record)."""
     s = scope.selector
     parts = [target]
     if "book" in s:
@@ -107,6 +109,8 @@ def make_id(scope: Scope, target: str, payload: dict | None = None) -> str:
     if TARGETS.get(target, {}).get("merge") == "additive" and payload:
         key = payload.get("canonical") or payload.get("slot") or payload.get("term") or ""
         parts.append(_slug(f"{payload.get('slot','')}-{key}"))
+    if author:
+        parts.append(_slug(author))
     return "ref:" + ":".join(parts)
 
 
@@ -166,8 +170,9 @@ class RefinementStore:
     def add(self, level: str, target: str, payload: dict, provenance: Provenance,
             selector: dict | None = None, status: str = "provisional") -> Refinement:
         scope = Scope(level=level, selector=selector or {})
-        ref = Refinement(id=make_id(scope, target, payload), scope=scope, target=target,
-                         payload=payload, provenance=provenance, status=status)
+        ref = Refinement(id=make_id(scope, target, payload, author=provenance.author),
+                         scope=scope, target=target, payload=payload,
+                         provenance=provenance, status=status)
         return self.upsert(ref)
 
     def save(self) -> None:

@@ -75,20 +75,19 @@ def test_compose_returns_ordered_ops():
 
 def test_retired_is_ignored_and_upsert_is_stable():
     s = store(("technique", "verdict", {"verdict": "confirmed"}, {"technique": "tech:a"}, prov()))
-    rid = make_id_for(s, "tech:a")
     assert resolve("verdict", {"technique": "tech:a"}, s, base=None)["verdict"] == "confirmed"
-    # re-adding the same scope+target upserts (one record), and retiring removes it from resolution
+    # re-adding the same scope+target by the SAME author upserts (one record)
     s.add("technique", "verdict", {"verdict": "corrected"}, prov(), selector={"technique": "tech:a"})
     assert len([r for r in s.items if r.target == "verdict"]) == 1
-    ref = s.by_target("verdict")[0]
-    ref.status = "retired"
+    # a different author's correction coexists (per-teacher attribution)
+    s.add("technique", "verdict", {"verdict": "skip"}, prov(author="person:u"),
+          selector={"technique": "tech:a"})
+    assert len([r for r in s.items if r.target == "verdict"]) == 2
+    # retiring removes a record from resolution
+    for r in s.by_target("verdict"):
+        r.status = "retired"
     s._reindex()
     assert resolve("verdict", {"technique": "tech:a"}, s, base="none") == "none"
-
-
-def make_id_for(s, technique):
-    from schema.refinement import Scope
-    return make_id(Scope("technique", {"technique": technique}), "verdict")
 
 
 def test_persistence_roundtrip(tmp_path):

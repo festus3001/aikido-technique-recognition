@@ -1,13 +1,11 @@
-"""Project the teacher's reviews onto the provisional corpus.
+"""Project teacher Refinements onto the provisional corpus.
 
-Reads techniques.json + reviews.json and writes techniques_reviewed.json: each technique
-carries the teacher-approved name/slots where a review exists, the corrected keyframe
-sequence if the teacher edited it, and a `review` block (who/when/verdict + the deep-layer
-note). The provisional techniques.json is never modified -- this is the downstream-consumable,
-teacher-authorized view (what D3 motifs / F1 dataset / F2 parse model train and evaluate
-against).
+Resolves the technique-scope Refinements (name / parse.slots / keyframe.sequence / verdict /
+note) onto each technique and writes techniques_reviewed.json -- the teacher-authorized view
+that D3 motifs / F1 dataset / F2,F4 model train and evaluate against. The provisional
+techniques.json is never modified; techniques_reviewed.json is a regenerable build artifact.
 
-  atr-review-merge            # write data/taxonomy/techniques_reviewed.json + print a summary
+  atr-review-merge
 """
 
 from __future__ import annotations
@@ -16,44 +14,47 @@ import argparse
 from collections import defaultdict
 from pathlib import Path
 
-from .store import REVIEWS, TAXO, TECHNIQUES, _load, _write_atomic
+from schema.refinement import RefinementStore, matching, resolve
+
+from .store import REFINEMENTS, TAXO, TECHNIQUES, _load, _write_atomic
 
 REVIEWED = TAXO / "techniques_reviewed.json"
 
 
 def project() -> tuple[list, dict]:
     techniques = _load(TECHNIQUES, [])
-    reviews = _load(REVIEWS, [])
-    best: dict[str, dict] = {}
-    for r in reviews:
-        cur = best.get(r["technique"])
-        if cur is None or r.get("date", "") >= cur.get("date", ""):
-            best[r["technique"]] = r
-
+    refs = RefinementStore(path=REFINEMENTS)
     out, counts = [], defaultdict(int)
     for t in techniques:
-        r = best.get(t["id"])
+        unit = {"technique": t["id"]}
+        vrefs = matching("verdict", unit, refs)
+        verdict = vrefs[-1].payload.get("verdict") if vrefs else None
         rec = dict(t)
-        if r and r["verdict"] in ("confirmed", "corrected"):
-            rec["name_romaji"] = r.get("name_romaji") or t.get("name_romaji")
-            rec["name_native"] = r.get("name_native") or t.get("name_native")
-            rec["slots"] = {**t.get("slots", {}),
-                            **{k: v for k, v in r.get("slots", {}).items() if v not in (None, [])}}
-            if r.get("keyframes"):
-                rec["keyframes_reviewed"] = r["keyframes"]
+        if verdict in ("confirmed", "corrected"):
+            name = resolve("name", unit, refs, base=None)
+            slots = resolve("parse.slots", unit, refs, base=None)
+            kf = resolve("keyframe.sequence", unit, refs, base=None)
+            note = resolve("note", unit, refs, base=None)
+            if name:
+                rec["name_romaji"] = name.get("romaji") or t.get("name_romaji")
+                rec["name_native"] = name.get("native") or t.get("name_native")
+            if slots:
+                rec["slots"] = {**t.get("slots", {}),
+                                **{k: v for k, v in slots.items() if v not in (None, [])}}
+            if kf and kf.get("sequence"):
+                rec["keyframes_reviewed"] = kf["sequence"]
             rec["status"] = "reviewed"
-            rec["review"] = {
-                "verdict": r["verdict"], "note": r.get("note"),
-                "reviewed_by": r["reviewed_by"], "reviewed_by_name": r.get("reviewed_by_name"),
-                "date": r["date"],
-            }
-            counts[r["verdict"]] += 1
-        elif r and r["verdict"] == "rejected":
+            p = vrefs[-1].provenance
+            rec["review"] = {"verdict": verdict, "note": (note.get("text") if note else None),
+                             "reviewed_by": p.author, "date": p.date}
+            counts[verdict] += 1
+        elif verdict == "rejected":
             rec["status"] = "rejected"
-            rec["review"] = {"verdict": "rejected", "reviewed_by": r["reviewed_by"], "date": r["date"]}
+            p = vrefs[-1].provenance
+            rec["review"] = {"verdict": "rejected", "reviewed_by": p.author, "date": p.date}
             counts["rejected"] += 1
         else:
-            counts["unreviewed" if not r else "skip"] += 1
+            counts["skip" if verdict else "unreviewed"] += 1
         out.append(rec)
     return out, dict(counts)
 

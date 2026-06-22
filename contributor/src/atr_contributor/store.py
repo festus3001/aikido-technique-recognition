@@ -1,9 +1,10 @@
 """Taxonomy + review store.
 
 Reads the provisional corpus (techniques.json, keyframes.json) and reads/writes the
-teacher's reviews (reviews.json). Reviews never mutate the provisional records; they are
-upserted as dated contribution events keyed by (technique, teacher). A review may also
-carry a corrected keyframe sequence (images added/removed/reordered, with captions).
+teacher's corrections as **Refinements** (schema/refinement.py), the project's one
+correction primitive. A teacher review is a set of technique-scope Refinements --
+`name`, `parse.slots`, `keyframe.sequence`, `verdict`, `note` -- authored by the
+reviewer. The corpus is never mutated by review; corrections layer on top and resolve.
 """
 
 from __future__ import annotations
@@ -12,15 +13,20 @@ import json
 import os
 import tempfile
 from collections import defaultdict
-from datetime import date as _date
 from pathlib import Path
+
+from schema.contribution import Provenance
+from schema.refinement import RefinementStore
 
 REPO_ROOT = Path(__file__).resolve().parents[3]
 TAXO = REPO_ROOT / "data" / "taxonomy"
 TECHNIQUES = TAXO / "techniques.json"
 KEYFRAMES = TAXO / "keyframes.json"
-REVIEWS = TAXO / "reviews.json"
+REFINEMENTS = REPO_ROOT / "data" / "refinements.json"
 PROCESSED = REPO_ROOT / "resources" / "books" / "processed"
+
+# the technique-scope targets that make up a review
+REVIEW_TARGETS = ("name", "parse.slots", "keyframe.sequence", "verdict", "note")
 
 
 def _load(path: Path, default):
@@ -41,7 +47,6 @@ def _write_atomic(path: Path, data) -> None:
 
 
 def img_url(image: str | None) -> str | None:
-    """Map a repo-relative processed-image path to the /img static mount."""
     if not image:
         return None
     try:
@@ -65,29 +70,47 @@ class Store:
             v.sort(key=lambda k: k.get("step_index", 0))
         self._tech_order = [t["id"] for t in self.techniques]
         self._tech_by_id = {t["id"]: t for t in self.techniques}
-        self.reviews = _load(REVIEWS, [])
-        self._rev: dict[tuple[str, str], dict] = {
-            (r["technique"], r["reviewed_by"]): r for r in self.reviews
-        }
+        self.refs = RefinementStore(path=REFINEMENTS)
 
-    # -- reads -------------------------------------------------------------
-    def original_keyframes(self, tid: str) -> list[dict]:
-        """The provisional keyframe sequence as {image, caption}."""
-        out = []
-        for k in self._kf.get(tid, []):
-            out.append({"image": k.get("image"), "img": img_url(k.get("image")),
-                        "caption": "", "step_index": k.get("step_index")})
-        return out
+    # -- refinement access ----------------------------------------------------
+    def _my_ref(self, tid: str, target: str):
+        """This reviewer's active Refinement for (technique, target), if any."""
+        for r in self.refs.by_target(target):
+            if (r.status != "retired" and r.scope.selector.get("technique") == tid
+                    and r.provenance.author == self.reviewer):
+                return r
+        return None
 
     def review_for(self, tid: str) -> dict | None:
-        return self._rev.get((tid, self.reviewer))
+        """Reconstruct this reviewer's review of a technique from their Refinements."""
+        v = self._my_ref(tid, "verdict")
+        if not v:
+            return None
+        name = self._my_ref(tid, "name")
+        slots = self._my_ref(tid, "parse.slots")
+        kf = self._my_ref(tid, "keyframe.sequence")
+        note = self._my_ref(tid, "note")
+        return {
+            "verdict": v.payload.get("verdict"),
+            "name_romaji": (name.payload.get("romaji") if name else None),
+            "name_native": (name.payload.get("native") if name else None),
+            "slots": (slots.payload if slots else None),
+            "keyframes": (kf.payload.get("sequence") if kf else None),
+            "note": (note.payload.get("text") if note else None),
+            "date": v.provenance.date,
+        }
+
+    # -- reads ----------------------------------------------------------------
+    def original_keyframes(self, tid: str) -> list[dict]:
+        return [{"image": k.get("image"), "img": img_url(k.get("image")),
+                 "caption": "", "step_index": k.get("step_index")}
+                for k in self._kf.get(tid, [])]
 
     def detail(self, tid: str) -> dict | None:
         tech = self._tech_by_id.get(tid)
         if not tech:
             return None
         review = self.review_for(tid)
-        # effective sequence: the review's corrected one if present, else the original
         if review and review.get("keyframes"):
             seq = [{"image": k.get("image"), "img": img_url(k.get("image")),
                     "caption": k.get("caption", "")} for k in review["keyframes"]]
@@ -97,7 +120,6 @@ class Store:
                 "available": self.book_images(tech.get("source", {}).get("book"))}
 
     def book_images(self, book: str | None) -> list[dict]:
-        """All processed images for a book, for the add-image picker."""
         if not book:
             return []
         root = PROCESSED / book
@@ -106,6 +128,8 @@ class Store:
         out = []
         for p in sorted(root.rglob("*.png")):
             rel = p.relative_to(PROCESSED)
+            if rel.parts[1:2] and rel.parts[1].startswith("_"):
+                continue   # skip cache dirs like _pages/
             out.append({"image": f"resources/books/processed/{rel}",
                         "img": f"/img/{rel}", "page": rel.parts[1] if len(rel.parts) > 1 else ""})
         return out
@@ -113,74 +137,59 @@ class Store:
     def queue(self) -> list[dict]:
         out = []
         for t in self.techniques:
-            r = self._rev.get((t["id"], self.reviewer))
-            out.append({
-                "id": t["id"],
-                "caption": (t.get("raw_caption") or t.get("name_romaji") or t["id"]),
-                "book": t.get("source", {}).get("book"),
-                "page": t.get("source", {}).get("pdf_page"),
-                "verdict": r["verdict"] if r else None,
-            })
+            r = self._my_ref(t["id"], "verdict")
+            out.append({"id": t["id"],
+                        "caption": (t.get("raw_caption") or t.get("name_romaji") or t["id"]),
+                        "book": t.get("source", {}).get("book"),
+                        "page": t.get("source", {}).get("pdf_page"),
+                        "verdict": (r.payload.get("verdict") if r else None)})
         return out
 
     def next_unreviewed(self, after: str | None = None) -> str | None:
         ids = self._tech_order
         start = (ids.index(after) + 1) if after in self._tech_by_id and after else 0
         for tid in ids[start:] + ids[:start]:
-            if (tid, self.reviewer) not in self._rev:
+            if self._my_ref(tid, "verdict") is None:
                 return tid
         return None
 
     def progress(self) -> dict:
-        total = len(self.techniques)
-        mine = [r for r in self.reviews if r["reviewed_by"] == self.reviewer]
         by = defaultdict(int)
-        for r in mine:
-            by[r["verdict"]] += 1
-        return {"total": total, "reviewed": len(mine), "by_verdict": dict(by),
+        reviewed = 0
+        for t in self.techniques:
+            r = self._my_ref(t["id"], "verdict")
+            if r:
+                reviewed += 1
+                by[r.payload.get("verdict")] += 1
+        return {"total": len(self.techniques), "reviewed": reviewed, "by_verdict": dict(by),
                 "reviewer": self.reviewer, "reviewer_name": self.reviewer_name}
 
-    # -- write -------------------------------------------------------------
-    def _norm_keyframes(self, payload: dict) -> list[dict] | None:
-        if "keyframes" not in payload or payload["keyframes"] is None:
-            return None
-        seq = []
-        for k in payload["keyframes"]:
-            img = (k or {}).get("image")
-            if not img:
-                continue
-            seq.append({"image": img, "caption": (k.get("caption") or "").strip()})
-        return seq
-
+    # -- write ----------------------------------------------------------------
     def save(self, tid: str, payload: dict) -> dict:
         if tid not in self._tech_by_id:
             raise KeyError(tid)
+        prov = lambda: Provenance(author=self.reviewer, basis="teacher",
+                                  note=self.reviewer_name or None)
+        sel = {"technique": tid}
+        self.refs.add("technique", "verdict", {"verdict": payload.get("verdict", "confirmed")},
+                      prov(), selector=sel)
+        if payload.get("name_romaji") or payload.get("name_native"):
+            self.refs.add("technique", "name",
+                          {"romaji": payload.get("name_romaji") or None,
+                           "native": payload.get("name_native") or None}, prov(), selector=sel)
         slots = payload.get("slots") or {}
-        record = {
-            "id": f"review:{tid}:{self.reviewer}",
-            "technique": tid,
-            "verdict": payload.get("verdict", "confirmed"),
-            "name_romaji": payload.get("name_romaji") or None,
-            "name_native": payload.get("name_native") or None,
-            "slots": {
-                "attack": slots.get("attack") or None,
-                "technique": slots.get("technique") or None,
-                "direction": slots.get("direction") or None,
-                "form": [f for f in slots.get("form", []) if f],
-            },
-            "keyframes": self._norm_keyframes(payload),
-            "note": payload.get("note") or None,
-            "reviewed_by": self.reviewer,
-            "reviewed_by_name": self.reviewer_name,
-            "date": _date.today().isoformat(),
-            "status": "reviewed",
-        }
-        key = (tid, self.reviewer)
-        if key in self._rev:
-            idx = self.reviews.index(self._rev[key])
-            self.reviews[idx] = record
-        else:
-            self.reviews.append(record)
-        self._rev[key] = record
-        _write_atomic(REVIEWS, self.reviews)
-        return record
+        norm_slots = {"attack": slots.get("attack") or None,
+                      "technique": slots.get("technique") or None,
+                      "direction": slots.get("direction") or None,
+                      "form": [f for f in slots.get("form", []) if f]}
+        if any(v for v in (norm_slots["attack"], norm_slots["technique"],
+                           norm_slots["direction"]) ) or norm_slots["form"]:
+            self.refs.add("technique", "parse.slots", norm_slots, prov(), selector=sel)
+        if payload.get("keyframes") is not None:
+            seq = [{"image": k["image"], "caption": (k.get("caption") or "").strip()}
+                   for k in payload["keyframes"] if k.get("image")]
+            self.refs.add("technique", "keyframe.sequence", {"sequence": seq}, prov(), selector=sel)
+        if payload.get("note"):
+            self.refs.add("technique", "note", {"text": payload["note"]}, prov(), selector=sel)
+        self.refs.save()
+        return self.review_for(tid)
