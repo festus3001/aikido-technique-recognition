@@ -276,6 +276,13 @@ def is_weapon_caption(line: str) -> bool:
     if is_section_header(line) or _looks_like_prose(line):
         return False
     despaced = re.sub(r"\s+", "", line)
+    # A weapon-movement name is short and kanji-heavy (直突き, 返し突き, 素振り一, 八相返し突き).
+    # Explanatory prose is a run of hiragana (particles + verb conjugations) -- and OCR often
+    # garbles the prose markers above (ように -> ょうに), so count hiragana directly.
+    hira = sum(1 for ch in despaced if "ぁ" <= ch <= "ゟ")
+    cjk = sum(1 for ch in despaced if "぀" <= ch <= "ヿ" or "一" <= ch <= "鿿" or ch == "々")
+    if hira >= 4 or cjk > 8:
+        return False
     has_word = any(w in despaced for w in _WEAPON_KANJI) or \
         any(w in _norm(line) for w in _WEAPON_ROMAJI)
     return bool(has_word or _NUM_MARK.search(line))

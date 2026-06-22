@@ -44,6 +44,15 @@ def test_weapon_caption_detected_and_parsed():
     assert captions.is_weapon_caption("素振り 一 (3)")
 
 
+def test_weapon_caption_rejects_hiragana_prose():
+    # real short, kanji-heavy movement names pass
+    for ok in ("返し 突き", "突き 下段 返し", "八相 返し 突き", "素振りー"):
+        assert captions.is_weapon_caption(ok), ok
+    # a run of hiragana conjugation is prose, even when OCR garbles the markers (ように->ょうに)
+    for prose in ("打ち込むょうにたする", "打ち込むようにする", "右足を引いて大上段に振りかぶる"):
+        assert not captions.is_weapon_caption(prose), prose
+
+
 def test_weapon_record_has_no_attack_and_carries_context():
     sec = section_for("saito-traditional-aikido-vol1", 86)   # aiki-jo
     cap = captions.parse_weapon_caption("(1) 直 突き")
