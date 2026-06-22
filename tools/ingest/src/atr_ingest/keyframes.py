@@ -22,11 +22,23 @@ from .util import slugify
 _DEFAULT_SECTION = Section("taijutsu", "technique")
 
 
+def crop_regions(page_img: np.ndarray, boxes: list[tuple[int, int, int, int]]) -> list[np.ndarray]:
+    """The cropped photo for each box -- used by the preview path (no disk writes)."""
+    out = []
+    for box in boxes:
+        x, y, w, h = box[:4]
+        out.append(page_img[max(0, y):y + h, max(0, x):x + w])
+    return out
+
+
 def build_records(book: dict, caption: Caption, boxes: list[tuple[int, int, int, int]],
                   page_img: np.ndarray, pdf_page: int, processed_root: Path,
                   retrieved: str, repo_root: Path | None = None,
-                  section: Section | None = None, seq: int | None = None) -> tuple[dict, list[dict]]:
-    """Crop and save each photo; return (technique_record, [keyframe_records])."""
+                  section: Section | None = None, seq: int | None = None,
+                  *, write_images: bool = True) -> tuple[dict, list[dict]]:
+    """Build (technique_record, [keyframe_records]). With write_images=True (default,
+    the batch/commit path) each photo is cropped and saved to disk; with write_images=
+    False (the preview path) no files are written and keyframe `image` is left blank."""
     repo_root = repo_root or processed_root
     section = section or _DEFAULT_SECTION
     vol = book["id"]  # canonical book slug, used on the path and in ids
@@ -53,19 +65,23 @@ def build_records(book: dict, caption: Caption, boxes: list[tuple[int, int, int,
     kind = section.kind if section.kind != "skip" else "technique"
     tech_id = f"tech:{vol}-p{pdf_page}-{slug}"
     out_dir = processed_root / vol / f"p{pdf_page}-{slug}"
-    out_dir.mkdir(parents=True, exist_ok=True)
+    if write_images:
+        out_dir.mkdir(parents=True, exist_ok=True)
 
     keyframes: list[dict] = []
     for i, box in enumerate(boxes, start=1):
         x, y, w, h = box[:4]
         granularity = box[4] if len(box) > 4 else "photo"
-        crop = page_img[max(0, y):y + h, max(0, x):x + w]
         rel = out_dir / f"step_{i:02d}.png"
-        cv2.imwrite(str(rel), crop)
-        try:
-            image_path = str(rel.resolve().relative_to(repo_root.resolve()))
-        except ValueError:
-            image_path = str(rel)
+        if write_images:
+            crop = page_img[max(0, y):y + h, max(0, x):x + w]
+            cv2.imwrite(str(rel), crop)
+            try:
+                image_path = str(rel.resolve().relative_to(repo_root.resolve()))
+            except ValueError:
+                image_path = str(rel)
+        else:
+            image_path = ""   # preview: crops served separately, not committed to disk
         kf_id = f"kf:{vol}-p{pdf_page}-{slug}-{i:02d}"
         keyframes.append({
             "id": kf_id,

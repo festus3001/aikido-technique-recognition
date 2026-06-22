@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "atr:schema/refinement.schema.json",
+  "title": "ATR Refinement records",
+  "description": "Validates data/refinements.json -- an array of scoped, attributed interpretation corrections. See schema/refinement.py.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["id", "scope", "target", "payload", "provenance", "status"],
+    "properties": {
+      "id": {"type": "string", "pattern": "^ref:"},
+      "scope": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["level"],
+        "properties": {
+          "level": {"enum": ["process", "corpus", "book", "section", "page", "sequence", "technique"]},
+          "selector": {"type": "object"}
+        }
+      },
+      "target": {
+        "type": "string",
+        "description": "lexicon.entry | book.offset | section | region.ops | caption | link.sequence | name | parse.slots | keyframe.sequence | verdict | note | ..."
+      },
+      "payload": {"type": "object"},
+      "provenance": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["author", "basis", "confidence", "date"],
+        "properties": {
+          "author": {"type": "string"},
+          "basis": {"enum": ["teacher", "auto", "inferred", "imported"]},
+          "confidence": {"enum": ["stated", "inferred", "contested"]},
+          "date": {"type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$"},
+          "note": {"type": ["string", "null"]},
+          "terms": {"type": ["object", "null"]}
+        }
+      },
+      "status": {"enum": ["provisional", "confirmed", "retired"]}
+    }
+  }
+}

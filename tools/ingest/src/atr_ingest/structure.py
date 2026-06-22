@@ -87,12 +87,31 @@ _MAPS: dict[str, list[tuple[int, int, Section]]] = {
 
 _FALLBACK = Section("taijutsu", "technique")  # books without a map yet: behave as before
 
+_SECTION_FIELDS = ("context", "kind", "weapon", "form", "note")
 
-def section_for(book_id: str, pdf_page: int) -> Section:
+
+def _seed_section(book_id: str, pdf_page: int) -> Section:
     for start, end, sec in _MAPS.get(book_id, []):
         if start <= pdf_page <= end:
             return sec
     return _FALLBACK
+
+
+def section_for(book_id: str, pdf_page: int, store=None) -> Section:
+    """The effective section. The in-code _MAPS is the seed; when a RefinementStore is
+    given, a matching `section` Refinement (selector carries the page range) overrides it."""
+    base = _seed_section(book_id, pdf_page)
+    if store is None:
+        return base
+    from schema.refinement import resolve
+    base_payload = {f: getattr(base, f) for f in _SECTION_FIELDS}
+    payload = resolve("section", {"book": book_id, "page": pdf_page}, store, base=base_payload)
+    if not payload:
+        return base
+    return Section(context=payload.get("context", base.context),
+                   kind=payload.get("kind", base.kind),
+                   weapon=payload.get("weapon"), form=payload.get("form"),
+                   note=payload.get("note"))
 
 
 def has_map(book_id: str) -> bool:

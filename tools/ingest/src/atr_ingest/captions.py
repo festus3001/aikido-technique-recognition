@@ -9,6 +9,7 @@ form-context), folding diacritics and spacing so OCR variants still match
 
 from __future__ import annotations
 
+import copy
 import re
 from dataclasses import dataclass, field
 
@@ -82,21 +83,66 @@ def _norm(s: str) -> str:
     return re.sub(r"[^a-z0-9]", "", fold(s))
 
 
-# precompute variant -> (slot, canonical), longest variants first so specific wins
+# The hardcoded dicts above are the SEED. _INDEX/_KANJI_INDEX are rebuilt from them by
+# _rebuild_indexes(); apply_lexicon() folds process-scope `lexicon.entry` Refinements onto
+# the seed and rebuilds, so the parser can be taught new vocabulary without code edits.
 _INDEX: list[tuple[str, str, str]] = []
-for _slot, _table in _SLOTS.items():
-    for _canon, _variants in _table.items():
-        for _v in [_canon, *_variants]:
-            _INDEX.append((_norm(_v), _slot, _canon))
-_INDEX.sort(key=lambda t: -len(t[0]))
-
-# kanji variant -> (slot, canonical), matched against the RAW (un-folded) text
 _KANJI_INDEX: list[tuple[str, str, str]] = []
-for _slot, _table in KANJI.items():
-    for _canon, _variants in _table.items():
-        for _v in _variants:
-            _KANJI_INDEX.append((_v, _slot, _canon))
-_KANJI_INDEX.sort(key=lambda t: -len(t[0]))
+_SEED = {s: copy.deepcopy(t) for s, t in {**_SLOTS, "kanji": KANJI}.items()}
+
+
+def _rebuild_indexes() -> None:
+    """Recompute the lookup indices from the current TECHNIQUES/ATTACKS/.../KANJI dicts."""
+    global _INDEX, _KANJI_INDEX
+    idx = []
+    for slot, table in _SLOTS.items():
+        for canon, variants in table.items():
+            for v in [canon, *variants]:
+                idx.append((_norm(v), slot, canon))
+    idx.sort(key=lambda t: -len(t[0]))
+    kidx = []
+    for slot, table in KANJI.items():
+        for canon, variants in table.items():
+            for v in variants:
+                kidx.append((v, slot, canon))
+    kidx.sort(key=lambda t: -len(t[0]))
+    _INDEX, _KANJI_INDEX = idx, kidx
+
+
+def apply_lexicon(store) -> None:
+    """Fold process/corpus-scope `lexicon.entry` Refinements onto the seed vocabulary and
+    rebuild the indices. Called by the review server (and `ingest_book`) so a teacher-added
+    term is honored on the next parse. Idempotent: resets to seed first."""
+    reset_lexicon()
+    if store is None:
+        return
+    from schema.refinement import matching
+    for ref in matching("lexicon.entry", {}, store):     # process/corpus scope (empty selector matches)
+        p = ref.payload
+        slot, canon = p.get("slot"), p.get("canonical")
+        if not slot or not canon:
+            continue
+        table = _SLOTS.get(slot)
+        if table is not None:
+            table[canon] = sorted(set(table.get(canon, []) + (p.get("variants") or [])))
+        for kj in p.get("kanji") or []:
+            KANJI.setdefault(slot, {}).setdefault(canon, [])
+            if kj not in KANJI[slot][canon]:
+                KANJI[slot][canon].append(kj)
+    _rebuild_indexes()
+
+
+def reset_lexicon() -> None:
+    """Restore the seed vocabulary (drop any applied Refinements)."""
+    for slot, table in _SLOTS.items():
+        table.clear()
+        table.update(copy.deepcopy(_SEED[slot]))
+    KANJI.clear()
+    KANJI.update(copy.deepcopy(_SEED["kanji"]))
+    _rebuild_indexes()
+
+
+_rebuild_indexes()
 
 
 def classify(text: str) -> dict[str, list[str]]:
