@@ -106,9 +106,12 @@ def make_id(scope: Scope, target: str, payload: dict | None = None,
         parts.append(f"s{s['seq']}")
     if "technique" in s:
         parts.append(_slug(s["technique"]))
-    if TARGETS.get(target, {}).get("merge") == "additive" and payload:
+    merge = TARGETS.get(target, {}).get("merge")
+    if merge == "additive" and payload:
         key = payload.get("canonical") or payload.get("slot") or payload.get("term") or ""
         parts.append(_slug(f"{payload.get('slot','')}-{key}"))
+    elif merge == "compose" and payload:   # each op is its own record (identical ops upsert)
+        parts.append(_slug(f"{payload.get('op', '')}-{'-'.join(map(str, payload.get('indices', [])))}"))
     if author:
         parts.append(_slug(author))
     return "ref:" + ":".join(parts)

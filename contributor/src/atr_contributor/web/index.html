@@ -103,6 +103,9 @@
 const FORMS = ["tachiwaza","suwariwaza","hanmihandachi","ken","jo"];
 const CJK = /[぀-ヿ㐀-鿿豈-﫿]/;
 let BOOKS = [], book = null, page = 1, PAGE = null, cards = [];
+let mode = "committed", inflight = [], selected = new Set(), PREVIEW = null;
+function ovrSel(){ return {book, page}; }
+function pushOp(op){ inflight = inflight.filter(r => !(r.target==="region.ops" && JSON.stringify(r.payload)===JSON.stringify(op))); inflight.push({level:"page", target:"region.ops", selector:ovrSel(), payload:op}); reparse(); }
 
 const $ = id => document.getElementById(id);
 const clean = s => (s||"").replace(/\s+/g," ").trim();
@@ -127,6 +130,7 @@ function renderProgress(p){
 
 async function loadPage(){
   $("page").value = page;
+  mode = "committed"; inflight = []; selected.clear(); PREVIEW = null;
   $("cards").innerHTML = "<div class='empty'>loading…</div>";
   $("toolbar").innerHTML = "";
   PAGE = await api(`/api/page/${encodeURIComponent(book)}/${page}`);
@@ -134,9 +138,77 @@ async function loadPage(){
   $("secline").textContent = `section: ${[s.context, s.kind, s.weapon, s.form].filter(x=>x && x!=="technique" && x!=="taijutsu").join(" / ") || "taijutsu / technique"}` + (s.note ? `  ·  ${s.note}` : "");
   $("pageimg").onload = drawOverlay;
   $("pageimg").src = PAGE.raw_page_url + "?t=" + Date.now();
-  $("toolbar").innerHTML = `<span class="badge">${PAGE.techniques.length} sequence(s) on this page</span>`;
+  renderToolbar();
   renderCards();
 }
+
+function renderToolbar(){
+  if(mode === "committed"){
+    $("toolbar").innerHTML = `<button class="primary" id="reparse">Re-parse this page</button>
+      <span class="badge">${PAGE.techniques.length} sequence(s)</span>`;
+    $("reparse").onclick = () => reparse();
+  } else {
+    const n = selected.size;
+    $("toolbar").innerHTML = `
+      <span class="badge" style="background:#fff3c4;color:#8a6d00;border-color:#e0c97a">PREVIEW — uncommitted</span>
+      <button class="mini" id="rmerge" ${n<2?"disabled":""}>Merge ${n||""}</button>
+      <button class="mini" id="rdrop" ${n<1?"disabled":""}>Drop ${n||""}</button>
+      <button class="mini" id="rrow">Order: row</button>
+      <button class="mini" id="rcol">Order: col</button>
+      <button class="mini ghost" id="rclear">Discard overrides</button>
+      <button class="good" id="rcommit">Commit page</button>
+      <span class="count">${inflight.length} override(s) · click photo boxes on the left to select</span>`;
+    $("rmerge").onclick = () => { pushOp({op:"merge", indices:[...selected].sort((a,b)=>a-b)}); selected.clear(); };
+    $("rdrop").onclick  = () => { pushOp({op:"drop", indices:[...selected]}); selected.clear(); };
+    $("rrow").onclick   = () => pushOp({op:"order", order:"row"});
+    $("rcol").onclick   = () => pushOp({op:"order", order:"column"});
+    $("rclear").onclick = () => { inflight = []; selected.clear(); loadPage(); };
+    $("rcommit").onclick = () => commitPage();
+  }
+}
+
+async function reparse(){
+  $("toolbar").innerHTML = "<span class='badge'>re-parsing… (OCR, a few seconds)</span>";
+  PREVIEW = await api(`/api/reparse/${encodeURIComponent(book)}/${page}`,
+    {method:"POST", headers:{"Content-Type":"application/json"}, body:JSON.stringify({refinements:inflight})});
+  mode = "preview";
+  renderToolbar();
+  renderPreviewCards();
+  drawPreviewOverlay();
+}
+
+function renderPreviewCards(){
+  const ts = PREVIEW.techniques;
+  $("cards").innerHTML = ts.length ? "" : "<div class='empty'>This page produced no sequences. Add an override or drop fewer regions.</div>";
+  ts.forEach((t, ti) => {
+    const tech = t.technique;
+    const ctx = [tech.context, tech.kind, tech.weapon, tech.form].filter(x=>x && x!=="technique" && x!=="taijutsu").join(" / ");
+    const el = document.createElement("div"); el.className = "card";
+    el.innerHTML = `<h3>${ti+1}. ${clean(tech.raw_caption || tech.name_romaji || tech.id)}</h3>
+      <div class="sub">${ctx ? ctx+"  ·  " : ""}${t.keyframes.length} step(s) · projected</div>
+      <div class="photos">${t.keyframes.map((k,ki)=>`<div class="frame"><div class="idx">${ki+1}</div><img src="${k.img}" loading="lazy"></div>`).join("")}</div>`;
+    $("cards").appendChild(el);
+  });
+}
+
+function drawPreviewOverlay(){
+  const img = $("pageimg"), wrap = $("pagewrap");
+  wrap.querySelectorAll(".ovl").forEach(e => e.remove());
+  if(!img.naturalWidth || !PREVIEW) return;
+  const scale = img.clientWidth / img.naturalWidth;
+  PREVIEW.regions.forEach((r, i) => {
+    const d = document.createElement("div");
+    d.className = "ovl" + (selected.has(i) ? " hot" : "");
+    d.style.left = (r[0]*scale)+"px"; d.style.top = (r[1]*scale)+"px";
+    d.style.width = (r[2]*scale)+"px"; d.style.height = (r[3]*scale)+"px";
+    d.innerHTML = `<b>${i}</b>`;
+    d.style.cursor = "pointer";
+    d.onclick = () => { selected.has(i) ? selected.delete(i) : selected.add(i); drawPreviewOverlay(); renderToolbar(); };
+    wrap.appendChild(d);
+  });
+}
+
+async function commitPage(){ alert("Commit lands next (step 6)."); }
 
 function drawOverlay(){
   const img = $("pageimg"), wrap = $("pagewrap");
@@ -162,7 +234,7 @@ function highlight(ti, on){
   const card = document.getElementById("card-"+ti);
   if(card) card.style.outline = on ? "2px solid var(--ok)" : "";
 }
-window.addEventListener("resize", () => { if(PAGE) drawOverlay(); });
+window.addEventListener("resize", () => { if(mode==="preview") drawPreviewOverlay(); else if(PAGE) drawOverlay(); });
 
 function renderCards(){
   cards = [];
