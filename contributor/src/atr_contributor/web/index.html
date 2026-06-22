@@ -77,15 +77,17 @@
 <header>
   <h1>ATR &middot; Page Review</h1>
   <select id="book"></select>
-  <button class="mini" id="pprev">&larr;</button>
-  <input type="number" id="page" min="1" style="width:5rem">
-  <button class="mini" id="pnext">&rarr;</button>
   <button class="mini ghost" id="pprevc" title="previous page with content">&laquo; content</button>
   <button class="mini ghost" id="pnextc" title="next page with content">content &raquo;</button>
   <span class="who" id="who"></span>
   <div class="bar"><i id="barfill"></i></div>
   <span class="count" id="count">--</span>
   <span class="count" id="idx"></span>
+  <div style="margin-left:auto; display:flex; gap:.4rem; align-items:center">
+    <button class="mini" id="pprev" title="previous page">&larr;</button>
+    <input type="number" id="page" min="1" style="width:5rem">
+    <button class="mini" id="pnext" title="next page">&rarr;</button>
+  </div>
 </header>
 <main>
   <div class="left">
