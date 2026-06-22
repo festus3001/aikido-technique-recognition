@@ -376,9 +376,13 @@ window.addEventListener("resize", () => { if(mode==="preview") drawPreviewOverla
 
 function renderCards(){
   cards = [];
-  if(!PAGE.techniques.length){ $("cards").innerHTML = "<div class='empty'>No parsed sequences on this page. (Re-parse / overrides come next.)</div>"; return; }
   $("cards").innerHTML = "";
-  PAGE.techniques.forEach((t, ti) => $("cards").appendChild(buildCard(t, ti)));
+  let shown = 0;
+  PAGE.techniques.forEach((t, ti) => {
+    if(LOCKED && t.technique.id === LOCKED.tech.id) return;   // pinned in the locked panel above
+    $("cards").appendChild(buildCard(t, ti)); shown++;
+  });
+  if(!shown && !LOCKED) $("cards").innerHTML = "<div class='empty'>No parsed sequences on this page.</div>";
 }
 
 function buildCard(t, ti){
@@ -468,10 +472,22 @@ function enableDrop(c){
     e.preventDefault(); c.el.classList.remove("drag");
     let d; try { d = JSON.parse(e.dataTransfer.getData("text/plain")); } catch { return; }
     if(!d || d.n == null) return;
+    const box = c.el.querySelector(".photos");
+    const at = dropIndex(box, e.clientX, e.clientY);   // before/between/end by drop point
     const res = await postj("/api/region-crop", {book:d.book, page:d.page, n:d.n});
-    c.seq.push({image:res.image, img:res.img, caption:"", abs:res.n});
+    c.seq.splice(at, 0, {image:res.image, img:res.img, caption:"", abs:res.n});
     renderSeq(c); markDirty(c);
   };
+}
+// Where to insert a dropped frame: before the first frame whose row is at/under the drop
+// point and whose horizontal center is right of it; else append (handles a wrapping row).
+function dropIndex(box, x, y){
+  const frames = [...box.querySelectorAll(".frame")];
+  for(let i = 0; i < frames.length; i++){
+    const r = frames[i].getBoundingClientRect();
+    if(y <= r.bottom && x < r.left + r.width/2) return i;
+  }
+  return frames.length;
 }
 
 function imgFor(image){ const m="resources/books/processed/"; return image && image.includes(m) ? "/img/"+image.split(m)[1] : image; }
