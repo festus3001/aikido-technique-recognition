@@ -60,6 +60,15 @@
   .badge { font-size:.7rem; padding:.08rem .4rem; border-radius:9px; border:1px solid var(--line); color:var(--muted); }
   .badge.done { background:#e4efe0; color:var(--ok); border-color:#bcd9b6; }
   .empty { color:var(--muted); font-style:italic; padding:1rem 0; }
+  .drawer { margin-top:1.2rem; border-top:1px solid var(--line); padding-top:.6rem; }
+  .drawer summary { cursor:pointer; font-size:.9rem; color:var(--accent); }
+  .ed { margin:.7rem 0; }
+  .ed h4 { margin:.2rem 0; font-size:.86rem; }
+  .ed .frm { display:flex; gap:.4rem; flex-wrap:wrap; align-items:center; margin-top:.3rem; }
+  .ed input, .ed select { font-size:.85rem; padding:.25rem .4rem; }
+  .small { font-size:.78rem; color:var(--muted); }
+  .refrow { display:flex; gap:.5rem; align-items:center; padding:.2rem 0; font-size:.84rem; border-bottom:1px dotted var(--line); }
+  .capforce { display:flex; gap:.4rem; align-items:center; flex-wrap:wrap; }
 </style>
 </head>
 <body>
@@ -83,8 +92,16 @@
   <div class="right">
     <div class="toolbar" id="toolbar"></div>
     <div id="cards"></div>
+    <details id="drawer" class="drawer">
+      <summary>Teach the parser &mdash; refinements</summary>
+      <div class="ed" id="ed-section"></div>
+      <div class="ed" id="ed-lexicon"></div>
+      <div class="ed" id="ed-refs"></div>
+    </details>
   </div>
 </main>
+<datalist id="ctxs"><option>taijutsu</option><option>aiki-ken</option><option>aiki-jo</option></datalist>
+<datalist id="kinds"><option>technique</option><option>suburi</option><option>kata</option><option>kumi</option><option>skip</option></datalist>
 
 <datalist id="attacks">
   <option>shomenuchi</option><option>yokomenuchi</option><option>tsuki</option>
@@ -108,8 +125,10 @@ function ovrSel(){ return {book, page}; }
 function pushOp(op){ inflight = inflight.filter(r => !(r.target==="region.ops" && JSON.stringify(r.payload)===JSON.stringify(op))); inflight.push({level:"page", target:"region.ops", selector:ovrSel(), payload:op}); reparse(); }
 
 const $ = id => document.getElementById(id);
+const enc = encodeURIComponent;
 const clean = s => (s||"").replace(/\s+/g," ").trim();
 async function api(p, o){ const r = await fetch(p, o); if(!r.ok) throw new Error(p+" "+r.status); return r.json(); }
+function postj(p, body){ return api(p, {method:"POST", headers:{"Content-Type":"application/json"}, body:JSON.stringify(body)}); }
 
 async function boot(){
   const prog = await api("/api/progress");
@@ -140,6 +159,7 @@ async function loadPage(){
   $("pageimg").src = PAGE.raw_page_url + "?t=" + Date.now();
   renderToolbar();
   renderCards();
+  loadEditors();
 }
 
 function renderToolbar(){
@@ -157,13 +177,27 @@ function renderToolbar(){
       <button class="mini" id="rcol">Order: col</button>
       <button class="mini ghost" id="rclear">Discard overrides</button>
       <button class="good" id="rcommit">Commit page</button>
-      <span class="count">${inflight.length} override(s) · click photo boxes on the left to select</span>`;
+      <span class="count">${inflight.length} override(s) · click photo boxes on the left to select</span>
+      <div class="capforce" style="flex-basis:100%; margin-top:.4rem">
+        force caption: <input id="fc-r" placeholder="romaji" style="width:11rem">
+        <input id="fc-n" placeholder="Japanese" style="width:8rem">
+        <input id="fc-a" list="attacks" placeholder="attack" style="width:7rem">
+        <input id="fc-t" list="techniques" placeholder="technique" style="width:7rem">
+        <button class="mini" id="fc-add">apply caption</button></div>`;
     $("rmerge").onclick = () => { pushOp({op:"merge", indices:[...selected].sort((a,b)=>a-b)}); selected.clear(); };
     $("rdrop").onclick  = () => { pushOp({op:"drop", indices:[...selected]}); selected.clear(); };
     $("rrow").onclick   = () => pushOp({op:"order", order:"row"});
     $("rcol").onclick   = () => pushOp({op:"order", order:"column"});
     $("rclear").onclick = () => { inflight = []; selected.clear(); loadPage(); };
     $("rcommit").onclick = () => commitPage();
+    $("fc-add").onclick = () => {
+      inflight = inflight.filter(r => r.target !== "caption");
+      inflight.push({level:"page", target:"caption", selector:ovrSel(), payload:{
+        name_romaji:$("fc-r").value, name_native:$("fc-n").value,
+        slots:{attack:$("fc-a").value||null, technique:$("fc-t").value||null, direction:null, form:[]},
+        suppress_detection:true}});
+      reparse();
+    };
   }
 }
 
@@ -208,7 +242,67 @@ function drawPreviewOverlay(){
   });
 }
 
-async function commitPage(){ alert("Commit lands next (step 6)."); }
+async function commitPage(){
+  if(!confirm("Commit this page's parse to the corpus? This replaces the page's records and saves the overrides.")) return;
+  $("toolbar").innerHTML = "<span class='badge'>committing…</span>";
+  const r = await postj(`/api/commit-page/${enc(book)}/${page}`, {refinements:inflight});
+  inflight = []; selected.clear();
+  await loadPage();
+  renderProgress(await api("/api/progress"));
+  $("toolbar").insertAdjacentHTML("beforeend", `<span class="saved show">committed ${r.committed} sequence(s)</span>`);
+}
+
+async function loadEditors(){
+  // -- volume: section map --
+  const sx = await api(`/api/sections/${enc(book)}`);
+  $("ed-section").innerHTML = `<h4>Volume sections &mdash; ${(curBook().full_title||book)}</h4>
+    <div class="small">seed: ${sx.seed.map(s=>`${s.start}-${s.end} ${s.context}/${s.kind}${s.form?"("+s.form+")":""}`).join("  ·  ")||"none"}</div>
+    <div class="small">overrides: ${sx.refinements.length}</div>
+    <div class="frm">pages <input id="se-a" type="number" style="width:4.2rem"> &ndash; <input id="se-b" type="number" style="width:4.2rem">
+      <input id="se-ctx" list="ctxs" placeholder="context" style="width:7rem">
+      <input id="se-kind" list="kinds" placeholder="kind" style="width:7rem">
+      <input id="se-w" placeholder="weapon" style="width:4rem">
+      <input id="se-form" placeholder="form" style="width:6rem">
+      <button class="mini" id="se-add">add section override</button></div>`;
+  $("se-add").onclick = addSection;
+  // -- process: lexicon --
+  $("ed-lexicon").innerHTML = `<h4>Vocabulary (process &mdash; teaches every book)</h4>
+    <div class="frm"><select id="lx-slot"><option>technique</option><option>attack</option><option>direction</option><option>form</option></select>
+      <input id="lx-canon" placeholder="canonical e.g. koshi-nage" style="width:9rem">
+      <input id="lx-var" placeholder="romaji variants (comma)" style="width:10rem">
+      <input id="lx-kanji" placeholder="kanji (comma)" style="width:8rem">
+      <button class="mini" id="lx-add">teach term</button><span class="small">re-parse to apply</span></div>`;
+  $("lx-add").onclick = addLexicon;
+  // -- refinements list (this book) --
+  const refs = await api(`/api/refinements?book=${enc(book)}`);
+  $("ed-refs").innerHTML = `<h4>Refinements for this book (${refs.length})</h4>` + (refs.map(r=>`
+    <div class="refrow"><span class="badge ${r.status==='confirmed'?'done':''}">${r.status}</span>
+      <b>${r.target}</b><span class="small">${r.scope.level} · ${JSON.stringify(r.scope.selector)} · ${r.provenance.author} ${r.provenance.date}</span>
+      <button class="mini ghost" data-c="${r.id}">confirm</button>
+      <button class="mini ghost" data-d="${r.id}">delete</button></div>`).join("") || "<div class='small'>none yet</div>");
+  $("ed-refs").querySelectorAll("[data-d]").forEach(b => b.onclick = async () => { await postj("/api/refinements/delete", {id:b.dataset.d}); loadEditors(); });
+  $("ed-refs").querySelectorAll("[data-c]").forEach(b => b.onclick = async () => { await postj("/api/refinements/confirm", {id:b.dataset.c}); loadEditors(); });
+}
+
+async function addSection(){
+  const a = +$("se-a").value, b = +$("se-b").value;
+  if(!a || !b) return;
+  await postj("/api/refinements", {level:"book", target:"section",
+    selector:{book, pages:[a,b]},
+    payload:{context:$("se-ctx").value||"taijutsu", kind:$("se-kind").value||"technique",
+             weapon:$("se-w").value||null, form:$("se-form").value||null}});
+  loadEditors();
+  if(page>=a && page<=b) loadPage();   // current page is in the range -> refresh its section
+}
+async function addLexicon(){
+  const canon = $("lx-canon").value.trim();
+  if(!canon) return;
+  await postj("/api/refinements", {level:"process", target:"lexicon.entry", selector:{},
+    payload:{slot:$("lx-slot").value, canonical:canon,
+      variants:$("lx-var").value.split(",").map(s=>s.trim()).filter(Boolean),
+      kanji:$("lx-kanji").value.split(",").map(s=>s.trim()).filter(Boolean)}});
+  loadEditors();
+}
 
 function drawOverlay(){
   const img = $("pageimg"), wrap = $("pagewrap");

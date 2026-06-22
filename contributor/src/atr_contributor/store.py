@@ -178,6 +178,20 @@ class Store:
         return {"total": len(self.techniques), "reviewed": reviewed, "by_verdict": dict(by),
                 "reviewer": self.reviewer, "reviewer_name": self.reviewer_name}
 
+    # -- page commit (re-parse result replaces the page's records) ------------
+    def commit_page(self, book: str, page: int, techs: list[dict], kfs: list[dict]) -> None:
+        """Replace this page's techniques/keyframes with a freshly parsed set, then reload."""
+        def other(rec):
+            s = rec.get("source", {})
+            return not (s.get("book") == book and s.get("pdf_page") == page)
+        techniques = [t for t in _load(TECHNIQUES, []) if other(t)] + techs
+        keyframes = [k for k in _load(KEYFRAMES, []) if other(k)] + kfs
+        techniques.sort(key=lambda r: r["id"])   # match the ingest store's canonical order
+        keyframes.sort(key=lambda r: r["id"])    # so an idempotent commit produces no diff
+        _write_atomic(TECHNIQUES, techniques)
+        _write_atomic(KEYFRAMES, keyframes)
+        self.__init__(self.reviewer, self.reviewer_name)   # refresh in-memory indices
+
     # -- write ----------------------------------------------------------------
     def save(self, tid: str, payload: dict) -> dict:
         if tid not in self._tech_by_id:

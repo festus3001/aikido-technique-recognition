@@ -24,7 +24,9 @@ from atr_ingest.structure import section_for
 from schema.contribution import Provenance
 from schema.refinement import Refinement, RefinementStore, Scope, make_id
 
-from .store import PROCESSED, REFINEMENTS, Store
+from datetime import date as _date
+
+from .store import PROCESSED, REFINEMENTS, REPO_ROOT, Store
 
 
 def _section_dict(sec) -> dict:
@@ -155,6 +157,83 @@ def create_app(reviewer: str, reviewer_name: str | None = None) -> FastAPI:
             img = render_page(books[book][1], page, 300)
             cv2.imwrite(str(cache), img)
         return FileResponse(str(cache), media_type="image/png")
+
+    @app.post("/api/commit-page/{book}/{page}")
+    def commit_page(book: str, page: int, payload: dict | None = None):
+        if book not in books:
+            raise HTTPException(404, "unknown book")
+        # 1. persist the in-flight overrides so the parse is reproducible (batch + future re-parse)
+        for it in (payload or {}).get("refinements", []):
+            store.refs.add(it["level"], it["target"], it.get("payload", {}),
+                           Provenance(author=reviewer, basis="teacher", note=reviewer_name or None),
+                           selector=it.get("selector"))
+        store.refs.save()
+        # 2. drop stale crop dirs for this page, then parse committing crops to disk
+        for d in (PROCESSED / book).glob(f"p{page}-*"):
+            if d.is_dir():
+                for f in d.glob("*"):
+                    f.unlink()
+                d.rmdir()
+        _captions.apply_lexicon(store.refs)
+        try:
+            pp = parse_page(books[book][1], page, books[book][0], store=store.refs,
+                            write_keyframes=True, processed_root=PROCESSED, repo_root=REPO_ROOT,
+                            retrieved=_date.today().isoformat())
+        finally:
+            _captions.reset_lexicon()
+        # 3. replace the page's records
+        store.commit_page(book, page, pp.techniques, pp.keyframes)
+        for k in [k for k in preview_crops if k.startswith(f"{book}:{page}:")]:
+            preview_crops.pop(k, None)
+        return {"committed": len(pp.techniques), "keyframes": len(pp.keyframes),
+                "section": _section_dict(pp.section) if pp.section else None}
+
+    # -- Refinement CRUD (one API for every scope/target) --------------------
+    @app.get("/api/refinements")
+    def list_refinements(target: str | None = None, book: str | None = None,
+                         page: int | None = None, technique: str | None = None):
+        unit = {}
+        if book:
+            unit["book"] = book
+        if page is not None:
+            unit["page"] = page
+        if technique:
+            unit["technique"] = technique
+        return [r.to_dict() for r in store.refs.query(target=target, unit=unit or None)]
+
+    @app.post("/api/refinements")
+    def add_refinement(payload: dict):
+        r = store.refs.add(payload["level"], payload["target"], payload.get("payload", {}),
+                           Provenance(author=reviewer, basis="teacher", note=reviewer_name or None),
+                           selector=payload.get("selector"),
+                           status=payload.get("status", "provisional"))
+        store.refs.save()
+        return r.to_dict()
+
+    @app.post("/api/refinements/delete")
+    def delete_refinement(payload: dict):
+        store.refs.remove(payload["id"])
+        store.refs.save()
+        return {"ok": True}
+
+    @app.post("/api/refinements/confirm")
+    def confirm_refinement(payload: dict):
+        r = store.refs.get(payload["id"])
+        if not r:
+            raise HTTPException(404, "unknown refinement")
+        r.status = "confirmed"
+        store.refs.save()
+        return r.to_dict()
+
+    @app.get("/api/sections/{book}")
+    def sections(book: str):
+        from atr_ingest.structure import _MAPS
+        seed = [{"start": s, "end": e, "context": sec.context, "kind": sec.kind,
+                 "weapon": sec.weapon, "form": sec.form, "note": sec.note}
+                for s, e, sec in _MAPS.get(book, [])]
+        refs = [r.to_dict() for r in store.refs.by_target("section")
+                if r.scope.selector.get("book") == book and r.status != "retired"]
+        return {"seed": seed, "refinements": refs}
 
     @app.get("/")
     def index():
