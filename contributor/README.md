@@ -1,63 +1,61 @@
 # contributor
 
-The teacher review loop (roadmap C4): the first real contribution loop, on text. A
-teacher walks the ingested techniques, sees the book's step photos, and confirms or
-corrects the name + compositional slots (attack / technique / direction / form), fixes
-the image sequence, and adds a free-text note for the deep layer -- what the technique is
-that the name does not carry.
-
-Reviews never overwrite the provisional corpus. They land in `data/taxonomy/reviews.json`
-as dated events keyed to the reviewing teacher (`person:<slug>`), the same provenance
-stance used across the project. Re-reviewing a technique updates that teacher's record in
-place.
+The teacher review tool (roadmap C4) -- now **page-centric**: a wide split view that shows
+the raw scanned page beside the parsed sequences, lets you re-parse a page live, and feeds
+corrections back into the ingestion. Every correction -- a page region merge, a forced
+caption, a volume section boundary, a new vocabulary term, a technique's name/slots/verdict --
+is the same object: a **Refinement** (schema/refinement.py), authored, scoped, and resolved
+by a cascade. Code defaults are the base; Refinements layer on top; the resolver yields the
+effective interpretation, so the page interpretation refines further every pass.
 
 ## Run (you driving, locally)
-One command -- it creates the env if missing, installs, starts the server, and opens the
-browser:
 ```
-contributor/review.sh --reviewer person:morihiro-saito-lineage-teacher --reviewer-name "Sensei Name"
+contributor/review.sh --reviewer person:slug --reviewer-name "Sensei Name"
 ```
-Any flags are forwarded to `atr-review` (`--port`, `--host`, ...). Set `REVIEW_NO_OPEN=1`
-to skip opening the browser. The long way, by hand:
-```
-conda env create -f contributor/environment.yml   # first time -> env atr-contributor
-conda run -n atr-contributor pip install -e contributor
-conda run -n atr-contributor atr-review --reviewer person:slug --reviewer-name "Name"
-```
-Either way, the tool is at http://127.0.0.1:8000/.
+One command: creates the env if missing, installs the three editable packages
+(`schema`, `tools/ingest`, `contributor`), starts the server, opens the browser.
+Set `REVIEW_NO_OPEN=1` to skip the browser. System prerequisites are the same as the
+ingest pipeline: **poppler** (`pdftoppm`) and **tesseract** + the `jpn`/`jpn_vert` traineddata.
 
-## What the teacher does per technique
-- **Image sequence** -- the book's step photos. Reorder (`←`/`→`), delete (`×`), caption
-  each frame, or **+ Add image** to pull in another photo from the same book (the ingester
-  often splits or mislabels a sequence; this is the manual fix).
-- **Name** -- romaji and Japanese are separate fields. OCR usually dumped Japanese into the
-  romaji slot, so the tool routes that text into the Japanese box and leaves romaji blank
-  for you to type; the **⇄** button swaps the two if they came in reversed.
-- **Slots** -- attack / technique / direction / form, with autocomplete suggestions.
-- **Note** -- the qualitative layer, in the teacher's words.
-- Then a verdict: **Confirm as correct**, **Save correction**, **Skip**, or **Not a
-  technique** (OCR noise / a section header / a weapons form mis-ingested). Each saves and
-  jumps to the next unreviewed technique. Progress and resume are automatic, keyed to the
-  teacher's slug so two teachers don't collide.
+## The page view
+- Pick a **volume**; page **Prev/Next** (or jump to the next page with content).
+- **Left**: the raw scanned page with a bbox overlay of the assigned photos (numbered
+  `sequence.step`), hover-linked to the cards on the right.
+- **Right**: the page's sequence cards. Each is the per-technique editor -- the keyframe
+  sequence (reorder / delete / caption / add), name (romaji + Japanese, with auto-routing and a
+  swap), attack/technique/direction/form slots, a deep-layer note, and a verdict
+  (Confirm / Save correction / Skip / Not a technique). Saving writes technique-scope
+  Refinements authored by the reviewer.
+
+## Re-parse and commit (fixing the interpretation)
+- **Re-parse this page** runs the ingestion live and shows a non-destructive **preview**: the
+  overlay switches to the detected regions (click to select), and **Merge / Drop / Order** plus
+  the **force-caption** control build page/sequence Refinements that re-parse on the spot. Iterate
+  until the sequences are right.
+- **Commit page** writes the result to the corpus (replacing that page's records, sorted to match
+  a full re-ingest so a no-op commit is content-idempotent) and persists the overrides, so a later
+  `atr-ingest --book <vol>` reproduces them.
+
+## Teach the parser (the "▸ refinements" drawer)
+- **Volume** -- edit the section map (page ranges -> context/kind/weapon/form) for the book.
+- **Process** -- add a vocabulary term (slot + canonical + variants + kanji); re-parse to apply,
+  and it teaches every book.
+- **Refinements** -- the history for this book: each correction with author / date / status, with
+  confirm and delete. This is the auditable record of progressive refinement.
 
 ## Downstream
 ```
 conda run -n atr-contributor atr-review-merge
 ```
-Projects the reviews onto the corpus into `data/taxonomy/techniques_reviewed.json`: each
-technique carries the teacher-approved name/slots where reviewed, the corrected keyframe
-sequence if edited, and a `review` block (who / when / verdict / note). This is the
-teacher-authorized view that the motif lexicon (D3), the first labeled dataset (F1), and
-the parse model / evaluation set (F2, F4) should train and evaluate against. The
-provisional `techniques.json` is never modified; `techniques_reviewed.json` is a
-regenerable build artifact (gitignored).
+Resolves the technique-scope Refinements onto the corpus into `data/taxonomy/
+techniques_reviewed.json` -- the teacher-authorized view for D3 / F1 / F2 / F4. The provisional
+`techniques.json` is never mutated by review; corrections live in `data/refinements.json`.
 
 ## Layout
-- `src/atr_contributor/store.py` -- corpus + review store (atomic upsert by teacher)
-- `src/atr_contributor/app.py` -- FastAPI: queue / technique / image / review endpoints
-- `src/atr_contributor/web/index.html` -- the one-page review UI (vanilla, no build step)
-- `src/atr_contributor/merge.py` -- `atr-review-merge`, the reviewed projection
-- `schema/review.schema.json` -- the review record contract
-- `review.sh` -- the one-command launcher
-- `app/` -- separate forward-looking stub for the future model-serving API (parse /
-  contribution / clip routes); not part of this loop.
+- `src/atr_contributor/store.py` -- corpus reader + RefinementStore-backed review/commit
+- `src/atr_contributor/app.py` -- FastAPI: page / page-image / reparse / commit / refinement CRUD
+- `src/atr_contributor/web/index.html` -- the one-page split UI (vanilla, no build step)
+- `src/atr_contributor/merge.py` -- `atr-review-merge`
+- `review.sh` -- the launcher
+- The Refinement primitive itself lives in `schema/` (atr-schema), shared with ingestion.
+- `app/` -- separate forward-looking stub for the future model-serving API; not this loop.

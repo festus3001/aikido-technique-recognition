@@ -29,9 +29,10 @@ if ! conda env list | awk '{print $1}' | grep -qx "$ENV"; then
   echo "Creating conda env '$ENV' (first run, this takes a minute)..."
   conda env create -f "$REPO/contributor/environment.yml"
 fi
-if ! conda run -n "$ENV" python -c "import atr_contributor" >/dev/null 2>&1; then
-  echo "Installing the contributor package..."
-  conda run -n "$ENV" pip install -e "$REPO/contributor"
+# the review server re-parses pages in-process, so it needs all three editable packages
+if ! conda run -n "$ENV" python -c "import atr_contributor, atr_ingest, schema.refinement" >/dev/null 2>&1; then
+  echo "Installing packages (schema, ingest, contributor)..."
+  conda run -n "$ENV" pip install -e "$REPO/schema" -e "$REPO/tools/ingest" -e "$REPO/contributor"
 fi
 
 # -- figure out the port (default 8000), scanning forwarded args ---------------
