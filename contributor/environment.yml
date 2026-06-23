@@ -24,5 +24,6 @@ dependencies:
     - httpx
     - opencv-python-headless>=4.8
     - pytesseract>=0.3.10
+    - pytest-playwright        # end-to-end UI tests; then: playwright install chromium
     # editable, installed alongside this package:
     #   pip install -e schema -e tools/ingest -e contributor

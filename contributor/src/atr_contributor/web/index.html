@@ -514,7 +514,12 @@ function buildCard(t, ti){
 // Header sequence navigator: step between the page's sequence cards.
 let seqIdx = 0;
 function seqCards(){ return [...$("cards").children].filter(e => e.classList.contains("card")); }
-function updateSeqNum(){ const n = seqCards().length; $("snum").textContent = n ? `${seqIdx + 1}/${n}` : "0/0"; }
+function updateSeqNum(){
+  const n = seqCards().length;
+  $("snum").textContent = n ? `${seqIdx + 1}/${n}` : "0/0";
+  $("sprev").disabled = seqIdx <= 0;          // grey out at the bounds so it's clear
+  $("snext").disabled = seqIdx >= n - 1;
+}
 function gotoSeqAbs(delta){
   const cs = seqCards(); if(!cs.length) return;
   seqIdx = Math.max(0, Math.min(seqIdx + delta, cs.length - 1));
