@@ -8,6 +8,7 @@ Run: conda run -n atr-contributor python -m pytest contributor/tests/test_ui.py 
 (needs `playwright install chromium`).
 """
 
+import shutil
 import threading
 import time
 
@@ -15,6 +16,8 @@ import httpx
 import pytest
 import uvicorn
 
+from atr_contributor import app as app_mod
+from atr_contributor import store as store_mod
 from atr_contributor.app import create_app
 
 PORT = 8771
@@ -22,7 +25,26 @@ VOL1 = "saito-traditional-aikido-vol1"
 
 
 @pytest.fixture(scope="session")
-def server():
+def server(tmp_path_factory):
+    # Run against a PRIVATE temp copy of the taxonomy with an EMPTY refinements file, so the
+    # tests can never read or write the real data/refinements.json (the teacher's corrections).
+    # Both store.* and app.py's import-time copy of REFINEMENTS are redirected. PROCESSED stays
+    # real (read-only here) to keep the cached image index warm; any test that *writes* to
+    # PROCESSED (commit-page, region-crop) must isolate it too before being added.
+    real_taxo = store_mod.REPO_ROOT / "data" / "taxonomy"
+    tmp = tmp_path_factory.mktemp("atr_ui_data")
+    taxo = tmp / "taxonomy"
+    taxo.mkdir()
+    for f in ("techniques.json", "keyframes.json", "textblocks.json"):
+        if (real_taxo / f).exists():
+            shutil.copy(real_taxo / f, taxo / f)
+    store_mod.TAXO = taxo
+    store_mod.TECHNIQUES = taxo / "techniques.json"
+    store_mod.KEYFRAMES = taxo / "keyframes.json"
+    store_mod.TEXTBLOCKS = taxo / "textblocks.json"
+    store_mod.REFINEMENTS = tmp / "refinements.json"   # empty -> no pre-existing reviews
+    app_mod.REFINEMENTS = store_mod.REFINEMENTS         # app.py holds its own import-time copy
+
     srv = uvicorn.Server(uvicorn.Config(create_app("person:uitest", "UI Test"),
                                         host="127.0.0.1", port=PORT, log_level="warning"))
     th = threading.Thread(target=srv.run, daemon=True)
