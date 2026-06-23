@@ -165,6 +165,7 @@ async function boot(){
   book = BOOKS[0].id;
   page = (BOOKS[0].content_pages||[])[0] || 1;
   $("book").value = book;
+  await loadSequences();
   await loadPage();
   ensureIndex(book);
 }
@@ -453,7 +454,7 @@ function renderCards(){
     $("cards").appendChild(buildCard(t, ti)); shown++;
   });
   if(!shown && !LOCKED) $("cards").innerHTML = "<div class='empty'>No parsed sequences on this page.</div>";
-  seqIdx = 0; updateSeqNum();
+  syncSeqIdx();
 }
 
 function buildCard(t, ti){
@@ -512,20 +513,36 @@ function buildCard(t, ti){
 }
 
 // Header sequence navigator: step between the page's sequence cards.
-let seqIdx = 0;
-function seqCards(){ return [...$("cards").children].filter(e => e.classList.contains("card")); }
-function updateSeqNum(){
-  const n = seqCards().length;
-  $("snum").textContent = n ? `${seqIdx + 1}/${n}` : "0/0";
-  $("sprev").disabled = seqIdx <= 0;          // grey out at the bounds so it's clear
-  $("snext").disabled = seqIdx >= n - 1;
+// The Sequence navigator walks EVERY sequence in the whole volume, in reading order, hopping
+// pages as needed -- so N/M is "this sequence / all sequences in the volume", not per-page.
+let SEQUENCES = [], seqGlobalIdx = 0;
+async function loadSequences(){
+  try { SEQUENCES = await api(`/api/sequences/${enc(book)}`); }
+  catch(e){ SEQUENCES = []; }
 }
-function gotoSeqAbs(delta){
-  const cs = seqCards(); if(!cs.length) return;
-  seqIdx = Math.max(0, Math.min(seqIdx + delta, cs.length - 1));
-  const el = cs[seqIdx];
-  el.scrollIntoView({behavior: "smooth", block: "center"});
-  el.style.outline = "2px solid var(--ok)"; setTimeout(() => el.style.outline = "", 800);
+// Point the navigator at the first sequence shown on the current page (after any page change).
+function syncSeqIdx(){
+  const first = (PAGE && PAGE.techniques[0]) ? PAGE.techniques[0].technique.id : null;
+  if(first){ const gi = SEQUENCES.findIndex(s => s.id === first); if(gi >= 0) seqGlobalIdx = gi; }
+  updateSeqNum();
+}
+function updateSeqNum(){
+  const n = SEQUENCES.length;
+  $("snum").textContent = n ? `${seqGlobalIdx + 1}/${n}` : "0/0";
+  $("sprev").disabled = seqGlobalIdx <= 0;          // grey out at the volume's first/last
+  $("snext").disabled = seqGlobalIdx >= n - 1;
+}
+async function gotoSeqAbs(delta){
+  if(!SEQUENCES.length) return;
+  const t = Math.max(0, Math.min(seqGlobalIdx + delta, SEQUENCES.length - 1));
+  if(t === seqGlobalIdx) return;
+  const tgt = SEQUENCES[t];
+  if(tgt.page !== page){ page = tgt.page; await loadPage(); }   // hop to its page first
+  seqGlobalIdx = t;
+  const ci = cards.findIndex(c => c && c.tech && c.tech.id === tgt.id);
+  if(ci >= 0){ const el = $("card-" + ci);
+    if(el){ el.scrollIntoView({behavior: "smooth", block: "center"});
+            el.style.outline = "2px solid var(--ok)"; setTimeout(() => el.style.outline = "", 800); } }
   updateSeqNum();
 }
 
@@ -631,7 +648,7 @@ function nearestContent(dir){
   if(dir>0){ const n = cp.find(p=>p>page); if(n) goPage(n); }
   else { const prev = [...cp].reverse().find(p=>p<page); if(prev) goPage(prev); }
 }
-$("book").onchange = () => { book = $("book").value; IMAGES = null; $("idx").textContent=""; page = (curBook().content_pages||[])[0]||1; loadPage(); ensureIndex(book); };
+$("book").onchange = async () => { book = $("book").value; IMAGES = null; $("idx").textContent=""; page = (curBook().content_pages||[])[0]||1; await loadSequences(); loadPage(); ensureIndex(book); };
 $("page").onchange = () => goPage(+$("page").value);
 $("pprevc").onclick = () => nearestContent(-1);
 $("pnextc").onclick = () => nearestContent(1);

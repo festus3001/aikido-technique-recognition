@@ -145,6 +145,17 @@ def create_app(reviewer: str, reviewer_name: str | None = None) -> FastAPI:
                                         "total": books[book][0].get("pages") or 0})
         return {"ready": False, "done": job.get("done", 0), "total": job.get("total", 0)}
 
+    @app.get("/api/sequences/{book}")
+    def sequences(book: str):
+        """Every sequence (technique) in the volume, in reading order -- for the volume-wide
+        Sequence navigator (id + the page it's on)."""
+        if book not in books:
+            raise HTTPException(404, "unknown book")
+        seqs = [{"id": t["id"], "page": t["source"]["pdf_page"]}
+                for t in store.techniques if t.get("source", {}).get("book") == book]
+        seqs.sort(key=lambda s: (s["page"], s["id"]))
+        return seqs
+
     @app.get("/api/page/{book}/{page}")
     def page(book: str, page: int):
         if book not in books:

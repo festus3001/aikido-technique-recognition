@@ -8,6 +8,7 @@ Run: conda run -n atr-contributor python -m pytest contributor/tests/test_ui.py 
 (needs `playwright install chromium`).
 """
 
+import re
 import shutil
 import threading
 import time
@@ -86,24 +87,33 @@ def test_boots_without_console_errors(server, page):
     assert errors == [], errors
 
 
-def test_sequence_nav_advances_on_multi_sequence_page(server, page):
-    open_page(page, server, 28)                       # p28 has two sequences
-    n = page.locator("#cards .card").count()
-    assert n >= 2, f"expected >=2 sequences on p28, got {n}"
-    assert page.locator("#snum").inner_text() == f"1/{n}"
-    assert page.locator("#sprev").is_disabled()
+def test_sequence_nav_is_volume_wide_and_advances(server, page):
+    # The Sequence widget walks EVERY sequence in the volume (N/M, M = all sequences), not the
+    # current page's cards, and stepping advances by one (hopping pages when needed).
+    open_page(page, server, 28)
+    total = page.evaluate("SEQUENCES.length")
+    assert total > 5, f"expected many sequences in the volume, got {total}"
+    m = re.match(r"(\d+)/(\d+)", page.locator("#snum").inner_text())
+    cur, shown_total = int(m.group(1)), int(m.group(2))
+    assert shown_total == total                       # M is the whole volume, not the page
+    assert 1 <= cur < total
     page.click("#snext")
-    assert page.locator("#snum").inner_text() == f"2/{n}"
-    assert page.locator("#sprev").is_disabled() is False
+    page.wait_for_function(f"document.getElementById('snum').textContent === '{cur + 1}/{total}'",
+                           timeout=30000)
     page.click("#sprev")
-    assert page.locator("#snum").inner_text() == f"1/{n}"
+    page.wait_for_function(f"document.getElementById('snum').textContent === '{cur}/{total}'",
+                           timeout=30000)
 
 
-def test_sequence_nav_disabled_on_single_sequence_page(server, page):
-    open_page(page, server, 26)                       # p26 has one sequence
-    assert page.locator("#snum").inner_text() == "1/1"
-    assert page.locator("#sprev").is_disabled()
-    assert page.locator("#snext").is_disabled()
+def test_sequence_nav_disabled_only_at_volume_bounds(server, page):
+    open_page(page, server, 26)
+    total = page.evaluate("SEQUENCES.length")
+    assert total > 1
+    page.evaluate("seqGlobalIdx = 1; gotoSeqAbs(-1)")  # step to the volume's first sequence
+    page.wait_for_function("seqGlobalIdx === 0", timeout=30000)
+    assert page.locator("#sprev").is_disabled()        # first in the volume -> prev greyed
+    assert page.locator("#snext").is_disabled() is False
+    assert page.locator("#snum").inner_text() == f"1/{total}"
 
 
 def test_content_nav_changes_page(server, page):
