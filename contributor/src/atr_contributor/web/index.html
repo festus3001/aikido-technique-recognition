@@ -62,6 +62,7 @@
   .forms { display:flex; gap:.7rem; flex-wrap:wrap; }
   .forms label { display:flex; align-items:center; gap:.3rem; text-transform:none; letter-spacing:0; font-size:.9rem; color:var(--ink); }
   .verdicts { display:flex; gap:.5rem; align-items:center; flex-wrap:wrap; margin-top:.5rem; }
+  .seqnav { margin-left:auto; display:flex; gap:.3rem; align-items:center; }
   .saved { color:var(--ok); font-size:.8rem; opacity:0; transition:opacity .2s; }
   .saved.show { opacity:1; }
   .badge { font-size:.7rem; padding:.08rem .4rem; border-radius:9px; border:1px solid var(--line); color:var(--muted); }
@@ -89,17 +90,14 @@
 <header>
   <h1>ATR &middot; Page Review</h1>
   <select id="book"></select>
-  <button class="mini ghost" id="pprevc" title="previous page with content">&laquo; content</button>
-  <button class="mini ghost" id="pnextc" title="next page with content">content &raquo;</button>
+  <span class="small">content page:</span>
+  <button class="mini" id="pprevc" title="previous content page">&laquo;</button>
+  <input type="number" id="page" min="1" style="width:4.6rem" title="page number (type any)">
+  <button class="mini" id="pnextc" title="next content page">&raquo;</button>
   <span class="who" id="who"></span>
   <div class="bar"><i id="barfill"></i></div>
   <span class="count" id="count">--</span>
   <span class="count" id="idx"></span>
-  <div style="margin-left:auto; display:flex; gap:.4rem; align-items:center">
-    <button class="mini" id="pprev" title="previous page">&larr;</button>
-    <input type="number" id="page" min="1" style="width:5rem">
-    <button class="mini" id="pnext" title="next page">&rarr;</button>
-  </div>
 </header>
 <main>
   <div class="left">
@@ -108,9 +106,9 @@
     <div class="pagewrap" id="pagewrap"><img id="pageimg" alt="page"></div>
   </div>
   <div class="right">
-    <div id="locked"></div>
     <div class="toolbar" id="toolbar"></div>
     <div id="cards"></div>
+    <div id="locked"></div>
     <div id="textpanel"></div>
     <details id="drawer" class="drawer">
       <summary>Teach the parser &mdash; refinements</summary>
@@ -179,21 +177,25 @@ function renderProgress(p){
   $("count").textContent = `${p.reviewed} / ${p.total} reviewed`;
 }
 
+let loadToken = 0;
 async function loadPage(){
-  $("page").value = page;
+  const my = ++loadToken;                       // newest navigation wins; ignore stale responses
+  $("page").value = page;                       // reflect the page immediately, before any await
+  $("pagelabel").textContent = `Page ${page}` + (curBook() ? ` of ${curBook().pages}` : "");
   mode = "committed"; inflight = []; selected.clear(); PREVIEW = null;
   $("cards").innerHTML = "<div class='empty'>loading…</div>";
   $("toolbar").innerHTML = "";
-  PAGE = await api(`/api/page/${encodeURIComponent(book)}/${page}`);
-  $("pagelabel").textContent = `Page ${page}` + (curBook() ? ` of ${curBook().pages}` : "");
+  let data;
+  try { data = await api(`/api/page/${encodeURIComponent(book)}/${page}`); }
+  catch(e){ if(my === loadToken) $("cards").innerHTML = "<div class='empty'>error: " + e.message + "</div>"; return; }
+  if(my !== loadToken) return;                   // a newer page load superseded this one
+  PAGE = data;
   const s = PAGE.section;
   $("secline").textContent = `section: ${[s.context, s.kind, s.weapon, s.form].filter(x=>x && x!=="technique" && x!=="taijutsu").join(" / ") || "taijutsu / technique"}` + (s.note ? `  ·  ${s.note}` : "");
   $("pageimg").onload = drawOverlay;
   $("pageimg").src = PAGE.raw_page_url + "?t=" + Date.now();
-  renderToolbar();
-  renderCards();
-  renderTextPanel();
-  loadEditors();
+  try { renderToolbar(); renderCards(); renderTextPanel(); loadEditors(); }
+  catch(e){ console.error("render error", e); }
 }
 
 function renderTextPanel(){
@@ -479,7 +481,6 @@ function buildCard(t, ti){
       <div class="field"><label>Direction</label><select class="slot di"><option value="">--</option><option ${slots.direction==="omote"?"selected":""}>omote</option><option ${slots.direction==="ura"?"selected":""}>ura</option></select></div>
     </div>
     <div class="field"><label>Form</label><div class="forms">${FORMS.map(f=>`<label><input type="checkbox" class="fm" value="${f}" ${(slots.form||[]).includes(f)?"checked":""}> ${f}</label>`).join("")}</div></div>
-    <div class="field"><label>What the name doesn't carry</label><textarea class="note">${esc(r&&r.note||"")}</textarea></div>
     <div class="verdicts">
       <button class="good vC">Confirm</button>
       <button class="primary vK">Save correction</button>
@@ -487,6 +488,10 @@ function buildCard(t, ti){
       <button class="ghost vR" title="not a technique">Not a technique</button>
       <button class="ghost vL" title="lock this sequence, then page through content and drag images in">&#128274; Lock</button>
       <span class="saved">saved</span>
+      <span class="seqnav"><span class="small">Sequence:</span>
+        <button class="mini" data-s="-1" title="previous sequence">&laquo;</button>
+        <span class="badge">${ti+1}</span>
+        <button class="mini" data-s="1" title="next sequence">&raquo;</button></span>
     </div>`;
 
   const c = { el, tech, seq, page, savedVerdict: (r ? r.verdict : null), dirty: false };
@@ -499,8 +504,16 @@ function buildCard(t, ti){
   el.querySelector(".vS").onclick = () => save(c, "skip");
   el.querySelector(".vR").onclick = () => save(c, "rejected");
   el.querySelector(".vL").onclick = () => lockCard(c);
+  el.querySelectorAll(".seqnav [data-s]").forEach(b => b.onclick = () => gotoSeq(ti + (+b.dataset.s)));
   updateButtons(c);
   return el;
+}
+
+function gotoSeq(ti){
+  const el = document.getElementById("card-" + ti);
+  if(!el) return;
+  el.scrollIntoView({behavior: "smooth", block: "center"});
+  el.style.outline = "2px solid var(--ok)"; setTimeout(() => el.style.outline = "", 800);
 }
 
 function updateButtons(c){
@@ -512,20 +525,20 @@ function updateButtons(c){
 function markDirty(c){ c.dirty = true; updateButtons(c); }
 
 function lockCard(c){
-  if(LOCKED && LOCKED !== c){ $("locked").innerHTML = ""; }   // one lock at a time
+  if(LOCKED && LOCKED !== c) unlockCard(LOCKED, true);   // one lock at a time
   LOCKED = c;
   c.el.id = "locked-card";
   c.el.classList.add("locked");
-  if(!c.el.querySelector(".lockbar")){
-    const bar = document.createElement("div");
-    bar.className = "lockbar";
-    bar.innerHTML = `&#128274; Locked sequence (from p${c.page}) &mdash; navigate content and drag images in. <button class="mini ghost" id="unlock">Unlock</button>`;
-    c.el.prepend(bar);
-    bar.querySelector("#unlock").onclick = () => { LOCKED = null; $("locked").innerHTML = ""; loadPage(); };
-  }
-  $("locked").innerHTML = "";
+  const b = c.el.querySelector(".vL");
+  b.innerHTML = "&#128275; Unlock"; b.onclick = () => unlockCard(c);
+  $("locked").innerHTML = "";          // the locked panel sits BELOW the page's cards
   $("locked").appendChild(c.el);
   enableDrop(c);
+}
+function unlockCard(c, quiet){
+  LOCKED = null;
+  $("locked").innerHTML = "";
+  if(!quiet) loadPage();               // rebuild this page's cards (button reverts to Lock)
 }
 function enableDrop(c){
   c.el.ondragover = e => { e.preventDefault(); c.el.classList.add("drag"); };
@@ -591,7 +604,6 @@ async function save(c, verdict){
       form: [...el.querySelectorAll(".fm")].filter(x=>x.checked).map(x=>x.value),
     },
     keyframes: seqChanged ? c.seq.map(k=>({image:k.image, caption:k.caption||""})) : null,
-    note: el.querySelector(".note").value.trim(),
   };
   await api(`/api/review/${encodeURIComponent(c.tech.id)}`, {method:"POST", headers:{"Content-Type":"application/json"}, body:JSON.stringify(payload)});
   c.savedVerdict = verdict; c.dirty = false; updateButtons(c);
@@ -608,8 +620,6 @@ function nearestContent(dir){
 }
 $("book").onchange = () => { book = $("book").value; IMAGES = null; $("idx").textContent=""; page = (curBook().content_pages||[])[0]||1; loadPage(); ensureIndex(book); };
 $("page").onchange = () => goPage(+$("page").value);
-$("pprev").onclick = () => goPage(page-1);
-$("pnext").onclick = () => goPage(page+1);
 $("pprevc").onclick = () => nearestContent(-1);
 $("pnextc").onclick = () => nearestContent(1);
 

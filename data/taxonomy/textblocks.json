@@ -3699,9 +3699,17 @@
     "text": "素振り 法 は 合気道 の 理 に 叶っ た も の で な けれ ば な ら な い 。 理 と 云う の は 第 一 に 気\n力 の 充実 し た 素振り で ある こと 。 軽い 素振り 1000 回 より も 気 の 入 っ た 素振り 数 回\nの 方 が 良い 。 第 二 に 構え が 裏 三 角 法 (25 真 上 図 参 照 ) を と っ て いな けれ ば な ら な い\nこと で ある 。 その 場合 、 剣 の 柄 頭 は 常に 肝 に 結ぶ こと に な る 。 又 そ うす る こと に\nより 、 前 後 左 右 の 動き が 容易 に な る の で ある 。",
     "lang": "ja",
     "conf": 90.6,
-    "translation": null,
-    "translation_model": null,
-    "terms_used": [],
+    "translation": "The method of *suburi* must be in accordance with the principles of *Aikidō*. These principles are first, *suburi* performed with a full spirit. Several repetitions of *suburi* performed with focus are better than one thousand light repetitions. Second, the *kamae* must be the *ura sankakuhō* (refer to Figure 25). In this case, the sword’s *tsuka* must always be connected to the heart. Furthermore, performing it in this way makes movements *mae*, *ushiro*, *hidari*, and *migi* easier.",
+    "translation_model": "gemma3:12b",
+    "terms_used": [
+      "構え",
+      "合",
+      "左",
+      "前",
+      "右",
+      "裏",
+      "後"
+    ],
     "source": {
       "book": "saito-traditional-aikido-vol1",
       "title": "Traditional Aikido, Volume 1: Basic Techniques",
@@ -3851,9 +3859,12 @@
     "text": "真っ 直ぐ に 振り 上 げ 、 真 っ 直ぐ に 打ち お ろ す こと が 大 切 で ある 。 特に 合気道 の\n素振り で は 、 剣 を 打ち 下 し た 時 に 腰 を 充分 に 落ち 基 け る の で ある 。",
     "lang": "ja",
     "conf": 91.0,
-    "translation": null,
-    "translation_model": null,
-    "terms_used": [],
+    "translation": "It is important to swing it straight up and bring it straight down. Especially in *aikidō*’s preparatory exercises, when you *hit* down with the sword, it is necessary to drop your hips sufficiently.",
+    "translation_model": "gemma3:12b",
+    "terms_used": [
+      "打ち",
+      "合"
+    ],
     "source": {
       "book": "saito-traditional-aikido-vol1",
       "title": "Traditional Aikido, Volume 1: Basic Techniques",
@@ -4839,9 +4850,11 @@
     "text": "素振り ー(6)\n、 突 き\nも 即\n右 い ずれ の",
     "lang": "ja",
     "conf": 82.4,
-    "translation": null,
-    "translation_model": null,
-    "terms_used": [],
+    "translation": "Suburi – (6)\nThrust,\nalso immediately to the (Migi) whichever.",
+    "translation_model": "gemma3:12b",
+    "terms_used": [
+      "右"
+    ],
     "source": {
       "book": "saito-traditional-aikido-vol1",
       "title": "Traditional Aikido, Volume 1: Basic Techniques",
@@ -5067,9 +5080,15 @@
     "text": "素振り ー(7)\n右足 で 打ち 込ん だ 場合 受け る 力 を 流し\nて 左足 を 出し て 突く 。",
     "lang": "ja",
     "conf": 85.0,
-    "translation": null,
-    "translation_model": null,
-    "terms_used": [],
+    "translation": "Suburi – (7)\nIf the *hit* is delivered with the right foot, redirect the force *the one receiving* is applying and extend the left foot to thrust.",
+    "translation_model": "gemma3:12b",
+    "terms_used": [
+      "打ち",
+      "受け",
+      "合",
+      "左",
+      "右"
+    ],
     "source": {
       "book": "saito-traditional-aikido-vol1",
       "title": "Traditional Aikido, Volume 1: Basic Techniques",

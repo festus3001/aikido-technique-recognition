@@ -1,0 +1,588 @@
+[
+  {
+    "id": "ref:verdict:tech-saito-traditional-aikido-vol1-p26-ken-suburi-1:person-david-avery",
+    "scope": {
+      "level": "technique",
+      "selector": {
+        "technique": "tech:saito-traditional-aikido-vol1-p26-ken-suburi-1"
+      }
+    },
+    "target": "verdict",
+    "payload": {
+      "verdict": "corrected"
+    },
+    "provenance": {
+      "author": "person:david-avery",
+      "basis": "teacher",
+      "confidence": "stated",
+      "date": "2026-06-22"
+    },
+    "status": "provisional"
+  },
+  {
+    "id": "ref:name:tech-saito-traditional-aikido-vol1-p26-ken-suburi-1:person-david-avery",
+    "scope": {
+      "level": "technique",
+      "selector": {
+        "technique": "tech:saito-traditional-aikido-vol1-p26-ken-suburi-1"
+      }
+    },
+    "target": "name",
+    "payload": {
+      "romaji": "Standing Bow",
+      "native": "素振り ー①⑪)"
+    },
+    "provenance": {
+      "author": "person:david-avery",
+      "basis": "teacher",
+      "confidence": "stated",
+      "date": "2026-06-22"
+    },
+    "status": "provisional"
+  },
+  {
+    "id": "ref:keyframe.sequence:tech-saito-traditional-aikido-vol1-p26-ken-suburi-1:person-david-avery",
+    "scope": {
+      "level": "technique",
+      "selector": {
+        "technique": "tech:saito-traditional-aikido-vol1-p26-ken-suburi-1"
+      }
+    },
+    "target": "keyframe.sequence",
+    "payload": {
+      "sequence": [
+        {
+          "image": "resources/books/processed/saito-traditional-aikido-vol1/p26-ken-suburi-1/step_01.png",
+          "caption": ""
+        }
+      ]
+    },
+    "provenance": {
+      "author": "person:david-avery",
+      "basis": "teacher",
+      "confidence": "stated",
+      "date": "2026-06-22"
+    },
+    "status": "provisional"
+  },
+  {
+    "id": "ref:verdict:tech-saito-traditional-aikido-vol1-p27-ken-suburi-1:person-david-avery",
+    "scope": {
+      "level": "technique",
+      "selector": {
+        "technique": "tech:saito-traditional-aikido-vol1-p27-ken-suburi-1"
+      }
+    },
+    "target": "verdict",
+    "payload": {
+      "verdict": "corrected"
+    },
+    "provenance": {
+      "author": "person:david-avery",
+      "basis": "teacher",
+      "confidence": "stated",
+      "date": "2026-06-22"
+    },
+    "status": "provisional"
+  },
+  {
+    "id": "ref:name:tech-saito-traditional-aikido-vol1-p27-ken-suburi-1:person-david-avery",
+    "scope": {
+      "level": "technique",
+      "selector": {
+        "technique": "tech:saito-traditional-aikido-vol1-p27-ken-suburi-1"
+      }
+    },
+    "target": "name",
+    "payload": {
+      "romaji": "aiki-ken ken suburi",
+      "native": null
+    },
+    "provenance": {
+      "author": "person:david-avery",
+      "basis": "teacher",
+      "confidence": "stated",
+      "date": "2026-06-22"
+    },
+    "status": "provisional"
+  },
+  {
+    "id": "ref:keyframe.sequence:tech-saito-traditional-aikido-vol1-p27-ken-suburi-1:person-david-avery",
+    "scope": {
+      "level": "technique",
+      "selector": {
+        "technique": "tech:saito-traditional-aikido-vol1-p27-ken-suburi-1"
+      }
+    },
+    "target": "keyframe.sequence",
+    "payload": {
+      "sequence": [
+        {
+          "image": "resources/books/processed/saito-traditional-aikido-vol1/p27-ken-suburi-1/step_02.png",
+          "caption": ""
+        },
+        {
+          "image": "resources/books/processed/saito-traditional-aikido-vol1/_regions/p26-n30.png",
+          "caption": ""
+        },
+        {
+          "image": "resources/books/processed/saito-traditional-aikido-vol1/_regions/p26-n31.png",
+          "caption": ""
+        },
+        {
+          "image": "resources/books/processed/saito-traditional-aikido-vol1/p27-ken-suburi-1/step_01.png",
+          "caption": ""
+        },
+        {
+          "image": "resources/books/processed/saito-traditional-aikido-vol1/p27-ken-suburi-1/step_03.png",
+          "caption": ""
+        },
+        {
+          "image": "resources/books/processed/saito-traditional-aikido-vol1/p27-ken-suburi-1/step_04.png",
+          "caption": ""
+        }
+      ]
+    },
+    "provenance": {
+      "author": "person:david-avery",
+      "basis": "teacher",
+      "confidence": "stated",
+      "date": "2026-06-22"
+    },
+    "status": "provisional"
+  },
+  {
+    "id": "ref:verdict:tech-saito-traditional-aikido-vol1-p29-second-suburi:person-david-avery",
+    "scope": {
+      "level": "technique",
+      "selector": {
+        "technique": "tech:saito-traditional-aikido-vol1-p29-second-suburi"
+      }
+    },
+    "target": "verdict",
+    "payload": {
+      "verdict": "corrected"
+    },
+    "provenance": {
+      "author": "person:david-avery",
+      "basis": "teacher",
+      "confidence": "stated",
+      "date": "2026-06-22"
+    },
+    "status": "provisional"
+  },
+  {
+    "id": "ref:name:tech-saito-traditional-aikido-vol1-p29-second-suburi:person-david-avery",
+    "scope": {
+      "level": "technique",
+      "selector": {
+        "technique": "tech:saito-traditional-aikido-vol1-p29-second-suburi"
+      }
+    },
+    "target": "name",
+    "payload": {
+      "romaji": "Second Suburi",
+      "native": null
+    },
+    "provenance": {
+      "author": "person:david-avery",
+      "basis": "teacher",
+      "confidence": "stated",
+      "date": "2026-06-22"
+    },
+    "status": "provisional"
+  },
+  {
+    "id": "ref:keyframe.sequence:tech-saito-traditional-aikido-vol1-p29-second-suburi:person-david-avery",
+    "scope": {
+      "level": "technique",
+      "selector": {
+        "technique": "tech:saito-traditional-aikido-vol1-p29-second-suburi"
+      }
+    },
+    "target": "keyframe.sequence",
+    "payload": {
+      "sequence": [
+        {
+          "image": "resources/books/processed/saito-traditional-aikido-vol1/_regions/p28-n39.png",
+          "caption": ""
+        },
+        {
+          "image": "resources/books/processed/saito-traditional-aikido-vol1/_regions/p28-n40.png",
+          "caption": ""
+        },
+        {
+          "image": "resources/books/processed/saito-traditional-aikido-vol1/_regions/p28-n41.png",
+          "caption": ""
+        },
+        {
+          "image": "resources/books/processed/saito-traditional-aikido-vol1/p29-second-suburi/step_01.png",
+          "caption": ""
+        },
+        {
+          "image": "resources/books/processed/saito-traditional-aikido-vol1/p29-second-suburi/step_03.png",
+          "caption": ""
+        },
+        {
+          "image": "resources/books/processed/saito-traditional-aikido-vol1/p29-second-suburi/step_04.png",
+          "caption": ""
+        },
+        {
+          "image": "resources/books/processed/saito-traditional-aikido-vol1/p29-second-suburi/step_02.png",
+          "caption": ""
+        },
+        {
+          "image": "resources/books/processed/saito-traditional-aikido-vol1/p29-second-suburi/step_05.png",
+          "caption": ""
+        }
+      ]
+    },
+    "provenance": {
+      "author": "person:david-avery",
+      "basis": "teacher",
+      "confidence": "stated",
+      "date": "2026-06-22"
+    },
+    "status": "provisional"
+  },
+  {
+    "id": "ref:verdict:tech-saito-traditional-aikido-vol1-p28-3:person-david-avery",
+    "scope": {
+      "level": "technique",
+      "selector": {
+        "technique": "tech:saito-traditional-aikido-vol1-p28-3"
+      }
+    },
+    "target": "verdict",
+    "payload": {
+      "verdict": "corrected"
+    },
+    "provenance": {
+      "author": "person:david-avery",
+      "basis": "teacher",
+      "confidence": "stated",
+      "date": "2026-06-22"
+    },
+    "status": "provisional"
+  },
+  {
+    "id": "ref:name:tech-saito-traditional-aikido-vol1-p28-3:person-david-avery",
+    "scope": {
+      "level": "technique",
+      "selector": {
+        "technique": "tech:saito-traditional-aikido-vol1-p28-3"
+      }
+    },
+    "target": "name",
+    "payload": {
+      "romaji": "1st suburi",
+      "native": "素振り ー(3)"
+    },
+    "provenance": {
+      "author": "person:david-avery",
+      "basis": "teacher",
+      "confidence": "stated",
+      "date": "2026-06-22"
+    },
+    "status": "provisional"
+  },
+  {
+    "id": "ref:verdict:tech-saito-traditional-aikido-vol1-p30-fourth-suburi:person-david-avery",
+    "scope": {
+      "level": "technique",
+      "selector": {
+        "technique": "tech:saito-traditional-aikido-vol1-p30-fourth-suburi"
+      }
+    },
+    "target": "verdict",
+    "payload": {
+      "verdict": "confirmed"
+    },
+    "provenance": {
+      "author": "person:david-avery",
+      "basis": "teacher",
+      "confidence": "stated",
+      "date": "2026-06-22"
+    },
+    "status": "provisional"
+  },
+  {
+    "id": "ref:name:tech-saito-traditional-aikido-vol1-p30-fourth-suburi:person-david-avery",
+    "scope": {
+      "level": "technique",
+      "selector": {
+        "technique": "tech:saito-traditional-aikido-vol1-p30-fourth-suburi"
+      }
+    },
+    "target": "name",
+    "payload": {
+      "romaji": "Fourth Suburi",
+      "native": null
+    },
+    "provenance": {
+      "author": "person:david-avery",
+      "basis": "teacher",
+      "confidence": "stated",
+      "date": "2026-06-22"
+    },
+    "status": "provisional"
+  },
+  {
+    "id": "ref:keyframe.sequence:tech-saito-traditional-aikido-vol1-p30-fourth-suburi:person-david-avery",
+    "scope": {
+      "level": "technique",
+      "selector": {
+        "technique": "tech:saito-traditional-aikido-vol1-p30-fourth-suburi"
+      }
+    },
+    "target": "keyframe.sequence",
+    "payload": {
+      "sequence": [
+        {
+          "image": "resources/books/processed/saito-traditional-aikido-vol1/p30-fourth-suburi/step_01.png",
+          "caption": ""
+        },
+        {
+          "image": "resources/books/processed/saito-traditional-aikido-vol1/p30-fourth-suburi/step_02.png",
+          "caption": ""
+        },
+        {
+          "image": "resources/books/processed/saito-traditional-aikido-vol1/p30-fourth-suburi/step_03.png",
+          "caption": ""
+        },
+        {
+          "image": "resources/books/processed/saito-traditional-aikido-vol1/p30-fourth-suburi/step_04.png",
+          "caption": ""
+        },
+        {
+          "image": "resources/books/processed/saito-traditional-aikido-vol1/p30-fourth-suburi/step_05.png",
+          "caption": ""
+        }
+      ]
+    },
+    "provenance": {
+      "author": "person:david-avery",
+      "basis": "teacher",
+      "confidence": "stated",
+      "date": "2026-06-22"
+    },
+    "status": "provisional"
+  },
+  {
+    "id": "ref:verdict:tech-saito-traditional-aikido-vol1-p31-ken-suburi-1:person-david-avery",
+    "scope": {
+      "level": "technique",
+      "selector": {
+        "technique": "tech:saito-traditional-aikido-vol1-p31-ken-suburi-1"
+      }
+    },
+    "target": "verdict",
+    "payload": {
+      "verdict": "rejected"
+    },
+    "provenance": {
+      "author": "person:david-avery",
+      "basis": "teacher",
+      "confidence": "stated",
+      "date": "2026-06-22"
+    },
+    "status": "provisional"
+  },
+  {
+    "id": "ref:name:tech-saito-traditional-aikido-vol1-p31-ken-suburi-1:person-david-avery",
+    "scope": {
+      "level": "technique",
+      "selector": {
+        "technique": "tech:saito-traditional-aikido-vol1-p31-ken-suburi-1"
+      }
+    },
+    "target": "name",
+    "payload": {
+      "romaji": "aiki-ken ken suburi",
+      "native": null
+    },
+    "provenance": {
+      "author": "person:david-avery",
+      "basis": "teacher",
+      "confidence": "stated",
+      "date": "2026-06-22"
+    },
+    "status": "provisional"
+  },
+  {
+    "id": "ref:verdict:tech-saito-traditional-aikido-vol1-p32-5:person-david-avery",
+    "scope": {
+      "level": "technique",
+      "selector": {
+        "technique": "tech:saito-traditional-aikido-vol1-p32-5"
+      }
+    },
+    "target": "verdict",
+    "payload": {
+      "verdict": "corrected"
+    },
+    "provenance": {
+      "author": "person:david-avery",
+      "basis": "teacher",
+      "confidence": "stated",
+      "date": "2026-06-22"
+    },
+    "status": "provisional"
+  },
+  {
+    "id": "ref:name:tech-saito-traditional-aikido-vol1-p32-5:person-david-avery",
+    "scope": {
+      "level": "technique",
+      "selector": {
+        "technique": "tech:saito-traditional-aikido-vol1-p32-5"
+      }
+    },
+    "target": "name",
+    "payload": {
+      "romaji": "5th suburi",
+      "native": "素振り ー(5)"
+    },
+    "provenance": {
+      "author": "person:david-avery",
+      "basis": "teacher",
+      "confidence": "stated",
+      "date": "2026-06-22"
+    },
+    "status": "provisional"
+  },
+  {
+    "id": "ref:keyframe.sequence:tech-saito-traditional-aikido-vol1-p32-5:person-david-avery",
+    "scope": {
+      "level": "technique",
+      "selector": {
+        "technique": "tech:saito-traditional-aikido-vol1-p32-5"
+      }
+    },
+    "target": "keyframe.sequence",
+    "payload": {
+      "sequence": [
+        {
+          "image": "resources/books/processed/saito-traditional-aikido-vol1/p32-5/step_01.png",
+          "caption": ""
+        },
+        {
+          "image": "resources/books/processed/saito-traditional-aikido-vol1/p32-5/step_02.png",
+          "caption": ""
+        },
+        {
+          "image": "resources/books/processed/saito-traditional-aikido-vol1/_regions/p32-n55.png",
+          "caption": ""
+        },
+        {
+          "image": "resources/books/processed/saito-traditional-aikido-vol1/_regions/p33-n56.png",
+          "caption": ""
+        },
+        {
+          "image": "resources/books/processed/saito-traditional-aikido-vol1/_regions/p33-n57.png",
+          "caption": ""
+        },
+        {
+          "image": "resources/books/processed/saito-traditional-aikido-vol1/_regions/p33-n59.png",
+          "caption": ""
+        },
+        {
+          "image": "resources/books/processed/saito-traditional-aikido-vol1/_regions/p33-n58.png",
+          "caption": ""
+        }
+      ]
+    },
+    "provenance": {
+      "author": "person:david-avery",
+      "basis": "teacher",
+      "confidence": "stated",
+      "date": "2026-06-22"
+    },
+    "status": "provisional"
+  },
+  {
+    "id": "ref:verdict:tech-saito-traditional-aikido-vol1-p34-ken-suburi-1:person-david-avery",
+    "scope": {
+      "level": "technique",
+      "selector": {
+        "technique": "tech:saito-traditional-aikido-vol1-p34-ken-suburi-1"
+      }
+    },
+    "target": "verdict",
+    "payload": {
+      "verdict": "corrected"
+    },
+    "provenance": {
+      "author": "person:david-avery",
+      "basis": "teacher",
+      "confidence": "stated",
+      "date": "2026-06-22"
+    },
+    "status": "provisional"
+  },
+  {
+    "id": "ref:name:tech-saito-traditional-aikido-vol1-p34-ken-suburi-1:person-david-avery",
+    "scope": {
+      "level": "technique",
+      "selector": {
+        "technique": "tech:saito-traditional-aikido-vol1-p34-ken-suburi-1"
+      }
+    },
+    "target": "name",
+    "payload": {
+      "romaji": "6th suburi",
+      "native": null
+    },
+    "provenance": {
+      "author": "person:david-avery",
+      "basis": "teacher",
+      "confidence": "stated",
+      "date": "2026-06-22"
+    },
+    "status": "provisional"
+  },
+  {
+    "id": "ref:keyframe.sequence:tech-saito-traditional-aikido-vol1-p34-ken-suburi-1:person-david-avery",
+    "scope": {
+      "level": "technique",
+      "selector": {
+        "technique": "tech:saito-traditional-aikido-vol1-p34-ken-suburi-1"
+      }
+    },
+    "target": "keyframe.sequence",
+    "payload": {
+      "sequence": [
+        {
+          "image": "resources/books/processed/saito-traditional-aikido-vol1/p34-ken-suburi-1/step_01.png",
+          "caption": ""
+        },
+        {
+          "image": "resources/books/processed/saito-traditional-aikido-vol1/p34-ken-suburi-1/step_02.png",
+          "caption": ""
+        },
+        {
+          "image": "resources/books/processed/saito-traditional-aikido-vol1/p34-ken-suburi-1/step_03.png",
+          "caption": ""
+        },
+        {
+          "image": "resources/books/processed/saito-traditional-aikido-vol1/p34-ken-suburi-1/step_04.png",
+          "caption": ""
+        },
+        {
+          "image": "resources/books/processed/saito-traditional-aikido-vol1/p34-ken-suburi-1/step_05.png",
+          "caption": ""
+        },
+        {
+          "image": "resources/books/processed/saito-traditional-aikido-vol1/p34-ken-suburi-1/step_06.png",
+          "caption": ""
+        }
+      ]
+    },
+    "provenance": {
+      "author": "person:david-avery",
+      "basis": "teacher",
+      "confidence": "stated",
+      "date": "2026-06-22"
+    },
+    "status": "provisional"
+  }
+]
